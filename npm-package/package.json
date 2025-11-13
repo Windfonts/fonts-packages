@@ -1,0 +1,36 @@
+{
+  "name": "windfonts-chinese-fonts",
+  "version": "1.0.3",
+  "description": "Chinese web fonts with CDN links and comprehensive license information",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "fonts"
+  ],
+  "keywords": [
+    "fonts",
+    "chinese",
+    "cjk",
+    "webfonts",
+    "cdn",
+    "typography",
+    "license",
+    "windfonts",
+    "中文字体",
+    "web-fonts",
+    "font-loader",
+    "alibaba-puhuiti",
+    "chinese-typography"
+  ],
+  "author": "WindFonts",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Windfonts/font-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Windfonts/font-packages/issues"
+  },
+  "homepage": "https://github.com/Windfonts/font-packages#readme"
+}

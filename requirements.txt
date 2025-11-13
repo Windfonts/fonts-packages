@@ -1,0 +1,17 @@
+# Font analysis and metadata extraction
+fonttools==4.47.0
+
+# OpenAI API for CSS normalization
+openai>=1.0.0
+
+# HTTP requests for AI API
+requests==2.31.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# CSV handling (built-in, but explicit for clarity)
+# csv - standard library
+
+# JSON handling (built-in)
+# json - standard library
