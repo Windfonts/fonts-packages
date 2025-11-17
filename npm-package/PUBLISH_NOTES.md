@@ -1,7 +1,7 @@
 # 发布说明 (Publish Notes)
 
 ## 版本信息
-- **包名**: windfonts-chinese-fonts
+- **包名**: @windfonts/chinese-fonts
 - **版本**: 1.0.2
 - **发布日期**: 准备中
 
@@ -48,7 +48,7 @@ console.log(getLicenseType('Alibabapuhuiti-Bold'));
 
 ## 发布前检查清单
 
-- [x] 包名已更新为 windfonts-chinese-fonts
+- [x] 包名已更新为 @windfonts/chinese-fonts
 - [x] 仓库地址已更新为 https://github.com/Windfonts/font-packages.git
 - [x] 作者信息已更新为 WindFonts
 - [x] 版本号已递增 (1.0.1 -> 1.0.2)
@@ -83,14 +83,14 @@ npm publish --access public
 
 ## 发布后验证
 
-1. 检查npm包页面: https://www.npmjs.com/package/windfonts-chinese-fonts
+1. 检查npm包页面: https://www.npmjs.com/package/@windfonts/chinese-fonts
 2. 测试安装:
    ```bash
-   npm install windfonts-chinese-fonts
+   npm install @windfonts/chinese-fonts
    ```
 3. 测试使用:
    ```javascript
-   const { getAllFonts } = require('windfonts-chinese-fonts');
+   const { getAllFonts } = require('@windfonts/chinese-fonts');
    console.log(getAllFonts());
    ```
 

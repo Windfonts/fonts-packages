@@ -651,7 +651,7 @@ function getNextVersion(currentVersion) {
  */
 function generatePackageJson(version) {
   return {
-    name: 'windfonts-chinese-fonts',
+    name: '@windfonts/chinese-fonts',
     version: version,
     description: 'Chinese web fonts with CDN links and comprehensive license information',
     main: 'src/index.js',

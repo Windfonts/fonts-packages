@@ -3,7 +3,7 @@
 ## 安装 (Installation)
 
 ```bash
-npm install windfonts-chinese-fonts
+npm install @windfonts/chinese-fonts
 ```
 
 ## 方法 1: 自动加载（推荐）⭐
@@ -13,7 +13,7 @@ npm install windfonts-chinese-fonts
 最简单的方式，自动注入 CSS 到页面：
 
 ```javascript
-const { loadFont } = require('windfonts-chinese-fonts');
+const { loadFont } = require('@windfonts/chinese-fonts');
 
 // 自动加载字体（使用默认子集 zh-common）
 loadFont('Alibabapuhuiti-Bold').then(cssUrl => {
@@ -31,7 +31,7 @@ async function init() {
 ### 1.2 选择特定子集
 
 ```javascript
-const { loadFont } = require('windfonts-chinese-fonts');
+const { loadFont } = require('@windfonts/chinese-fonts');
 
 // 加载常用中文字符（推荐，体积小）
 await loadFont('Alibabapuhuiti-Bold', { subset: 'zh-common' });
@@ -49,7 +49,7 @@ await loadFont('Alibabapuhuiti-Bold', { subset: 'full' });
 ### 1.3 性能优化：预加载
 
 ```javascript
-const { loadFont } = require('windfonts-chinese-fonts');
+const { loadFont } = require('@windfonts/chinese-fonts');
 
 // 使用 preload 提升性能
 await loadFont('Alibabapuhuiti-Bold', { 
@@ -64,7 +64,7 @@ await loadFont('Alibabapuhuiti-Bold', {
 
 ```javascript
 // 导入特定字体
-const AlibabaBold = require('windfonts-chinese-fonts/fonts/Alibabapuhuiti-Bold');
+const AlibabaBold = require('@windfonts/chinese-fonts/fonts/Alibabapuhuiti-Bold');
 
 // 直接调用即可加载
 AlibabaBold().then(cssUrl => {
@@ -88,7 +88,7 @@ console.log(AlibabaBold.info);         // 完整字体信息
 如果你想手动控制 CSS 加载：
 
 ```javascript
-const { getFontCSS, getFontSubsets } = require('windfonts-chinese-fonts');
+const { getFontCSS, getFontSubsets } = require('@windfonts/chinese-fonts');
 
 // 获取 CSS URL
 const cssUrl = getFontCSS('Alibabapuhuiti-Bold', 'zh-common');
@@ -112,7 +112,7 @@ console.log(subsets);
 
 ```jsx
 import { useEffect } from 'react';
-import { loadFont } from 'windfonts-chinese-fonts';
+import { loadFont } from '@windfonts/chinese-fonts';
 
 function App() {
   useEffect(() => {
@@ -134,7 +134,7 @@ function App() {
 
 ```jsx
 import { useEffect } from 'react';
-import AlibabaBold from 'windfonts-chinese-fonts/fonts/Alibabapuhuiti-Bold';
+import AlibabaBold from '@windfonts/chinese-fonts/fonts/Alibabapuhuiti-Bold';
 
 function App() {
   useEffect(() => {
@@ -154,7 +154,7 @@ function App() {
 
 ```jsx
 import { useEffect, useState } from 'react';
-import { loadFont } from 'windfonts-chinese-fonts';
+import { loadFont } from '@windfonts/chinese-fonts';
 
 function useFont(fontName, options) {
   const [loaded, setLoaded] = useState(false);
@@ -196,7 +196,7 @@ function App() {
 </template>
 
 <script>
-import { loadFont } from 'windfonts-chinese-fonts';
+import { loadFont } from '@windfonts/chinese-fonts';
 
 export default {
   async mounted() {
@@ -218,7 +218,7 @@ export default {
 </template>
 
 <script>
-import AlibabaBold from 'windfonts-chinese-fonts/fonts/Alibabapuhuiti-Bold';
+import AlibabaBold from '@windfonts/chinese-fonts/fonts/Alibabapuhuiti-Bold';
 
 export default {
   async mounted() {
@@ -235,7 +235,7 @@ export default {
 ```jsx
 // pages/_app.js
 import { useEffect } from 'react';
-import { loadFont } from 'windfonts-chinese-fonts';
+import { loadFont } from '@windfonts/chinese-fonts';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -259,7 +259,7 @@ export default MyApp;
 ```jsx
 // pages/index.js
 import { useEffect } from 'react';
-import AlibabaBold from 'windfonts-chinese-fonts/fonts/Alibabapuhuiti-Bold';
+import AlibabaBold from '@windfonts/chinese-fonts/fonts/Alibabapuhuiti-Bold';
 
 export default function Home() {
   useEffect(() => {
@@ -278,7 +278,7 @@ export default function Home() {
 
 ```javascript
 // plugins/fonts.client.js
-import { loadFont } from 'windfonts-chinese-fonts';
+import { loadFont } from '@windfonts/chinese-fonts';
 
 export default defineNuxtPlugin(() => {
   // 在客户端加载字体
@@ -294,7 +294,7 @@ const {
   getLicenseUrl, 
   getUsageRights, 
   isCommercialUseAllowed 
-} = require('windfonts-chinese-fonts');
+} = require('@windfonts/chinese-fonts');
 
 const fontName = 'Alibabapuhuiti-Bold';
 
@@ -327,7 +327,7 @@ if (isCommercialUseAllowed(fontName)) {
 ### 8. 获取所有字体列表 (Get All Fonts)
 
 ```javascript
-const { getAllFonts, getFontInfo } = require('windfonts-chinese-fonts');
+const { getAllFonts, getFontInfo } = require('@windfonts/chinese-fonts');
 
 // 获取所有可用字体
 const allFonts = getAllFonts();
@@ -345,7 +345,7 @@ allFonts.forEach(fontName => {
 ### 9. 获取字体块信息 (Get Font Chunks)
 
 ```javascript
-const { getFontChunks } = require('windfonts-chinese-fonts');
+const { getFontChunks } = require('@windfonts/chinese-fonts');
 
 // 获取特定子集的所有字体块
 const chunks = getFontChunks('Alibabapuhuiti-Bold', 'zh-common');
@@ -387,7 +387,7 @@ import {
   getFontInfo,
   getFontCSS,
   getFontSubsets
-} from 'windfonts-chinese-fonts';
+} from '@windfonts/chinese-fonts';
 
 const fonts: string[] = getAllFonts();
 const fontInfo: FontInfo | undefined = getFontInfo('Alibabapuhuiti-Bold');

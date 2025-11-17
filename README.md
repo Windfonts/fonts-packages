@@ -105,13 +105,13 @@ metadata/
 ### 方法 1: 通过 npm 包使用（推荐）
 
 ```bash
-npm install windfonts-chinese-fonts
+npm install @windfonts/chinese-fonts
 ```
 
 #### 自动加载字体
 
 ```javascript
-const { loadFont } = require('windfonts-chinese-fonts');
+const { loadFont } = require('@windfonts/chinese-fonts');
 
 // 自动加载字体（默认使用 zh-common 子集）
 await loadFont('Alibabapuhuiti-Bold');
@@ -130,7 +130,7 @@ await loadFont('Alibabapuhuiti-Bold', {
 
 ```javascript
 // 导入特定字体
-const AlibabaBold = require('windfonts-chinese-fonts/fonts/Alibabapuhuiti-Bold');
+const AlibabaBold = require('@windfonts/chinese-fonts/fonts/Alibabapuhuiti-Bold');
 
 // 一行代码加载
 await AlibabaBold();
@@ -143,7 +143,7 @@ await AlibabaBold({ subset: 'en' });
 
 ```jsx
 import { useEffect } from 'react';
-import { loadFont } from 'windfonts-chinese-fonts';
+import { loadFont } from '@windfonts/chinese-fonts';
 
 function App() {
   useEffect(() => {
@@ -178,7 +178,7 @@ const {
   getLicenseType, 
   getLicenseUrl, 
   isCommercialUseAllowed 
-} = require('windfonts-chinese-fonts');
+} = require('@windfonts/chinese-fonts');
 
 // 检查授权类型
 const license = getLicenseType('Alibabapuhuiti-Bold');

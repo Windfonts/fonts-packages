@@ -1,6 +1,6 @@
 {
-  "name": "windfonts-chinese-fonts",
-  "version": "1.0.3",
+  "name": "@windfonts/chinese-fonts",
+  "version": "1.0.2",
   "description": "Chinese web fonts with CDN links and comprehensive license information",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -24,7 +24,7 @@
     "chinese-typography"
   ],
   "author": "WindFonts",
-  "license": "GPL-3.0",
+  "license": "SEE LICENSE IN README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/Windfonts/font-packages.git"

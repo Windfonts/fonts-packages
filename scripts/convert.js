@@ -214,7 +214,8 @@ async function checkSubsetDirectory() {
     const subsetDir = path.resolve(process.cwd(), 'fonts-subset');
 
     if (await fs.pathExists(subsetDir)) {
-        const fontFiles = await glob(`${subsetDir}/*.{ttf,otf}`, { nocase: true });
+        // 支持多层目录结构：fonts-subset/**/*.{ttf,otf}
+        const fontFiles = await glob(`${subsetDir}/**/*.{ttf,otf}`, { nocase: true });
 
         if (fontFiles.length > 0) {
             Logger.info(`检测到 fonts-subset 目录，包含 ${fontFiles.length} 个字体文件`);

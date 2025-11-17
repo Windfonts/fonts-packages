@@ -19,16 +19,16 @@ Simply import and the font will be automatically loaded:
 const { loadFont } = require('windfonts-chinese-fonts');
 
 // Load a font (returns Promise)
-loadFont('Alibabapuhuiti-Bold').then(cssUrl => {
+loadFont('Albbpht-Bold').then(cssUrl => {
   console.log('Font loaded:', cssUrl);
   // Font is now available to use
 });
 
 // Load with specific subset
-loadFont('Alibabapuhuiti-Bold', { subset: 'zh-common' });
+loadFont('Albbpht-Bold', { subset: 'zh-common' });
 
 // Load with preload for better performance
-loadFont('Alibabapuhuiti-Bold', { subset: 'zh-common', preload: true });
+loadFont('Albbpht-Bold', { subset: 'zh-common', preload: true });
 ```
 
 ### Method 2: Individual Font Import
@@ -37,7 +37,7 @@ Import specific fonts directly:
 
 ```javascript
 // Import a specific font
-const font = require('windfonts-chinese-fonts/fonts/Alibabapuhuiti-Bold');
+const font = require('windfonts-chinese-fonts/fonts/Albbpht-Bold');
 
 // Load the font (auto-loads with default subset)
 font().then(cssUrl => {
@@ -64,11 +64,11 @@ Get the CSS URL without auto-loading:
 const { getFontCSS, getFontSubsets } = require('windfonts-chinese-fonts');
 
 // Get CSS URL
-const cssUrl = getFontCSS('Alibabapuhuiti-Bold', 'zh-common');
+const cssUrl = getFontCSS('Albbpht-Bold', 'zh-common');
 console.log(`CSS URL: ${cssUrl}`);
 
 // Get available subsets
-const subsets = getFontSubsets('Alibabapuhuiti-Bold');
+const subsets = getFontSubsets('Albbpht-Bold');
 console.log(`Available subsets: ${subsets.join(', ')}`);
 
 // Manually add to HTML
@@ -100,102 +100,160 @@ console.log(`Private use: ${rights.privateUse}`);
 
 ## Available Fonts
 
-This package includes 8 fonts:
+This package includes 168 fonts:
 
 ### Alibaba-PuHuiTi-B
 
-- **Family**: Alibabapuhuiti
+- **Family**: Albbpht
 - **Subfamily**: Bold
-- **Available Subsets**: zh-common, en, zh, full
-- **CSS URL**: https://cn.windfonts.com/build/Alibabapuhuiti/Bold/zh-common/result.css
+- **Available Subsets**: en, zh-common, zh, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Bold/en/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
 **Usage:**
 ```html
-<link rel="stylesheet" href="https://cn.windfonts.com/build/Alibabapuhuiti/Bold/zh-common/result.css">
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Bold/en/result.css">
 ```
 
 ### Alibaba-PuHuiTi-H
 
-- **Family**: Alibabapuhuiti
+- **Family**: Albbpht
 - **Subfamily**: Regular
 - **Available Subsets**: zh-common, zh, full, en
-- **CSS URL**: https://cn.windfonts.com/build/Alibabapuhuiti/Heavy/zh-common/result.css
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Heavy/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
 **Usage:**
 ```html
-<link rel="stylesheet" href="https://cn.windfonts.com/build/Alibabapuhuiti/Heavy/zh-common/result.css">
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Heavy/zh-common/result.css">
+```
+
+### Alibaba-PuHuiTi-L
+
+- **Family**: Albbpht
+- **Subfamily**: Regular
+- **Available Subsets**: zh-common, en, zh, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Light/zh-common/result.css
+- **License**: Unknown
+- **License URL**: Not available
+- **Commercial Use**: ❌ Not allowed
+
+**Usage:**
+```html
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Light/zh-common/result.css">
+```
+
+### Alibaba-PuHuiTi-M
+
+- **Family**: Albbpht
+- **Subfamily**: Regular
+- **Available Subsets**: zh-common, zh, en, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Medium/zh-common/result.css
+- **License**: Unknown
+- **License URL**: Not available
+- **Commercial Use**: ❌ Not allowed
+
+**Usage:**
+```html
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Medium/zh-common/result.css">
 ```
 
 ### Alibaba-PuHuiTi-R
 
-- **Family**: Alibabapuhuiti
+- **Family**: Albbpht
 - **Subfamily**: Regular
 - **Available Subsets**: zh-common, en, zh, full
-- **CSS URL**: https://cn.windfonts.com/build/Alibabapuhuiti/Regular/zh-common/result.css
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Regular/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
 **Usage:**
 ```html
-<link rel="stylesheet" href="https://cn.windfonts.com/build/Alibabapuhuiti/Regular/zh-common/result.css">
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Regular/zh-common/result.css">
 ```
 
-### Hanzipinyin
+### AliHYAiHei
 
-- **Family**: Hanzipinyin
+- **Family**: Alhyznht
 - **Subfamily**: Regular
-- **Available Subsets**: None
-- **CSS URL**: Not available
+- **Available Subsets**: zh-common, zh, en, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Alhyznht/Regular/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
-### Huxiaobosaobao
+**Usage:**
+```html
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Alhyznht/Regular/zh-common/result.css">
+```
 
-- **Family**: Huxiaobosaobao
+### AlimamaDongFangDaKai
+
+- **Family**: Almmdfdk
 - **Subfamily**: Regular
-- **Available Subsets**: None
-- **CSS URL**: Not available
+- **Available Subsets**: zh-common, en, zh, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmdfdk/Regular/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
-### Linhailishu
+**Usage:**
+```html
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmdfdk/Regular/zh-common/result.css">
+```
 
-- **Family**: Linhailishu
+### Alimama DaoLiTi
+
+- **Family**: Almmdlt
 - **Subfamily**: Regular
-- **Available Subsets**: None
-- **CSS URL**: Not available
+- **Available Subsets**: zh-common, en, zh, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmdlt/Regular/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
-### Liujiangmaocao
+**Usage:**
+```html
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmdlt/Regular/zh-common/result.css">
+```
 
-- **Family**: Liujiangmaocao
+### Alimama ShuHeiTi
+
+- **Family**: Almmsht
 - **Subfamily**: Regular
-- **Available Subsets**: None
-- **CSS URL**: Not available
+- **Available Subsets**: zh-common, zh, en, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmsht/Bold/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
-### Zhiyongshoushuti
+**Usage:**
+```html
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmsht/Bold/zh-common/result.css">
+```
 
-- **Family**: Zhiyongshoushuti
+### Droid Sans Fallback
+
+- **Family**: Azbzzwzt
 - **Subfamily**: Regular
-- **Available Subsets**: None
-- **CSS URL**: Not available
+- **Available Subsets**: zh-common, en, zh, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Azbzzwzt/Regular/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
+
+**Usage:**
+```html
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Azbzzwzt/Regular/zh-common/result.css">
+```
+
+
+... and 158 more fonts.
 
 ## TypeScript Support
 
