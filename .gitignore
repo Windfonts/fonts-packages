@@ -1,64 +1,34 @@
-# Environment variables
-.env
-
-.kiro/
-# Node.js
+# Dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-yarn.lock
-
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-ENV/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
+*.pyc
 
-# Generated files
+# Build outputs
 dist/
+fonts-subset/
+.forgejo
+.github
+.kiro
+metadata
+
+
+# Metadata
 metadata/*.json
 metadata/*.csv
-metadata/
 
-# cn-font-split 生成的元数据文件
-**/index.proto
-**/reporter.bin
-
-# Logs
-*.log
-logs/
-
-# OS files
-.DS_Store
-Thumbs.db
+# Environment
+.env
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# Temporary files
-*.tmp
-*.temp
-.cache/
+# OS
+.DS_Store
+Thumbs.db
 
-# NPM package artifacts
-*.tgz
-
-# Test coverage
-coverage/
-.nyc_output/
-
-.github
-.forgejo
+# Logs
+*.log
+npm-debug.log*

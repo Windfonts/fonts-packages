@@ -1,4 +1,25 @@
 #!/usr/bin/env python3
+"""
+字体分析和规范化工具
+
+重要设计原则：
+1. 字重名称以文件名为准（人工定义的），不进行自动映射转换
+   - 例如：Normal.ttf → 字重名称为 "Normal"（不转换为 "Regular"）
+   - 例如：Heavy.ttf → 字重名称为 "Heavy"（不转换为 "Black"）
+   - 例如：Extralight.ttf → 字重名称为 "Extralight"（保持原样，不转换为 "ExtraLight"）
+
+2. CSS font-weight 数值从字重名称推断
+   - Normal/Regular → 400
+   - Bold → 700
+   - Heavy/Black → 900
+   - 等等
+
+3. 字体家族名称（font_family）规则
+   - Regular/Normal 字重：WF-{family_name}
+   - 其他字重：WF-{family_name}-{weight_name}
+
+这样确保 metadata/font-mapping.json 中的字重名称与 dist/ 目录中的字重文件夹名称完全一致。
+"""
 
 import sys
 import os
@@ -8,6 +29,8 @@ import re
 from pathlib import Path
 from collections import defaultdict
 from typing import Dict, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import multiprocessing
 
 # ============================================================================
 # 环境变量配置管理（内置版本，不依赖外部文件）
@@ -72,6 +95,16 @@ except ImportError:
     print("错误: 需要安装 fonttools")
     print("请运行: pip3 install fonttools")
     sys.exit(1)
+
+# 检查 Brotli 支持（用于 wOFF2）
+try:
+    import brotli
+    BROTLI_AVAILABLE = True
+except ImportError:
+    BROTLI_AVAILABLE = False
+    print("⚠ 警告: 未安装 brotli，无法处理 wOFF2 文件")
+    print("  安装: pip3 install brotli")
+    print()
 
 try:
     from openai import OpenAI
@@ -242,7 +275,7 @@ class AIFontNormalizer:
     def normalize_font_family(self, font_family_info: Dict) -> Dict:
         """
         规范化字体家族
-        只使用第一个字体的元信息调用 AI，字重信息直接从文件名提取
+        优先使用 Regular/Normal 字重的元信息调用 AI
         """
         if not self.enabled:
             return self._fallback_normalize_family(font_family_info)
@@ -250,12 +283,34 @@ class AIFontNormalizer:
         family_name = font_family_info.get('family_name', '')
         weights_info = font_family_info.get('weights', {})
         
-        # 获取第一个字体的元信息
-        first_weight_name = list(weights_info.keys())[0] if weights_info else None
-        if not first_weight_name:
+        if not weights_info:
             return self._fallback_normalize_family(font_family_info)
         
-        first_weight_data = weights_info.get(first_weight_name, {})
+        # 优先选择 Regular/Normal 字重
+        preferred_weights = ['Regular', 'Normal', 'Book', 'Roman', 'Medium']
+        selected_weight_name = None
+        
+        # 先尝试精确匹配
+        for weight in preferred_weights:
+            if weight in weights_info:
+                selected_weight_name = weight
+                break
+        
+        # 如果没有精确匹配，尝试模糊匹配
+        if not selected_weight_name:
+            for weight_name in weights_info.keys():
+                weight_lower = weight_name.lower()
+                if any(pref.lower() in weight_lower for pref in preferred_weights):
+                    selected_weight_name = weight_name
+                    break
+        
+        # 如果还是没有，使用第一个
+        if not selected_weight_name:
+            selected_weight_name = list(weights_info.keys())[0]
+        
+        print(f"  📝 选择字重用于 AI 分析: {selected_weight_name}")
+        
+        first_weight_data = weights_info.get(selected_weight_name, {})
         first_metadata = first_weight_data.get('metadata', {})
         
         # 构建字体信息（和单个字体一样的格式）
@@ -276,8 +331,15 @@ class AIFontNormalizer:
         }
         
         try:
+            print(f"\n{'='*80}")
+            print(f"🤖 开始 AI 分析字体家族: {family_name}")
+            print(f"{'='*80}")
+            
             # 使用和单个字体相同的方法获取 AI 分析结果
             result = self.normalize_font_name(font_info)
+            
+            print(f"\n📤 AI 原始返回结果:")
+            print(json.dumps(result, ensure_ascii=False, indent=2))
             
             # 强制使用文件夹名作为 normalized_name
             result['normalized_name'] = family_name
@@ -289,12 +351,20 @@ class AIFontNormalizer:
             if 'font_weight' in result:
                 del result['font_weight']
             
+            print(f"\n✅ 字体家族规范化完成:")
+            print(f"  - normalized_name: {result['normalized_name']}")
+            print(f"  - font_family: {result['font_family']}")
+            print(f"  - english_name: {result.get('english_name', 'N/A')}")
+            print(f"  - chinese_name: {result.get('chinese_name', 'N/A')}")
+            print(f"{'='*80}\n")
+            
             return result
             
         except Exception as e:
             import traceback
-            print(f"  警告: AI 规范化失败，使用降级模式: {e}")
-            print(f"  错误详情: {traceback.format_exc()}")
+            print(f"\n❌ AI 规范化失败，使用降级模式")
+            print(f"  错误: {e}")
+            print(f"  详情:\n{traceback.format_exc()}")
             return self._fallback_normalize_family(font_family_info)
     
     def normalize_font_name(self, font_info: Dict) -> Dict:
@@ -559,8 +629,70 @@ NAME_DISPLAY = {
     22: 'WWS Subfamily'
 }
 
+def clean_text(text):
+    """清理文本中的乱码和不可打印字符"""
+    if not text:
+        return None
+    
+    if not isinstance(text, str):
+        return None
+    
+    # 移除常见的乱码字符和特殊符号
+    # 包括：私有使用区、控制字符、特殊符号等
+    cleaned_chars = []
+    for c in text:
+        code = ord(c)
+        # 保留：
+        # - ASCII 可打印字符 (32-126)
+        # - 中文字符 (0x4E00-0x9FFF)
+        # - 常用标点 (0x3000-0x303F)
+        # - 全角字符 (0xFF00-0xFFEF)
+        # - 空格、换行、制表符
+        if (32 <= code <= 126 or  # ASCII
+            0x4E00 <= code <= 0x9FFF or  # 中文
+            0x3000 <= code <= 0x303F or  # CJK 标点
+            0xFF00 <= code <= 0xFFEF or  # 全角
+            c in ' \n\r\t'):  # 空白字符
+            cleaned_chars.append(c)
+    
+    cleaned = ''.join(cleaned_chars).strip()
+    
+    if not cleaned:
+        return None
+    
+    # 检查是否包含有效内容
+    # 至少要有字母、数字或中文
+    has_valid = any(
+        c.isalnum() or 
+        '\u4e00' <= c <= '\u9fff' 
+        for c in cleaned
+    )
+    
+    if not has_valid:
+        return None
+    
+    # 检查乱码比例
+    # 如果包含太多特殊符号（非字母数字中文），可能是乱码
+    valid_chars = sum(1 for c in cleaned if c.isalnum() or '\u4e00' <= c <= '\u9fff' or c in ' .,;:!?()[]{}""''—-')
+    if len(cleaned) > 0 and valid_chars / len(cleaned) < 0.3:
+        # 如果有效字符少于30%，认为是乱码
+        return None
+    
+    return cleaned
+
 def extract_font_metadata(font_path: Path, verbose: bool = False) -> Dict:
     try:
+        # 检查是否是 wOFF2 文件
+        is_woff2 = font_path.suffix.lower() in ['.woff2'] or font_path.name.endswith('.ttf')
+        if is_woff2 and not BROTLI_AVAILABLE:
+            if verbose:
+                print(f"  ⚠ 跳过 wOFF2 文件（需要 brotli）: {font_path.name}")
+            return {
+                'family_name': font_path.stem,
+                'file_name': font_path.name,
+                'file_stem': font_path.stem
+            }
+        
         font = TTFont(font_path)
         name_table = font['name']
         metadata = {'all_names': {}}
@@ -575,19 +707,24 @@ def extract_font_metadata(font_path: Path, verbose: bool = False) -> Dict:
                 if not value or value == '?':
                     continue
                 
+                # 立即清理乱码
+                cleaned_value = clean_text(value)
+                if not cleaned_value:
+                    continue
+                
                 field_name = NAME_IDS.get(name_id, f'name_id_{name_id}')
                 
                 if field_name not in metadata['all_names']:
                     metadata['all_names'][field_name] = []
                 metadata['all_names'][field_name].append({
-                    'value': value,
+                    'value': cleaned_value,
                     'platform': f"{record.platformID}",
                     'encoding': f"{record.platEncID}",
                     'language': f"{record.langID}"
                 })
                 
                 if field_name not in metadata:
-                    metadata[field_name] = value
+                    metadata[field_name] = cleaned_value
                 
                 if verbose:
                     if name_id not in records_by_id:
@@ -787,18 +924,34 @@ WEIGHT_PRIORITY_KEYWORDS = [
 ]
 
 def extract_font_weight(subfamily_name):
+    """
+    从字重名称推断 CSS font-weight 数值
+    
+    注意：这个函数只用于推断 CSS font-weight 数值（100-900），
+    不用于规范化字重名称。字重名称应该直接使用文件名（人工定义的）。
+    
+    Args:
+        subfamily_name: 字重名称（可以是文件名或 subfamily_name）
+    
+    Returns:
+        tuple: (标准字重名称, CSS font-weight 数值)
+        注意：返回的标准字重名称仅供参考，实际应使用原始文件名
+    """
     if not subfamily_name:
         return 'Regular', 400
     
     name_lower = subfamily_name.lower()
     
+    # 精确匹配
     if name_lower in WEIGHT_MAPPING:
         return WEIGHT_MAPPING[name_lower]
     
+    # 模糊匹配（按优先级）
     for keyword in WEIGHT_PRIORITY_KEYWORDS:
         if keyword in name_lower:
             return WEIGHT_MAPPING[keyword]
     
+    # 默认返回 Regular
     return 'Regular', 400
 
 def generate_report(results, output_dir):
@@ -934,9 +1087,30 @@ def generate_report(results, output_dir):
         'fonts': fonts_array
     }
     
+    # 清理 JSON 中的换行符和乱码
+    def clean_json_value(obj):
+        """递归清理 JSON 对象中的换行符和乱码"""
+        if isinstance(obj, dict):
+            cleaned_dict = {}
+            for k, v in obj.items():
+                cleaned_v = clean_json_value(v)
+                if cleaned_v is not None or not isinstance(v, str):
+                    cleaned_dict[k] = cleaned_v
+            return cleaned_dict
+        elif isinstance(obj, list):
+            return [clean_json_value(item) for item in obj if clean_json_value(item) is not None]
+        elif isinstance(obj, str):
+            text = obj.replace('\n', ' ').replace('\r', ' ').strip()
+            cleaned = clean_text(text)
+            return cleaned if cleaned else None
+        else:
+            return obj
+    
+    json_report_cleaned = clean_json_value(json_report)
+    
     json_path = output_dir / 'font-analysis.json'
-    with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(json_report, f, ensure_ascii=False, indent=2)
+    with open(json_path, 'w', encoding='utf-8', newline='') as f:
+        json.dump(json_report_cleaned, f, ensure_ascii=False, indent=2)
     
     print(f"✓ JSON 报告已保存: {json_path}")
     
@@ -1013,7 +1187,7 @@ def inspect_single_font(font_path: Path):
         print(f"错误: 文件不存在: {font_path}")
         sys.exit(1)
     
-    if not font_path.suffix.lower() in ['.ttf', '.otf']:
+    if not font_path.suffix.lower() in ['.ttf', '.otf', '.woff', '.woff2']:
         print(f"错误: 不是字体文件: {font_path}")
         sys.exit(1)
     
@@ -1052,18 +1226,29 @@ def inspect_single_font(font_path: Path):
 
 
 def main():
-    if len(sys.argv) >= 2 and (sys.argv[1] == 'inspect' or sys.argv[1] == '--inspect'):
-        if len(sys.argv) < 3:
-            print("用法: python3 scripts/analyze-fonts.py inspect <字体文件路径>")
-            print()
-            print("示例:")
-            print("  python3 scripts/analyze-fonts.py inspect fonts/字体.ttf")
-            print("  python3 scripts/analyze-fonts.py inspect fonts-subset/字体-full.ttf")
-            sys.exit(1)
+    # 检查是否是测试模式
+    test_mode = False
+    test_limit = 2
+    
+    if len(sys.argv) >= 2:
+        if sys.argv[1] == 'inspect' or sys.argv[1] == '--inspect':
+            if len(sys.argv) < 3:
+                print("用法: python3 python-scripts/analyze-fonts.py inspect <字体文件路径>")
+                print()
+                print("示例:")
+                print("  python3 python-scripts/analyze-fonts.py inspect fonts/字体.ttf")
+                sys.exit(1)
+            
+            font_path = Path(sys.argv[2])
+            inspect_single_font(font_path)
+            return
         
-        font_path = Path(sys.argv[2])
-        inspect_single_font(font_path)
-        return
+        elif sys.argv[1] == 'test' or sys.argv[1] == '--test':
+            test_mode = True
+            if len(sys.argv) >= 3 and sys.argv[2].isdigit():
+                test_limit = int(sys.argv[2])
+            print(f"🧪 测试模式：只处理前 {test_limit} 个字体文件")
+            print()
     
     print("========== 字体字符分析和规范化工具 ==========")
     print()
@@ -1099,7 +1284,8 @@ def main():
     font_files_info = []
     font_families = {}
     
-    for pattern in ['*.ttf', '*.otf']:
+    # 扫描所有字体文件（包括 TTF/OTF/wOFF/wOFF2）
+    for pattern in ['*.ttf', '*.otf', '*.woff', '*.woff2']:
         root_fonts = list(input_dir.glob(pattern))
         for font_file in root_fonts:
             font_files_info.append((font_file, None, None))
@@ -1109,7 +1295,7 @@ def main():
             family_name = subdir.name
             family_fonts = []
             
-            for pattern in ['*.ttf', '*.otf']:
+            for pattern in ['*.ttf', '*.otf', '*.woff', '*.woff2']:
                 for font_file in subdir.glob(pattern):
                     weight_name = font_file.stem
                     font_files_info.append((font_file, family_name, weight_name))
@@ -1122,7 +1308,12 @@ def main():
         print(f"错误: 在 {input_dir} 中未找到字体文件")
         sys.exit(1)
     
-    print(f"找到 {len(font_files_info)} 个字体文件")
+    # 测试模式：只处理前几个文件
+    if test_mode:
+        font_files_info = font_files_info[:test_limit]
+        print(f"🧪 测试模式：从 {len(font_files_info)} 个文件中选择前 {test_limit} 个")
+    else:
+        print(f"找到 {len(font_files_info)} 个字体文件")
     
     if font_families:
         print("\n字体家族结构:")
@@ -1143,26 +1334,43 @@ def main():
     families_to_analyze = {}
     standalone_fonts = []
     
+    # 并行处理字体文件
+    print(f"使用 {min(8, multiprocessing.cpu_count())} 个线程并行处理...")
+    print()
+    
     results = {}
-    for i, (font_file, family_name, weight_name) in enumerate(font_files_info, 1):
-        print(f"[{i}/{len(font_files_info)}] 提取元信息: {font_file.name}")
-        if family_name and weight_name:
-            print(f"  家族: {family_name}, 字重: {weight_name}")
-        
+    completed = 0
+    total = len(font_files_info)
+    
+    def process_font(font_info):
+        font_file, family_name, weight_name = font_info
         result = analyze_font(font_file, None)
-        results[str(font_file)] = result
+        return (font_file, family_name, weight_name, result)
+    
+    with ThreadPoolExecutor(max_workers=min(8, multiprocessing.cpu_count())) as executor:
+        futures = {executor.submit(process_font, info): info for info in font_files_info}
         
-        if result['success']:
-            print(f"  ✓ {result['char_count']} 个字符")
+        for future in as_completed(futures):
+            completed += 1
+            font_file, family_name, weight_name, result = future.result()
             
-            if family_name:
-                if family_name not in families_to_analyze:
-                    families_to_analyze[family_name] = []
-                families_to_analyze[family_name].append((font_file, weight_name, result))
+            print(f"[{completed}/{total}] {font_file.name}")
+            if family_name and weight_name:
+                print(f"  家族: {family_name}, 字重: {weight_name}")
+            
+            results[str(font_file)] = result
+            
+            if result['success']:
+                print(f"  ✓ {result['char_count']} 个字符")
+                
+                if family_name:
+                    if family_name not in families_to_analyze:
+                        families_to_analyze[family_name] = []
+                    families_to_analyze[family_name].append((font_file, weight_name, result))
+                else:
+                    standalone_fonts.append((font_file, result))
             else:
-                standalone_fonts.append((font_file, result))
-        else:
-            print(f"  ✗ 失败: {result['error']}")
+                print(f"  ✗ 失败: {result['error']}")
     
     print()
     print("="*60)
@@ -1223,18 +1431,22 @@ def main():
             'use_cases': normalized.get('use_cases', [])
         }
         
-        # 处理每个字重：直接使用文件名提取字重信息
+        # 处理每个字重：直接使用文件名作为字重名称（人工定义的）
         for font_file, weight_file_name, result in family_fonts:
-            # 从文件名提取字重
-            weight_name, font_weight = extract_font_weight(weight_file_name)
+            # 直接使用文件名作为字重名称，不进行映射转换
+            weight_name = weight_file_name
+            
+            # 从 subfamily_name 或文件名推断 CSS font-weight 值
+            _, font_weight = extract_font_weight(weight_file_name)
             
             # 构建 font_family
-            if weight_name != 'Regular':
-                font_family_full = f"WF-{family_name}-{weight_name}"
-            else:
+            # 只有 Regular/Normal 不加后缀
+            if weight_name.lower() in ['regular', 'normal']:
                 font_family_full = f"WF-{family_name}"
+            else:
+                font_family_full = f"WF-{family_name}-{weight_name}"
             
-            print(f"    [{weight_file_name}] → {weight_name} (CSS: {font_weight})")
+            print(f"    [{weight_file_name}] → 字重: {weight_name}, CSS font-weight: {font_weight}")
             
             font_mapping[mapping_key]['weights'][weight_name] = {
                 'font_family': font_family_full,
@@ -1274,13 +1486,19 @@ def main():
         
         normalized = normalizer.normalize_font_name(font_info)
         
-        ai_weight_name = normalized.get('weight_name', '')
-        ai_font_weight = normalized.get('font_weight', '')
+        # 对于独立字体，使用文件名作为字重名称
+        # 如果文件名包含字重信息，使用它；否则使用 subfamily_name
+        file_stem = font_file.stem
+        subfamily_from_meta = metadata.get('subfamily_name', 'Regular')
         
-        if ai_weight_name and ai_font_weight:
-            subfamily, font_weight_value = ai_weight_name, ai_font_weight
+        # 优先使用文件名，如果文件名看起来像字重名称
+        if any(w.lower() in file_stem.lower() for w in ['thin', 'light', 'regular', 'normal', 'medium', 'bold', 'black', 'heavy', 'extra', 'semi', 'demi']):
+            subfamily = file_stem
         else:
-            subfamily, font_weight_value = extract_font_weight(metadata.get('subfamily_name', 'Regular'))
+            subfamily = subfamily_from_meta
+        
+        # 从字重名称推断 CSS font-weight 值
+        _, font_weight_value = extract_font_weight(subfamily)
         
         font_family_with_variant = (
             f"{normalized['font_family']}-{subfamily}" 
@@ -1344,9 +1562,33 @@ def main():
     if font_mapping:
         print()
         print("生成字体映射文件...")
+        # 清理映射文件中的换行符和乱码
+        def clean_json_value(obj):
+            """递归清理 JSON 对象中的换行符和乱码"""
+            if isinstance(obj, dict):
+                cleaned_dict = {}
+                for k, v in obj.items():
+                    cleaned_v = clean_json_value(v)
+                    # 如果值是字符串且被清理为 None，则不添加该字段
+                    if cleaned_v is not None or not isinstance(v, str):
+                        cleaned_dict[k] = cleaned_v
+                return cleaned_dict
+            elif isinstance(obj, list):
+                return [clean_json_value(item) for item in obj if clean_json_value(item) is not None]
+            elif isinstance(obj, str):
+                # 先清理换行符
+                text = obj.replace('\n', ' ').replace('\r', ' ').strip()
+                # 再清理乱码
+                cleaned = clean_text(text)
+                return cleaned if cleaned else None
+            else:
+                return obj
+        
+        font_mapping_cleaned = clean_json_value(font_mapping)
+        
         mapping_file = output_dir / 'font-mapping.json'
-        with open(mapping_file, 'w', encoding='utf-8') as f:
-            json.dump(font_mapping, f, ensure_ascii=False, indent=2)
+        with open(mapping_file, 'w', encoding='utf-8', newline='') as f:
+            json.dump(font_mapping_cleaned, f, ensure_ascii=False, indent=2)
         print(f"✓ 字体映射已保存: {mapping_file}")
         
         # 显示映射摘要

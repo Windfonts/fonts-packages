@@ -4,13 +4,12 @@
   "description": "Chinese web fonts repository with automated conversion, analysis, and publishing",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/build.js --clean",
-    
+    "analyze": "python3 python-scripts/analyze-fonts.py",
+    "subset": "python3 python-scripts/create-font-subsets.py",
+    "convert": "node scripts/convert.js",
+    "build": "npm run analyze && npm run subset && npm run convert",
     "upload": "node scripts/upload.js",
-    
     "publish": "node scripts/publish.js",
-    "publish:dry-run": "node scripts/publish.js --dry-run",
-
     "clean": "node scripts/clean.js --deep"
   },
   "keywords": [
@@ -32,9 +31,7 @@
     "semver": "^7.5.4",
     "yargs": "^17.7.2"
   },
-  "devDependencies": {
-    "jest": "^29.7.0"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0"
   }

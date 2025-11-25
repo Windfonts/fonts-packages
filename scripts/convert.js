@@ -41,7 +41,8 @@ const DEFAULT_CONFIG = {
             name: 'standard',
             description: '标准分包',
             chunkSize: 70,
-            enabled: true
+            enabled: true,
+            report:false
         }
     ]
 };
