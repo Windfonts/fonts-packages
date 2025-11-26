@@ -51,6 +51,26 @@ function readMetadata() {
 }
 
 /**
+ * Read existing fonts.json (fallback when metadata is missing)
+ */
+function readExistingFonts() {
+  const fontsJsonPath = path.join(OUTPUT_DIR, 'src', 'fonts.json');
+  if (fs.existsSync(fontsJsonPath)) {
+    try {
+      const existing = fs.readJsonSync(fontsJsonPath);
+      const count = Object.keys(existing || {}).length;
+      log.success(`Loaded existing fonts.json with ${count} fonts`);
+      return existing;
+    } catch (e) {
+      log.warn(`Failed to read existing fonts.json: ${e.message}`);
+    }
+  } else {
+    log.warn(`No existing fonts.json found at ${fontsJsonPath}`);
+  }
+  return null;
+}
+
+/**
  * Read CDN URLs mapping
  */
 function readCDNUrls() {
@@ -381,7 +401,13 @@ module.exports = {
 /**
  * Generate index.d.ts TypeScript definitions
  */
-function generateTypeDefinitions() {
+function generateTypeDefinitions(fonts) {
+  const fontNames = Object.keys(fonts);
+  const fontNameUnion = fontNames.map(n => `'${n}'`).join(' | ');
+  const moduleDecls = fontNames
+    .map(n => `declare module '@windfonts/chinese-fonts/fonts/${n}' {\n  const loader: import('./index').FontLoader;\n  export default loader;\n}`)
+    .join('\n');
+
   return `/**
  * Chinese Fonts CDN Package - TypeScript Definitions
  */
@@ -445,20 +471,27 @@ export interface FontLoader {
   getSubsets: () => string[];
 }
 
-export const fonts: Record<string, FontInfo>;
+export type FontName = ${fontNameUnion};
+export const fonts: Record<FontName, FontInfo>;
 
-export function loadFont(fontName: string, options?: LoadFontOptions): Promise<string>;
-export function createFontLoader(fontName: string): FontLoader;
-export function getAllFonts(): string[];
-export function getFontInfo(fontName: string): FontInfo | undefined;
-export function getFontCSS(fontName: string, subset?: string): string | undefined;
-export function getFontSubsets(fontName: string): string[];
-export function getFontChunks(fontName: string, subset: string): FontChunk[] | undefined;
-export function getFontLicense(fontName: string): FontLicense | undefined;
-export function getLicenseUrl(fontName: string): string | undefined;
-export function getLicenseType(fontName: string): string | undefined;
-export function getUsageRights(fontName: string): UsageRights | undefined;
-export function isCommercialUseAllowed(fontName: string): boolean;
+export function loadFont(fontName: FontName, options?: LoadFontOptions): Promise<string>;
+export function createFontLoader(fontName: FontName): FontLoader;
+export function getAllFonts(): FontName[];
+export function getFontInfo(fontName: FontName): FontInfo | undefined;
+export function getFontCSS(fontName: FontName, subset?: string): string | undefined;
+export function getFontSubsets(fontName: FontName): string[];
+export function getFontChunks(fontName: FontName, subset: string): FontChunk[] | undefined;
+export function getFontLicense(fontName: FontName): FontLicense | undefined;
+export function getLicenseUrl(fontName: FontName): string | undefined;
+export function getLicenseType(fontName: FontName): string | undefined;
+export function getUsageRights(fontName: FontName): UsageRights | undefined;
+export function isCommercialUseAllowed(fontName: FontName): boolean;
+
+declare module '@windfonts/chinese-fonts/fonts/*' {
+  const loader: import('./index').FontLoader;
+  export default loader;
+}
+${moduleDecls}
 `;
 }
 
@@ -745,15 +778,40 @@ async function main() {
   try {
     log.info('Starting npm package generation...');
     
-    // Read metadata
-    const metadata = readMetadata();
+    // Read metadata (with fallback)
+    let metadata = null;
+    try {
+      metadata = readMetadata();
+    } catch (e) {
+      log.warn(`Metadata unavailable: ${e.message}`);
+      log.warn('Falling back to existing npm-package/src/fonts.json');
+    }
     
     // Read CDN URLs
-    const cdnUrls = readCDNUrls();
+    let cdnUrls = {};
+    try {
+      cdnUrls = readCDNUrls();
+    } catch (e) {
+      log.warn(`CDN URLs unavailable: ${e.message}`);
+      cdnUrls = {};
+    }
     
     // Transform metadata with CDN URLs
     log.info('Transforming metadata with CDN URLs...');
-    const fonts = transformMetadata(metadata, cdnUrls);
+    let fonts = {};
+    if (metadata) {
+      fonts = transformMetadata(metadata, cdnUrls);
+    } else {
+      const existing = readExistingFonts();
+      if (existing) {
+        fonts = existing;
+      }
+    }
+    const fontCount = Object.keys(fonts).length;
+    if (fontCount === 0) {
+      log.error('No fonts available to generate package. Aborting.');
+      process.exit(1);
+    }
     log.success(`Transformed ${Object.keys(fonts).length} fonts`);
     
     // Determine version
@@ -794,7 +852,7 @@ module.exports = createFontLoader('${fontKey}');
     // index.d.ts
     fs.writeFileSync(
       path.join(OUTPUT_DIR, 'src', 'index.d.ts'),
-      generateTypeDefinitions()
+      generateTypeDefinitions(fonts)
     );
     log.success('Generated src/index.d.ts');
     
