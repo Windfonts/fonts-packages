@@ -1,275 +1,161 @@
-# Chinese Fonts CDN
+# @windfonts/chinese-fonts
 
-A collection of Chinese web fonts with CDN links and comprehensive license information.
+中文 Web 字体集合，提供可直接使用的 CDN CSS 链接与完整许可元数据。通过简单 API 或按字体模块导入，即可在浏览器或 SSR 环境中加载中文字体。
 
-## Installation
+## 安装
 
 ```bash
-npm install windfonts-chinese-fonts
+npm i @windfonts/chinese-fonts
+# 或
+yarn add @windfonts/chinese-fonts
+# 或
+pnpm add @windfonts/chinese-fonts
 ```
 
-## Usage
+## 快速开始
 
-### Method 1: Auto-load (Recommended)
+### 通过 API 动态加载
 
-Simply import and the font will be automatically loaded:
+```js
+const { loadFont } = require('@windfonts/chinese-fonts');
 
-```javascript
-// Import and auto-load with default subset (zh-common)
-const { loadFont } = require('windfonts-chinese-fonts');
-
-// Load a font (returns Promise)
-loadFont('Albbpht-Bold').then(cssUrl => {
-  console.log('Font loaded:', cssUrl);
-  // Font is now available to use
-});
-
-// Load with specific subset
-loadFont('Albbpht-Bold', { subset: 'zh-common' });
-
-// Load with preload for better performance
-loadFont('Albbpht-Bold', { subset: 'zh-common', preload: true });
+(async () => {
+  await loadFont('Albbpht-Bold', { subset: 'zh-common', preload: true });
+})();
 ```
 
-### Method 2: Individual Font Import
+### 按字体模块导入（tree-shaking）
 
-Import specific fonts directly:
+```js
+const AlbbphtBold = require('@windfonts/chinese-fonts/fonts/Albbpht-Bold');
 
-```javascript
-// Import a specific font
-const font = require('windfonts-chinese-fonts/fonts/Albbpht-Bold');
-
-// Load the font (auto-loads with default subset)
-font().then(cssUrl => {
-  console.log('Font loaded:', cssUrl);
-});
-
-// Or with options
-font({ subset: 'en' }).then(cssUrl => {
-  console.log('English subset loaded:', cssUrl);
-});
-
-// Access font information
-console.log(font.fontName);  // Font name
-console.log(font.info);      // Full font information
-console.log(font.getSubsets()); // Available subsets
-console.log(font.getCSS('zh-common')); // Get CSS URL without loading
+(async () => {
+  await AlbbphtBold({ subset: 'zh-common' });
+})();
 ```
 
-### Method 3: Manual CSS URL
-
-Get the CSS URL without auto-loading:
-
-```javascript
-const { getFontCSS, getFontSubsets } = require('windfonts-chinese-fonts');
-
-// Get CSS URL
-const cssUrl = getFontCSS('Albbpht-Bold', 'zh-common');
-console.log(`CSS URL: ${cssUrl}`);
-
-// Get available subsets
-const subsets = getFontSubsets('Albbpht-Bold');
-console.log(`Available subsets: ${subsets.join(', ')}`);
-
-// Manually add to HTML
-// <link rel="stylesheet" href="${cssUrl}">
+```ts
+import AlbbphtBold from '@windfonts/chinese-fonts/fonts/Albbpht-Bold';
+await AlbbphtBold({ subset: 'zh-common' });
 ```
 
-## License Information API
+加载成功后，页面会注入对应的字体 CSS。根据字体的 `family` 使用：
 
-This package provides comprehensive license information for each font:
-
-```javascript
-const { getLicenseType, getLicenseUrl, getUsageRights } = require('windfonts-chinese-fonts');
-
-// Get license type
-const licenseType = getLicenseType('FontName');
-console.log(`License: ${licenseType}`); // e.g., 'OFL', 'MIT', 'Apache-2.0'
-
-// Get license file URL
-const licenseUrl = getLicenseUrl('FontName');
-console.log(`License URL: ${licenseUrl}`);
-
-// Get detailed usage rights
-const rights = getUsageRights('FontName');
-console.log(`Commercial use: ${rights.commercial}`);
-console.log(`Modification: ${rights.modification}`);
-console.log(`Distribution: ${rights.distribution}`);
-console.log(`Private use: ${rights.privateUse}`);
+```ts
+import { getFontInfo } from '@windfonts/chinese-fonts';
+const family = getFontInfo('Albbpht-Bold')?.family;
 ```
 
-## Available Fonts
-
-This package includes 169 fonts:
-
-### Alibaba-PuHuiTi-B
-
-- **Family**: Albbpht
-- **Subfamily**: Bold
-- **Available Subsets**: zh-common, en, zh, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Bold/zh-common/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
-
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Bold/zh-common/result.css">
+```css
+body { font-family: 'Albbpht', system-ui, sans-serif; }
 ```
 
-### Alibaba-PuHuiTi-H
+## 运行环境与默认行为
 
-- **Family**: Albbpht
-- **Subfamily**: Regular
-- **Available Subsets**: zh, zh-common, full, en
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Heavy/zh/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
+- 浏览器环境自动向 `document.head` 注入 `<link rel="stylesheet" href="...">`。
+- Node/SSR 环境返回 CSS 链接字符串，不注入 DOM，可自行写入到 HTML。
+- 子集默认选择优先级：`zh-common` > `zh` > `en` > 第一个可用子集。
+- 传入 `preload: true` 会额外注入 `<link rel="preload" as="style">`。
 
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Heavy/zh/result.css">
+## 常用 API
+
+```ts
+import {
+  fonts,
+  loadFont,
+  createFontLoader,
+  getAllFonts,
+  getFontInfo,
+  getFontCSS,
+  getFontSubsets,
+  getFontChunks,
+  getLicenseUrl,
+  getLicenseType,
+  getUsageRights,
+  isCommercialUseAllowed,
+} from '@windfonts/chinese-fonts';
 ```
 
-### Alibaba-PuHuiTi-L
+- `loadFont(fontName, options)` 加载并返回 CSS 链接。
+- `createFontLoader(fontName)` 返回 `FontLoader`，支持 `loader(options) / loader.load()`、`loader.getCSS()`、`loader.getSubsets()`、`loader.info`。
+- `getAllFonts()` 返回可用字体名列表。
+- `getFontInfo(fontName)` 返回字体信息（家族、字形数、许可等）。
+- `getFontCSS(fontName, subset?)` 返回指定子集的 CSS 链接。
+- `getFontSubsets(fontName)` 返回可用子集名称数组。
+- `getFontChunks(fontName, subset)` 返回该子集的 woff2 分片信息。
+- `getLicenseType / getLicenseUrl / getUsageRights / isCommercialUseAllowed` 查询许可类型、许可文件链接、使用权与是否允许商业使用。
 
-- **Family**: Albbpht
-- **Subfamily**: Regular
-- **Available Subsets**: zh-common, en, zh, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Light/zh-common/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
+## TypeScript
 
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Light/zh-common/result.css">
+包内置完整类型定义，支持模块声明：
+
+```ts
+import type { FontLoader, FontName, LoadFontOptions } from '@windfonts/chinese-fonts';
+import Loader from '@windfonts/chinese-fonts/fonts/Albbpht-Bold';
+
+const run = async (opts?: LoadFontOptions) => {
+  const url = await Loader(opts);
+};
 ```
 
-### Alibaba-PuHuiTi-M
+## 在框架中使用
 
-- **Family**: Albbpht
-- **Subfamily**: Regular
-- **Available Subsets**: en, zh-common, full, zh
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Medium/en/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
+### React
 
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Medium/en/result.css">
+```tsx
+import { useEffect } from 'react';
+import { loadFont } from '@windfonts/chinese-fonts';
+
+export default function App() {
+  useEffect(() => {
+    loadFont('Albbpht-Bold', { subset: 'zh-common' });
+  }, []);
+  return <div style={{ fontFamily: 'Albbpht, system-ui, sans-serif' }}>中文文本</div>;
+}
 ```
 
-### Alibaba-PuHuiTi-R
+### Vue 3
 
-- **Family**: Albbpht
-- **Subfamily**: Regular
-- **Available Subsets**: zh-common, en, zh, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Regular/zh-common/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
+```ts
+import { onMounted } from 'vue';
+import { loadFont } from '@windfonts/chinese-fonts';
 
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Regular/zh-common/result.css">
+export default {
+  setup() {
+    onMounted(() => {
+      loadFont('Albbpht-Bold', { subset: 'zh-common' });
+    });
+  },
+};
 ```
 
-### AliHYAiHei
+## CDN 与子集
 
-- **Family**: Alhyznht
-- **Subfamily**: Regular
-- **Available Subsets**: zh, en, zh-common, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Alhyznht/Regular/zh/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
+- CSS 与 woff2 文件由 WindFonts CDN 提供，例如：`https://cn.windfonts.com/fonts-packages/Albbpht/Bold/zh-common/result.css`。
+- 常见子集：`zh-common`、`zh`、`en`。可通过 `getFontSubsets(fontName)` 获取当前字体的可用子集。
 
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Alhyznht/Regular/zh/result.css">
+## 列出所有支持字体
+
+```ts
+import { getAllFonts } from '@windfonts/chinese-fonts';
+console.log(getAllFonts());
 ```
 
-### AlimamaDongFangDaKai
+## 许可说明
 
-- **Family**: Almmdfdk
-- **Subfamily**: Regular
-- **Available Subsets**: zh, en, zh-common, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmdfdk/Regular/zh/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
+本包仅提供字体的 CDN 链接与许可元数据，字体版权归各字体作者或机构所有。使用前请通过 API 查询并遵循相应许可条款：
 
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmdfdk/Regular/zh/result.css">
+```ts
+import { getFontLicense, getLicenseUrl, isCommercialUseAllowed } from '@windfonts/chinese-fonts';
+const lic = getFontLicense('Albbpht-Bold');
+const url = getLicenseUrl('Albbpht-Bold');
+const ok = isCommercialUseAllowed('Albbpht-Bold');
 ```
 
-### Alimama DaoLiTi
+如需商业使用或分发，请阅读许可文件并在合规范围内使用。
 
-- **Family**: Almmdlt
-- **Subfamily**: Regular
-- **Available Subsets**: zh-common, en, zh, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmdlt/Regular/zh-common/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
+## 问题反馈
 
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmdlt/Regular/zh-common/result.css">
-```
+- 仓库：`https://github.com/Windfonts/font-packages`
+- Issue：`https://github.com/Windfonts/font-packages/issues`
 
-### Alimama ShuHeiTi
-
-- **Family**: Almmsht
-- **Subfamily**: Regular
-- **Available Subsets**: zh, en, zh-common, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmsht/Bold/zh/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
-
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmsht/Bold/zh/result.css">
-```
-
-### Droid Sans Fallback
-
-- **Family**: Azbzzwzt
-- **Subfamily**: Regular
-- **Available Subsets**: zh, en, zh-common, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Azbzzwzt/Regular/zh/result.css
-- **License**: Unknown
-- **License URL**: Not available
-- **Commercial Use**: ❌ Not allowed
-
-**Usage:**
-```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Azbzzwzt/Regular/zh/result.css">
-```
-
-
-... and 159 more fonts.
-
-## TypeScript Support
-
-This package includes TypeScript type definitions:
-
-```typescript
-import { FontInfo, UsageRights, getAllFonts, getFontInfo } from 'windfonts-chinese-fonts';
-
-const fonts: string[] = getAllFonts();
-const fontInfo: FontInfo | undefined = getFontInfo('FontName');
-```
-
-## License
-
-Each font has its own license. Please check the license information for each font before use.
-
-## Contributing
-
-To add new fonts or update existing ones, please submit a pull request to the repository.
