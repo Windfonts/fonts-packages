@@ -1,3 +1,14 @@
+# Track font binaries with Git LFS
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.woff filter=lfs diff=lfs merge=lfs -text
+*.woff2 filter=lfs diff=lfs merge=lfs -text
+
+# Optional: ignore line endings normalization for binaries
+*.ttf -text
+*.otf -text
+*.woff -text
+*.woff2 -text
 fonts/**/*.ttf filter=lfs diff=lfs merge=lfs -text
 fonts/**/*.otf filter=lfs diff=lfs merge=lfs -text
 fonts/**/*.woff filter=lfs diff=lfs merge=lfs -text
