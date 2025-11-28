@@ -1,20 +1,18 @@
-# Chinese Fonts CDN / 中文字体 CDN
+# Chinese Fonts CDN
 
 A collection of Chinese web fonts with CDN links and comprehensive license information.
 
-中文 Web 字体集合，提供可直接使用的 CDN CSS 链接与许可信息。
-
-## Installation / 安装
+## Installation
 
 ```bash
 npm i @windfonts/chinese-fonts
 ```
 
-## Usage / 使用
+## Usage
 
-### Method 1: Auto-load (Recommended) / 方法一：自动加载（推荐）
+### Method 1: Auto-load (Recommended)
 
-Simply import and the font will be automatically loaded / 直接导入即自动加载：
+Simply import and the font will be automatically loaded:
 
 ```javascript
 // Import and auto-load with default subset (zh-common)
@@ -26,14 +24,14 @@ loadFont('Albbpht-Bold').then(cssUrl => {
   // Font is now available to use
 });
 
-// Load with specific subset / 指定子集加载
+// Load with specific subset
 loadFont('Albbpht-Bold', { subset: 'zh-common' });
 
-// Load with preload for better performance / 预加载提升性能
+// Load with preload for better performance
 loadFont('Albbpht-Bold', { subset: 'zh-common', preload: true });
 ```
 
-### Method 2: Individual Font Import / 方法二：按字体模块导入
+### Method 2: Individual Font Import
 
 Import specific fonts directly:
 
@@ -46,66 +44,35 @@ font().then(cssUrl => {
   console.log('Font loaded:', cssUrl);
 });
 
-// Or with options / 传入选项
+// Or with options
 font({ subset: 'en' }).then(cssUrl => {
   console.log('English subset loaded:', cssUrl);
 });
 
-// Access font information / 获取字体信息
+// Access font information
 console.log(font.fontName);  // Font name
 console.log(font.info);      // Full font information
 console.log(font.getSubsets()); // Available subsets
 console.log(font.getCSS('zh-common')); // Get CSS URL without loading
 ```
 
-### Method 3: Manual CSS URL / 方法三：仅获取 CSS 链接
+### Method 3: Manual CSS URL
 
-Get the CSS URL without auto-loading / 仅返回链接不自动加载：
+Get the CSS URL without auto-loading:
 
 ```javascript
 const { getFontCSS, getFontSubsets } = require('@windfonts/chinese-fonts');
 
-// Get CSS URL / 获取 CSS 链接
+// Get CSS URL
 const cssUrl = getFontCSS('Albbpht-Bold', 'zh-common');
 console.log(`CSS URL: ${cssUrl}`);
 
-// Get available subsets / 获取可用子集
+// Get available subsets
 const subsets = getFontSubsets('Albbpht-Bold');
 console.log(`Available subsets: ${subsets.join(', ')}`);
 
-// Manually add to HTML / 手动插入到 HTML
+// Manually add to HTML
 // <link rel="stylesheet" href="${cssUrl}">
-```
-
-### ESM Quick Start / ESM 快速使用
-
-```js
-import { loadFont, getAllFonts, getFontInfo } from '@windfonts/chinese-fonts'
-
-await loadFont('Albbpht-Bold', { subset: 'zh-common', preload: true })
-const names = getAllFonts()
-const info = getFontInfo('Albbpht-Bold')
-```
-
-```js
-import AlbbphtBold from '@windfonts/chinese-fonts/fonts/Albbpht-Bold'
-
-await AlbbphtBold({ subset: 'zh-common' })
-```
-
-### TypeScript Lazy Load / TypeScript 懒加载示例
-
-```ts
-import type { FontLoader, LoadFontOptions } from '@windfonts/chinese-fonts';
-import AlbbphtBold from '@windfonts/chinese-fonts/fonts/Albbpht-Bold';
-
-const run = async (opts?: LoadFontOptions) => {
-  const css = await AlbbphtBold({ subset: 'zh-common', preload: true });
-};
-
-import { getAllFonts, getFontInfo } from '@windfonts/chinese-fonts';
-const names = getAllFonts();
-const info = getFontInfo('Albbpht-Bold');
 ```
 
 ## License Information API
