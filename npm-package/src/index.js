@@ -88,7 +88,7 @@ function loadFont(fontName, options = {}) {
 
 /**
  * Create a font loader function for a specific font
- * This allows: import font from 'windfonts-chinese-fonts/fonts/FontName'
+ * This allows: import font from '@windfonts/chinese-fonts/fonts/FontName'
  * @param {string} fontName - The name of the font
  * @returns {Function} Font loader function
  */

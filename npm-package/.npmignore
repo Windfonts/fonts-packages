@@ -1,0 +1,5 @@
+scripts/
+src/fonts.min.json
+src/fonts.json
+*.map
+*.test.*

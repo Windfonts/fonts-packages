@@ -263,7 +263,7 @@ function loadFont(fontName, options = {}) {
 
 /**
  * Create a font loader function for a specific font
- * This allows: import font from 'windfonts-chinese-fonts/fonts/FontName'
+ * This allows: import font from '@windfonts/chinese-fonts/fonts/FontName'
  * @param {string} fontName - The name of the font
  * @returns {Function} Font loader function
  */
@@ -509,7 +509,7 @@ A collection of Chinese web fonts with CDN links and comprehensive license infor
 ## Installation
 
 \`\`\`bash
-npm install windfonts-chinese-fonts
+npm i @windfonts/chinese-fonts
 \`\`\`
 
 ## Usage
@@ -520,7 +520,7 @@ Simply import and the font will be automatically loaded:
 
 \`\`\`javascript
 // Import and auto-load with default subset (zh-common)
-const { loadFont } = require('windfonts-chinese-fonts');
+const { loadFont } = require('@windfonts/chinese-fonts');
 
 // Load a font (returns Promise)
 loadFont('${fontList[0] || 'FontName'}').then(cssUrl => {
@@ -541,7 +541,7 @@ Import specific fonts directly:
 
 \`\`\`javascript
 // Import a specific font
-const font = require('windfonts-chinese-fonts/fonts/${fontList[0] || 'FontName'}');
+const font = require('@windfonts/chinese-fonts/fonts/${fontList[0] || 'FontName'}');
 
 // Load the font (auto-loads with default subset)
 font().then(cssUrl => {
@@ -565,7 +565,7 @@ console.log(font.getCSS('zh-common')); // Get CSS URL without loading
 Get the CSS URL without auto-loading:
 
 \`\`\`javascript
-const { getFontCSS, getFontSubsets } = require('windfonts-chinese-fonts');
+const { getFontCSS, getFontSubsets } = require('@windfonts/chinese-fonts');
 
 // Get CSS URL
 const cssUrl = getFontCSS('${fontList[0] || 'FontName'}', 'zh-common');
@@ -584,7 +584,7 @@ console.log(\`Available subsets: \${subsets.join(', ')}\`);
 This package provides comprehensive license information for each font:
 
 \`\`\`javascript
-const { getLicenseType, getLicenseUrl, getUsageRights } = require('windfonts-chinese-fonts');
+const { getLicenseType, getLicenseUrl, getUsageRights } = require('@windfonts/chinese-fonts');
 
 // Get license type
 const licenseType = getLicenseType('FontName');
@@ -640,7 +640,7 @@ This package includes ${fontCount} fonts:
 This package includes TypeScript type definitions:
 
 \`\`\`typescript
-import { FontInfo, UsageRights, getAllFonts, getFontInfo } from 'windfonts-chinese-fonts';
+import { FontInfo, UsageRights, getAllFonts, getFontInfo } from '@windfonts/chinese-fonts';
 
 const fonts: string[] = getAllFonts();
 const fontInfo: FontInfo | undefined = getFontInfo('FontName');
@@ -896,7 +896,7 @@ module.exports = createFontLoader('${fontKey}');
     log.success('='.repeat(50));
     log.success('NPM Package Generation Complete!');
     log.success('='.repeat(50));
-    log.info(`Package: windfonts-chinese-fonts@${nextVersion}`);
+    log.info(`Package: @windfonts/chinese-fonts@${nextVersion}`);
     log.info(`Fonts: ${Object.keys(fonts).length}`);
     log.info(`Location: ${OUTPUT_DIR}`);
     if (DRY_RUN) {

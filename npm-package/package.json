@@ -1,11 +1,30 @@
 {
   "name": "@windfonts/chinese-fonts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Chinese web fonts with CDN links and comprehensive license information",
   "main": "src/index.js",
   "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs",
+      "require": "./src/index.js",
+      "types": "./src/index.d.ts"
+    },
+    "./fonts/*": {
+      "import": "./fonts/*.js",
+      "require": "./fonts/*.js"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepack": "node scripts/minify-fonts-json.js"
+  },
   "files": [
-    "src",
+    "src/index.js",
+    "src/index.mjs",
+    "src/index.d.ts",
+    "src/font-data",
+    "src/font-list.json",
     "fonts"
   ],
   "keywords": [
