@@ -10,7 +10,7 @@ fonts-subset/
 .github
 .kiro
 metadata
-vue3-fonts-demo/
+.tools
 
 # Metadata
 metadata/*.json
