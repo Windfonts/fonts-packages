@@ -121,22 +121,22 @@ This package includes 169 fonts:
 
 - **Family**: Albbpht
 - **Subfamily**: Regular
-- **Available Subsets**: zh, zh-common, full, en
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Heavy/zh/result.css
+- **Available Subsets**: zh-common, zh, full, en
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Heavy/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
 **Usage:**
 ```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Heavy/zh/result.css">
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Heavy/zh-common/result.css">
 ```
 
 ### Alibaba-PuHuiTi-L
 
 - **Family**: Albbpht
 - **Subfamily**: Regular
-- **Available Subsets**: zh-common, en, zh, full
+- **Available Subsets**: zh-common, en, full, zh
 - **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Light/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
@@ -151,22 +151,22 @@ This package includes 169 fonts:
 
 - **Family**: Albbpht
 - **Subfamily**: Regular
-- **Available Subsets**: en, zh-common, full, zh
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Medium/en/result.css
+- **Available Subsets**: zh-common, en, zh, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Medium/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
 **Usage:**
 ```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Medium/en/result.css">
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Albbpht/Medium/zh-common/result.css">
 ```
 
 ### Alibaba-PuHuiTi-R
 
 - **Family**: Albbpht
 - **Subfamily**: Regular
-- **Available Subsets**: zh-common, en, zh, full
+- **Available Subsets**: zh-common, en, full, zh
 - **CSS URL**: https://cn.windfonts.com/fonts-packages/Albbpht/Regular/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
@@ -181,30 +181,30 @@ This package includes 169 fonts:
 
 - **Family**: Alhyznht
 - **Subfamily**: Regular
-- **Available Subsets**: zh, en, zh-common, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Alhyznht/Regular/zh/result.css
+- **Available Subsets**: zh-common, en, full, zh
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Alhyznht/Regular/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
 **Usage:**
 ```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Alhyznht/Regular/zh/result.css">
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Alhyznht/Regular/zh-common/result.css">
 ```
 
 ### AlimamaDongFangDaKai
 
 - **Family**: Almmdfdk
 - **Subfamily**: Regular
-- **Available Subsets**: zh, en, zh-common, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmdfdk/Regular/zh/result.css
+- **Available Subsets**: zh-common, zh, en, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmdfdk/Regular/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
 **Usage:**
 ```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmdfdk/Regular/zh/result.css">
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmdfdk/Regular/zh-common/result.css">
 ```
 
 ### Alimama DaoLiTi
@@ -226,30 +226,30 @@ This package includes 169 fonts:
 
 - **Family**: Almmsht
 - **Subfamily**: Regular
-- **Available Subsets**: zh, en, zh-common, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmsht/Bold/zh/result.css
+- **Available Subsets**: zh-common, zh, full, en
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Almmsht/Bold/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
 **Usage:**
 ```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmsht/Bold/zh/result.css">
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Almmsht/Bold/zh-common/result.css">
 ```
 
 ### Droid Sans Fallback
 
 - **Family**: Azbzzwzt
 - **Subfamily**: Regular
-- **Available Subsets**: zh, en, zh-common, full
-- **CSS URL**: https://cn.windfonts.com/fonts-packages/Azbzzwzt/Regular/zh/result.css
+- **Available Subsets**: zh-common, en, zh, full
+- **CSS URL**: https://cn.windfonts.com/fonts-packages/Azbzzwzt/Regular/zh-common/result.css
 - **License**: Unknown
 - **License URL**: Not available
 - **Commercial Use**: ❌ Not allowed
 
 **Usage:**
 ```html
-<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Azbzzwzt/Regular/zh/result.css">
+<link rel="stylesheet" href="https://cn.windfonts.com/fonts-packages/Azbzzwzt/Regular/zh-common/result.css">
 ```
 
 

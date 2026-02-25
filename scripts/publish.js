@@ -730,12 +730,15 @@ function configureNpmAuth() {
     return false;
   }
   
-  const npmrcPath = path.join(process.env.HOME || process.env.USERPROFILE, '.npmrc');
-  const npmrcContent = `//registry.npmjs.org/:_authToken=${NPM_TOKEN}\n`;
+  const registryUrl = new URL(NPM_REGISTRY);
+  const registryHost = registryUrl.host;
+  
+  const npmrcPath = path.join(OUTPUT_DIR, '.npmrc');
+  const npmrcContent = `//${registryHost}/:_authToken=${NPM_TOKEN}\nregistry=${NPM_REGISTRY}\n`;
   
   try {
     fs.writeFileSync(npmrcPath, npmrcContent);
-    log.success('NPM authentication configured');
+    log.success(`NPM authentication configured in ${npmrcPath}`);
     return true;
   } catch (error) {
     log.error(`Failed to configure npm auth: ${error.message}`);
@@ -760,7 +763,7 @@ function publishPackage() {
   log.info('Publishing package to npm...');
   
   try {
-    execSync('npm publish --access public', {
+    execSync(`npm publish --access public --registry=${NPM_REGISTRY}`, {
       cwd: OUTPUT_DIR,
       stdio: 'inherit'
     });
@@ -769,6 +772,51 @@ function publishPackage() {
     log.error(`Failed to publish package: ${error.message}`);
     throw error;
   }
+}
+
+/**
+ * Generate fonts object directly from CDN URLs (fallback when metadata is missing)
+ */
+function generateFontsFromUrls(cdnUrls) {
+  const fonts = {};
+  
+  Object.keys(cdnUrls).forEach(fontFamily => {
+    const familyData = cdnUrls[fontFamily];
+    
+    // Check if it's a nested structure (weights) or flat
+    // Based on dist/urls.json, it's Family -> Weight -> Subsets
+    Object.keys(familyData).forEach(weight => {
+      const subsetData = familyData[weight];
+      const fontKey = `${fontFamily}-${weight}`;
+      
+      fonts[fontKey] = {
+        name: `${fontFamily} ${weight}`,
+        family: fontFamily,
+        subfamily: weight,
+        weight: weight,
+        charCount: 0,
+        glyphCount: 0,
+        unicodeRanges: {},
+        files: {
+          source: `fonts/${fontFamily}/${weight}.ttf`,
+          subsets: subsetData
+        },
+        license: {
+          type: 'Unknown',
+          url: null,
+          text: null,
+          usageRights: {
+            commercial: false,
+            modification: false,
+            distribution: false,
+            privateUse: true
+          }
+        }
+      };
+    });
+  });
+  
+  return fonts;
 }
 
 /**
@@ -801,6 +849,9 @@ async function main() {
     let fonts = {};
     if (metadata) {
       fonts = transformMetadata(metadata, cdnUrls);
+    } else if (Object.keys(cdnUrls).length > 0) {
+      log.info('Generating fonts from CDN URLs...');
+      fonts = generateFontsFromUrls(cdnUrls);
     } else {
       const existing = readExistingFonts();
       if (existing) {
