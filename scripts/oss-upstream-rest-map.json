@@ -1,0 +1,97 @@
+{
+  "note": "ume mincho, yozfont, m+ gothic 12r, wenquanyi bitmap song",
+  "brands": {
+    "ume": "62a25df6-6a89-4376-84c3-89c4139588e8",
+    "yoz": "271649e6-fdcb-43e4-84bc-e02430f3cafb",
+    "mplus": "c4243c44-f357-48e4-99a9-d5637a4eaffd",
+    "wenquanyi": "bbc6cd2e-8ec5-477d-9d4c-c4a4530bd77c"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "upstream",
+      "repo": "osdn:ume-font",
+      "norm": "Ummc",
+      "family": "wenfeng-ummc",
+      "name": "梅明朝",
+      "en": "Ume Mincho",
+      "cat": "song",
+      "brand": "ume",
+      "designer": "蓬莱和多流",
+      "foundry": "梅字体",
+      "license": "梅字体许可",
+      "spdx": "Ume",
+      "languages": ["日文", "简体中文"],
+      "useCases": ["正文"],
+      "desc": "梅明朝（梅明朝 / Ume Mincho）。范美明体的直接上游。作者蓬莱和多流。可免费使用、修改、再分发，无保证。不是 OFL。"
+    },
+    {
+      "wave": "upstream",
+      "repo": "yozvox",
+      "norm": "Yozf",
+      "family": "wenfeng-yozf",
+      "name": "YozFont",
+      "en": "Y.OzFont",
+      "cat": "sans",
+      "brand": "yoz",
+      "designer": "Y.Oz",
+      "foundry": "Y.OzVox",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": ["日文", "简体中文"],
+      "useCases": ["正文", "标题"],
+      "desc": "Y.OzFont，作者 Y.OzVox。悠哉字体的上游。这一款是字库里的 YOzN Regular。SIL OFL 1.1。"
+    },
+    {
+      "wave": "upstream",
+      "repo": "mplus-bitmap-fonts",
+      "norm": "Mp12",
+      "family": "wenfeng-mp12",
+      "name": "M+ gothic 12r",
+      "en": "M+ gothic 12r",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "COZ",
+      "foundry": "M+ 字体计划",
+      "license": "M+ 位图许可",
+      "spdx": "Mplus",
+      "languages": ["日文"],
+      "useCases": ["像素", "屏幕阅读"],
+      "desc": "M+ gothic 12r。俐方体11号的直接上游。12 像素位图，按原像素画成静态字形后入库。可免费使用、修改、再分发，无保证。不是轮廓版 M+。"
+    },
+    {
+      "wave": "upstream",
+      "repo": "wqy-bitmapfont",
+      "norm": "Wqys",
+      "family": "wenfeng-wqys",
+      "name": "文泉驿点阵宋体",
+      "en": "WenQuanYi Bitmap Song",
+      "cat": "song",
+      "brand": "wenquanyi",
+      "designer": "文泉驿",
+      "foundry": "文泉驿",
+      "license": "GPL-2.0",
+      "spdx": "GPL-2.0",
+      "languages": ["简体中文", "繁体中文"],
+      "useCases": ["像素", "屏幕阅读"],
+      "desc": "文泉驿点阵宋体 12pt。点点像素各款的上游。官方位图按原像素画成静态字形后入库。GPL-2.0，带字体嵌入例外。"
+    }
+  ]
+}

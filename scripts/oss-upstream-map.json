@@ -1,0 +1,65 @@
+{
+  "note": "lineage upstreams: Yuji Syuku and Ume Gothic",
+  "brands": {
+    "yuji": "4d1f7549-3a73-4119-b9f3-5957d3b68a87",
+    "ume": "62a25df6-6a89-4376-84c3-89c4139588e8"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "serif": {
+      "name": "衬线",
+      "id": "3edc27b5-6d0f-4778-b113-52b54e809c58"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "upstream",
+      "repo": "Kinutafontfactory/Yuji",
+      "norm": "Yjsu",
+      "family": "wenfeng-yjsu",
+      "name": "佑字肃",
+      "en": "Yuji Syuku",
+      "cat": "song",
+      "brand": "yuji",
+      "designer": "Kataoka Yuji",
+      "foundry": "佑字",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": ["日文", "简体中文"],
+      "useCases": ["正文", "标题"],
+      "desc": "佑字肃（Yuji Syuku）。寒蝉拙楷的直接上游。Kinuta Font Factory，SIL OFL 1.1。汉字约 6746，不是全字库。"
+    },
+    {
+      "wave": "upstream",
+      "repo": "osdn:ume-font",
+      "norm": "Umgh",
+      "family": "wenfeng-umgh",
+      "name": "梅黑体",
+      "en": "Ume Gothic",
+      "cat": "sans",
+      "brand": "ume",
+      "designer": "蓬莱和多流",
+      "foundry": "梅字体",
+      "license": "梅字体许可",
+      "spdx": "Ume",
+      "languages": ["日文", "简体中文"],
+      "useCases": ["正文", "屏幕阅读"],
+      "desc": "梅黑体（梅ゴシック / Ume Gothic）。范美黑体的直接上游。作者蓬莱和多流。可免费使用、修改、再分发，无保证。不是 OFL。"
+    }
+  ]
+}
