@@ -1,0 +1,1214 @@
+{
+  "note": "OSS batch3 register map · 2026-09-23. Ready scout lists plus CC0 汇文明朝.",
+  "brands": {
+    "justfont": "79ef48e0-0e71-4d4f-81b9-13382c50e38f",
+    "buttaiwan": "263f1c95-75d9-40f4-bef1-214b2d72b3f7",
+    "mplus": "c4243c44-f357-48e4-99a9-d5637a4eaffd",
+    "google-fonts": "9df9ad2a-c39e-58e7-86a5-43bc1e41e37f",
+    "huiwen": "7f850511-3793-4f49-9a38-e3e478ea020e",
+    "guiwonder": "6d4facbf-0fb7-4140-b51a-c896ff537e6c",
+    "toneoz": "92ea2979-bdf3-4189-b895-bb9a968c418b"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "serif": {
+      "name": "衬线",
+      "id": "3edc27b5-6d0f-4778-b113-52b54e809c58"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "mono": {
+      "name": "Mono",
+      "id": "5191ac94-e365-431a-bde2-dcfc24c14c16"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "batch3",
+      "repo": "justfont/AbbrFesFont",
+      "norm": "AbbrFes",
+      "family": "wenfeng-abbrfes",
+      "name": "简语生活体",
+      "en": "AbbrFesFont",
+      "cat": "sans",
+      "brand": "justfont",
+      "designer": "justfont",
+      "foundry": "justfont",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "简语生活体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "justfont/AllPunType",
+      "norm": "AllPun",
+      "family": "wenfeng-allpun",
+      "name": "谐灵附体",
+      "en": "AllPunType",
+      "cat": "sans",
+      "brand": "justfont",
+      "designer": "justfont",
+      "foundry": "justfont",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Bold",
+        "Light",
+        "Regular",
+        "SemiBold"
+      ],
+      "maxWeights": 4,
+      "desc": "谐灵附体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "GuiWonder/EarlySummerSerif",
+      "norm": "Cxmc",
+      "family": "wenfeng-cxmc",
+      "name": "初夏明朝体",
+      "en": "Early Summer Serif",
+      "cat": "serif",
+      "brand": "guiwonder",
+      "designer": "GuiWonder",
+      "foundry": "中文网字计划",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Bold",
+        "Light",
+        "Medium",
+        "Regular"
+      ],
+      "maxWeights": 4,
+      "desc": "初夏明朝体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "noriokanisawa/HachiMaruPop",
+      "norm": "Hachimarupop",
+      "family": "wenfeng-hachimarupop",
+      "name": "Hachi Maru Pop",
+      "en": "Hachi Maru Pop",
+      "cat": "hand",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Hachi Maru Pop。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "GuiWonder/HeSimplFonts",
+      "norm": "Hjst",
+      "family": "wenfeng-hjst",
+      "name": "合简宋体",
+      "en": "He Simpl Serif",
+      "cat": "song",
+      "brand": "guiwonder",
+      "designer": "GuiWonder",
+      "foundry": "中文网字计划",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "简体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Bold",
+        "Light",
+        "Medium",
+        "Regular"
+      ],
+      "maxWeights": 4,
+      "desc": "合简宋体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "bosswnx/huiwenmincho-improved",
+      "norm": "Hwmc",
+      "family": "wenfeng-hwmc",
+      "name": "汇文明朝",
+      "en": "Huiwen Mincho Improved",
+      "cat": "serif",
+      "brand": "huiwen",
+      "designer": "Huiwen",
+      "foundry": "汇文",
+      "license": "CC0 1.0",
+      "spdx": "CC0-1.0",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "汇文明朝修正版。CC0 1.0。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "Kiwi-KawagotoKajiru/Kiwi-Maru",
+      "norm": "Kiwimaru",
+      "family": "wenfeng-kiwimaru",
+      "name": "Kiwi Maru",
+      "en": "Kiwi Maru",
+      "cat": "sans",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Kiwi Maru。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/kosugi",
+      "norm": "Kosugi",
+      "family": "wenfeng-kosugi",
+      "name": "Kosugi",
+      "en": "Kosugi",
+      "cat": "sans",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "Apache License 2.0",
+      "spdx": "Apache-2.0",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Kosugi。Apache-2.0。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/kosugi-maru",
+      "norm": "Kosugimaru",
+      "family": "wenfeng-kosugimaru",
+      "name": "Kosugi Maru",
+      "en": "Kosugi Maru",
+      "cat": "sans",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "Apache License 2.0",
+      "spdx": "Apache-2.0",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Kosugi Maru。Apache-2.0。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "coz-m/MPLUS_FONTS",
+      "norm": "Mplus1Code",
+      "family": "wenfeng-mplus1code",
+      "name": "M+ 1 Code",
+      "en": "M PLUS 1 Code",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ 1 Code。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "rayshan/mplus-fonts",
+      "norm": "Mplus1c",
+      "family": "wenfeng-mplus1c",
+      "name": "M+ 1c",
+      "en": "M+ 1c",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ 1c。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "rayshan/mplus-fonts",
+      "norm": "Mplus1m",
+      "family": "wenfeng-mplus1m",
+      "name": "M+ 1m",
+      "en": "M+ 1m",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ 1m。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "rayshan/mplus-fonts",
+      "norm": "Mplus1mn",
+      "family": "wenfeng-mplus1mn",
+      "name": "M+ 1mn",
+      "en": "M+ 1mn",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ 1mn。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "google/fonts",
+      "norm": "Mplus1p",
+      "family": "wenfeng-mplus1p",
+      "name": "M+ 1p",
+      "en": "M PLUS 1p",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ 1p。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "coz-m/MPLUS_FONTS",
+      "norm": "Mplus2",
+      "family": "wenfeng-mplus2",
+      "name": "M+ 2",
+      "en": "M PLUS 2",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ 2。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "rayshan/mplus-fonts",
+      "norm": "Mplus2c",
+      "family": "wenfeng-mplus2c",
+      "name": "M+ 2c",
+      "en": "M+ 2c",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ 2c。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "rayshan/mplus-fonts",
+      "norm": "Mplus2m",
+      "family": "wenfeng-mplus2m",
+      "name": "M+ 2m",
+      "en": "M+ 2m",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ 2m。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "rayshan/mplus-fonts",
+      "norm": "Mplus2p",
+      "family": "wenfeng-mplus2p",
+      "name": "M+ 2p",
+      "en": "M+ 2p",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ 2p。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "coz-m/MPLUS_FONTS",
+      "norm": "MplusCodeLatin",
+      "family": "wenfeng-mpluscodelatin",
+      "name": "M+ Code Latin",
+      "en": "M PLUS Code Latin",
+      "cat": "mono",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": "M+ 2m",
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ Code Latin，只有拉丁字母。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "coz-m/MPLUS_FONTS",
+      "norm": "MplusU",
+      "family": "wenfeng-mplusu",
+      "name": "M+ U",
+      "en": "M PLUS U",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ FONTS PROJECT",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "M+ U。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "jeffreyxuan/toneoz-font-pinyin-wenkai",
+      "norm": "Pywk",
+      "family": "wenfeng-pywk",
+      "name": "澳声通拼音文楷",
+      "en": "ToneOZ Pinyin WenKai",
+      "cat": "hand",
+      "brand": "toneoz",
+      "designer": "ToneOZ",
+      "foundry": "澳声通",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "澳声通拼音文楷。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "GuiWonder/Shanggu",
+      "norm": "Sgmt",
+      "family": "wenfeng-sgmt",
+      "name": "尚古明体",
+      "en": "Shanggu Serif",
+      "cat": "serif",
+      "brand": "guiwonder",
+      "designer": "GuiWonder",
+      "foundry": "中文网字计划",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Bold",
+        "Light",
+        "Medium",
+        "Regular"
+      ],
+      "maxWeights": 4,
+      "desc": "尚古明体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "fontdasu/ShipporiAntique",
+      "norm": "Shipporiantique",
+      "family": "wenfeng-shipporiantique",
+      "name": "Shippori Antique",
+      "en": "Shippori Antique",
+      "cat": "serif",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Shippori Antique。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "fontdasu/ShipporiAntique",
+      "norm": "Shipporiantiqueb1",
+      "family": "wenfeng-shipporiantiqueb1",
+      "name": "Shippori Antique B1",
+      "en": "Shippori Antique B1",
+      "cat": "serif",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Shippori Antique B1。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "fontdasu/ShipporiMincho",
+      "norm": "Shipporimincho",
+      "family": "wenfeng-shipporimincho",
+      "name": "Shippori Mincho",
+      "en": "Shippori Mincho",
+      "cat": "serif",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Shippori Mincho。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "fontdasu/ShipporiMincho",
+      "norm": "Shipporiminchob1",
+      "family": "wenfeng-shipporiminchob1",
+      "name": "Shippori Mincho B1",
+      "en": "Shippori Mincho B1",
+      "cat": "serif",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Shippori Mincho B1。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "justfont/The-Write-Right-Font",
+      "norm": "WriteRight",
+      "family": "wenfeng-writeright",
+      "name": "就是不错字（吧）",
+      "en": "Write Right",
+      "cat": "hand",
+      "brand": "justfont",
+      "designer": "justfont",
+      "foundry": "justfont",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "就是不错字（吧）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "ButTaiwan/evilsung",
+      "norm": "Xsong",
+      "family": "wenfeng-xsong",
+      "name": "邪宋",
+      "en": "Evil Sung",
+      "cat": "song",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "邪宋。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "ButTaiwan/genryu-font",
+      "norm": "Ylmt",
+      "family": "wenfeng-ylmt",
+      "name": "源流明体",
+      "en": "GenRyuMin TW",
+      "cat": "song",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Bold",
+        "Light",
+        "Medium",
+        "Regular"
+      ],
+      "maxWeights": 4,
+      "desc": "源流明体，台湾省字形静态 OTF。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "ButTaiwan/genyog-font",
+      "norm": "Yqht",
+      "family": "wenfeng-yqht",
+      "name": "源起黑体",
+      "en": "GenKiGothic TW",
+      "cat": "sans",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Bold",
+        "Light",
+        "Medium",
+        "Regular"
+      ],
+      "maxWeights": 4,
+      "desc": "源起黑体，台湾省字形静态 OTF。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "ButTaiwan/genyo-font",
+      "norm": "Yqmt",
+      "family": "wenfeng-yqmt",
+      "name": "源起明体",
+      "en": "GenKiMin TW",
+      "cat": "serif",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Bold",
+        "Light",
+        "Medium",
+        "Regular"
+      ],
+      "maxWeights": 4,
+      "desc": "源起明体，台湾省字形静态 OTF。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "ButTaiwan/genwan-font",
+      "norm": "Yunmt",
+      "family": "wenfeng-yunmt",
+      "name": "源云明体",
+      "en": "GenWanMin TW",
+      "cat": "serif",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Light",
+        "Medium",
+        "Regular"
+      ],
+      "maxWeights": 3,
+      "desc": "源云明体，台湾省字形静态 OTF。没有 Bold。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "tanukifont/YuseiMagic",
+      "norm": "Yuseimagic",
+      "family": "wenfeng-yuseimagic",
+      "name": "Yusei Magic",
+      "en": "Yusei Magic",
+      "cat": "sans",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Yusei Magic。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "GuiWonder/MoonStarsKai",
+      "norm": "Yxkt",
+      "family": "wenfeng-yxkt",
+      "name": "月星楷",
+      "en": "Moon Stars Kai",
+      "cat": "hand",
+      "brand": "guiwonder",
+      "designer": "GuiWonder",
+      "foundry": "中文网字计划",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Bold",
+        "Light",
+        "Regular"
+      ],
+      "maxWeights": 3,
+      "desc": "月星楷。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/zen-antique",
+      "norm": "Zenantique",
+      "family": "wenfeng-zenantique",
+      "name": "Zen Antique",
+      "en": "Zen Antique",
+      "cat": "serif",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Zen Antique。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/zen-antique",
+      "norm": "Zenantiquesoft",
+      "family": "wenfeng-zenantiquesoft",
+      "name": "Zen Antique Soft",
+      "en": "Zen Antique Soft",
+      "cat": "serif",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Zen Antique Soft。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/zen-dots",
+      "norm": "Zendots",
+      "family": "wenfeng-zendots",
+      "name": "Zen Dots",
+      "en": "Zen Dots",
+      "cat": "other",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": "M+ 2m",
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Zen Dots。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/zen-kakugothic",
+      "norm": "Zenkakuantique",
+      "family": "wenfeng-zenkakuantique",
+      "name": "Zen Kaku Gothic Antique",
+      "en": "Zen Kaku Gothic Antique",
+      "cat": "sans",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Zen Kaku Gothic Antique。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/zen-kakugothic",
+      "norm": "Zenkakunew",
+      "family": "wenfeng-zenkakunew",
+      "name": "Zen Kaku Gothic New",
+      "en": "Zen Kaku Gothic New",
+      "cat": "sans",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Zen Kaku Gothic New。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/zen-kurenaido",
+      "norm": "Zenkurenaido",
+      "family": "wenfeng-zenkurenaido",
+      "name": "Zen Kurenaido",
+      "en": "Zen Kurenaido",
+      "cat": "hand",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Zen Kurenaido。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/zen-loop",
+      "norm": "Zenloop",
+      "family": "wenfeng-zenloop",
+      "name": "Zen Loop",
+      "en": "Zen Loop",
+      "cat": "hand",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": "M+ 2m",
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Zen Loop。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/zen-oldmincho",
+      "norm": "Zenoldmincho",
+      "family": "wenfeng-zenoldmincho",
+      "name": "Zen Old Mincho",
+      "en": "Zen Old Mincho",
+      "cat": "serif",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Zen Old Mincho。SIL OFL 1.1。"
+    },
+    {
+      "wave": "batch3",
+      "repo": "googlefonts/zen-tokyo-zoo",
+      "norm": "Zentokyozoo",
+      "family": "wenfeng-zentokyozoo",
+      "name": "Zen Tokyo Zoo",
+      "en": "Zen Tokyo Zoo",
+      "cat": "other",
+      "brand": "google-fonts",
+      "designer": "Google",
+      "foundry": "Google",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": "M+ 2m",
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "Zen Tokyo Zoo。SIL OFL 1.1。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "note": "Sarasa Gothic SC official regional pack",
+  "brands": {
+    "sarasa": "e049d0d7-b424-4713-9667-38ba3c0784f5"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "serif": {
+      "name": "衬线",
+      "id": "3edc27b5-6d0f-4778-b113-52b54e809c58"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "mono": {
+      "name": "Mono",
+      "id": "5191ac94-e365-431a-bde2-dcfc24c14c16"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "sarasa",
+      "repo": "be5invis/Sarasa-Gothic",
+      "norm": "Gsht",
+      "family": "wenfeng-gsht",
+      "name": "更纱黑体",
+      "en": "Sarasa Gothic SC",
+      "cat": "sans",
+      "brand": "sarasa",
+      "designer": "Belleve Invis",
+      "foundry": "更纱",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "简体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "代码",
+        "屏幕阅读"
+      ],
+      "weightPrefer": [
+        "Light",
+        "Regular",
+        "SemiBold",
+        "Bold"
+      ],
+      "maxWeights": 4,
+      "desc": "更纱黑体简体。官方发行包 SarasaGothicSC-TTF-1.0.41.7z，不是全集 TTC。SIL OFL 1.1。"
+    }
+  ]
+}

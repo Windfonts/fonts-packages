@@ -1,0 +1,105 @@
+{
+  "note": "serif TC, genseki, sarasa mono sc",
+  "brands": {
+    "adobe": "3ce366d5-c82a-5bc2-8dd5-338bc983c92a",
+    "buttaiwan": "263f1c95-75d9-40f4-bef1-214b2d72b3f7",
+    "sarasa": "e049d0d7-b424-4713-9667-38ba3c0784f5"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "serif": {
+      "name": "衬线",
+      "id": "3edc27b5-6d0f-4778-b113-52b54e809c58"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "mono": {
+      "name": "Mono",
+      "id": "5191ac94-e365-431a-bde2-dcfc24c14c16"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "three",
+      "repo": "adobe-fonts/source-han-serif",
+      "norm": "Systtc",
+      "family": "wenfeng-systtc",
+      "name": "思源宋体 TC",
+      "en": "Source Han Serif TC",
+      "cat": "song",
+      "brand": "adobe",
+      "designer": "Adobe",
+      "foundry": "Adobe",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "desc": "思源宋体繁体，2.003 的 SourceHanSerifTC 静态 OTF，七个字重。SIL OFL 1.1。"
+    },
+    {
+      "wave": "three",
+      "repo": "ButTaiwan/genseki-font",
+      "norm": "Ysht",
+      "family": "wenfeng-ysht",
+      "name": "源石黑体",
+      "en": "GenSeki Gothic TW",
+      "cat": "sans",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "desc": "源石黑体，台湾省字形静态 OTF。衍生自思源黑体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "three",
+      "repo": "be5invis/Sarasa-Gothic",
+      "norm": "Gskd",
+      "family": "wenfeng-gskd",
+      "name": "更纱等宽",
+      "en": "Sarasa Mono SC",
+      "cat": "mono",
+      "brand": "sarasa",
+      "designer": "Belleve Invis",
+      "foundry": "更纱",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "简体中文",
+        "英语"
+      ],
+      "useCases": [
+        "代码",
+        "屏幕阅读"
+      ],
+      "desc": "更纱等宽简体。官方包 SarasaMonoSC-TTF-1.0.41.7z。字库家族名是「等距更纱黑体 SC」。SIL OFL 1.1。"
+    }
+  ]
+}

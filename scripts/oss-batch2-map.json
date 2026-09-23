@@ -1,0 +1,531 @@
+{
+  "note": "OSS batch2 ingest map · 2026-09-23. Recheck three are registered. Wave buttaiwan/chiron/triones/plangothic added 2026-09-23 night.",
+  "brands": {
+    "chilltype": "e0a7cb01-7ee5-492c-be8f-0a81d70ced16",
+    "lxgw": "51686ef7-69ef-4d5a-8bb2-e8b4aa93f97e",
+    "welai": "c4b7c24b-a880-4a52-9441-7efeb19de1d8",
+    "adobe": "3ce366d5-c82a-5bc2-8dd5-338bc983c92a",
+    "atelier-anchor": "e96ad611-0b6c-40a0-8675-14c797e28a68",
+    "fontworks": "5f7ebc2a-32e6-46f2-80a8-47131c209422",
+    "aqua": "2224ffb8-c2bf-4727-8f71-2e6c0955e7c2",
+    "mplus": "c4243c44-f357-48e4-99a9-d5637a4eaffd",
+    "justfont": "79ef48e0-0e71-4d4f-81b9-13382c50e38f",
+    "google": "9df9ad2a-c39e-58e7-86a5-43bc1e41e37f",
+    "buttaiwan": "263f1c95-75d9-40f4-bef1-214b2d72b3f7",
+    "chiron": "774fc5eb-0f9a-47f3-bad9-399c08e96c1f",
+    "triones": "5608588d-128c-4742-aa65-f7981cfea5be",
+    "plangothic": "7479cc19-0d73-4097-b550-ccbb46351960"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "serif": {
+      "name": "衬线",
+      "id": "3edc27b5-6d0f-4778-b113-52b54e809c58"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "mono": {
+      "name": "Mono",
+      "id": "5191ac94-e365-431a-bde2-dcfc24c14c16"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "recheck",
+      "repo": "Warren2060/ChillPixels",
+      "norm": "Hcpixels",
+      "family": "wenfeng-hcpixels",
+      "name": "寒蝉像素体",
+      "en": "Chill Pixels",
+      "cat": "sans",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "assetUrl": "https://raw.githubusercontent.com/Warren2060/ChillPixels/main/ChillPixels.zip",
+      "weightPrefer": [
+        "Mono",
+        "Maximal",
+        "Minimalism",
+        "Matrix"
+      ],
+      "maxWeights": 4,
+      "desc": "寒蝉像素体，四款风格面（非传统字重）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "recheck",
+      "repo": "Warren2060/ChillLine",
+      "norm": "Hcline",
+      "family": "wenfeng-hcline",
+      "name": "寒蝉线体",
+      "en": "Chill Line",
+      "cat": "sans",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "assetUrl": "https://raw.githubusercontent.com/Warren2060/ChillLine/main/Chill%20Line.zip",
+      "weightPrefer": [
+        "Thin",
+        "ExtraLight",
+        "Light",
+        "Regular",
+        "Medium",
+        "SemiBold",
+        "Bold",
+        "ExtraBold",
+        "Heavy",
+        "Black"
+      ],
+      "maxWeights": 10,
+      "desc": "寒蝉线体，多字重静态 OTF（忽略 VF）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "recheck",
+      "repo": "adobe-fonts/source-han-mono",
+      "norm": "Sykd",
+      "family": "wenfeng-sykd",
+      "name": "思源等宽",
+      "en": "Source Han Mono SC",
+      "cat": "mono",
+      "brand": "adobe",
+      "designer": "Adobe",
+      "foundry": "Adobe",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "ExtraLight/OTC/SourceHanMonoSC-ExtraLight.otf",
+        "Light/OTC/SourceHanMonoSC-Light.otf",
+        "Normal/OTC/SourceHanMonoSC-Normal.otf",
+        "Regular/OTC/SourceHanMonoSC-Regular.otf",
+        "Medium/OTC/SourceHanMonoSC-Medium.otf",
+        "Bold/OTC/SourceHanMonoSC-Bold.otf",
+        "Heavy/OTC/SourceHanMonoSC-Heavy.otf"
+      ],
+      "weightPrefer": [
+        "ExtraLight",
+        "Light",
+        "Normal",
+        "Regular",
+        "Medium",
+        "Bold",
+        "Heavy"
+      ],
+      "maxWeights": 7,
+      "regionPrefer": "SC",
+      "desc": "思源等宽简体，仓内分面 OTF（非 TTC）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "buttaiwan",
+      "repo": "ButTaiwan/iansui",
+      "norm": "Ysui",
+      "family": "wenfeng-ysui",
+      "name": "芫荽",
+      "en": "Iansui",
+      "cat": "hand",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "source": "release",
+      "assetPrefer": [
+        "iansui.zip"
+      ],
+      "assetAvoid": [
+        "ttc",
+        "variable"
+      ],
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "儿童读物"
+      ],
+      "desc": "芫荽，由 Klee One 调整到台湾省教育部字形方向的繁体字。SIL OFL 1.1。",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "maxWeights": 4,
+      "weightPrefer": [
+        "Regular",
+        "Medium",
+        "Bold",
+        "Light",
+        "SemiBold",
+        "ExtraLight"
+      ]
+    },
+    {
+      "wave": "buttaiwan",
+      "repo": "ButTaiwan/gensen-font",
+      "norm": "Yqyt",
+      "family": "wenfeng-yqyt",
+      "name": "源泉圆体",
+      "en": "GenSenRounded TW",
+      "cat": "sans",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "source": "release",
+      "assetPrefer": [
+        "GenSenRounded2TW-otf"
+      ],
+      "assetAvoid": [
+        "ttc",
+        "jp",
+        "tc-",
+        "pjp",
+        "variable"
+      ],
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "desc": "源泉圆体台湾省字形，静态 OTF（不是 TTC）。衍生自思源黑体。SIL OFL 1.1。",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "maxWeights": 4,
+      "weightPrefer": [
+        "Regular",
+        "Medium",
+        "Bold",
+        "Light",
+        "SemiBold",
+        "ExtraLight"
+      ]
+    },
+    {
+      "wave": "buttaiwan",
+      "repo": "ButTaiwan/genyo-font",
+      "norm": "Yymt",
+      "family": "wenfeng-yymt",
+      "name": "源样明体",
+      "en": "GenYoMin TW",
+      "cat": "serif",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "source": "release",
+      "assetPrefer": [
+        "GenYoMin2TW-otf"
+      ],
+      "assetAvoid": [
+        "ttc",
+        "jp",
+        "genki",
+        "tc-",
+        "pjp",
+        "variable"
+      ],
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "desc": "源样明体台湾省字形，静态 OTF。衍生自思源宋体。SIL OFL 1.1。",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "maxWeights": 4,
+      "weightPrefer": [
+        "Regular",
+        "Medium",
+        "Bold",
+        "Light",
+        "SemiBold",
+        "ExtraLight"
+      ]
+    },
+    {
+      "wave": "buttaiwan",
+      "repo": "ButTaiwan/genyog-font",
+      "norm": "Yyht",
+      "family": "wenfeng-yyht",
+      "name": "源样黑体",
+      "en": "GenYoGothic TW",
+      "cat": "sans",
+      "brand": "buttaiwan",
+      "designer": "ButTaiwan",
+      "foundry": "但",
+      "source": "release",
+      "assetPrefer": [
+        "GenYoGothic2TW-otf"
+      ],
+      "assetAvoid": [
+        "ttc",
+        "jp",
+        "genki",
+        "tc-",
+        "pjp",
+        "variable"
+      ],
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "desc": "源样黑体台湾省字形，静态 OTF。衍生自思源黑体。SIL OFL 1.1。",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "maxWeights": 4,
+      "weightPrefer": [
+        "Regular",
+        "Medium",
+        "Bold",
+        "Light",
+        "SemiBold",
+        "ExtraLight"
+      ]
+    },
+    {
+      "wave": "chiron",
+      "repo": "chiron-fonts/chiron-sung-hk",
+      "norm": "Zyst",
+      "family": "wenfeng-zyst",
+      "name": "昭源宋体",
+      "en": "Chiron Sung HK",
+      "cat": "song",
+      "brand": "chiron",
+      "designer": "Tamcy",
+      "foundry": "昭源",
+      "source": "raw",
+      "rawPaths": [
+        "STATIC_OTF/ChironSungHK-L.otf",
+        "STATIC_OTF/ChironSungHK-R.otf",
+        "STATIC_OTF/ChironSungHK-M.otf",
+        "STATIC_OTF/ChironSungHK-B.otf"
+      ],
+      "weightMap": {
+        "ChironSungHK-L.otf": "Light",
+        "ChironSungHK-R.otf": "Regular",
+        "ChironSungHK-M.otf": "Medium",
+        "ChironSungHK-B.otf": "Bold"
+      },
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "desc": "昭源宋体香港字形，静态 OTF，不含斜体。基于思源宋体。SIL OFL 1.1。",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "maxWeights": 4,
+      "weightPrefer": [
+        "Regular",
+        "Medium",
+        "Bold",
+        "Light",
+        "SemiBold",
+        "ExtraLight"
+      ]
+    },
+    {
+      "wave": "chiron",
+      "repo": "chiron-fonts/chiron-hei-hk",
+      "norm": "Zyht",
+      "family": "wenfeng-zyht",
+      "name": "昭源黑体",
+      "en": "Chiron Hei HK",
+      "cat": "sans",
+      "brand": "chiron",
+      "designer": "Tamcy",
+      "foundry": "昭源",
+      "source": "raw",
+      "rawPaths": [
+        "STATIC_OTF/ChironHeiHK-L.otf",
+        "STATIC_OTF/ChironHeiHK-R.otf",
+        "STATIC_OTF/ChironHeiHK-M.otf",
+        "STATIC_OTF/ChironHeiHK-B.otf"
+      ],
+      "weightMap": {
+        "ChironHeiHK-L.otf": "Light",
+        "ChironHeiHK-R.otf": "Regular",
+        "ChironHeiHK-M.otf": "Medium",
+        "ChironHeiHK-B.otf": "Bold"
+      },
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "desc": "昭源黑体香港字形，静态 OTF，不含斜体。基于思源黑体。SIL OFL 1.1。",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "maxWeights": 4,
+      "weightPrefer": [
+        "Regular",
+        "Medium",
+        "Bold",
+        "Light",
+        "SemiBold",
+        "ExtraLight"
+      ]
+    },
+    {
+      "wave": "chiron",
+      "repo": "chiron-fonts/chiron-go-round-tc",
+      "norm": "Zyyt",
+      "family": "wenfeng-zyyt",
+      "name": "昭源圆体",
+      "en": "Chiron GoRound TC",
+      "cat": "sans",
+      "brand": "chiron",
+      "designer": "Tamcy",
+      "foundry": "昭源",
+      "source": "raw",
+      "rawPaths": [
+        "STATIC_OTF/ChironGoRoundTC-300L.otf",
+        "STATIC_OTF/ChironGoRoundTC-400R.otf",
+        "STATIC_OTF/ChironGoRoundTC-500M.otf",
+        "STATIC_OTF/ChironGoRoundTC-700B.otf"
+      ],
+      "weightMap": {
+        "ChironGoRoundTC-300L.otf": "Light",
+        "ChironGoRoundTC-400R.otf": "Regular",
+        "ChironGoRoundTC-500M.otf": "Medium",
+        "ChironGoRoundTC-700B.otf": "Bold"
+      },
+      "languages": [
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "desc": "昭源圆体繁体静态 OTF。SIL OFL 1.1。",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "maxWeights": 4,
+      "weightPrefer": [
+        "Regular",
+        "Medium",
+        "Bold",
+        "Light",
+        "SemiBold",
+        "ExtraLight"
+      ]
+    },
+    {
+      "wave": "triones",
+      "repo": "TrionesType/zhuque",
+      "norm": "Zqfs",
+      "family": "wenfeng-zqfs",
+      "name": "朱雀仿宋",
+      "en": "Zhuque Fangsong",
+      "cat": "song",
+      "brand": "triones",
+      "designer": "璇玑造字",
+      "foundry": "璇玑造字",
+      "source": "release",
+      "assetPrefer": [
+        "ZhuqueFangsong"
+      ],
+      "assetAvoid": [
+        "ttc",
+        "variable",
+        "woff"
+      ],
+      "languages": [
+        "简体中文",
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题"
+      ],
+      "desc": "朱雀仿宋 v0.212。name 表写着「朱雀仿宋（预览测试版）」。SIL OFL 1.1。",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "maxWeights": 4,
+      "weightPrefer": [
+        "Regular",
+        "Medium",
+        "Bold",
+        "Light",
+        "SemiBold",
+        "ExtraLight"
+      ]
+    },
+    {
+      "wave": "plangothic",
+      "repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "norm": "Bht",
+      "family": "wenfeng-bht",
+      "name": "遍黑体",
+      "en": "Plangothic",
+      "cat": "sans",
+      "brand": "plangothic",
+      "designer": "Losketch",
+      "foundry": "遍黑体计划",
+      "source": "release",
+      "assetPrefer": [
+        "Plangothic-Static"
+      ],
+      "assetAvoid": [
+        "super",
+        "web",
+        "7z",
+        "p1-",
+        "p2-"
+      ],
+      "languages": [
+        "简体中文",
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "扩展汉字"
+      ],
+      "desc": "遍黑体静态包。字体 SIL OFL 1.1（仓库里的程序是 MIT）。",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "maxWeights": 4,
+      "weightPrefer": [
+        "Regular",
+        "Medium",
+        "Bold",
+        "Light",
+        "SemiBold",
+        "ExtraLight"
+      ],
+      "skip": true,
+      "skipReason": "静态 zip 里完整字是 Plangothic.ttc；P1/P2 是分平面，不是字重。TTC 不进现有管线。"
+    }
+  ]
+}

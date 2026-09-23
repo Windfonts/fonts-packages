@@ -1,0 +1,2421 @@
+{
+  "note": "OSS batch1 ingest map · 2026-09-23. family=wenfeng-{短码}; norm=OSS PascalCase; files filled by download script or explicit urls.",
+  "brands": {
+    "chilltype": "e0a7cb01-7ee5-492c-be8f-0a81d70ced16",
+    "lxgw": "51686ef7-69ef-4d5a-8bb2-e8b4aa93f97e",
+    "welai": "12c18b6c-344b-5b6d-bee8-d4ecc160d33c",
+    "adobe": "3ce366d5-c82a-5bc2-8dd5-338bc983c92a",
+    "atelier-anchor": "e96ad611-0b6c-40a0-8675-14c797e28a68",
+    "fontworks": "5f7ebc2a-32e6-46f2-80a8-47131c209422",
+    "aqua": "2224ffb8-c2bf-4727-8f71-2e6c0955e7c2",
+    "mplus": "c4243c44-f357-48e4-99a9-d5637a4eaffd",
+    "justfont": "79ef48e0-0e71-4d4f-81b9-13382c50e38f",
+    "google": "9df9ad2a-c39e-58e7-86a5-43bc1e41e37f"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "serif": {
+      "name": "衬线",
+      "id": "3edc27b5-6d0f-4778-b113-52b54e809c58"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "mono": {
+      "name": "Mono",
+      "id": "5191ac94-e365-431a-bde2-dcfc24c14c16"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillBitmap",
+      "norm": "Hcdzt",
+      "family": "wenfeng-hcdzt",
+      "name": "寒蝉点阵体",
+      "en": "Chill Bitmap",
+      "cat": "sans",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "assetPrefer": [
+        "ChillBitmap_New.zip"
+      ],
+      "weightPrefer": [
+        "Regular",
+        "Bold",
+        "Light"
+      ],
+      "maxWeights": 3,
+      "desc": "寒蝉点阵体，像素风格黑体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillRound",
+      "norm": "Hcrym",
+      "family": "wenfeng-hcrym",
+      "name": "寒蝉圆体 M",
+      "en": "Chill Round M",
+      "cat": "sans",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "assetPrefer": [
+        "ChillRoundM"
+      ],
+      "weightPrefer": [
+        "Regular",
+        "Bold",
+        "Medium"
+      ],
+      "maxWeights": 3,
+      "desc": "寒蝉圆体 M。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillRoundGothic",
+      "norm": "Hcyht",
+      "family": "wenfeng-hcyht",
+      "name": "寒蝉圆黑体",
+      "en": "Chill Round Gothic",
+      "cat": "sans",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "weightPrefer": [
+        "Regular",
+        "Bold",
+        "Medium"
+      ],
+      "maxWeights": 4,
+      "desc": "寒蝉圆黑体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillMovableType",
+      "norm": "Hchfs",
+      "family": "wenfeng-hchfs",
+      "name": "寒蝉活仿宋",
+      "en": "Chill Huo Fang Song",
+      "cat": "song",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 2,
+      "desc": "寒蝉活字（活仿宋）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillJinshuSong",
+      "norm": "Hcjss",
+      "family": "wenfeng-hcjss",
+      "name": "寒蝉锦书宋",
+      "en": "Chill Jinshu Song",
+      "cat": "song",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "weightPrefer": [
+        "Regular",
+        "Bold"
+      ],
+      "maxWeights": 2,
+      "desc": "寒蝉锦书宋。SIL OFL 1.1。",
+      "note": "release zip ~241MB — prefer Regular only if disk tight"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/Chillkai",
+      "norm": "Hckt",
+      "family": "wenfeng-hckt",
+      "name": "寒蝉楷体",
+      "en": "Chill Kai",
+      "cat": "hand",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "assetPrefer": [
+        "ChillKai.zip"
+      ],
+      "assetAvoid": [
+        "Big5"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 2,
+      "desc": "寒蝉楷体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillDuanHeiSong",
+      "norm": "Hcdhs",
+      "family": "wenfeng-hcdhs",
+      "name": "寒蝉端黑宋",
+      "en": "Chill Duan Hei Song",
+      "cat": "song",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "assetPrefer": [
+        "ChillDuanHeiSong_v"
+      ],
+      "assetAvoid": [
+        "Pro"
+      ],
+      "weightPrefer": [
+        "Regular",
+        "Bold",
+        "Medium"
+      ],
+      "maxWeights": 3,
+      "desc": "寒蝉端黑宋。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillDIN-ChillDINGothic",
+      "norm": "Hcdin",
+      "family": "wenfeng-hcdin",
+      "name": "寒蝉 DIN 哥特",
+      "en": "Chill DIN Gothic",
+      "cat": "sans",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "weightPrefer": [
+        "Regular",
+        "Bold",
+        "Medium"
+      ],
+      "maxWeights": 4,
+      "desc": "寒蝉 DIN Gothic。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillCalligraphy",
+      "norm": "Hclck2",
+      "family": "wenfeng-hclck2",
+      "name": "寒蝉龙藏楷",
+      "en": "Chill LongCang Kai",
+      "cat": "hand",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "寒蝉书法（龙藏楷）。SIL OFL 1.1。",
+      "skipReason": null,
+      "note": "目录已有 wenfeng-hclcks 龙藏楷书；本款为 ChillCalligraphy 仓最新龙藏楷 release，短码 hclck2 区分"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillTanHei",
+      "norm": "Hcth",
+      "family": "wenfeng-hcth",
+      "name": "寒蝉有机体",
+      "en": "Chill Organic",
+      "cat": "sans",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "weightPrefer": [
+        "Regular",
+        "Bold"
+      ],
+      "maxWeights": 3,
+      "desc": "寒蝉谭黑系列·有机体（原包 ChillOrganic / 寒蝉有机体）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillYunmoGothic",
+      "norm": "Hcymh",
+      "family": "wenfeng-hcymh",
+      "name": "寒蝉云墨黑",
+      "en": "Chill Yunmo Gothic",
+      "cat": "sans",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "寒蝉云墨体/ChillYunmoGothicRegular.otf",
+        "寒蝉云墨体/ChillYunmoGothicMedium.otf",
+        "寒蝉云墨体/ChillYunmoGothicBold.otf",
+        "寒蝉云墨体/ChillYunmoGothicLight.otf"
+      ],
+      "weightMap": {
+        "ChillYunmoGothicRegular.otf": "Regular",
+        "ChillYunmoGothicMedium.otf": "Medium",
+        "ChillYunmoGothicBold.otf": "Bold",
+        "ChillYunmoGothicLight.otf": "Light"
+      },
+      "maxWeights": 4,
+      "desc": "寒蝉云墨黑。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillZhuoKai",
+      "norm": "Hczk",
+      "family": "wenfeng-hczk",
+      "name": "寒蝉拙楷",
+      "en": "Chill Zhuo Kai",
+      "cat": "hand",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "assetPrefer": [
+        ".ttf"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "寒蝉拙楷。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillMatrix",
+      "norm": "Hcjz",
+      "family": "wenfeng-hcjz",
+      "name": "寒蝉矩阵体",
+      "en": "Chill Matrix",
+      "cat": "sans",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "weightPrefer": [
+        "Normal",
+        "Regular",
+        "Demi",
+        "Ultra"
+      ],
+      "maxWeights": 3,
+      "desc": "寒蝉矩阵体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillMoonmono",
+      "norm": "Hcydk",
+      "family": "wenfeng-hcydk",
+      "name": "寒蝉月等宽",
+      "en": "Chill Moon Mono",
+      "cat": "mono",
+      "brand": "chilltype",
+      "designer": "ChillType",
+      "foundry": "寒蝉字型",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 2,
+      "desc": "寒蝉月等宽。SIL OFL 1.1。"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillMatrixBlack",
+      "norm": "Hcjzh",
+      "family": "wenfeng-hcjzh",
+      "name": "寒蝉矩阵黑",
+      "en": "Chill Matrix Black",
+      "cat": "sans",
+      "brand": "chilltype",
+      "skip": true,
+      "skipReason": "仓库仅 Demo OTF，非完整可发布字库"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillPixels",
+      "norm": "Hcxz",
+      "family": "wenfeng-hcxz",
+      "name": "寒蝉像素",
+      "en": "Chill Pixels",
+      "cat": "sans",
+      "brand": "chilltype",
+      "skip": true,
+      "skipReason": "仓库无 TTF/OTF 字库文件"
+    },
+    {
+      "wave": "chilltype",
+      "repo": "Warren2060/ChillLine",
+      "norm": "Hcxt",
+      "family": "wenfeng-hcxt",
+      "name": "寒蝉线体",
+      "en": "Chill Line",
+      "cat": "sans",
+      "brand": "chilltype",
+      "skip": true,
+      "skipReason": "仓库无 TTF/OTF 字库文件"
+    },
+    {
+      "wave": "fontworks",
+      "repo": "fontworks-fonts/Klee",
+      "norm": "Klee",
+      "family": "wenfeng-klee",
+      "name": "Klee One",
+      "en": "Klee One",
+      "cat": "hand",
+      "brand": "fontworks",
+      "designer": "Fontworks",
+      "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "fonts/ttf/KleeOne-Regular.ttf",
+        "fonts/ttf/KleeOne-SemiBold.ttf"
+      ],
+      "weightMap": {
+        "KleeOne-Regular.ttf": "Regular",
+        "KleeOne-SemiBold.ttf": "SemiBold"
+      },
+      "maxWeights": 2,
+      "desc": "Klee One by Fontworks. SIL OFL 1.1."
+    },
+    {
+      "wave": "fontworks",
+      "repo": "fontworks-fonts/DotGothic16",
+      "norm": "Dotgothic",
+      "family": "wenfeng-dotgothic",
+      "name": "DotGothic16",
+      "en": "DotGothic16",
+      "cat": "sans",
+      "brand": "fontworks",
+      "designer": "Fontworks",
+      "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "fonts/ttf/DotGothic16-Regular.ttf"
+      ],
+      "weightMap": {
+        "DotGothic16-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "DotGothic16. SIL OFL 1.1."
+    },
+    {
+      "wave": "fontworks",
+      "repo": "fontworks-fonts/Reggae",
+      "norm": "Reggae",
+      "family": "wenfeng-reggae",
+      "name": "Reggae One",
+      "en": "Reggae One",
+      "cat": "sans",
+      "brand": "fontworks",
+      "designer": "Fontworks",
+      "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "fonts/ttf/ReggaeOne-Regular.ttf"
+      ],
+      "maxWeights": 1,
+      "desc": "Reggae One. SIL OFL 1.1."
+    },
+    {
+      "wave": "fontworks",
+      "repo": "fontworks-fonts/Train",
+      "norm": "Train",
+      "family": "wenfeng-train",
+      "name": "Train One",
+      "en": "Train One",
+      "cat": "sans",
+      "brand": "fontworks",
+      "designer": "Fontworks",
+      "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "fonts/ttf/TrainOne-Regular.ttf"
+      ],
+      "maxWeights": 1,
+      "desc": "Train One. SIL OFL 1.1."
+    },
+    {
+      "wave": "fontworks",
+      "repo": "fontworks-fonts/Rampart",
+      "norm": "Rampart",
+      "family": "wenfeng-rampart",
+      "name": "Rampart One",
+      "en": "Rampart One",
+      "cat": "sans",
+      "brand": "fontworks",
+      "designer": "Fontworks",
+      "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "fonts/ttf/RampartOne-Regular.ttf"
+      ],
+      "maxWeights": 1,
+      "desc": "Rampart One. SIL OFL 1.1."
+    },
+    {
+      "wave": "fontworks",
+      "repo": "fontworks-fonts/Stick",
+      "norm": "Stick",
+      "family": "wenfeng-stick",
+      "name": "Stick",
+      "en": "Stick",
+      "cat": "sans",
+      "brand": "fontworks",
+      "designer": "Fontworks",
+      "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "fonts/ttf/Stick-Regular.ttf"
+      ],
+      "maxWeights": 1,
+      "desc": "Stick. SIL OFL 1.1."
+    },
+    {
+      "wave": "lxgw",
+      "repo": "lxgw/LxgwSeal",
+      "norm": "Xwzt",
+      "family": "wenfeng-xwzt",
+      "name": "霞鹜篆体",
+      "en": "LXGW Seal",
+      "cat": "other",
+      "brand": "lxgw",
+      "designer": "LXGW",
+      "foundry": "LXGW",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "maxWeights": 1,
+      "desc": "霞鹜篆体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "lxgw",
+      "repo": "lxgw/BlackSugarPlumCandy",
+      "norm": "Bspsc",
+      "family": "wenfeng-bspsc",
+      "name": "黑糖梅子糖",
+      "en": "Black Sugar Plum Candy",
+      "cat": "sans",
+      "brand": "lxgw",
+      "designer": "LXGW",
+      "foundry": "LXGW",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "TTF/BlackSugarPlumCandy-Bold.ttf"
+      ],
+      "weightMap": {
+        "BlackSugarPlumCandy-Bold.ttf": "Bold"
+      },
+      "maxWeights": 1,
+      "desc": "Black Sugar Plum Candy。SIL OFL 1.1。"
+    },
+    {
+      "wave": "lxgw",
+      "repo": "lxgw/975Hei",
+      "norm": "Hei975",
+      "family": "wenfeng-975hei",
+      "name": "975 黑体",
+      "en": "LXGW 975 Hei",
+      "cat": "sans",
+      "brand": "lxgw",
+      "designer": "LXGW",
+      "foundry": "LXGW",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 3,
+      "desc": "975 黑体。SIL OFL 1.1。",
+      "note": "release files named 200W/300W/400W — map 400W→Regular"
+    },
+    {
+      "wave": "lxgw",
+      "repo": "lxgw/Pengli",
+      "norm": "Plwk",
+      "family": "wenfeng-plwk",
+      "name": "鹏翎文楷",
+      "en": "Pengli WenKai",
+      "cat": "hand",
+      "brand": "lxgw",
+      "designer": "LXGW",
+      "foundry": "LXGW",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "maxWeights": 1,
+      "desc": "鹏翎文楷。SIL OFL 1.1。"
+    },
+    {
+      "wave": "lxgw",
+      "repo": "lxgw/Fanmei",
+      "norm": "Fmthei",
+      "family": "wenfeng-fmthei",
+      "name": "范美黑体",
+      "en": "Fanmei Hei",
+      "cat": "sans",
+      "brand": "lxgw",
+      "designer": "LXGW",
+      "foundry": "LXGW",
+      "license": "0BSD",
+      "spdx": "0BSD",
+      "source": "release",
+      "assetPrefer": [
+        "Fanmei-Hei"
+      ],
+      "maxWeights": 1,
+      "desc": "范美黑体。0BSD。"
+    },
+    {
+      "wave": "lxgw",
+      "repo": "lxgw/Fanmei",
+      "norm": "Fmtming",
+      "family": "wenfeng-fmtming",
+      "name": "范美明体",
+      "en": "Fanmei Ming",
+      "cat": "song",
+      "brand": "lxgw",
+      "designer": "LXGW",
+      "foundry": "LXGW",
+      "license": "0BSD",
+      "spdx": "0BSD",
+      "source": "release",
+      "assetPrefer": [
+        "Fanmei-Ming"
+      ],
+      "maxWeights": 1,
+      "desc": "范美明体。0BSD。"
+    },
+    {
+      "wave": "lxgw",
+      "repo": "lxgw/LxgwPinyinFont",
+      "norm": "Xwpinyin",
+      "family": "wenfeng-xwpinyin",
+      "name": "霞鹜拼音体",
+      "en": "LXGW Pinyin",
+      "cat": "hand",
+      "brand": "lxgw",
+      "designer": "LXGW",
+      "foundry": "LXGW",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "LxgwPinyin-Regular.ttf"
+      ],
+      "maxWeights": 1,
+      "desc": "霞鹜拼音体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "singles",
+      "repo": "welai/glow-sans",
+      "norm": "Wlhxh",
+      "family": "wenfeng-wlhxh",
+      "name": "未来荧黑",
+      "en": "Glow Sans SC",
+      "cat": "sans",
+      "brand": "welai",
+      "designer": "Project Welai",
+      "foundry": "未来荧坊",
+      "license": "MIT",
+      "spdx": "MIT",
+      "source": "release",
+      "assetPrefer": [
+        "GlowSansSC-Normal"
+      ],
+      "maxWeights": 3,
+      "desc": "未来荧黑（Glow Sans SC Normal 宽度）。MIT。"
+    },
+    {
+      "wave": "singles",
+      "repo": "adobe-fonts/source-han-mono",
+      "norm": "Sykd",
+      "family": "wenfeng-sykd",
+      "name": "思源等宽",
+      "en": "Source Han Mono",
+      "cat": "mono",
+      "brand": "adobe",
+      "designer": "Adobe",
+      "foundry": "Adobe",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "maxWeights": 1,
+      "desc": "思源等宽。SIL OFL 1.1。",
+      "note": "TTC — needs extract; may skip if too heavy",
+      "skip": true,
+      "skipReason": "SourceHanMono.ttc 单文件 119MB，需 TTC 拆包；本波先 skip，另排"
+    },
+    {
+      "wave": "singles",
+      "repo": "coz-m/MPLUS_FONTS",
+      "norm": "Mplus1",
+      "family": "wenfeng-mplus1",
+      "name": "M+ 1",
+      "en": "M+ 1",
+      "cat": "sans",
+      "brand": "mplus",
+      "designer": "M+ FONTS PROJECT",
+      "foundry": "M+ 字体计划",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "fonts/MPLUS1/ttf/MPLUS1-Regular.ttf",
+        "fonts/MPLUS1/ttf/MPLUS1-Bold.ttf",
+        "fonts/MPLUS1/ttf/MPLUS1-Medium.ttf",
+        "fonts/MPLUS1/ttf/MPLUS1-Light.ttf"
+      ],
+      "weightMap": {
+        "MPLUS1-Regular.ttf": "Regular",
+        "MPLUS1-Bold.ttf": "Bold",
+        "MPLUS1-Medium.ttf": "Medium",
+        "MPLUS1-Light.ttf": "Light"
+      },
+      "maxWeights": 4,
+      "desc": "M+ 1。SIL OFL 1.1。"
+    },
+    {
+      "wave": "singles",
+      "repo": "justfont/Elffont",
+      "norm": "Elffern",
+      "family": "wenfeng-elffern",
+      "name": "Elffont Fern",
+      "en": "Elffont Fern",
+      "cat": "hand",
+      "brand": "justfont",
+      "designer": "justfont",
+      "foundry": "justfont",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "assetPrefer": [
+        "fern"
+      ],
+      "maxWeights": 1,
+      "desc": "Elffont Fern。OFL（仓库 license NOASSERTION，release 为 OFL 惯用开源字形）。"
+    },
+    {
+      "wave": "singles",
+      "repo": "justfont/Elffont",
+      "norm": "Elfrock",
+      "family": "wenfeng-elfrock",
+      "name": "Elffont Rock",
+      "en": "Elffont Rock",
+      "cat": "hand",
+      "brand": "justfont",
+      "designer": "justfont",
+      "foundry": "justfont",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "release",
+      "assetPrefer": [
+        "rock"
+      ],
+      "maxWeights": 1,
+      "desc": "Elffont Rock。"
+    },
+    {
+      "wave": "singles",
+      "repo": "atelier-anchor/luohei-variable",
+      "norm": "Luohei",
+      "family": "wenfeng-luohei",
+      "name": "络黑",
+      "en": "LuoHei Variable",
+      "cat": "sans",
+      "brand": "atelier-anchor",
+      "skip": true,
+      "skipReason": "仓库仅有 VF woff2，无 TTF/OTF 源文件"
+    },
+    {
+      "wave": "singles",
+      "repo": "googlefonts/zen-marugothic",
+      "norm": "Zenmaru",
+      "family": "wenfeng-zenmaru",
+      "name": "Zen Maru Gothic",
+      "en": "Zen Maru Gothic",
+      "cat": "sans",
+      "brand": "google",
+      "designer": "Adobe / Google",
+      "foundry": "Google Fonts",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "fonts/ttf/ZenMaruGothic-Regular.ttf",
+        "fonts/ttf/ZenMaruGothic-Bold.ttf",
+        "fonts/ttf/ZenMaruGothic-Medium.ttf"
+      ],
+      "maxWeights": 2,
+      "desc": "Zen Maru Gothic。SIL OFL 1.1。",
+      "note": "fill rawPaths after tree probe",
+      "weightMap": {
+        "ZenMaruGothic-Regular.ttf": "Regular",
+        "ZenMaruGothic-Bold.ttf": "Bold",
+        "ZenMaruGothic-Medium.ttf": "Medium"
+      }
+    },
+    {
+      "wave": "singles",
+      "repo": "googlefonts/mashanzheng",
+      "norm": "Msz",
+      "family": "wenfeng-msz",
+      "name": "马善政楷书",
+      "en": "Ma Shan Zheng",
+      "cat": "hand",
+      "brand": "google",
+      "designer": "马善政",
+      "foundry": "Google Fonts",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "fonts/ttf/MaShanZheng-Regular.ttf"
+      ],
+      "maxWeights": 1,
+      "desc": "马善政楷书。SIL OFL 1.1。",
+      "weightMap": {
+        "MaShanZheng-Regular.ttf": "Regular"
+      }
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/naikaifont",
+      "norm": "Nk",
+      "family": "wenfeng-nk",
+      "name": "奈楷",
+      "en": "naikaifont",
+      "cat": "hand",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "jp/NaikaiFont-Regular.ttf"
+      ],
+      "weightMap": {
+        "NaikaiFont-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "奈楷（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-gothic",
+      "norm": "Swgothic",
+      "family": "wenfeng-swgothic",
+      "name": "狮尾黑体",
+      "en": "swei-gothic",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiGothicCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiGothicCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "狮尾黑体（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/bakudaifont",
+      "norm": "Bkd",
+      "family": "wenfeng-bkd",
+      "name": "爆呆",
+      "en": "bakudaifont",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "tw/Bakudai-Regular.ttf"
+      ],
+      "weightMap": {
+        "Bakudai-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "爆呆（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/max-hana",
+      "norm": "Mxhn",
+      "family": "wenfeng-mxhn",
+      "name": "max hana",
+      "en": "max-hana",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "ttf/B2Hana-Regular.ttf"
+      ],
+      "weightMap": {
+        "B2Hana-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "max hana（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/masafont",
+      "norm": "Masa",
+      "family": "wenfeng-masa",
+      "name": "masafont",
+      "en": "masafont",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "tw/MasaFont-Regular.ttf"
+      ],
+      "weightMap": {
+        "MasaFont-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "masafont（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/pop-gothic",
+      "norm": "Popgh",
+      "family": "wenfeng-popgh",
+      "name": "流行黑",
+      "en": "pop-gothic",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK TC/PopGothicCjkTc-Regular.ttf"
+      ],
+      "weightMap": {
+        "PopGothicCjkTc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "流行黑（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/nanifont",
+      "norm": "Nani",
+      "family": "wenfeng-nani",
+      "name": "nanifont",
+      "en": "nanifont",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "ttf/NaniFont-Regular.ttf"
+      ],
+      "weightMap": {
+        "NaniFont-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "nanifont（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/FakePearl",
+      "norm": "Fkzl",
+      "family": "wenfeng-fkzl",
+      "name": "假珍珠",
+      "en": "FakePearl",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "tw/FakePearl-Regular.ttf"
+      ],
+      "weightMap": {
+        "FakePearl-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "假珍珠（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/maruko-gothic",
+      "norm": "Mkgh",
+      "family": "wenfeng-mkgh",
+      "name": "丸子黑",
+      "en": "maruko-gothic",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/MarukoGothicCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "MarukoGothicCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "丸子黑（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/kurewa-gothic",
+      "norm": "Kwgh",
+      "family": "wenfeng-kwgh",
+      "name": "暮黑",
+      "en": "kurewa-gothic",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK TC/KurewaGothicCjkTc-Regular.ttf"
+      ],
+      "weightMap": {
+        "KurewaGothicCjkTc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "暮黑（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/TaiwanPearl",
+      "norm": "Twzl",
+      "family": "wenfeng-twzl",
+      "name": "台湾珍珠",
+      "en": "TaiwanPearl",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "ttf/TaiwanPearl-Regular.ttf"
+      ],
+      "weightMap": {
+        "TaiwanPearl-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "台湾珍珠（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/YuPearl",
+      "norm": "Yuzl",
+      "family": "wenfeng-yuzl",
+      "name": "余珍珠",
+      "en": "YuPearl",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "tw/YuPearl-Regular.ttf"
+      ],
+      "weightMap": {
+        "YuPearl-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "余珍珠（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-fan-sans",
+      "norm": "Swfansans",
+      "family": "wenfeng-swfansans",
+      "name": "狮尾风扇黑",
+      "en": "swei-fan-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiFanSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiFanSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "狮尾风扇黑（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-sans",
+      "norm": "Swsans",
+      "family": "wenfeng-swsans",
+      "name": "swei sans",
+      "en": "swei-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-halfmoon",
+      "norm": "Swhalfmoon",
+      "family": "wenfeng-swhalfmoon",
+      "name": "swei halfmoon",
+      "en": "swei-halfmoon",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiHalfMoonCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiHalfMoonCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei halfmoon（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/JasonHandWritingFonts",
+      "norm": "Jshw",
+      "family": "wenfeng-jshw",
+      "name": "杰森手写",
+      "en": "JasonHandWritingFonts",
+      "cat": "hand",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "latin/JasonHandwriting-Regular.ttf"
+      ],
+      "weightMap": {
+        "JasonHandwriting-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "杰森手写（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-sugar",
+      "norm": "Swsugar",
+      "family": "wenfeng-swsugar",
+      "name": "swei sugar",
+      "en": "swei-sugar",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiSugarCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiSugarCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei sugar（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-marker-sans",
+      "norm": "Swmarkersans",
+      "family": "wenfeng-swmarkersans",
+      "name": "狮尾马克笔",
+      "en": "swei-marker-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiMarkerSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiMarkerSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "狮尾马克笔（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-b2-serif",
+      "norm": "Swb2serif",
+      "family": "wenfeng-swb2serif",
+      "name": "swei b2 serif",
+      "en": "swei-b2-serif",
+      "cat": "song",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiB2SerifCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiB2SerifCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei b2 serif（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-gothic-leg",
+      "norm": "Swgothicleg",
+      "family": "wenfeng-swgothicleg",
+      "name": "狮尾长腿黑",
+      "en": "swei-gothic-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiGothicLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiGothicLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "狮尾长腿黑（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-toothpaste",
+      "norm": "Swtoothpaste",
+      "family": "wenfeng-swtoothpaste",
+      "name": "swei toothpaste",
+      "en": "swei-toothpaste",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiToothpasteCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiToothpasteCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei toothpaste（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-meatball",
+      "norm": "Swmeatball",
+      "family": "wenfeng-swmeatball",
+      "name": "swei meatball",
+      "en": "swei-meatball",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiMeatballCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiMeatballCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei meatball（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-fan-serif",
+      "norm": "Swfanserif",
+      "family": "wenfeng-swfanserif",
+      "name": "狮尾仿宋",
+      "en": "swei-fan-serif",
+      "cat": "song",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiFanSerifCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiFanSerifCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "狮尾仿宋（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-b2-sans",
+      "norm": "Swb2sans",
+      "family": "wenfeng-swb2sans",
+      "name": "swei b2 sans",
+      "en": "swei-b2-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiB2SansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiB2SansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei b2 sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-xd",
+      "norm": "Swxd",
+      "family": "wenfeng-swxd",
+      "name": "swei xd",
+      "en": "swei-xd",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiXDPearlCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiXDPearlCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei xd（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-fan-leg",
+      "norm": "Swfanleg",
+      "family": "wenfeng-swfanleg",
+      "name": "swei fan leg",
+      "en": "swei-fan-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiFanLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiFanLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei fan leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-jay-serif",
+      "norm": "Swjayserif",
+      "family": "wenfeng-swjayserif",
+      "name": "swei jay serif",
+      "en": "swei-jay-serif",
+      "cat": "song",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiJaySerifCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiJaySerifCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei jay serif（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-shear-sans",
+      "norm": "Swshearsans",
+      "family": "wenfeng-swshearsans",
+      "name": "狮尾剪切黑体",
+      "en": "swei-shear-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiShearSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiShearSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "狮尾剪切黑体（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-fist-sans",
+      "norm": "Swfistsans",
+      "family": "wenfeng-swfistsans",
+      "name": "swei fist sans",
+      "en": "swei-fist-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiFistSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiFistSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei fist sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-b2-leg",
+      "norm": "Swb2leg",
+      "family": "wenfeng-swb2leg",
+      "name": "swei b2 leg",
+      "en": "swei-b2-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiB2LegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiB2LegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei b2 leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-curve-sans",
+      "norm": "Swcurvesans",
+      "family": "wenfeng-swcurvesans",
+      "name": "swei curve sans",
+      "en": "swei-curve-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiCurveSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiCurveSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei curve sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-nut-sans",
+      "norm": "Swnutsans",
+      "family": "wenfeng-swnutsans",
+      "name": "swei nut sans",
+      "en": "swei-nut-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiNutSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiNutSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei nut sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-devil-sans",
+      "norm": "Swdevilsans",
+      "family": "wenfeng-swdevilsans",
+      "name": "swei devil sans",
+      "en": "swei-devil-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiDevilSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiDevilSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei devil sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-bell-sans",
+      "norm": "Swbellsans",
+      "family": "wenfeng-swbellsans",
+      "name": "swei bell sans",
+      "en": "swei-bell-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiBellSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiBellSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei bell sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-jay-leg",
+      "norm": "Swjayleg",
+      "family": "wenfeng-swjayleg",
+      "name": "swei jay leg",
+      "en": "swei-jay-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiJayLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiJayLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei jay leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-right-bottom-sans",
+      "norm": "Swrightbottoms",
+      "family": "wenfeng-swrightbottoms",
+      "name": "swei right bottom sans",
+      "en": "swei-right-bottom-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiRightBottomSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiRightBottomSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei right bottom sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-shear-leg",
+      "norm": "Swshearleg",
+      "family": "wenfeng-swshearleg",
+      "name": "swei shear leg",
+      "en": "swei-shear-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiShearLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiShearLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei shear leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-rainbow-leg",
+      "norm": "Swrainbowleg",
+      "family": "wenfeng-swrainbowleg",
+      "name": "swei rainbow leg",
+      "en": "swei-rainbow-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiRainbowLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiRainbowLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei rainbow leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-spike-sans",
+      "norm": "Swspikesans",
+      "family": "wenfeng-swspikesans",
+      "name": "swei spike sans",
+      "en": "swei-spike-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiSpikeSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiSpikeSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei spike sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-match-sans",
+      "norm": "Swmatchsans",
+      "family": "wenfeng-swmatchsans",
+      "name": "狮尾火柴",
+      "en": "swei-match-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiMatchSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiMatchSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "狮尾火柴（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-dart-sans",
+      "norm": "Swdartsans",
+      "family": "wenfeng-swdartsans",
+      "name": "swei dart sans",
+      "en": "swei-dart-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiDartSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiDartSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei dart sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-del-luna-sans",
+      "norm": "Swdellunasans",
+      "family": "wenfeng-swdellunasans",
+      "name": "swei del luna sans",
+      "en": "swei-del-luna-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiDelLunaSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiDelLunaSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei del luna sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-alias-sans",
+      "norm": "Swaliassans",
+      "family": "wenfeng-swaliassans",
+      "name": "swei alias sans",
+      "en": "swei-alias-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiAliasSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiAliasSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei alias sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-ax-sans",
+      "norm": "Swaxsans",
+      "family": "wenfeng-swaxsans",
+      "name": "swei ax sans",
+      "en": "swei-ax-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiAxSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiAxSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei ax sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-fist-leg",
+      "norm": "Swfistleg",
+      "family": "wenfeng-swfistleg",
+      "name": "swei fist leg",
+      "en": "swei-fist-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiFistLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiFistLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei fist leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-jay-sans",
+      "norm": "Swjaysans",
+      "family": "wenfeng-swjaysans",
+      "name": "swei jay sans",
+      "en": "swei-jay-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiJaySansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiJaySansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei jay sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-del-luna-leg",
+      "norm": "Swdellunaleg",
+      "family": "wenfeng-swdellunaleg",
+      "name": "swei del luna leg",
+      "en": "swei-del-luna-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiDelLunaLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiDelLunaLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei del luna leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-gospel-sans",
+      "norm": "Swgospelsans",
+      "family": "wenfeng-swgospelsans",
+      "name": "swei gospel sans",
+      "en": "swei-gospel-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiGospelSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiGospelSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei gospel sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-bell-leg",
+      "norm": "Swbellleg",
+      "family": "wenfeng-swbellleg",
+      "name": "swei bell leg",
+      "en": "swei-bell-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiBellLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiBellLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei bell leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-marker-leg",
+      "norm": "Swmarkerleg",
+      "family": "wenfeng-swmarkerleg",
+      "name": "swei marker leg",
+      "en": "swei-marker-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiMarkerLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiMarkerLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei marker leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-devil-leg",
+      "norm": "Swdevilleg",
+      "family": "wenfeng-swdevilleg",
+      "name": "swei devil leg",
+      "en": "swei-devil-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiDevilLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiDevilLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei devil leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-3t-sans",
+      "norm": "Sw3tsans",
+      "family": "wenfeng-sw3tsans",
+      "name": "swei 3t sans",
+      "en": "swei-3t-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/Swei3TSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "Swei3TSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei 3t sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-dart-leg",
+      "norm": "Swdartleg",
+      "family": "wenfeng-swdartleg",
+      "name": "swei dart leg",
+      "en": "swei-dart-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiDartLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiDartLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei dart leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-right-bottom-leg",
+      "norm": "Swrightbottoml",
+      "family": "wenfeng-swrightbottoml",
+      "name": "swei right bottom leg",
+      "en": "swei-right-bottom-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiRightBottomLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiRightBottomLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei right bottom leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-d-lucy",
+      "norm": "Swdlucy",
+      "family": "wenfeng-swdlucy",
+      "name": "swei d lucy",
+      "en": "swei-d-lucy",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiDLucyCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiDLucyCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei d lucy（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-ax-leg",
+      "norm": "Swaxleg",
+      "family": "wenfeng-swaxleg",
+      "name": "swei ax leg",
+      "en": "swei-ax-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiAxLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiAxLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei ax leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-match-leg",
+      "norm": "Swmatchleg",
+      "family": "wenfeng-swmatchleg",
+      "name": "swei match leg",
+      "en": "swei-match-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiMatchLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiMatchLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei match leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-bow-sans",
+      "norm": "Swbowsans",
+      "family": "wenfeng-swbowsans",
+      "name": "swei bow sans",
+      "en": "swei-bow-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiBowSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiBowSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei bow sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-curve-leg",
+      "norm": "Swcurveleg",
+      "family": "wenfeng-swcurveleg",
+      "name": "swei curve leg",
+      "en": "swei-curve-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiCurveLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiCurveLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei curve leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-gospel-leg",
+      "norm": "Swgospelleg",
+      "family": "wenfeng-swgospelleg",
+      "name": "swei gospel leg",
+      "en": "swei-gospel-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiGospelLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiGospelLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei gospel leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-bone-sans",
+      "norm": "Swbonesans",
+      "family": "wenfeng-swbonesans",
+      "name": "swei bone sans",
+      "en": "swei-bone-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiBoneSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiBoneSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei bone sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-nut-leg",
+      "norm": "Swnutleg",
+      "family": "wenfeng-swnutleg",
+      "name": "swei nut leg",
+      "en": "swei-nut-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiNutLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiNutLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei nut leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-bow-leg",
+      "norm": "Swbowleg",
+      "family": "wenfeng-swbowleg",
+      "name": "swei bow leg",
+      "en": "swei-bow-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiBowLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiBowLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei bow leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-alias-leg",
+      "norm": "Swaliasleg",
+      "family": "wenfeng-swaliasleg",
+      "name": "swei alias leg",
+      "en": "swei-alias-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiAliasLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiAliasLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei alias leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-3t-leg",
+      "norm": "Sw3tleg",
+      "family": "wenfeng-sw3tleg",
+      "name": "swei 3t leg",
+      "en": "swei-3t-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/Swei3TLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "Swei3TLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei 3t leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-spike-leg",
+      "norm": "Swspikeleg",
+      "family": "wenfeng-swspikeleg",
+      "name": "swei spike leg",
+      "en": "swei-spike-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiSpikeLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiSpikeLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei spike leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-bone-leg",
+      "norm": "Swboneleg",
+      "family": "wenfeng-swboneleg",
+      "name": "swei bone leg",
+      "en": "swei-bone-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiBoneLegCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiBoneLegCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei bone leg（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-bat-sans",
+      "norm": "Swbatsans",
+      "family": "wenfeng-swbatsans",
+      "name": "swei bat sans",
+      "en": "swei-bat-sans",
+      "cat": "sans",
+      "brand": "aqua",
+      "designer": "Aqua",
+      "foundry": "Aqua（阿杰）",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": [
+        "CJK SC/SweiBatSansCJKsc-Regular.ttf"
+      ],
+      "weightMap": {
+        "SweiBatSansCJKsc-Regular.ttf": "Regular"
+      },
+      "maxWeights": 1,
+      "desc": "swei bat sans（Aqua）。SIL OFL 1.1。"
+    },
+    {
+      "wave": "aqua",
+      "repo": "max32002/swei-bat-leg",
+      "norm": "Swbatleg",
+      "family": "wenfeng-swbatleg",
+      "name": "swei bat leg",
+      "en": "swei-bat-leg",
+      "cat": "sans",
+      "brand": "aqua",
+      "skip": true,
+      "skipReason": "no suitable ttf/otf"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "note": "CC0 extras",
+  "brands": {
+    "zdic": "837baf65-61ec-483a-8c58-9670c14c0840",
+    "gekifude": "4d22d1b8-8442-42c8-bb4f-a9288ab8c727"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "serif": {
+      "name": "衬线",
+      "id": "3edc27b5-6d0f-4778-b113-52b54e809c58"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "mono": {
+      "name": "Mono",
+      "id": "5191ac94-e365-431a-bde2-dcfc24c14c16"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "cc0",
+      "repo": "AlainAlan/zdic-qx-font",
+      "norm": "Zdicqx",
+      "family": "wenfeng-zdicqx",
+      "name": "汉典秦系文字体",
+      "en": "ZDIC Qinxi",
+      "cat": "other",
+      "brand": "zdic",
+      "designer": "汉典",
+      "foundry": "汉典",
+      "license": "CC0 1.0",
+      "spdx": "CC0-1.0",
+      "languages": [
+        "简体中文",
+        "繁体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "汉典秦系文字体。CC0 1.0。"
+    },
+    {
+      "wave": "cc0",
+      "repo": "ukr8b3g-cmyk/GEKIFUDE-SFX",
+      "norm": "Gekifude",
+      "family": "wenfeng-gekifude",
+      "name": "激笔 SFX",
+      "en": "GEKIFUDE SFX",
+      "cat": "hand",
+      "brand": "gekifude",
+      "designer": "ukr8b3g",
+      "foundry": "激笔",
+      "license": "CC0 1.0",
+      "spdx": "CC0-1.0",
+      "languages": [
+        "日文",
+        "英语"
+      ],
+      "useCases": [
+        "西文标题"
+      ],
+      "weightPrefer": [
+        "Regular"
+      ],
+      "maxWeights": 1,
+      "desc": "激笔 SFX，假名笔触，没有汉字。CC0 1.0。"
+    }
+  ]
+}
