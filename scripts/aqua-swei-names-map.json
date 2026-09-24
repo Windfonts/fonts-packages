@@ -1,0 +1,559 @@
+{
+ "note": "Aqua/狮尾 正名与去重账本 · 2026-09-24. 权威=字体文件 name 表（Windows zh-TW TypographicFamilyName，转简；en=Macintosh FontFamilyName 去尾 Regular）。错译 8 条：风扇/仿宋/剪切/马克笔/火柴/gothic 撞名/长腿黑/B2加糖。DB 修复脚本 fonts-vault scripts/fix-swei-names.js（备份 prod.db.bak-20260924-swei-names、-aqua3、-dedupe-hmsx）。更新字库时按本表 name/en 回填，防 slug 回退名复发。",
+ "families": [
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-sw3tleg",
+   "norm": "3tleg",
+   "name": "狮尾三腿黑体",
+   "en": "Swei 3T Leg CJK SC",
+   "tableZh": "狮尾三腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-sw3tsans",
+   "norm": "3tsans",
+   "name": "狮尾三角黑体",
+   "en": "Swei 3T Sans CJK SC",
+   "tableZh": "狮尾三角黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swaliasleg",
+   "norm": "aliasleg",
+   "name": "狮尾锯腿黑体",
+   "en": "Swei Alias Leg CJK SC",
+   "tableZh": "狮尾锯腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swaliassans",
+   "norm": "aliassans",
+   "name": "狮尾锯齿黑体",
+   "en": "Swei Alias Sans CJK SC",
+   "tableZh": "狮尾锯齿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swaxleg",
+   "norm": "axleg",
+   "name": "狮尾斧腿黑体",
+   "en": "Swei Ax Leg CJK SC",
+   "tableZh": "狮尾斧腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swaxsans",
+   "norm": "axsans",
+   "name": "狮尾斧头黑体",
+   "en": "Swei Ax Sans CJK SC",
+   "tableZh": "狮尾斧头黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swb2jt",
+   "norm": "b2jt",
+   "name": "狮尾B2加糖宋体",
+   "en": "Swei B2 Sugar CJK SC",
+   "tableZh": "狮尾B2加糖宋体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swb2leg",
+   "norm": "b2leg",
+   "name": "狮尾B2腿黑体",
+   "en": "Swei B2 Leg CJK SC",
+   "tableZh": "狮尾B2腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swb2sans",
+   "norm": "b2sans",
+   "name": "狮尾B2黑体",
+   "en": "Swei B2 Sans CJK SC",
+   "tableZh": "狮尾B2黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swb2serif",
+   "norm": "b2serif",
+   "name": "狮尾B2宋体",
+   "en": "Swei B2 Serif CJK SC",
+   "tableZh": "狮尾B2宋朝",
+   "reason": "slug-fallback"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swbatsans",
+   "norm": "batsans",
+   "name": "狮尾蝙蝠圆体",
+   "en": "Swei Bat Sans CJK SC",
+   "tableZh": "狮尾蝙蝠圆体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swbellleg",
+   "norm": "bellleg",
+   "name": "狮尾喇腿黑体",
+   "en": "Swei Bell Leg CJK SC",
+   "tableZh": "狮尾喇腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swbellsans",
+   "norm": "bellsans",
+   "name": "狮尾喇叭黑体",
+   "en": "Swei Bell Sans CJK SC",
+   "tableZh": "狮尾喇叭黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swboneleg",
+   "norm": "boneleg",
+   "name": "狮尾骨腿黑体",
+   "en": "Swei Bone Leg CJK SC",
+   "tableZh": "狮尾骨腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swbonesans",
+   "norm": "bonesans",
+   "name": "狮尾骨头黑体",
+   "en": "Swei Bone Sans CJK SC",
+   "tableZh": "狮尾骨头黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swbowleg",
+   "norm": "bowleg",
+   "name": "狮尾霓腿黑体",
+   "en": "Swei Bow Leg CJK SC",
+   "tableZh": "狮尾霓腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swbowsans",
+   "norm": "bowsans",
+   "name": "狮尾霓黑体",
+   "en": "Swei Bow Sans CJK SC",
+   "tableZh": "狮尾霓黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swcurveleg",
+   "norm": "curveleg",
+   "name": "狮尾弯腿黑体",
+   "en": "Swei Curve Leg CJK SC",
+   "tableZh": "狮尾弯腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swcurvesans",
+   "norm": "curvesans",
+   "name": "狮尾弯黑体",
+   "en": "Swei Curve Sans CJK SC",
+   "tableZh": "狮尾弯黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swdartleg",
+   "norm": "dartleg",
+   "name": "狮尾飞腿黑体",
+   "en": "Swei Dart Leg CJK SC",
+   "tableZh": "狮尾飞腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swdartsans",
+   "norm": "dartsans",
+   "name": "狮尾飞镖黑体",
+   "en": "Swei Dart Sans CJK SC",
+   "tableZh": "狮尾飞镖黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swdellunaleg",
+   "norm": "dellunaleg",
+   "name": "狮尾D卤腿黑体",
+   "en": "Swei Del Luna Leg CJK SC",
+   "tableZh": "狮尾D卤腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swdellunasans",
+   "norm": "dellunasans",
+   "name": "狮尾德鲁纳黑体",
+   "en": "Swei Del Luna Sans CJK SC",
+   "tableZh": "狮尾德鲁纳黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swdevilleg",
+   "norm": "devilleg",
+   "name": "狮尾恶腿黑体",
+   "en": "Swei Devil Leg CJK SC",
+   "tableZh": "狮尾恶腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swdevilsans",
+   "norm": "devilsans",
+   "name": "狮尾恶魔黑体",
+   "en": "Swei Devil Sans CJK SC",
+   "tableZh": "狮尾恶魔黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swdlucy",
+   "norm": "dlucy",
+   "name": "狮尾D露西",
+   "en": "Swei D Lucy CJK SC",
+   "tableZh": "狮尾D露西",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swfanleg",
+   "norm": "fanleg",
+   "name": "狮尾繁腿黑体",
+   "en": "Swei Fan Leg CJK SC",
+   "tableZh": "狮尾繁腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swfansans",
+   "norm": "fansans",
+   "name": "狮尾繁中黑体",
+   "en": "Swei Fan Sans CJK SC",
+   "tableZh": "狮尾繁中黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swfanserif",
+   "norm": "fanserif",
+   "name": "狮尾繁中宋体",
+   "en": "Swei Fan Serif CJK SC",
+   "tableZh": "狮尾繁中宋体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swfistleg",
+   "norm": "fistleg",
+   "name": "狮尾咏腿黑体",
+   "en": "Swei Fist Leg CJK SC",
+   "tableZh": "狮尾咏腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swfistsans",
+   "norm": "fistsans",
+   "name": "狮尾咏春黑体",
+   "en": "Swei Fist Sans CJK SC",
+   "tableZh": "狮尾咏春黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swgospelleg",
+   "norm": "gospelleg",
+   "name": "狮尾福腿黑体",
+   "en": "Swei Gospel Leg CJK SC",
+   "tableZh": "狮尾福腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swgospelsans",
+   "norm": "gospelsans",
+   "name": "狮尾福音黑体",
+   "en": "Swei Gospel Sans CJK SC",
+   "tableZh": "狮尾福音黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swgothic",
+   "norm": "gothic",
+   "name": "狮尾圆体",
+   "en": "Swei Gothic CJK SC",
+   "tableZh": "狮尾圆体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swgothicleg",
+   "norm": "gothicleg",
+   "name": "狮尾腿圆体",
+   "en": "Swei Gothic Leg CJK SC",
+   "tableZh": "狮尾腿圆",
+   "reason": "slug-fallback"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swhalfmoon",
+   "norm": "halfmoon",
+   "name": "狮尾半月体",
+   "en": "Swei Half Moon CJK SC",
+   "tableZh": "狮尾半月",
+   "reason": "slug-fallback"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swjayleg",
+   "norm": "jayleg",
+   "name": "狮尾简腿黑体",
+   "en": "Swei Jay Leg CJK SC",
+   "tableZh": "狮尾简腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swjaysans",
+   "norm": "jaysans",
+   "name": "狮尾简中黑体",
+   "en": "Swei Jay Sans CJK SC",
+   "tableZh": "狮尾简中黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swjayserif",
+   "norm": "jayserif",
+   "name": "狮尾简中宋体",
+   "en": "Swei Jay Serif CJK SC",
+   "tableZh": "狮尾简中宋体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swmarkerleg",
+   "norm": "markerleg",
+   "name": "狮尾麦腿黑体",
+   "en": "Swei Marker Leg CJK SC",
+   "tableZh": "狮尾麦腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swmarkersans",
+   "norm": "markersans",
+   "name": "狮尾麦克黑体",
+   "en": "Swei Marker Sans CJK SC",
+   "tableZh": "狮尾麦克黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swmatchleg",
+   "norm": "matchleg",
+   "name": "狮尾火腿黑体",
+   "en": "Swei Match Leg CJK SC",
+   "tableZh": "狮尾火腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swmatchsans",
+   "norm": "matchsans",
+   "name": "狮尾火柴黑体",
+   "en": "Swei Match Sans CJK SC",
+   "tableZh": "狮尾火柴黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swmeatball",
+   "norm": "meatball",
+   "name": "狮尾肉丸",
+   "en": "Swei Meatball CJK SC",
+   "tableZh": "狮尾肉丸",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swnutleg",
+   "norm": "nutleg",
+   "name": "狮尾螺帽腿黑体",
+   "en": "Swei Nut Leg CJK SC",
+   "tableZh": "狮尾螺帽腿黑",
+   "reason": "slug-fallback"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swnutsans",
+   "norm": "nutsans",
+   "name": "狮尾螺帽黑体",
+   "en": "Swei Nut Sans CJK SC",
+   "tableZh": "狮尾螺帽黑",
+   "reason": "slug-fallback"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swrainbowleg",
+   "norm": "rainbowleg",
+   "name": "狮尾彩虹腿",
+   "en": "Swei Rainbow Leg CJK SC",
+   "tableZh": "狮尾彩虹腿",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swrightbottoml",
+   "norm": "rightbottoml",
+   "name": "狮尾右下腿黑体",
+   "en": "Swei Right Bottom Leg CJK SC",
+   "tableZh": "狮尾右下腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swrightbottoms",
+   "norm": "rightbottoms",
+   "name": "狮尾右下圆黑体",
+   "en": "Swei Right Bottom Sans CJK SC",
+   "tableZh": "狮尾右下圆黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swsans",
+   "norm": "sans",
+   "name": "狮尾黑体",
+   "en": "Swei Sans CJK SC",
+   "tableZh": "狮尾黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swshearleg",
+   "norm": "shearleg",
+   "name": "狮尾快腿黑体",
+   "en": "Swei Shear Leg CJK SC",
+   "tableZh": "狮尾快腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swshearsans",
+   "norm": "shearsans",
+   "name": "狮尾快剪黑体",
+   "en": "Swei Shear Sans CJK SC",
+   "tableZh": "狮尾快剪黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swsjc",
+   "norm": "sjc",
+   "name": "狮尾四季春",
+   "en": "Swei Spring CJK SC",
+   "tableZh": "狮尾四季春",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swspikeleg",
+   "norm": "spikeleg",
+   "name": "狮尾尖腿黑体",
+   "en": "Swei Spike Leg CJK SC",
+   "tableZh": "狮尾尖腿黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swspikesans",
+   "norm": "spikesans",
+   "name": "狮尾尖刺黑体",
+   "en": "Swei Spike Sans CJK SC",
+   "tableZh": "狮尾尖刺黑体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swsugar",
+   "norm": "sugar",
+   "name": "狮尾加糖宋体",
+   "en": "Swei Sugar CJK SC",
+   "tableZh": "狮尾加糖宋体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swtoothpaste",
+   "norm": "toothpaste",
+   "name": "狮尾牙膏圆体",
+   "en": "Swei Toothpaste CJK SC",
+   "tableZh": "狮尾牙膏圆体",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-swxd",
+   "norm": "xd",
+   "name": "狮尾XD珍珠",
+   "en": "Swei XD Pearl CJK SC",
+   "tableZh": "狮尾XD珍珠",
+   "reason": "restore"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-masa",
+   "norm": "Masa",
+   "name": "正风毛笔",
+   "en": "MasaFont",
+   "tableZh": "正风毛笔",
+   "reason": "slug-fallback"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-mxhn",
+   "norm": "Mxhn",
+   "name": "B2花园",
+   "en": "B2 Hana",
+   "tableZh": "B2花园",
+   "reason": "slug-fallback"
+  },
+  {
+   "wave": "aqua-swei-names",
+   "family": "wenfeng-nani",
+   "norm": "Nani",
+   "name": "何某手写体",
+   "en": "NaniFont",
+   "tableZh": "何某手写",
+   "reason": "dedupe-keep",
+   "dedupe": {
+    "archived": "wenfeng-hmsx",
+    "evidence": "两行文件 name 表同为 Copyright (c) 2016-2020, Nanigashitei；nani=1.046 新版保留且归属改回 Nanigashitei，hmsx=1.036 旧版转 archived + 家族别名",
+    "backup": "prod.db.bak-20260924-dedupe-hmsx"
+   }
+  }
+ ]
+}
