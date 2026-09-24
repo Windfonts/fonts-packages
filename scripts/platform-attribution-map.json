@@ -1,0 +1,55 @@
+{
+ "note": "平台冒名作者修复账本 · 2026-09-24. 权威=字体 name 表（CopyrightNotice/DesignerName/VendorURL）。平台型品牌 9 个 16 条全查：千图(上海品图)/创客贴(北京艺源酷)/摄图(上海韩众)/素材集市/包图为真平台出品（版权行即平台公司，不动）；字体家/HelloFont·Fontree 为渠道冒名（修归属）。重复对 cktjgt=cktkingkong、qtqmt=qtxmt 经 CSS 字节级比对确认为同对象（并行会话已归并，本批复核+补别名）。修复脚本 fonts-vault scripts/fix-platform-attribution.js，备份 prod.db.bak-20260924-platform-attribution。",
+ "families": [
+  {
+   "family": "wenfeng-hkhlssxt",
+   "norm": "Hkhlssxt",
+   "name": "黄凯桦律师手写体",
+   "wrong": {
+    "foundry": "ZiTiJia",
+    "brand": "zitijia"
+   },
+   "fixed": {
+    "foundry": "黄凯桦",
+    "brand": "huangkaihua",
+    "copyright": "All rights reserved by Lawyer Huang Kaihua"
+   },
+   "evidence": "name 表 CopyrightNotice=AllrightsreservedbyLawyerHuangKaihua；VendorURL=www.huangkaihua.com"
+  },
+  {
+   "family": "wenfeng-jxzk",
+   "norm": "Jxzk",
+   "name": "江西拙楷体",
+   "wrong": {
+    "foundry": "HelloFont / Fontree",
+    "brand": "fontree"
+   },
+   "fixed": {
+    "foundry": "黄煜臣",
+    "brand": "huangyuchen"
+   },
+   "evidence": "name 表 DesignerName=huang yu chen；VendorURL=zcool.com.cn/u/653645；designer 字段本就=黄煜臣"
+  },
+  {
+   "family": "wenfeng-cktkingkong",
+   "norm": "CKTKingKong",
+   "name": "创客贴金刚体(重复)",
+   "action": "archived（与 wenfeng-cktjgt CSS 字节级相同 v2.0.0；并行会话已并，本批复核+别名）"
+  },
+  {
+   "family": "wenfeng-qtqmt",
+   "norm": "Qtqmt",
+   "name": "千图纤墨体(重复)",
+   "action": "archived（与 wenfeng-qtxmt CSS 字节级相同 v1.00；并行会话 09-20 已并，本批复核+别名）"
+  }
+ ],
+ "platformBrandsChecked": {
+  "千图网 qiantu": "7 条版权行均=上海品图，真平台出品，不动",
+  "创客贴 chuangkit": "版权=北京艺源酷科技，真平台出品",
+  "摄图网 shetu": "版权=上海韩众网络，真平台出品",
+  "素材集市 sucaijishi": "版权=素材集市，真平台出品",
+  "包图网 baotu": "版权=ibaotu，真平台出品",
+  "快看 kuaikan": "name 表无版权行，designer=冷水萧 暂维持",
+  "品如 pinru": "版权=泉州宇辰电商，品牌口径可留"
+ }
+}
