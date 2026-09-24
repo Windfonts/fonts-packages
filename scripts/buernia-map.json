@@ -1,0 +1,48 @@
+{
+ "note": "Buernia ingest · 2026-09-25. 来源 github.com/Buernia。构建 oss-batch1-build.sh buernia Zdht Tjlt；vault scripts/register-buernia.js；OFL 两份已核对入 font-licenses。煮豆黑体=标点符号字体（190 字/7 字重，衍生 Noto Sans，RFN Zhudou）；铁蒺藜体=Reggae One 中文扩展（13,121 字）。",
+ "families": [
+  {
+   "wave": "buernia",
+   "repo": "Buernia/Zhudou-Sans",
+   "norm": "Zdht",
+   "family": "wenfeng-zdht",
+   "name": "煮豆黑体",
+   "en": "Zhudou Sans",
+   "cat": "sans",
+   "brand": "buernia",
+   "license": "SIL Open Font License 1.1",
+   "source": "github-release",
+   "assetUrl": "https://github.com/Buernia/Zhudou-Sans/releases/tag/v2.000",
+   "weights": [
+    "ExtraLight",
+    "Light",
+    "Normal",
+    "Regular",
+    "Medium",
+    "Bold",
+    "Heavy"
+   ],
+   "charCount": 190,
+   "desc": "Noto 风格中日韩标点符号字体，七档字重。",
+   "note": "符号字体：每字重仅 190 字，供标点/符号搭配，不是正文全量字体"
+  },
+  {
+   "wave": "buernia",
+   "repo": "Buernia/Tiejili",
+   "norm": "Tjlt",
+   "family": "wenfeng-tjlt",
+   "name": "铁蒺藜体",
+   "en": "Tiejili",
+   "cat": "sans",
+   "brand": "buernia",
+   "license": "SIL Open Font License 1.1",
+   "source": "github-release",
+   "assetUrl": "https://github.com/Buernia/Tiejili/releases/tag/1.100",
+   "weights": [
+    "Regular"
+   ],
+   "charCount": 13121,
+   "desc": "Fontworks Reggae One（雷鬼体）的开源中文扩展。"
+  }
+ ]
+}
