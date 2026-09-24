@@ -1,0 +1,26 @@
+{
+  "note": "OSS maicai ingest · 2026-09-24. 淘宝买菜体 Regular 单款（官方分发 zip，非 GitHub）。构建 oss-batch1-build.sh maicai Tbmct；vault 登记 fonts-vault scripts/register-maicai.js。",
+  "families": [
+    {
+      "wave": "maicai",
+      "repo": "fonts.alibabadesign.com/TaoBaoMaiCaiTi",
+      "norm": "Tbmct",
+      "family": "wenfeng-tbmct",
+      "name": "淘宝买菜体",
+      "en": "TaoBaoMaiCaiTi",
+      "cat": "sans",
+      "brand": "alibaba-design",
+      "designer": "淘宝买菜 × 通义锦书",
+      "foundry": "Alibaba Design",
+      "license": "淘宝买菜体授权协议",
+      "licenseType": "免费商用",
+      "source": "official-zip",
+      "assetUrl": "https://fonts.alibabadesign.com/TaoBaoMaiCaiTi/TaoBaoMaiCaiTi-Regular.zip",
+      "assetNote": "CDN Referer ACL：抓取须带 Referer https://fonts.alibabadesign.com/",
+      "nameNote": "name 表 nameID 1 仅英文 TBMCYXT；表内中文（nameID 9/16/19）为淘宝买菜营销体；显示名取官方 portal 产品名淘宝买菜体",
+      "weights": ["Regular"],
+      "charCount": 7271,
+      "desc": "淘宝买菜携手通义锦书的 AI 个性化字体，官方声明永久免费商用。"
+    }
+  ]
+}
