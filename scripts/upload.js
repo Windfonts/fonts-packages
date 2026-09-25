@@ -106,9 +106,14 @@ async function uploadFileWithRetry(client, localPath, remotePath, maxRetries = 3
   
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
+      // metadata JSON 会原地覆盖；一年缓存会导致边缘长期吃旧分析/映射。
+      const isMetadata = remotePath.includes('/metadata/') || remotePath.startsWith('metadata/');
+      const cacheControl = isMetadata
+        ? 'public, max-age=300, must-revalidate'
+        : 'public, max-age=31536000';
       const result = await client.put(remotePath, localPath, {
         headers: {
-          'Cache-Control': 'public, max-age=31536000', // 1 year cache
+          'Cache-Control': cacheControl,
           'Content-Type': contentType
         }
       });
