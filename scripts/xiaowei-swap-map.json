@@ -1,0 +1,10 @@
+{
+  "batch": "batch-xiaowei 2026-09-26",
+  "norm": "Zkxwt",
+  "action": "换版本：站酷小薇LOGO体 v1.00（佐兹/李大卫，站酷声明）下线 → GF 站酷小薇体 v1.000（OFL 1.1）同前缀覆盖",
+  "source": "googlefonts/zcool-xiaowei fonts/ZCOOLXiaoWei-Regular.ttf",
+  "oss_prefix": "fonts-packages/Zkxwt（84 文件覆盖，0 失败）",
+  "license": "SIL OFL 1.1（随仓 OFL.txt，verified）",
+  "vault": "name/version/copyright/license/license_type/license_description 已 UPDATE",
+  "evidence": "两款不同字体的判定=name 表（中文名/版权主体/版本串/字数）四项全不一致"
+}

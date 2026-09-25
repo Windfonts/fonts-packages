@@ -1,0 +1,10 @@
+{
+  "batch": "batch-zhimangxing 2026-09-26",
+  "norm": "Zmxs",
+  "action": "新入库：钟齐志莽行书（GF 简中全单对拍发现的唯一缺款）",
+  "source": "google/fonts ofl/zhimangxing ZhiMangXing-Regular.ttf v2.001（cmap 7015）",
+  "oss_prefix": "fonts-packages/Zmxs（全字重 full，0 失败）",
+  "license": "SIL OFL 1.1（随仓 OFL.txt，verified）",
+  "vault": "INSERT published，oss_path=/fonts-packages/Zmxs",
+  "catalog": "fonts.json +1（471→472）"
+}
