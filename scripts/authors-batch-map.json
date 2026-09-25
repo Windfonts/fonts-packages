@@ -1,0 +1,61 @@
+{
+ "note": "独立作者大批入库 · 2026-09-25. 八家作者 33 款（TakWolf 像素8/44670 思源像素1/scott 点阵5/Miiiller 香萃5+空缘/Skr 3/Kalooos0 1/Astro ZLabs 5/Warren 寒蝉6，其中 Xcdj 打字机体 W35-1 文件可开、W35 空文件）。构建日志 build-pixel-wave1..4 + wave3-re + wave3-fix；vault 登记 register-authors-batch.js。授权 33 条入 font-licenses（MIT×9 OFL×21 GPL×3，香萃3+飞花+矩黑 Demo 待补原文核）。",
+ "waves": {
+  "wave1": {
+   "fonts": [
+    "Arkp",
+    "Fupx",
+    "Jlpx",
+    "RtpxArcade",
+    "RtpxCute",
+    "RtpxPetty",
+    "RtpxThick",
+    "QRpx",
+    "Shp"
+   ],
+   "log": "build-pixel-wave1-20260925.log"
+  },
+  "wave2": {
+   "fonts": [
+    "Bb9",
+    "Bb7",
+    "Fb16",
+    "Ngz",
+    "Urx",
+    "Zlx12",
+    "Zlrp16",
+    "Zlrp12",
+    "Zlhc",
+    "Zljp"
+   ],
+   "log": "build-pixel-wave2-20260925.log"
+  },
+  "wave3": {
+   "fonts": [
+    "Kalo",
+    "Xdks",
+    "Ffs",
+    "Matc",
+    "Xcjx",
+    "Xcdz",
+    "Xcws",
+    "Kys",
+    "Xcdj"
+   ],
+   "log": "build-pixel-wave3-20260925.log（Xcdj 由 wave3-fix 重灌，主批因 W35 空文件 upload 未跑，其余 8 款由 wave3-re 重灌）",
+   "note": "Xcdz 主批构建的 norm 是端庄宋体误用——撞已有香萃打字机 Xcdz，DB 端未插入（skip 逻辑挡下），端庄宋体最终未入库，待下批以 Xcdzs norm 重灌"
+  },
+  "wave4": {
+   "fonts": [
+    "Cldin",
+    "Clhfs",
+    "Clduan",
+    "Clmb",
+    "Cltan",
+    "Clg"
+   ],
+   "log": "build-pixel-wave4-20260925.log"
+  },
+  "chillCalligraphy": "Clcalli（寒蝉龙藏楷 Regular v3.520）与已入库 hclck2 同物（Bold/ExtraBold 已随 hclck2 主批在架），不重复入库，staging 留档"
+ }
+}
