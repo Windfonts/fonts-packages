@@ -132,6 +132,10 @@ def build(path, out, family, full, jis=False):
         "version": "Version 1.000",
     })
     fb.save(out)
+    # 分块前必须整体重存一次：FontBuilder 直出产物经 woff2 变换后会被浏览器 OTS 拒收
+    # （2026-09-25 Wqys/Mp12 全量块 NetworkError，重存即消除，勿删）
+    from fontTools.ttLib import TTFont as _TT
+    _TT(out).save(out)
     cjk = sum(1 for u in cmap if 0x4E00 <= u <= 0x9FFF)
     print(out, "glyphs", len(cmap), "cjk", cjk, "family", family)
 
