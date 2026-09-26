@@ -1,0 +1,620 @@
+{
+  "note": "FWHP-Enfun static faces",
+  "brands": {
+    "fwhp": "f09a2cbf-462c-4a0a-853a-8f7881d0edb1"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Ckbf",
+      "family": "wenfeng-ckbf",
+      "name": "偏歪的黑趣体",
+      "en": "Crooked Black Fun",
+      "cat": "sans",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "用得意黑和斜月体改的。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Flqh",
+      "family": "wenfeng-flqh",
+      "name": "花乐缺汉字",
+      "en": "FWHP no CJK",
+      "cat": "other",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "作者声明可修改",
+      "spdx": "FWHP",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "作者写明可随意修改，不必另附授权书。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Flqb",
+      "family": "wenfeng-flqb",
+      "name": "花乐缺汉字B",
+      "en": "FWHP no CJK B",
+      "cat": "other",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "作者声明可修改",
+      "spdx": "FWHP",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "作者写明可随意修改，不必另附授权书。 B 档主要是扩展区汉字。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Hyqh",
+      "family": "wenfeng-hyqh",
+      "name": "花园缺汉字",
+      "en": "Garden no CJK",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "用花园明朝改的。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Hyqb",
+      "family": "wenfeng-hyqb",
+      "name": "花园缺汉字B",
+      "en": "Garden no CJK B",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "花园缺汉字的扩展档。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Hxwk",
+      "family": "wenfeng-hxwk",
+      "name": "混菜写楷",
+      "en": "Mixed VsWeKai",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "把霞鹜文楷、霞鹜文楷 TC、芫荽混在一起。这一套收了细、常规、中、粗。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Slfu",
+      "family": "wenfeng-slfu",
+      "name": "演示佛系体",
+      "en": "Slide Fu",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "演示系列。作者写明已改成 SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Slyr",
+      "family": "wenfeng-slyr",
+      "name": "演示悠然小楷",
+      "en": "Slide Youran",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "演示系列。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Sly1",
+      "family": "wenfeng-sly1",
+      "name": "演示悠然小楷二",
+      "en": "Slide Youran 1",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "演示悠然小楷的另一份。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Slcf",
+      "family": "wenfeng-slcf",
+      "name": "演示春风楷",
+      "en": "Slide Chunfeng",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "演示系列。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Slxx",
+      "family": "wenfeng-slxx",
+      "name": "演示夏行楷",
+      "en": "Slide Xiaxing",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "演示系列。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Slqh",
+      "family": "wenfeng-slqh",
+      "name": "演示秋鸿楷",
+      "en": "Slide Qiuhong",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "演示系列。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Zzmk",
+      "family": "wenfeng-zzmk",
+      "name": "宅在家麦克笔",
+      "en": "Star Love Marker",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "宅在家系列。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Zzzd",
+      "family": "wenfeng-zzzd",
+      "name": "宅在家自动笔",
+      "en": "Star Love Pencil",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "宅在家系列。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Zzft",
+      "family": "wenfeng-zzft",
+      "name": "宅在家粉条甜",
+      "en": "Star Love Sweety",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "宅在家系列。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Twqz",
+      "family": "wenfeng-twqz",
+      "name": "台湾缺字",
+      "en": "Taiwan no CJK",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "基于全字库改的。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Twqb",
+      "family": "wenfeng-twqb",
+      "name": "台湾缺字 Ext-B",
+      "en": "Taiwan no CJK Ext-B",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "台湾缺字的扩展 B 档。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Twqp",
+      "family": "wenfeng-twqp",
+      "name": "台湾缺字 Plus",
+      "en": "Taiwan no CJK Plus",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "台湾缺字 Plus。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Jgma",
+      "family": "wenfeng-jgma",
+      "name": "汲古明体A",
+      "en": "JiGu Ming A",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "齐汲体补了源流明体的英文。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Jgmb",
+      "family": "wenfeng-jgmb",
+      "name": "汲古明体B",
+      "en": "JiGu Ming B",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "汲古明体 B。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Jgmc",
+      "family": "wenfeng-jgmc",
+      "name": "汲古明体C",
+      "en": "JiGu Ming C",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "汲古明体 C。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Mtk1",
+      "family": "wenfeng-mtk1",
+      "name": "繁多全楷体",
+      "en": "MoTc Kai",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "用 TCFontCreator 从全字库改的繁体楷体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Mtk2",
+      "family": "wenfeng-mtk2",
+      "name": "繁多全楷体2",
+      "en": "MoTc Kai 2",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "繁多全楷体的扩展档。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Mtk3",
+      "family": "wenfeng-mtk3",
+      "name": "繁多全楷体3",
+      "en": "MoTc Kai 3",
+      "cat": "hand",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "繁多全楷体的符号档。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Mts1",
+      "family": "wenfeng-mts1",
+      "name": "繁多全宋体",
+      "en": "MoTc Sung",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "用 TCFontCreator 从全字库改的繁体宋体。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Mts2",
+      "family": "wenfeng-mts2",
+      "name": "繁多全宋体2",
+      "en": "MoTc Sung 2",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "繁多全宋体的扩展档。SIL OFL 1.1。"
+    },
+    {
+      "wave": "fwhp",
+      "repo": "FWHP-Enfun",
+      "norm": "Mts3",
+      "family": "wenfeng-mts3",
+      "name": "繁多全宋体3",
+      "en": "MoTc Sung 3",
+      "cat": "song",
+      "brand": "fwhp",
+      "designer": "FWHP",
+      "foundry": "花乐",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "繁体中文",
+        "简体中文"
+      ],
+      "useCases": [
+        "正文"
+      ],
+      "desc": "繁多全宋体的符号档。SIL OFL 1.1。"
+    }
+  ]
+}

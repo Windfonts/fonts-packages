@@ -1,0 +1,44 @@
+{
+  "brands": { "takushun": "ea5649c7-1a95-4ab4-8151-04be4ddcc48e" },
+  "categories": {
+    "sans": { "name": "无衬线字体", "id": "34a366d5-8fce-4372-9621-c77161d1947c" },
+    "song": { "name": "宋体", "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd" }
+  },
+  "families": [
+    {
+      "norm": "Wjmp", "family": "wenfeng-wjmp", "name": "文津宋体", "en": "WenJin Mincho",
+      "cat": "song", "brand": "takushun", "designer": "Takushun Wu", "foundry": "Takushun Wu",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["正文"],
+      "desc": "Takushun Wu 以思源宋体和 Kage 引擎做的大字符集宋体，大陆字形。OFL 1.1。这一款是 P0。"
+    },
+    {
+      "norm": "Wjm2", "family": "wenfeng-wjm2", "name": "文津宋体 P2", "en": "WenJin Mincho P2",
+      "cat": "song", "brand": "takushun", "designer": "Takushun Wu", "foundry": "Takushun Wu",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "文津宋体的 P2，主要补扩展区汉字。OFL 1.1。"
+    },
+    {
+      "norm": "Wysf", "family": "wenfeng-wysf", "name": "文渊宋体", "en": "WenYuan Serif SC",
+      "cat": "song", "brand": "takushun", "designer": "Takushun Wu", "foundry": "Takushun Wu",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "文渊宋体，基于思源宋体改的简体宋。文件名仍是 WenYuan。收了细、常规、中、粗。OFL 1.1。"
+    },
+    {
+      "norm": "Wyhk", "family": "wenfeng-wyhk", "name": "文渊黑体", "en": "WenYuan Sans SC",
+      "cat": "sans", "brand": "takushun", "designer": "Takushun Wu", "foundry": "Takushun Wu",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "文渊黑体，基于思源黑体的简体黑体。只收了标准宽度的细、常规、中、粗。OFL 1.1。"
+    },
+    {
+      "norm": "Wyyt", "family": "wenfeng-wyyt", "name": "文渊圆体", "en": "WenYuan Rounded SC",
+      "cat": "sans", "brand": "takushun", "designer": "Takushun Wu", "foundry": "Takushun Wu",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["标题"],
+      "desc": "文渊圆体。收了细、常规、中、粗。OFL 1.1。"
+    }
+  ]
+}

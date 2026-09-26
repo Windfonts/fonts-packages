@@ -1,0 +1,110 @@
+{
+  "brands": {
+    "nanigashi": "7c1e9a20-4b6d-4e8a-9f31-2a8c5d0e11b4",
+    "itmarki": "3f8a2c61-9d14-4b70-a6e5-8c1d4f7b20aa",
+    "aqua": "2224ffb8-c2bf-4727-8f71-2e6c0955e7c2",
+    "yzdnn": "b2d6f4a8-1e39-4c57-8a0b-6f3e9d1c75aa",
+    "xiangcui": "4e7c1b93-8a25-4d6f-b0c2-9a5f3e8d17c6",
+    "logosc": "6a9d3f12-c4b8-4e70-9d15-2b7c8a0e43f1",
+    "yufan": "8c2e5b47-1d90-4f6a-a3c8-7e1b9d4f06aa",
+    "unbounded": "5d1a8e36-7b42-4c09-8f6d-3a9c2e7b15d4"
+  },
+  "categories": {
+    "sans": { "name": "无衬线字体", "id": "34a366d5-8fce-4372-9621-c77161d1947c" },
+    "song": { "name": "宋体", "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd" },
+    "hand": { "name": "手写体", "id": "e7413c1c-60db-4970-8007-43ca466034aa" }
+  },
+  "families": [
+    {
+      "norm": "Hmsx", "family": "wenfeng-hmsx", "name": "何某手写体", "en": "NaniFont",
+      "cat": "hand", "brand": "nanigashi", "designer": "Nanigashitei", "foundry": "Nanigashitei",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["标题"],
+      "desc": "何某手写体，字内家族名 NaniFont。作者 Nanigashitei。收了细、常规、粗。OFL 1.1。"
+    },
+    {
+      "norm": "Yqyk", "family": "wenfeng-yqyk", "name": "芫茜雅楷", "en": "Jyunsai Kaai",
+      "cat": "hand", "brand": "itmarki", "designer": "ItMarki", "foundry": "ItMarki",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文", "简体中文"], "useCases": ["正文"],
+      "desc": "芫茜雅楷，ItMarki 基于 Klee 做的楷体。收了细、常规、粗。OFL 1.1。"
+    },
+    {
+      "norm": "Kywa", "family": "wenfeng-kywa", "name": "苦累蛙圆体", "en": "Kurewa Gothic CJK TC",
+      "cat": "sans", "brand": "aqua", "designer": "Max Yao", "foundry": "Aqua",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文"], "useCases": ["标题"],
+      "desc": "苦累蛙圆体，Max Yao 的繁体圆体。收了细、常规、粗。OFL 1.1。"
+    },
+    {
+      "norm": "Mlyu", "family": "wenfeng-mlyu", "name": "马路口圆体", "en": "Raw Maruko Gothic CJK SC",
+      "cat": "sans", "brand": "aqua", "designer": "Max Yao", "foundry": "Aqua",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["标题"],
+      "desc": "马路口圆体，简体。字内中文名是生马路口圆体，版权行写 Chun yu Yao，仓库是 max32002。OFL 1.1。"
+    },
+    {
+      "norm": "Cbds", "family": "wenfeng-cbds", "name": "长坂点宋", "en": "Changban Dian Song 16",
+      "cat": "song", "brand": "yzdnn", "designer": "yzdnn", "foundry": "yzdnn",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["屏幕阅读"],
+      "desc": "长坂点宋 16，点阵宋。字内还记了 X68000 原作 Keitaro Hiraki。OFL 1.1。"
+    },
+    {
+      "norm": "Xcks", "family": "wenfeng-xcks", "name": "香萃刻宋", "en": "Xiangcui Kesong",
+      "cat": "song", "brand": "xiangcui", "designer": "香萃", "foundry": "香萃",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["正文"],
+      "desc": "香萃刻宋。字内许可是 OFL 1.1。作者名没有单独写在名字表里。"
+    },
+    {
+      "norm": "Xcdc", "family": "wenfeng-xcdc", "name": "香萃等粗宋", "en": "Xiangcui Dengcusong",
+      "cat": "song", "brand": "xiangcui", "designer": "香萃", "foundry": "香萃",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["正文"],
+      "desc": "香萃等粗宋。字内许可是 OFL 1.1。"
+    },
+    {
+      "norm": "Xczz", "family": "wenfeng-xczz", "name": "香萃自在", "en": "Xiangcui Wave Sans",
+      "cat": "sans", "brand": "xiangcui", "designer": "香萃", "foundry": "香萃",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["正文"],
+      "desc": "香萃自在，字内家族名 Xiangcui Wave Sans。OFL 1.1。"
+    },
+    {
+      "norm": "Lzti", "family": "wenfeng-lzti", "name": "龙珠体", "en": "LogoSC LongZhuTi ZHS",
+      "cat": "sans", "brand": "logosc", "designer": "龙珠体", "foundry": "LogoSC",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["标题"],
+      "desc": "龙珠体简体。字内版权写 LogoSC LongZhuTi，并写明标小智是注册商标。不是猫啃竹圆体。OFL 1.1。"
+    },
+    {
+      "norm": "Yydq", "family": "wenfeng-yydq", "name": "余繁丹青宋", "en": "YuFan DanQing Song",
+      "cat": "song", "brand": "yufan", "designer": "余繁", "foundry": "余繁",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "余繁丹青宋。字内许可行写 OFL。汉字大约七千。"
+    },
+    {
+      "norm": "Yyzs", "family": "wenfeng-yyzs", "name": "余繁真素", "en": "YuFan ZhenSu",
+      "cat": "song", "brand": "yufan", "designer": "余繁", "foundry": "余繁",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "余繁真素。字内许可行写 OFL。汉字大约七千。"
+    },
+    {
+      "norm": "Yyxl", "family": "wenfeng-yyxl", "name": "余繁细柳", "en": "YuFan XiLiu",
+      "cat": "song", "brand": "yufan", "designer": "余繁", "foundry": "余繁",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "余繁细柳。字内许可行写 OFL。汉字大约七千。"
+    },
+    {
+      "norm": "Ubss", "family": "wenfeng-ubss", "name": "无界黑", "en": "Unbounded Sans",
+      "cat": "sans", "brand": "unbounded", "designer": "Unbounded Sans", "foundry": "Unbounded Sans",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["标题"],
+      "desc": "无界黑，字内家族名 Unbounded Sans。不是 Dela Gothic One。OFL 1.1。汉字大约一万一千，不是全字库。"
+    }
+  ]
+}

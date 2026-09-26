@@ -1,0 +1,423 @@
+{
+  "note": "LXGW remaining fonts ingest map. norm = fonts/{Norm}/{Weight}.ttf",
+  "families": [
+    {
+      "norm": "Xwwklite",
+      "name": "霞鹜文楷 Lite",
+      "en": "LXGW WenKai Lite",
+      "family": "wenfeng-xwwklite",
+      "cat": "手写体",
+      "catId": "e7413c1c-60db-4970-8007-43ca466034aa",
+      "desc": "霞鹜文楷 Lite 是文楷的精简字集版，体积更小，适合网页与常用字场景。SIL OFL 1.1。",
+      "files": {
+        "Light": "https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.522/LXGWWenKaiLite-Light.ttf",
+        "Regular": "https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.522/LXGWWenKaiLite-Regular.ttf",
+        "Medium": "https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.522/LXGWWenKaiLite-Medium.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkmonolite",
+      "name": "霞鹜文楷等宽 Lite",
+      "en": "LXGW WenKai Mono Lite",
+      "family": "wenfeng-xwwkmonolite",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜文楷等宽 Lite 是文楷 Lite 的等宽版本。SIL OFL 1.1。",
+      "files": {
+        "Light": "https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.522/LXGWWenKaiMonoLite-Light.ttf",
+        "Regular": "https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.522/LXGWWenKaiMonoLite-Regular.ttf",
+        "Medium": "https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.522/LXGWWenKaiMonoLite-Medium.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkscreen",
+      "name": "霞鹜文楷 Screen",
+      "en": "LXGW WenKai Screen",
+      "family": "wenfeng-xwwkscreen",
+      "cat": "手写体",
+      "catId": "e7413c1c-60db-4970-8007-43ca466034aa",
+      "desc": "霞鹜文楷 Screen 针对屏幕阅读微调过的文楷版本。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.522/LXGWWenKaiScreen.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkgbscreen",
+      "name": "霞鹜文楷 GB Screen",
+      "en": "LXGW WenKai GB Screen",
+      "family": "wenfeng-xwwkgbscreen",
+      "cat": "手写体",
+      "catId": "e7413c1c-60db-4970-8007-43ca466034aa",
+      "desc": "霞鹜文楷 GB Screen 是文楷 GB 的屏幕阅读版。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.522/LXGWWenKaiGBScreen.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkmonoscreen",
+      "name": "霞鹜文楷等宽 Screen",
+      "en": "LXGW WenKai Mono Screen",
+      "family": "wenfeng-xwwkmonoscreen",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜文楷等宽 Screen。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.522/LXGWWenKaiMonoScreen.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkmonogbscreen",
+      "name": "霞鹜文楷等宽 GB Screen",
+      "en": "LXGW WenKai Mono GB Screen",
+      "family": "wenfeng-xwwkmonogbscreen",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜文楷等宽 GB Screen。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.522/LXGWWenKaiMonoGBScreen.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkgblite",
+      "name": "霞鹜文楷 GB Lite",
+      "en": "LXGW WenKai GB Lite",
+      "family": "wenfeng-xwwkgblite",
+      "cat": "手写体",
+      "catId": "e7413c1c-60db-4970-8007-43ca466034aa",
+      "desc": "霞鹜文楷 GB Lite 是文楷 GB 的精简字集版。SIL OFL 1.1。",
+      "files": {
+        "Light": "https://github.com/lxgw/LxgwWenkaiGB-Lite/releases/download/v1.522/LXGWWenKaiGBLite-Light.ttf",
+        "Regular": "https://github.com/lxgw/LxgwWenkaiGB-Lite/releases/download/v1.522/LXGWWenKaiGBLite-Regular.ttf",
+        "Medium": "https://github.com/lxgw/LxgwWenkaiGB-Lite/releases/download/v1.522/LXGWWenKaiGBLite-Medium.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkgbmonolite",
+      "name": "霞鹜文楷等宽 GB Lite",
+      "en": "LXGW WenKai Mono GB Lite",
+      "family": "wenfeng-xwwkgbmonolite",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜文楷等宽 GB Lite。SIL OFL 1.1。",
+      "files": {
+        "Light": "https://github.com/lxgw/LxgwWenkaiGB-Lite/releases/download/v1.522/LXGWWenKaiMonoGBLite-Light.ttf",
+        "Regular": "https://github.com/lxgw/LxgwWenkaiGB-Lite/releases/download/v1.522/LXGWWenKaiMonoGBLite-Regular.ttf",
+        "Medium": "https://github.com/lxgw/LxgwWenkaiGB-Lite/releases/download/v1.522/LXGWWenKaiMonoGBLite-Medium.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkkr",
+      "name": "霞鹜文楷 KR",
+      "en": "LXGW WenKai KR",
+      "family": "wenfeng-xwwkkr",
+      "cat": "手写体",
+      "catId": "e7413c1c-60db-4970-8007-43ca466034aa",
+      "desc": "霞鹜文楷 KR 是文楷的韩文优先版本。SIL OFL 1.1。",
+      "files": {
+        "Light": "https://github.com/lxgw/LxgwWenkaiKR/releases/download/v0.901/LXGWWenKaiKR-Light.ttf",
+        "Regular": "https://github.com/lxgw/LxgwWenkaiKR/releases/download/v0.901/LXGWWenKaiKR-Regular.ttf",
+        "Medium": "https://github.com/lxgw/LxgwWenkaiKR/releases/download/v0.901/LXGWWenKaiKR-Medium.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkmonokr",
+      "name": "霞鹜文楷等宽 KR",
+      "en": "LXGW WenKai Mono KR",
+      "family": "wenfeng-xwwkmonokr",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜文楷等宽 KR。SIL OFL 1.1。",
+      "files": {
+        "Light": "https://github.com/lxgw/LxgwWenkaiKR/releases/download/v0.901/LXGWWenKaiMonoKR-Light.ttf",
+        "Regular": "https://github.com/lxgw/LxgwWenkaiKR/releases/download/v0.901/LXGWWenKaiMonoKR-Regular.ttf",
+        "Medium": "https://github.com/lxgw/LxgwWenkaiKR/releases/download/v0.901/LXGWWenKaiMonoKR-Medium.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkgbfusion",
+      "name": "霞鹜文楷 GB Fusion",
+      "en": "LXGW WenKai GB Fusion",
+      "family": "wenfeng-xwwkgbfusion",
+      "cat": "手写体",
+      "catId": "e7413c1c-60db-4970-8007-43ca466034aa",
+      "desc": "霞鹜文楷 GB Fusion 合并文楷 GB 与完整版字集。SIL OFL 1.1。",
+      "files": {
+        "Light": "https://github.com/lxgw/LxgwWenkaiGB-Fusion/releases/download/v1.015/LXGWWenKaiGBFusion-Light.ttf",
+        "Regular": "https://github.com/lxgw/LxgwWenkaiGB-Fusion/releases/download/v1.015/LXGWWenKaiGBFusion-Regular.ttf",
+        "Bold": "https://github.com/lxgw/LxgwWenkaiGB-Fusion/releases/download/v1.015/LXGWWenKaiGBFusion-Bold.ttf"
+      }
+    },
+    {
+      "norm": "Xwwkgbmonofusion",
+      "name": "霞鹜文楷等宽 GB Fusion",
+      "en": "LXGW WenKai Mono GB Fusion",
+      "family": "wenfeng-xwwkgbmonofusion",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜文楷等宽 GB Fusion。SIL OFL 1.1。",
+      "files": {
+        "Light": "https://github.com/lxgw/LxgwWenkaiGB-Fusion/releases/download/v1.015/LXGWWenKaiMonoGBFusion-Light.ttf",
+        "Regular": "https://github.com/lxgw/LxgwWenkaiGB-Fusion/releases/download/v1.015/LXGWWenKaiMonoGBFusion-Regular.ttf",
+        "Bold": "https://github.com/lxgw/LxgwWenkaiGB-Fusion/releases/download/v1.015/LXGWWenKaiMonoGBFusion-Bold.ttf"
+      }
+    },
+    {
+      "norm": "Xwmxs",
+      "name": "霞鹜铭心宋",
+      "en": "LXGW Heart Serif",
+      "family": "wenfeng-xwmxs",
+      "cat": "衬线",
+      "catId": "3edc27b5-6d0f-4778-b113-52b54e809c58",
+      "desc": "霞鹜铭心宋（LXGW Heart Serif）基于「こころ明朝体」衍生的开源宋体。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwHeartSerif/releases/download/v1.011/LXGWHeartSerif.ttf"
+      }
+    },
+    {
+      "norm": "Xwmxscl",
+      "name": "霞鹜铭心宋 CL",
+      "en": "LXGW Heart Serif CL",
+      "family": "wenfeng-xwmxscl",
+      "cat": "衬线",
+      "catId": "3edc27b5-6d0f-4778-b113-52b54e809c58",
+      "desc": "霞鹜铭心宋 CL（大陆常用字版）。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwHeartSerif/releases/download/v1.011/LXGWHeartSerifCL.ttf"
+      }
+    },
+    {
+      "norm": "Xwmxsmn",
+      "name": "霞鹜铭心宋 MN",
+      "en": "LXGW Heart Serif MN",
+      "family": "wenfeng-xwmxsmn",
+      "cat": "衬线",
+      "catId": "3edc27b5-6d0f-4778-b113-52b54e809c58",
+      "desc": "霞鹜铭心宋 MN（扩展字集版）。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwHeartSerif/releases/download/v1.011/LXGWHeartSerifMN.ttf"
+      }
+    },
+    {
+      "norm": "Xwszh",
+      "name": "霞鹜尚智黑",
+      "en": "LXGW Fasmart Gothic",
+      "family": "wenfeng-xwszh",
+      "cat": "无衬线字体",
+      "catId": "34a366d5-8fce-4372-9621-c77161d1947c",
+      "desc": "霞鹜尚智黑基于「03スマートフォントUI」衍生的开源黑体。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwFasmartGothic/releases/download/v1.201/LXGWFasmartGothic.ttf"
+      }
+    },
+    {
+      "norm": "Xwszhcl",
+      "name": "霞鹜尚智黑 CL",
+      "en": "LXGW Fasmart Gothic CL",
+      "family": "wenfeng-xwszhcl",
+      "cat": "无衬线字体",
+      "catId": "34a366d5-8fce-4372-9621-c77161d1947c",
+      "desc": "霞鹜尚智黑 CL。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwFasmartGothic/releases/download/v1.201/LXGWFasmartGothicCL.ttf"
+      }
+    },
+    {
+      "norm": "Xwszhmn",
+      "name": "霞鹜尚智黑 MN",
+      "en": "LXGW Fasmart Gothic MN",
+      "family": "wenfeng-xwszhmn",
+      "cat": "无衬线字体",
+      "catId": "34a366d5-8fce-4372-9621-c77161d1947c",
+      "desc": "霞鹜尚智黑 MN。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwFasmartGothic/releases/download/v1.201/LXGWFasmartGothicMN.ttf"
+      }
+    },
+    {
+      "norm": "Xwxxhplus",
+      "name": "霞鹜新晰黑 Plus",
+      "en": "LXGW Neo XiHei Plus",
+      "family": "wenfeng-xwxxhplus",
+      "cat": "无衬线字体",
+      "catId": "34a366d5-8fce-4372-9621-c77161d1947c",
+      "desc": "霞鹜新晰黑 Plus 为扩大字集的新晰黑版本。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v1.305/LXGWNeoXiHeiPlus.ttf"
+      }
+    },
+    {
+      "norm": "Xwxzsplus",
+      "name": "霞鹜新致宋 Plus",
+      "en": "LXGW Neo ZhiSong Plus",
+      "family": "wenfeng-xwxzsplus",
+      "cat": "衬线",
+      "catId": "3edc27b5-6d0f-4778-b113-52b54e809c58",
+      "desc": "霞鹜新致宋 Plus 为扩大字集的新致宋版本。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v1.067/LXGWNeoZhiSongPlus.ttf"
+      }
+    },
+    {
+      "norm": "Xwxxhscreen",
+      "name": "霞鹜新晰黑 Screen",
+      "en": "LXGW Neo XiHei Screen",
+      "family": "wenfeng-xwxxhscreen",
+      "cat": "无衬线字体",
+      "catId": "34a366d5-8fce-4372-9621-c77161d1947c",
+      "desc": "霞鹜新晰黑 Screen 屏幕阅读版。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/26.08.21/LXGWNeoXiHeiScreen.ttf"
+      }
+    },
+    {
+      "norm": "Xwxxhscreenfull",
+      "name": "霞鹜新晰黑 Screen Full",
+      "en": "LXGW Neo XiHei Screen Full",
+      "family": "wenfeng-xwxxhscreenfull",
+      "cat": "无衬线字体",
+      "catId": "34a366d5-8fce-4372-9621-c77161d1947c",
+      "desc": "霞鹜新晰黑 Screen Full。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/26.08.21/LXGWNeoXiHeiScreenFull.ttf"
+      }
+    },
+    {
+      "norm": "Xwxzsscreen",
+      "name": "霞鹜新致宋 Screen",
+      "en": "LXGW Neo ZhiSong Screen",
+      "family": "wenfeng-xwxzsscreen",
+      "cat": "衬线",
+      "catId": "3edc27b5-6d0f-4778-b113-52b54e809c58",
+      "desc": "霞鹜新致宋 Screen 屏幕阅读版。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/26.08.21/LXGWNeoZhiSongScreen.ttf"
+      }
+    },
+    {
+      "norm": "Xwxzsscreenfull",
+      "name": "霞鹜新致宋 Screen Full",
+      "en": "LXGW Neo ZhiSong Screen Full",
+      "family": "wenfeng-xwxzsscreenfull",
+      "cat": "衬线",
+      "catId": "3edc27b5-6d0f-4778-b113-52b54e809c58",
+      "desc": "霞鹜新致宋 Screen Full。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/26.08.21/LXGWNeoZhiSongScreenFull.ttf"
+      }
+    },
+    {
+      "norm": "Xwxxhcode",
+      "name": "霞鹜新晰黑 Code",
+      "en": "Neo XiHei Code",
+      "family": "wenfeng-xwxxhcode",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜新晰黑 Code 是新晰黑与 M+ 等宽合并的编程字体。SIL OFL 1.1。",
+      "files": {
+        "Regular": "https://github.com/lxgw/NeoXiHei-Code/releases/download/v1.305/NeoXiHeiCode-Regular.ttf"
+      }
+    },
+    {
+      "norm": "Xwbright",
+      "name": "霞鹜文楷 Bright",
+      "en": "LXGW Bright",
+      "family": "wenfeng-xwbright",
+      "cat": "无衬线字体",
+      "catId": "34a366d5-8fce-4372-9621-c77161d1947c",
+      "desc": "霞鹜文楷 Bright（LXGW Bright）是 LXGW 将拉丁字体与霞鹜文楷合并的开源字体家族成员。SIL OFL 1.1。",
+      "files": {
+        "Regular": "",
+        "Light": "",
+        "Medium": "",
+        "Italic": "",
+        "LightItalic": "",
+        "MediumItalic": ""
+      }
+    },
+    {
+      "norm": "Xwbrightgb",
+      "name": "霞鹜文楷 Bright GB",
+      "en": "LXGW Bright GB",
+      "family": "wenfeng-xwbrightgb",
+      "cat": "无衬线字体",
+      "catId": "34a366d5-8fce-4372-9621-c77161d1947c",
+      "desc": "霞鹜文楷 Bright GB（LXGW Bright GB）是 LXGW 将拉丁字体与霞鹜文楷合并的开源字体家族成员。SIL OFL 1.1。",
+      "files": {
+        "Regular": "",
+        "Light": "",
+        "Medium": "",
+        "Italic": "",
+        "LightItalic": "",
+        "MediumItalic": ""
+      }
+    },
+    {
+      "norm": "Xwbrighttc",
+      "name": "霞鹜文楷 Bright TC",
+      "en": "LXGW Bright TC",
+      "family": "wenfeng-xwbrighttc",
+      "cat": "无衬线字体",
+      "catId": "34a366d5-8fce-4372-9621-c77161d1947c",
+      "desc": "霞鹜文楷 Bright TC（LXGW Bright TC）是 LXGW 将拉丁字体与霞鹜文楷合并的开源字体家族成员。SIL OFL 1.1。",
+      "files": {
+        "Regular": "",
+        "Light": "",
+        "Medium": "",
+        "Italic": "",
+        "LightItalic": "",
+        "MediumItalic": ""
+      }
+    },
+    {
+      "norm": "Xwbrightcode",
+      "name": "霞鹜文楷 Bright Code",
+      "en": "LXGW Bright Code",
+      "family": "wenfeng-xwbrightcode",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜文楷 Bright Code（LXGW Bright Code）是 LXGW 将拉丁字体与霞鹜文楷合并的开源字体家族成员。SIL OFL 1.1。",
+      "files": {
+        "Regular": "",
+        "Light": "",
+        "ExtraLight": "",
+        "Italic": "",
+        "LightItalic": "",
+        "ExtraLightItalic": ""
+      }
+    },
+    {
+      "norm": "Xwbrightcodegb",
+      "name": "霞鹜文楷 Bright Code GB",
+      "en": "LXGW Bright Code GB",
+      "family": "wenfeng-xwbrightcodegb",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜文楷 Bright Code GB（LXGW Bright Code GB）是 LXGW 将拉丁字体与霞鹜文楷合并的开源字体家族成员。SIL OFL 1.1。",
+      "files": {
+        "Regular": "",
+        "Light": "",
+        "ExtraLight": "",
+        "Italic": "",
+        "LightItalic": "",
+        "ExtraLightItalic": ""
+      }
+    },
+    {
+      "norm": "Xwbrightcodetc",
+      "name": "霞鹜文楷 Bright Code TC",
+      "en": "LXGW Bright Code TC",
+      "family": "wenfeng-xwbrightcodetc",
+      "cat": "Mono",
+      "catId": "5191ac94-e365-431a-bde2-dcfc24c14c16",
+      "desc": "霞鹜文楷 Bright Code TC（LXGW Bright Code TC）是 LXGW 将拉丁字体与霞鹜文楷合并的开源字体家族成员。SIL OFL 1.1。",
+      "files": {
+        "Regular": "",
+        "Light": "",
+        "ExtraLight": "",
+        "Italic": "",
+        "LightItalic": "",
+        "ExtraLightItalic": ""
+      }
+    }
+  ]
+}

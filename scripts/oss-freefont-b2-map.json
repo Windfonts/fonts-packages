@@ -1,0 +1,113 @@
+{
+  "brands": {
+    "toneoz": "92ea2979-bdf3-4189-b895-bb9a968c418b",
+    "genne": "2b7d9f51-6e38-4c02-9a4b-0d3f8c15e762",
+    "wdxl": "3c8e0a62-7f49-4d13-8b5c-1e4a9d26f873",
+    "qiushui": "4d9f1b73-805a-4e24-9c6d-2f5b0e37a984",
+    "chiukong": "5e0a2c84-916b-4f35-8d7e-3a6c1f48b095",
+    "boutique": "6f1b3d95-a27c-4046-9e8f-4b7d2a59c0a6",
+    "itmarki": "3f8a2c61-9d14-4b70-a6e5-8c1d4f7b20aa",
+    "mengshen": "7a2c4e06-b38d-4157-8f90-5c8e3b6ad1b7",
+    "yufan": "8c2e5b47-1d90-4f6a-a3c8-7e1b9d4f06aa",
+    "lingdong": "8b3d5f17-c49e-4268-90a1-6d9f4c7be2c8"
+  },
+  "categories": {
+    "sans": { "name": "无衬线字体", "id": "34a366d5-8fce-4372-9621-c77161d1947c" },
+    "song": { "name": "宋体", "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd" },
+    "hand": { "name": "手写体", "id": "e7413c1c-60db-4970-8007-43ca466034aa" },
+    "other": { "name": "其他", "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420" }
+  },
+  "families": [
+    {
+      "norm": "Xstq", "family": "wenfeng-xstq", "name": "晓声通秋茄", "en": "ToneOZ Tsuipita TC",
+      "cat": "hand", "brand": "toneoz", "designer": "ToneOZ", "foundry": "澳声通",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文"], "useCases": ["标题"],
+      "desc": "晓声通秋茄，繁体。ToneOZ Tsuipita。OFL 1.1。"
+    },
+    {
+      "norm": "Yiny", "family": "wenfeng-yiny", "name": "源音黑体", "en": "Genne Gothic",
+      "cat": "sans", "brand": "genne", "designer": "MoneMizuno", "foundry": "MoneMizuno",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文", "简体中文"], "useCases": ["正文"],
+      "desc": "源音黑体，把思源黑体的字图映射到旧字形。实验项目。只收了常规。OFL 1.1。"
+    },
+    {
+      "norm": "Hyzi", "family": "wenfeng-hyzi", "name": "滑油字", "en": "WD-XL Lubrifont SC",
+      "cat": "sans", "brand": "wdxl", "designer": "NightFurySL2001", "foundry": "WD-XL",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["标题"],
+      "desc": "滑油字简体。NightFurySL2001。OFL 1.1。"
+    },
+    {
+      "norm": "Qsst", "family": "wenfeng-qsst", "name": "秋水书体", "en": "Qiushui Shotai",
+      "cat": "hand", "brand": "qiushui", "designer": "NoHeartPen", "foundry": "NoHeartPen",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["正文"],
+      "desc": "秋水书体。作者写明基于 Klee One、Ysabeau 和霞鹜文楷。OFL 1.1。"
+    },
+    {
+      "norm": "Qssb", "family": "wenfeng-qssb", "name": "秋水书体 Bright", "en": "Qiushui Shotai Bright",
+      "cat": "hand", "brand": "qiushui", "designer": "NoHeartPen", "foundry": "NoHeartPen",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["正文"],
+      "desc": "秋水书体 Bright。OFL 1.1。"
+    },
+    {
+      "norm": "Qkhm", "family": "wenfeng-qkhm", "name": "秋空黑体 M", "en": "ChiuKong Gothic M",
+      "cat": "sans", "brand": "chiukong", "designer": "ChiuMing-Neko", "foundry": "ChiuMing-Neko",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文", "简体中文"], "useCases": ["正文"],
+      "desc": "秋空黑体 M。版权行写基于思源黑体 2.004。只收了常规。OFL 1.1。"
+    },
+    {
+      "norm": "Qkhc", "family": "wenfeng-qkhc", "name": "秋空黑体 CL", "en": "ChiuKong Gothic CL",
+      "cat": "sans", "brand": "chiukong", "designer": "ChiuMing-Neko", "foundry": "ChiuMing-Neko",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文", "简体中文"], "useCases": ["正文"],
+      "desc": "秋空黑体 CL。版权行写基于思源黑体 2.004。只收了常规。OFL 1.1。"
+    },
+    {
+      "norm": "Jpdz", "family": "wenfeng-jpdz", "name": "精品点阵体", "en": "Boutique Bitmap 9x9",
+      "cat": "other", "brand": "boutique", "designer": "字言字语", "foundry": "字言字语",
+      "license": "可免费使用、复制、修改和分发，衍生版须使用同样授权", "spdx": "",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["屏幕阅读"],
+      "desc": "精品点阵体 9×9。许可允许免费使用、复制、修改和分发，衍生版须用同样的授权，无保证。不是 SIL OFL。"
+    },
+    {
+      "norm": "Mjdz", "family": "wenfeng-mjdz", "name": "美绩点阵体", "en": "Miseki Bitmap",
+      "cat": "other", "brand": "itmarki", "designer": "ItMarki", "foundry": "ItMarki",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文"], "useCases": ["屏幕阅读"],
+      "desc": "美绩点阵体。ItMarki。OFL 1.1。"
+    },
+    {
+      "norm": "Mjdm", "family": "wenfeng-mjdm", "name": "美绩点阵体明朝", "en": "Miseki Bitmap Mincho",
+      "cat": "other", "brand": "itmarki", "designer": "ItMarki", "foundry": "ItMarki",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文"], "useCases": ["屏幕阅读"],
+      "desc": "美绩点阵体的明朝一款。OFL 1.1。"
+    },
+    {
+      "norm": "Mshx", "family": "wenfeng-mshx", "name": "萌神手写体", "en": "Mengshen Handwritten",
+      "cat": "hand", "brand": "mengshen", "designer": "萌神", "foundry": "萌神",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["标题"],
+      "desc": "萌神手写体。字内中文名是萌神手写体 CN。版权行里还有 LXGW。OFL 1.1。"
+    },
+    {
+      "norm": "Yyxy", "family": "wenfeng-yyxy", "name": "余繁新语", "en": "YuFan XinYu",
+      "cat": "sans", "brand": "yufan", "designer": "余繁", "foundry": "余繁",
+      "license": "MIT License", "spdx": "MIT",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "余繁新语。仓库许可是 MIT。只收了常规。汉字大约六千七百。"
+    },
+    {
+      "norm": "Qiji", "family": "wenfeng-qiji", "name": "齐伋体", "en": "Qiji",
+      "cat": "song", "brand": "lingdong", "designer": "Lingdong Huang", "foundry": "Lingdong Huang",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["简体中文"], "useCases": ["标题"],
+      "desc": "齐伋体。Lingdong Huang。仓库许可是 OFL 1.1。汉字大约五千八百。"
+    }
+  ]
+}

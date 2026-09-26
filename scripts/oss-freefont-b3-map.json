@@ -1,0 +1,117 @@
+{
+  "brands": {
+    "founder": "ad5cb6e2-67aa-5677-afd8-40bf55c7e99a",
+    "xiaomi": "837ae6dc-fe27-4813-a916-e3d4be9407b8",
+    "hanamin": "be607c4a-f7c1-459b-83d4-902c7f0e15fb",
+    "cns11643": "cf718d5b-08d2-46ac-94e5-a13d801f26ac",
+    "lineseed": "d0829e6c-19e3-47bd-a5f6-b24e912037bd",
+    "aqua": "2224ffb8-c2bf-4727-8f71-2e6c0955e7c2",
+    "xiangcui": "4e7c1b93-8a25-4d6f-b0c2-9a5f3e8d17c6"
+  },
+  "categories": {
+    "sans": { "name": "无衬线字体", "id": "34a366d5-8fce-4372-9621-c77161d1947c" },
+    "song": { "name": "宋体", "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd" },
+    "hand": { "name": "手写体", "id": "e7413c1c-60db-4970-8007-43ca466034aa" },
+    "mono": { "name": "Mono", "id": "5191ac94-e365-431a-bde2-dcfc24c14c16" }
+  },
+  "families": [
+    {
+      "norm": "Fzss", "family": "wenfeng-fzss", "name": "方正书宋简体", "en": "FZ ShuSong",
+      "cat": "song", "brand": "founder", "designer": "方正", "foundry": "方正字库",
+      "license": "免费商用，不可修改", "spdx": "",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "方正书宋简体。方正公布这四款基础字可免费商用，不可修改字体文件，不可单独再分发。不是 OFL。"
+    },
+    {
+      "norm": "Fzfs", "family": "wenfeng-fzfs", "name": "方正仿宋简体", "en": "FZ FangSong",
+      "cat": "song", "brand": "founder", "designer": "方正", "foundry": "方正字库",
+      "license": "免费商用，不可修改", "spdx": "",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "方正仿宋简体。可免费商用，不可修改字体文件，不可单独再分发。不是 OFL。"
+    },
+    {
+      "norm": "Fzkt", "family": "wenfeng-fzkt", "name": "方正楷体简体", "en": "FZ Kai",
+      "cat": "hand", "brand": "founder", "designer": "方正", "foundry": "方正字库",
+      "license": "免费商用，不可修改", "spdx": "",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "方正楷体简体。可免费商用，不可修改字体文件，不可单独再分发。不是 OFL。"
+    },
+    {
+      "norm": "Fzht", "family": "wenfeng-fzht", "name": "方正黑体简体", "en": "FZ Hei",
+      "cat": "sans", "brand": "founder", "designer": "方正", "foundry": "方正字库",
+      "license": "免费商用，不可修改", "spdx": "",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "方正黑体简体。可免费商用，不可修改字体文件，不可单独再分发。不是 OFL。"
+    },
+    {
+      "norm": "Misn", "family": "wenfeng-misn", "name": "小米 MiSans", "en": "MiSans",
+      "cat": "sans", "brand": "xiaomi", "designer": "小米", "foundry": "小米",
+      "license": "免费商用", "spdx": "",
+      "languages": ["简体中文", "繁体中文"], "useCases": ["正文"],
+      "desc": "小米 MiSans。小米公布可免费商用。字内没有 OFL 正文，也没有写明能否修改。放了细、常规、中、粗。"
+    },
+    {
+      "norm": "Hyma", "family": "wenfeng-hyma", "name": "花园明朝 A", "en": "HanaMin A",
+      "cat": "song", "brand": "hanamin", "designer": "GlyphWiki", "foundry": "GlyphWiki",
+      "license": "可免费使用、修改、再分发", "spdx": "",
+      "languages": ["简体中文", "繁体中文", "日文"], "useCases": ["正文"],
+      "desc": "花园明朝 A。GlyphWiki 制作。公开说明可自由使用、修改、再分发。不是 OFL。这一档覆盖基本区汉字。"
+    },
+    {
+      "norm": "Hymb", "family": "wenfeng-hymb", "name": "花园明朝 B", "en": "HanaMin B",
+      "cat": "song", "brand": "hanamin", "designer": "GlyphWiki", "foundry": "GlyphWiki",
+      "license": "可免费使用、修改、再分发", "spdx": "",
+      "languages": ["简体中文", "繁体中文", "日文"], "useCases": ["正文"],
+      "desc": "花园明朝 B。扩展区为主，基本区汉字很少。和 A 是同一套的另一平面。"
+    },
+    {
+      "norm": "Qzss", "family": "wenfeng-qzss", "name": "全字库正宋体", "en": "TW-Sung",
+      "cat": "song", "brand": "cns11643", "designer": "国家发展委员会", "foundry": "全字库",
+      "license": "台湾开放政府数据授权条款 1.0", "spdx": "",
+      "languages": ["繁体中文"], "useCases": ["正文"],
+      "desc": "全字库正宋体。字内版权是台湾国家发展委员会，授权条款是开放政府数据授权 1.0。可免费商用、可修改、可再分发，须保留授权声明。"
+    },
+    {
+      "norm": "Qzkt", "family": "wenfeng-qzkt", "name": "全字库正楷体", "en": "TW-Kai",
+      "cat": "hand", "brand": "cns11643", "designer": "国家发展委员会", "foundry": "全字库",
+      "license": "台湾开放政府数据授权条款 1.0", "spdx": "",
+      "languages": ["繁体中文"], "useCases": ["正文"],
+      "desc": "全字库正楷体。授权条款与正宋体相同，开放政府数据授权 1.0。"
+    },
+    {
+      "norm": "Lnsw", "family": "wenfeng-lnsw", "name": "LINE Seed TW", "en": "LINE Seed TW",
+      "cat": "sans", "brand": "lineseed", "designer": "LY Corporation", "foundry": "LY Corporation",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文"], "useCases": ["正文"],
+      "desc": "LINE Seed TW。字内写着 OFL 1.1，版权行是 LY Corporation。LY 公开的 LINE Seed 条款是另一份免费商用许可。放了特细、常规、粗、特粗。"
+    },
+    {
+      "norm": "Mdmz", "family": "wenfeng-mdmz", "name": "莫大毛笔", "en": "Bakudai",
+      "cat": "hand", "brand": "aqua", "designer": "Max Yao", "foundry": "Aqua",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["繁体中文", "简体中文"], "useCases": ["标题"],
+      "desc": "莫大毛笔。字内家族名 Bakudai，基于衡山毛笔。和库里的爆呆字符数相同，中文名不同，另列一款。OFL 1.1。放了细、常规、中、粗。"
+    },
+    {
+      "norm": "Xcdz", "family": "wenfeng-xcdz", "name": "香萃打字机", "en": "Xiangcui Typewriter W15",
+      "cat": "mono", "brand": "xiangcui", "designer": "香萃", "foundry": "香萃",
+      "license": "免费商用", "spdx": "",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "香萃打字机 W15。字内没有许可正文。同目录的香萃刻宋写的是 OFL 1.1。这一款按免费商用记下，修改条款没有写在文件里。"
+    },
+    {
+      "norm": "Xccx", "family": "wenfeng-xccx", "name": "香萃潮汐宋", "en": "Xiangcui Tide Song W15",
+      "cat": "song", "brand": "xiangcui", "designer": "香萃", "foundry": "香萃",
+      "license": "免费商用", "spdx": "",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "香萃潮汐宋 W15。字内没有许可正文。同目录的香萃刻宋写的是 OFL 1.1。"
+    },
+    {
+      "norm": "Xcld", "family": "wenfeng-xcld", "name": "香萃零度黑", "en": "Xiangcui Zero Hei",
+      "cat": "sans", "brand": "xiangcui", "designer": "香萃", "foundry": "香萃",
+      "license": "免费商用", "spdx": "",
+      "languages": ["简体中文"], "useCases": ["正文"],
+      "desc": "香萃零度黑 2.0。字内版权仍是 Adobe 2017，保留名 Source，没有另写 OFL。是思源的改作。"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "note": "smiley moon and dela gothic",
+  "brands": {
+    "smiley-moon": "52815176-d72d-48ec-b489-7f243323de65",
+    "dela": "81aa7111-c094-4934-8558-a5a0527a3ae1"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    },
+    "serif": {
+      "name": "衬线",
+      "id": "3edc27b5-6d0f-4778-b113-52b54e809c58"
+    },
+    "song": {
+      "name": "宋体",
+      "id": "f08be474-1b71-4a22-95cd-7a9963ba3dcd"
+    },
+    "hand": {
+      "name": "手写体",
+      "id": "e7413c1c-60db-4970-8007-43ca466034aa"
+    },
+    "mono": {
+      "name": "Mono",
+      "id": "5191ac94-e365-431a-bde2-dcfc24c14c16"
+    },
+    "other": {
+      "name": "其他",
+      "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420"
+    }
+  },
+  "families": [
+    {
+      "wave": "two",
+      "repo": "onichan0923/smiley-moon",
+      "norm": "Xyt",
+      "family": "wenfeng-xyt",
+      "name": "斜月体",
+      "en": "Smiley Moon",
+      "cat": "sans",
+      "brand": "smiley-moon",
+      "designer": "onichan0923",
+      "foundry": "斜月",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "简体中文",
+        "繁体中文",
+        "英语"
+      ],
+      "useCases": [
+        "正文",
+        "标题",
+        "屏幕阅读"
+      ],
+      "desc": "斜月体，得意黑加宽后的屏显版。补入调整过的思源黑体、IBM Plex Sans KR 和遍黑体的部分字符。Light 由机械减淡得到。SIL OFL 1.1。"
+    },
+    {
+      "wave": "two",
+      "repo": "syakuzen/DelaGothic",
+      "norm": "Dela",
+      "family": "wenfeng-dela",
+      "name": "馒头黑体",
+      "en": "Dela Gothic One",
+      "cat": "sans",
+      "brand": "dela",
+      "designer": "syakuzen",
+      "foundry": "Dela Gothic",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": [
+        "日文",
+        "简体中文"
+      ],
+      "useCases": [
+        "标题"
+      ],
+      "desc": "Dela Gothic One，粗黑体。报告里也叫无界黑。汉字约 7654，不是全字库。SIL OFL 1.1。"
+    }
+  ]
+}

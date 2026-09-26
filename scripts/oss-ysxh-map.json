@@ -1,0 +1,30 @@
+{
+  "brands": {
+    "keynote": "a7c3e1b2-6d44-4f0a-9c31-2b8e5f0a91d4"
+  },
+  "categories": {
+    "sans": {
+      "name": "无衬线字体",
+      "id": "34a366d5-8fce-4372-9621-c77161d1947c"
+    }
+  },
+  "families": [
+    {
+      "wave": "slide",
+      "repo": "maoken",
+      "norm": "Ysxh",
+      "family": "wenfeng-ysxh",
+      "name": "演示斜黑体",
+      "en": "Slide Slant Sans",
+      "cat": "sans",
+      "brand": "keynote",
+      "designer": "人生哥",
+      "foundry": "Keynote研究所",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "languages": ["简体中文", "繁体中文"],
+      "useCases": ["标题"],
+      "desc": "Keynote 研究所人生哥用思源黑体做的斜体。猫啃标 OFL 1.1。字内版权行仍是 Adobe 2014，没有单独的 OFL 声明。"
+    }
+  ]
+}

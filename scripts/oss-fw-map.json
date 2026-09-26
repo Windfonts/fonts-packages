@@ -1,0 +1,39 @@
+{
+  "brands": {
+    "fontworks": "5f7ebc2a-32e6-46f2-80a8-47131c209422"
+  },
+  "categories": {
+    "sans": { "name": "无衬线字体", "id": "34a366d5-8fce-4372-9621-c77161d1947c" },
+    "other": { "name": "其他", "id": "8990380b-6c3e-4fb9-8e3d-4b7019f8c420" }
+  },
+  "families": [
+    {
+      "norm": "Dg16", "family": "wenfeng-dg16", "name": "DotGothic16", "en": "DotGothic16",
+      "cat": "other", "brand": "fontworks", "designer": "Fontworks", "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["日文"], "useCases": ["屏幕阅读"],
+      "desc": "DotGothic16。Fontworks 开源的点阵黑体，日文，含常用汉字。OFL 1.1。是这套源头里的一款。"
+    },
+    {
+      "norm": "Trn1", "family": "wenfeng-trn1", "name": "Train One", "en": "Train One",
+      "cat": "sans", "brand": "fontworks", "designer": "Fontworks", "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["日文"], "useCases": ["标题"],
+      "desc": "Train One。Fontworks 开源的标题黑体，日文，汉字大约三千。OFL 1.1。"
+    },
+    {
+      "norm": "Rgg1", "family": "wenfeng-rgg1", "name": "Reggae One", "en": "Reggae One",
+      "cat": "sans", "brand": "fontworks", "designer": "Fontworks", "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["日文"], "useCases": ["标题"],
+      "desc": "Reggae One。Fontworks 开源的标题黑体，日文，含常用汉字。OFL 1.1。"
+    },
+    {
+      "norm": "Rmp1", "family": "wenfeng-rmp1", "name": "Rampart One", "en": "Rampart One",
+      "cat": "sans", "brand": "fontworks", "designer": "Fontworks", "foundry": "Fontworks",
+      "license": "SIL Open Font License 1.1", "spdx": "OFL-1.1",
+      "languages": ["日文"], "useCases": ["标题"],
+      "desc": "Rampart One。Fontworks 开源的标题黑体，日文，含常用汉字。OFL 1.1。"
+    }
+  ]
+}
