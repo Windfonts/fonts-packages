@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 字体多版本子集化工具
 支持创建多个字符集版本：全量、纯中文、纯英文、常用中文
@@ -71,6 +72,18 @@ CHARSET_DEFINITIONS = {
         'suffix': 'zh-common'
     }
 }
+
+# SUBSET_ONLY=full 或 full,en —— 入库波次可只出 full，省磁盘/时间
+_subset_only = os.environ.get('SUBSET_ONLY', '').strip()
+if _subset_only:
+    _want = {x.strip() for x in _subset_only.split(',') if x.strip()}
+    CHARSET_DEFINITIONS = {
+        k: v for k, v in CHARSET_DEFINITIONS.items()
+        if k in _want or v.get('suffix') in _want
+    }
+    if not CHARSET_DEFINITIONS:
+        raise SystemExit(f'SUBSET_ONLY={_subset_only!r} matched no charsets')
+    print(f'[SUBSET_ONLY] active charsets: {list(CHARSET_DEFINITIONS)}')
 
 def string_to_unicodes(text):
     """将字符串转换为 Unicode 码点列表"""

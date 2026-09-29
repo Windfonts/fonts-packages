@@ -1,0 +1,48 @@
+{
+  "note": "kaonashi-tyc 权衡度量体 + 玄宗体 · 2026-09-29",
+  "brands": {
+    "kaonashi-tyc": null
+  },
+  "families": [
+    {
+      "wave": "kaonashi",
+      "repo": "kaonashi-tyc/Zi-QuanHengDuLiang",
+      "norm": "Qhddl",
+      "family": "wenfeng-qhddl",
+      "name": "权衡度量体",
+      "en": "QuanHengDuLiang",
+      "cat": "hand",
+      "brand": "kaonashi-tyc",
+      "designer": "Yuchen Tian",
+      "foundry": "Yuchen Tian",
+      "license": "MIT License",
+      "spdx": "MIT",
+      "source": "raw",
+      "rawPaths": ["data/QuanHengDuLiang-v0.1.ttf"],
+      "weightPrefer": ["Regular"],
+      "languages": ["简体中文"],
+      "useCases": ["标题", "书法"],
+      "desc": "权衡度量体。从清《权衡度量实验考》手书 338 字，经 zi2zi-JiT 补全 GB2312。MIT License。"
+    },
+    {
+      "wave": "kaonashi",
+      "repo": "kaonashi-tyc/Zi-XuanZongTi",
+      "norm": "Xxzt",
+      "family": "wenfeng-xxzt",
+      "name": "玄宗体",
+      "en": "XuanZongTi",
+      "cat": "hand",
+      "brand": "kaonashi-tyc",
+      "designer": "Yuchen Tian",
+      "foundry": "Yuchen Tian",
+      "license": "SIL Open Font License 1.1",
+      "spdx": "OFL-1.1",
+      "source": "raw",
+      "rawPaths": ["data/XuanZongTi-v0.1.otf"],
+      "weightPrefer": ["Regular"],
+      "languages": ["简体中文"],
+      "useCases": ["标题", "书法"],
+      "desc": "玄宗体。取唐玄宗《鹡鸰颂》字，经 zi2zi-JiT 补全 GB2312。SIL OFL 1.1。源 OTF name 表仍带 Adobe Source 保留名行，入库按 README 切 GB2312。"
+    }
+  ]
+}
