@@ -1,0 +1,22 @@
+{
+  "packs": {
+    "shop": {
+      "id": "shop",
+      "path": "preview-shop",
+      "description": "店面样张：字林单字、短句、活样张、永。枚举包，不是公开 text=",
+      "text": "春风又绿江南岸风永让中文字体，在网页上流动。文派天地玄黄 宇宙洪荒 日月盈昃 Aa 0123字里行间行到水穷处，坐看云起时汉字 Hànzì Wenpai"
+    },
+    "card": {
+      "id": "card",
+      "path": "preview-card",
+      "description": "列表行短句",
+      "text": "春风又绿江南岸风 Aa 0123"
+    },
+    "yong": {
+      "id": "yong",
+      "path": "preview-yong",
+      "description": "永字格",
+      "text": "永"
+    }
+  }
+}
