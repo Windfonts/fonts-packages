@@ -1,0 +1,12 @@
+{
+  "n": 1,
+  "note": "user 覆盖过去 2026-10-07: vault English 水木 dest smht",
+  "rows": [
+    {
+      "id": "58c3fe9d-41fb-4507-95b5-b203233c3018",
+      "name": "水木黑体",
+      "new": "smht",
+      "old_ci": "mizukigothic"
+    }
+  ]
+}

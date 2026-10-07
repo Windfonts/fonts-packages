@@ -1,0 +1,46 @@
+{
+  "n": 4,
+  "skip_ids": [
+    "58c3fe9d-41fb-4507-95b5-b203233c3018",
+    "45842635-f800-4650-bdc6-309c6d2d8322"
+  ],
+  "skip_why": {
+    "58c3fe9d-41fb-4507-95b5-b203233c3018": "水木 vault English row; dest smht taken by shop 水木; do not overwrite",
+    "45842635-f800-4650-bdc6-309c6d2d8322": "Kaisei Opti is shop-only; no vault row"
+  },
+  "drop_alias_keys": ["wenfeng-kaiseiopti", "kaiseiopti"],
+  "occupants_must_stay": {
+    "cjkfqlt": "cjksxz",
+    "hcth": "hcyjt",
+    "ddxstyx": "ddxsyt",
+    "kaiso": "kisjp",
+    "zmxs": "zhi-mang-xing",
+    "smht": "smht"
+  },
+  "rows": [
+    {
+      "id": "15d74d21-d00d-4fc3-9245-79b2f1b90dfb",
+      "name": "cjkFonts 全濑体",
+      "new": "cjkfqlt",
+      "old_ci": "allseto"
+    },
+    {
+      "id": "cf666fa4-aab8-4baa-854b-5163bef7e5ce",
+      "name": "寒蝉潭黑",
+      "new": "hcth",
+      "old_ci": "cltan"
+    },
+    {
+      "id": "ca9bf7b9-f534-4313-8a6a-53473bc42015",
+      "name": "点点像素体-圆形",
+      "new": "ddxstyx",
+      "old_ci": "dottedsongticircleregular"
+    },
+    {
+      "id": "6f6f636c-ddc5-481c-b7e5-4dd082d7c9fa",
+      "name": "志莽行书",
+      "new": "zmxs",
+      "old_ci": "zhimangxing"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+/var/cache/openresty/windfonts/8/bb/18f6c2d88448c7354e6dfa7952ccdbb8
+/var/cache/openresty/windfonts/6/33/3acab74ca0acb589f49a1e7dbbc32336
+/var/cache/openresty/windfonts/9/28/ac877b3df3ab4c93496cd1e46eb93289
+/var/cache/openresty/windfonts/2/b3/52b273fc3d280ac4b0fd648aaee74b32

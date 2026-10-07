@@ -1,0 +1,893 @@
+{
+  "shop": 707,
+  "vault_n": 835,
+  "vault_published": 732,
+  "oss_prefixes": 1462,
+  "oss_mixed": 0,
+  "shop_aliases": 1120,
+  "vault_aliases": 1078,
+  "pack_subsets": 1253,
+  "fonts_list": 707,
+  "css_probe_n": 732,
+  "issue_counts": {
+    "oss_missing_shop_dir": 1,
+    "oss_missing_vault_norm": 23
+  },
+  "expected_open_counts": {
+    "wave2_shop_old_dir": 5,
+    "vault_kept_old_norm": 5,
+    "empty_src": 1,
+    "vault_only_published": 97,
+    "oss_missing_empty_src": 1,
+    "shop_only_no_vault_row": 72
+  },
+  "issues": {
+    "oss_missing_shop_dir": [
+      {
+        "name": "吉利银河美好体",
+        "short": "jlyhmht",
+        "normalized": "jlyhmht"
+      }
+    ],
+    "oss_missing_vault_norm": [
+      {
+        "name": "吉利银河美好体",
+        "norm": "jlyhmht",
+        "family": "wenfeng-jlyhmht"
+      },
+      {
+        "name": "美咲ゴシック",
+        "norm": "misakig",
+        "family": "wenfeng-misakig"
+      },
+      {
+        "name": "美咲明朝",
+        "norm": "misakim",
+        "family": "wenfeng-misakim"
+      },
+      {
+        "name": "美咲ゴシック第2",
+        "norm": "misakig2nd",
+        "family": "wenfeng-misakig2nd"
+      },
+      {
+        "name": "k8x12",
+        "norm": "k8x12",
+        "family": "wenfeng-k8x12"
+      },
+      {
+        "name": "k8x12L",
+        "norm": "k8x12l",
+        "family": "wenfeng-k8x12l"
+      },
+      {
+        "name": "k8x12S",
+        "norm": "k8x12s",
+        "family": "wenfeng-k8x12s"
+      },
+      {
+        "name": "k12x8",
+        "norm": "k12x8",
+        "family": "wenfeng-k12x8"
+      },
+      {
+        "name": "IPAmj明朝",
+        "norm": "ipamjmincho",
+        "family": "wenfeng-ipamjmincho"
+      },
+      {
+        "name": "Spoqa Han Sans Neo",
+        "norm": "spoqahansansneo",
+        "family": "wenfeng-spoqahansansneo"
+      },
+      {
+        "name": "고운바탕",
+        "norm": "gowunbatang",
+        "family": "wenfeng-gowunbatang"
+      },
+      {
+        "name": "고운돋움",
+        "norm": "gowundodum",
+        "family": "wenfeng-gowundodum"
+      },
+      {
+        "name": "검은고딕",
+        "norm": "blackhansans",
+        "family": "wenfeng-blackhansans"
+      },
+      {
+        "name": "Noto Sans KR",
+        "norm": "notosanskr",
+        "family": "wenfeng-notosanskr"
+      },
+      {
+        "name": "송명체",
+        "norm": "songmyung",
+        "family": "wenfeng-songmyung"
+      },
+      {
+        "name": "나눔고딕코딩",
+        "norm": "nanumgothiccoding",
+        "family": "wenfeng-nanumgothiccoding"
+      },
+      {
+        "name": "IBM Plex Sans KR",
+        "norm": "ibmplexsanskr",
+        "family": "wenfeng-ibmplexsanskr"
+      },
+      {
+        "name": "D2Coding",
+        "norm": "d2coding",
+        "family": "wenfeng-d2coding"
+      },
+      {
+        "name": "마루 부리",
+        "norm": "maruburi",
+        "family": "wenfeng-maruburi"
+      },
+      {
+        "name": "Dongle",
+        "norm": "dongle",
+        "family": "wenfeng-dongle"
+      },
+      {
+        "name": "Gothic A1",
+        "norm": "gothica1",
+        "family": "wenfeng-gothica1"
+      },
+      {
+        "name": "갈무리",
+        "norm": "galmuri",
+        "family": "wenfeng-galmuri"
+      },
+      {
+        "name": "更纱等宽 KR",
+        "norm": "sarasamonok",
+        "family": "wenfeng-sarasamonok"
+      }
+    ]
+  },
+  "expected_open": {
+    "wave2_shop_old_dir": [
+      {
+        "name": "寒蝉潭黑",
+        "old": "cltan",
+        "new": "hcth"
+      },
+      {
+        "name": "点点像素体-圆形",
+        "old": "dottedsongticircleregular",
+        "new": "ddxstyx"
+      },
+      {
+        "name": "Kaisei Opti",
+        "old": "kaiseiopti",
+        "new": "kaiso"
+      },
+      {
+        "name": "cjkFonts 全濑体",
+        "old": "allseto",
+        "new": "cjkfqlt"
+      },
+      {
+        "name": "志莽行书",
+        "old": "zhimangxing",
+        "new": "zmxs"
+      }
+    ],
+    "vault_kept_old_norm": [
+      {
+        "name": "寒蝉潭黑",
+        "vault_norm": "Cltan",
+        "short": "hcth",
+        "why": "wave2"
+      },
+      {
+        "name": "点点像素体-圆形",
+        "vault_norm": "DottedSongtiCircleRegular",
+        "short": "ddxstyx",
+        "why": "wave2"
+      },
+      {
+        "name": "cjkFonts 全濑体",
+        "vault_norm": "AllSeto",
+        "short": "cjkfqlt",
+        "why": "wave2"
+      },
+      {
+        "name": "上海摩登体",
+        "vault_norm": "Shmgt",
+        "short": "shmdt",
+        "why": "empty"
+      },
+      {
+        "name": "志莽行书",
+        "vault_norm": "ZhiMangXing",
+        "short": "zmxs",
+        "why": "wave2"
+      }
+    ],
+    "empty_src": [
+      {
+        "name": "上海摩登体",
+        "short": "shmdt",
+        "normalized": "shmgt"
+      }
+    ],
+    "vault_only_published": [
+      {
+        "id": "84edb5e0-c977-4570-92a8-61f09cfeca2c",
+        "name": "寒蝉端黑",
+        "family": "wenfeng-clduan",
+        "norm": "Clduan"
+      },
+      {
+        "id": "7f48fdc1-8032-4d2d-8f94-5f64cce36943",
+        "name": "钟齐志莽行书",
+        "family": "wenfeng-zhi-mang-xing",
+        "norm": "zhi-mang-xing"
+      },
+      {
+        "id": "e94d94a6-fec0-4f6a-8fcc-147c4df61a7a",
+        "name": "思源黑体 TC",
+        "family": "wenfeng-syhttc",
+        "norm": "Syhttc"
+      },
+      {
+        "id": "d7fac16f-8c69-4d7d-8a02-50fb509dc4d9",
+        "name": "阿里巴巴普惠體 TC",
+        "family": "wenfeng-albbphttc",
+        "norm": "Albbphttc"
+      },
+      {
+        "id": "ed6e7794-1009-4aa6-84e8-fac44ffa133f",
+        "name": "MiSans TC",
+        "family": "wenfeng-misatc",
+        "norm": "Misatc"
+      },
+      {
+        "id": "c1a0f3e2-8d7b-4c5a-9e1f-3b6d8a0c2e45",
+        "name": "寒蝉春秋·春风",
+        "family": "wenfeng-hccqcf",
+        "norm": "Hccqcf"
+      },
+      {
+        "id": "d2b1e4f3-9c8a-4d6b-a0f2-4c7e9b1d3f56",
+        "name": "寒蝉春秋·秋鸿",
+        "family": "wenfeng-hccqqh",
+        "norm": "Hccqqh"
+      },
+      {
+        "id": "ccc29a56-a1d0-4509-98bc-8cc1d6f6ea11",
+        "name": "小夏",
+        "family": "wenfeng-konatu",
+        "norm": "Konatu"
+      },
+      {
+        "id": "8828f9da-4a4a-4268-be4f-1e3f56d709ec",
+        "name": "小夏等幅",
+        "family": "wenfeng-konatutohaba",
+        "norm": "KonatuTohaba"
+      },
+      {
+        "id": "2a575439-49c8-4303-bc0b-20fa054d8c73",
+        "name": "立夏黑体",
+        "family": "wenfeng-lxhtssa",
+        "norm": "Lxht"
+      },
+      {
+        "id": "a19511d0-9f1b-4b85-951e-4066029fb277",
+        "name": "长坂点宋 12",
+        "family": "wenfeng-cbds12",
+        "norm": "Cbds12"
+      },
+      {
+        "id": "a8539a5d-6b19-4690-9108-7103ebc16874",
+        "name": "八丁饰尾体",
+        "family": "wenfeng-bdswt",
+        "norm": "Bdswt"
+      },
+      {
+        "id": "dd8d1b7b-7b9b-49e4-b74f-b9d326a23cc5",
+        "name": "秋叶圆体",
+        "family": "wenfeng-qyyt",
+        "norm": "Qyyt"
+      },
+      {
+        "id": "42affc2a-fa1c-403e-87cd-7d3446977cf4",
+        "name": "人偶仿宋",
+        "family": "wenfeng-rofs",
+        "norm": "Rofs"
+      },
+      {
+        "id": "6f3fe34e-b62b-4b2a-b621-78fd823f13a0",
+        "name": "扇尾胄黑",
+        "family": "wenfeng-swzh16",
+        "norm": "Swzh"
+      },
+      {
+        "id": "b243c728-0728-4266-a960-7884ee1e61a6",
+        "name": "正格点黑",
+        "family": "wenfeng-zgdh",
+        "norm": "Zgdh"
+      },
+      {
+        "id": "2694a7a5-b50d-42e1-9ecd-679cc7987443",
+        "name": "袖珍像素体",
+        "family": "wenfeng-xzxst",
+        "norm": "Xzxst"
+      },
+      {
+        "id": "f0152df7-d221-48fe-b119-f86679bbaaf5",
+        "name": "KH Dot 道玄坂 12",
+        "family": "wenfeng-khdd12",
+        "norm": "Khdd12"
+      },
+      {
+        "id": "c5a52447-986a-4630-a5d2-f7ac84fda3af",
+        "name": "KH Dot 道玄坂 16",
+        "family": "wenfeng-khdd16",
+        "norm": "Khdd16"
+      },
+      {
+        "id": "82f98145-4e4c-4bef-a37e-92129b205143",
+        "name": "KH Dot 八丁堀 16",
+        "family": "wenfeng-khdhb16",
+        "norm": "Khdhb16"
+      },
+      {
+        "id": "544f6c97-9d09-4f12-8995-1909befb9364",
+        "name": "KH Dot 秋葉原 16",
+        "family": "wenfeng-khdak16",
+        "norm": "Khdak16"
+      },
+      {
+        "id": "d196839c-d160-4b27-ae82-4597c67c0b97",
+        "name": "KH Dot 人形町 16",
+        "family": "wenfeng-khdny16",
+        "norm": "Khdny16"
+      },
+      {
+        "id": "0ad35081-149e-42d3-bf43-2a4e08b21e19",
+        "name": "KH Dot 兜町 16",
+        "family": "wenfeng-khdkb16",
+        "norm": "Khdkb16"
+      },
+      {
+        "id": "4d5904d6-323b-4b95-804a-c1e7fffdab9e",
+        "name": "KH Dot 小伝馬町 12",
+        "family": "wenfeng-khdkm12",
+        "norm": "Khdkm12"
+      },
+      {
+        "id": "62902aeb-7849-4d3d-9e34-317d3bfde693",
+        "name": "KH Dot 小伝馬町 12 Ki",
+        "family": "wenfeng-khdkm12ki",
+        "norm": "Khdkm12ki"
+      },
+      {
+        "id": "ebc9f56f-d2db-4ac3-b073-18bf42a67bd9",
+        "name": "KH Dot 小伝馬町 12 Ko",
+        "family": "wenfeng-khdkm12ko",
+        "norm": "Khdkm12ko"
+      },
+      {
+        "id": "2cdd16c5-54a6-4fa2-a242-70da6b8522d4",
+        "name": "KH Dot 小伝馬町 16",
+        "family": "wenfeng-khdkm16",
+        "norm": "Khdkm16"
+      },
+      {
+        "id": "ffe4615a-4374-4ed6-bc14-71dd8f8f86e0",
+        "name": "KH Dot 小伝馬町 16 Ki",
+        "family": "wenfeng-khdkm16ki",
+        "norm": "Khdkm16ki"
+      },
+      {
+        "id": "1227c5e3-932a-4fda-84af-b9be7bb1ac65",
+        "name": "KH Dot 神楽坂 12",
+        "family": "wenfeng-khdkg12",
+        "norm": "Khdkg12"
+      },
+      {
+        "id": "455f0ca8-519d-46e9-9d69-b57e7b33d585",
+        "name": "KH Dot 神楽坂 16",
+        "family": "wenfeng-khdkg16",
+        "norm": "Khdkg16"
+      },
+      {
+        "id": "ee3b170f-ae61-47e2-a757-edb28fef1fcf",
+        "name": "KH Dot 日比谷 24",
+        "family": "wenfeng-khdhy24",
+        "norm": "Khdhy24"
+      },
+      {
+        "id": "3f4a7f69-16d1-4646-a239-55b3aa32e8a7",
+        "name": "KH Dot 日比谷 32",
+        "family": "wenfeng-khdhy32",
+        "norm": "Khdhy32"
+      },
+      {
+        "id": "4c598d9c-1e7b-4b42-83a9-6e6f45394097",
+        "name": "k6x8 ゴシック",
+        "family": "wenfeng-k6x8g",
+        "norm": "K6x8g"
+      },
+      {
+        "id": "4dba41f4-253b-4831-a3d7-d493f67b3623",
+        "name": "k6x8 明朝",
+        "family": "wenfeng-k6x8m",
+        "norm": "K6x8m"
+      },
+      {
+        "id": "4f559813-0cd1-41df-a807-7b6a765e97ca",
+        "name": "IPAex Gothic",
+        "family": "wenfeng-ipaexgothic",
+        "norm": "IPAexGothic"
+      },
+      {
+        "id": "b56286db-7725-4e76-ae54-13be42dd4bbd",
+        "name": "IPA 黑体",
+        "family": "wenfeng-ipagothic",
+        "norm": "IPAGothic"
+      },
+      {
+        "id": "13bfb727-36a9-46f6-90e3-5582068d5e40",
+        "name": "こころ明朝",
+        "family": "wenfeng-kokoro",
+        "norm": "Kokoro"
+      },
+      {
+        "id": "7b1fe6cf-14ce-4982-83f7-49733f24967e",
+        "name": "美咲ゴシック",
+        "family": "wenfeng-misakig",
+        "norm": "Misakig"
+      },
+      {
+        "id": "a60b6dbd-83ac-47cd-bad6-649fbb532c2e",
+        "name": "美咲明朝",
+        "family": "wenfeng-misakim",
+        "norm": "Misakim"
+      },
+      {
+        "id": "78812b21-81bd-4889-ad98-d8f5190fa52c",
+        "name": "美咲ゴシック第2",
+        "family": "wenfeng-misakig2nd",
+        "norm": "Misakig2nd"
+      },
+      {
+        "id": "7ef8b8f5-827e-4c76-ade0-ee4f936062db",
+        "name": "k8x12",
+        "family": "wenfeng-k8x12",
+        "norm": "K8x12"
+      },
+      {
+        "id": "a8ec0bbf-be9c-4eaf-94e2-acaa5cfcaeaf",
+        "name": "k8x12L",
+        "family": "wenfeng-k8x12l",
+        "norm": "K8x12l"
+      },
+      {
+        "id": "44ce8d06-e36b-4778-bfa1-1409ee253342",
+        "name": "k8x12S",
+        "family": "wenfeng-k8x12s",
+        "norm": "K8x12s"
+      },
+      {
+        "id": "cf7cf503-cb0a-4a30-a1c7-ded3474402f9",
+        "name": "k12x8",
+        "family": "wenfeng-k12x8",
+        "norm": "K12x8"
+      },
+      {
+        "id": "901bea7c-76dd-4e28-be67-05920bea992a",
+        "name": "IPAmj明朝",
+        "family": "wenfeng-ipamjmincho",
+        "norm": "IPAmjMincho"
+      },
+      {
+        "id": "e6432772-271d-45ce-9663-2e2eb21d4d40",
+        "name": "逐浪萌芽字",
+        "family": "wenfeng-zlmyz",
+        "norm": "ZoomlaMengyas"
+      },
+      {
+        "id": "3b07c16f-c0f7-4be2-be65-61545c96a086",
+        "name": "逐浪粗宋简体",
+        "family": "wenfeng-zlcsjt",
+        "norm": "ZoomlaCusong"
+      },
+      {
+        "id": "c278cb6a-4816-471c-9246-7296de4313ba",
+        "name": "嗷呜等高体",
+        "family": "wenfeng-awdgt",
+        "norm": "HowlingEqHiSans"
+      },
+      {
+        "id": "e91de44b-cfcd-424b-b382-dcd5bea4a85d",
+        "name": "鸿雷小纸条青春体",
+        "family": "wenfeng-hlxztqct",
+        "norm": "HongleiXiaozhitiao"
+      },
+      {
+        "id": "23746673-019f-4fa4-bacf-5e6de626c7e8",
+        "name": "鸿雷板书体",
+        "family": "wenfeng-hlbst",
+        "norm": "HongleiBanshu"
+      }
+    ],
+    "oss_missing_empty_src": [
+      {
+        "name": "上海摩登体",
+        "norm": "shmgt",
+        "family": "wenfeng-shmdt"
+      }
+    ],
+    "shop_only_no_vault_row": [
+      {
+        "id": "27ab0b5d-c463-46fe-9ff4-48e29d3f6dde",
+        "name": "仲春仿宋",
+        "family": "wenfeng-zcfs"
+      },
+      {
+        "id": "0e4068b3-4bb0-4075-98ed-0be3edc66dda",
+        "name": "香菜碼等宽",
+        "family": "wenfeng-xcmdk"
+      },
+      {
+        "id": "4bb5bdc3-aefe-4a27-8287-47396f2e525f",
+        "name": "计划楷",
+        "family": "wenfeng-jhk"
+      },
+      {
+        "id": "2d06cd49-c6d4-40d1-a41b-11bbbb0d140d",
+        "name": "游趣体",
+        "family": "wenfeng-yqt"
+      },
+      {
+        "id": "ed2d7544-f75b-450d-94a9-5872c84ee69f",
+        "name": "遊趣體",
+        "family": "wenfeng-yqttc"
+      },
+      {
+        "id": "291b41a2-9a24-4ed9-a55a-6d5ef11a5389",
+        "name": "Y式笔书",
+        "family": "wenfeng-ysbs"
+      },
+      {
+        "id": "c343d1c7-de43-4844-aa97-14450903500a",
+        "name": "立夏黑体",
+        "family": "wenfeng-lxhtssa"
+      },
+      {
+        "id": "ff0a5f71-e966-4af5-8db2-9a6e7f182a41",
+        "name": "扇尾胄黑 16",
+        "family": "wenfeng-swzh16"
+      },
+      {
+        "id": "8da50deb-8972-4b45-899b-8c7f358c2d1d",
+        "name": "大桥和楷书体",
+        "family": "wenfeng-dqhkst"
+      },
+      {
+        "id": "af0b187a-d1b3-476d-867f-a8d324f582a1",
+        "name": "宙黑体",
+        "family": "wenfeng-zht"
+      },
+      {
+        "id": "54ea02d7-067d-4b6d-94cd-a795afd43955",
+        "name": "耀圆体",
+        "family": "wenfeng-yytkm"
+      },
+      {
+        "id": "456c1557-d7c2-44a2-9da3-707887f4d235",
+        "name": "资源圆体",
+        "family": "wenfeng-zyytrhr"
+      },
+      {
+        "id": "440b2340-c8a9-460f-ac17-963aea0c166b",
+        "name": "寒蝉全圆体",
+        "family": "wenfeng-hcqyt"
+      },
+      {
+        "id": "25e34fa1-6483-48db-a3d1-ea2706c1866f",
+        "name": "阅圆",
+        "family": "wenfeng-yytyy"
+      },
+      {
+        "id": "dabc60bb-9a04-4604-b3c7-c8464e8d6e15",
+        "name": "思源等宽 JP",
+        "family": "wenfeng-sydkjp"
+      },
+      {
+        "id": "bd867346-abfb-4f32-bbd9-6919066e7d3a",
+        "name": "思源黑体 JP",
+        "family": "wenfeng-syhtjp"
+      },
+      {
+        "id": "4bf49063-5987-4ef6-83c8-2f809da1f1a1",
+        "name": "思源黑体 HK",
+        "family": "wenfeng-syhthk"
+      },
+      {
+        "id": "64e4b05c-7191-4478-baba-704f68feb112",
+        "name": "思源宋体 JP",
+        "family": "wenfeng-systjp"
+      },
+      {
+        "id": "66f05914-0eb5-4916-8ffa-7fe7fda6da5d",
+        "name": "思源宋体 HK",
+        "family": "wenfeng-systhk"
+      },
+      {
+        "id": "4587af88-9f67-45e5-b424-d2de24867157",
+        "name": "思源等宽 Mono JP",
+        "family": "wenfeng-sydkmjp"
+      },
+      {
+        "id": "8d13ebd5-f242-4994-bdde-6c4ee5963b71",
+        "name": "思源等宽 TC",
+        "family": "wenfeng-sydktc"
+      },
+      {
+        "id": "c2f4a00f-e50e-4a96-a1de-7b74f109eb42",
+        "name": "BIZ UDGothic",
+        "family": "wenfeng-bizudg"
+      },
+      {
+        "id": "f954ac1e-9aa3-41c5-8c23-7a59449ef33c",
+        "name": "BIZ UDPGothic",
+        "family": "wenfeng-bizudpg"
+      },
+      {
+        "id": "23714876-2b99-4b3f-96aa-b4d8932dd195",
+        "name": "BIZ UDMincho",
+        "family": "wenfeng-bizudm"
+      },
+      {
+        "id": "15491c95-bf7f-4172-ba3b-56e710419b78",
+        "name": "BIZ UDPMincho",
+        "family": "wenfeng-bizudpm"
+      },
+      {
+        "id": "27f3c40c-9045-4ba2-8dfc-9827409a10f2",
+        "name": "IBM Plex Sans JP",
+        "family": "wenfeng-ibmpsjp"
+      },
+      {
+        "id": "28afd495-8a49-4e7d-b177-253424b53710",
+        "name": "Hina Mincho",
+        "family": "wenfeng-hnmcjp"
+      },
+      {
+        "id": "0c730fb6-c3a0-4b3a-9f60-b66f9ee1c3a0",
+        "name": "New Tegomin",
+        "family": "wenfeng-ntgmjp"
+      },
+      {
+        "id": "da2182e7-1234-4b9e-8075-a97063c1c9f4",
+        "name": "Yuji Mai",
+        "family": "wenfeng-yjmjp"
+      },
+      {
+        "id": "8321300f-03b4-4a67-8a37-af050b102d52",
+        "name": "Yuji Boku",
+        "family": "wenfeng-yjbkjp"
+      },
+      {
+        "id": "726fbf47-c11c-49ab-9caf-79376026d904",
+        "name": "LINE Seed JP",
+        "family": "wenfeng-linesjp"
+      },
+      {
+        "id": "cdbbcdf9-e704-4d0e-aaa9-2a26bae12e65",
+        "name": "Murecho",
+        "family": "wenfeng-mrcjp"
+      },
+      {
+        "id": "35d6ff7e-c06e-4cdd-8dd7-cfb8aad86e9e",
+        "name": "Kaisei Decol",
+        "family": "wenfeng-ksdcjp"
+      },
+      {
+        "id": "fc6a87e4-74c7-4199-b0a1-5734bdad383f",
+        "name": "Kaisei HarunoUmi",
+        "family": "wenfeng-khujp"
+      },
+      {
+        "id": "45842635-f800-4650-bdc6-309c6d2d8322",
+        "name": "Kaisei Opti",
+        "family": "wenfeng-kaiso"
+      },
+      {
+        "id": "90c2544d-c911-4d4a-bc28-eadcac1fb4b3",
+        "name": "Kaisei Tokumin",
+        "family": "wenfeng-kstkm"
+      },
+      {
+        "id": "48c4d12b-13f4-48b8-b13e-612ddd52e833",
+        "name": "Yomogi",
+        "family": "wenfeng-ymgjp"
+      },
+      {
+        "id": "235d000e-0297-497d-b3d0-2488c69d5fca",
+        "name": "Sawarabi Gothic",
+        "family": "wenfeng-swrbg"
+      },
+      {
+        "id": "d4c4b7b1-6834-4575-8c08-f0c62f923919",
+        "name": "Sawarabi Mincho",
+        "family": "wenfeng-swrbm"
+      },
+      {
+        "id": "97430406-b957-4d0f-9516-b0d43f0c27d9",
+        "name": "ほのか新明朝",
+        "family": "wenfeng-hnkmc"
+      },
+      {
+        "id": "76a15a3b-8887-41e9-ae23-558e5beb6d30",
+        "name": "源暎小明朝",
+        "family": "wenfeng-yyxmc"
+      },
+      {
+        "id": "c62d8bbf-dfbd-4616-a01a-6fafd9395185",
+        "name": "源暎黑体",
+        "family": "wenfeng-yyhtgeg"
+      },
+      {
+        "id": "875527ba-8f2d-43cf-aadc-4d79d82a7da0",
+        "name": "源暎 Nu 黑体",
+        "family": "wenfeng-yynht"
+      },
+      {
+        "id": "9b246b68-1810-4ac8-993c-a6d994ed3b65",
+        "name": "源暎 Antique",
+        "family": "wenfeng-yyaga"
+      },
+      {
+        "id": "d82401ac-6ed1-4ed6-bb0e-b30d5de7a1f4",
+        "name": "Harano Aji",
+        "family": "wenfeng-hrnajp"
+      },
+      {
+        "id": "6b5b154c-f888-4e7c-91fc-ab3d2bdd68a9",
+        "name": "WDXL Lubrifont JP",
+        "family": "wenfeng-wdxlljp"
+      },
+      {
+        "id": "8974ddb4-7406-4d84-9cc0-f9bae759a919",
+        "name": "Gen Interface JP",
+        "family": "wenfeng-genijp"
+      },
+      {
+        "id": "98ffb9c0-87bf-468c-b2c8-0bfb2fd9d378",
+        "name": "KazukiReiwa",
+        "family": "wenfeng-kzkrw"
+      },
+      {
+        "id": "8ed4ee50-2e4f-4505-8463-c96a6b746f19",
+        "name": "鸿雷小纸条青春体",
+        "family": "wenfeng-hlxztqct"
+      },
+      {
+        "id": "f90692e1-51c6-41cb-81c0-35e5d2c6f953",
+        "name": "鸿雷板书体",
+        "family": "wenfeng-hlbst"
+      }
+    ]
+  },
+  "wave2": [
+    {
+      "name": "cjkFonts 全濑体",
+      "old": "allseto",
+      "new": "cjkfqlt",
+      "source": "shop"
+    },
+    {
+      "name": "寒蝉潭黑",
+      "old": "cltan",
+      "new": "hcth",
+      "source": "shop"
+    },
+    {
+      "name": "点点像素体-圆形",
+      "old": "dottedsongticircleregular",
+      "new": "ddxstyx",
+      "source": "shop"
+    },
+    {
+      "name": "Kaisei Opti",
+      "old": "kaiseiopti",
+      "new": "kaiso",
+      "source": "shop"
+    },
+    {
+      "name": "水木黑体",
+      "old": "mizukigothic",
+      "new": "smht",
+      "source": "vault"
+    },
+    {
+      "name": "志莽行书",
+      "old": "zhimangxing",
+      "new": "zmxs",
+      "source": "shop"
+    }
+  ],
+  "dropped_dup_dest": [
+    {
+      "id": "2a575439-49c8-4303-bc0b-20fa054d8c73",
+      "name": "立夏黑体",
+      "old": "lxht",
+      "new": "lxhtssa"
+    },
+    {
+      "id": "6f3fe34e-b62b-4b2a-b621-78fd823f13a0",
+      "name": "扇尾胄黑",
+      "old": "swzh",
+      "new": "swzh16"
+    },
+    {
+      "id": "e6432772-271d-45ce-9663-2e2eb21d4d40",
+      "name": "逐浪萌芽字",
+      "old": "zoomlamengyas",
+      "new": "zlmyz"
+    },
+    {
+      "id": "3b07c16f-c0f7-4be2-be65-61545c96a086",
+      "name": "逐浪粗宋简体",
+      "old": "zoomlacusong",
+      "new": "zlcsjt"
+    },
+    {
+      "id": "c278cb6a-4816-471c-9246-7296de4313ba",
+      "name": "嗷呜等高体",
+      "old": "howlingeqhisans",
+      "new": "awdgt"
+    },
+    {
+      "id": "e91de44b-cfcd-424b-b382-dcd5bea4a85d",
+      "name": "鸿雷小纸条青春体",
+      "old": "hongleixiaozhitiao",
+      "new": "hlxztqct"
+    },
+    {
+      "id": "23746673-019f-4fa4-bacf-5e6de626c7e8",
+      "name": "鸿雷板书体",
+      "old": "hongleibanshu",
+      "new": "hlbst"
+    },
+    {
+      "id": "2ce47ece-b6c0-4a70-9503-ce1c0ddb8530",
+      "name": "鸿雷行书简体",
+      "old": "hongleixingshu",
+      "new": "hlxsjt"
+    },
+    {
+      "id": "12dfb1cb-c2af-4b23-ac29-7f1dd45a8b5d",
+      "name": "鸿雷拙书简体",
+      "old": "hongleizhuoshu",
+      "new": "hlzsjt"
+    }
+  ],
+  "keep_dest_old": [
+    "matc",
+    "xcws"
+  ],
+  "overwrite_old": [
+    "hclck2",
+    "hxbsb",
+    "hzpy",
+    "mysxt",
+    "pangzhenguipmzd"
+  ],
+  "overwritten": [
+    "hclck2",
+    "hxbsb",
+    "hzpy",
+    "mysxt",
+    "pangzhenguipmzd"
+  ],
+  "pin11_ok": true,
+  "named_ok": true
+}

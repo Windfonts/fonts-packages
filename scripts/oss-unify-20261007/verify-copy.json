@@ -1,0 +1,110 @@
+{
+  "phase": "copy",
+  "shop": 707,
+  "vault_published": 732,
+  "oss_prefixes": 1462,
+  "copy_ok": 563,
+  "copy_empty": 1,
+  "copy_mismatch": 7,
+  "copy_real_fail": 0,
+  "copy_missing": 0,
+  "issue_counts": {},
+  "issues": {},
+  "wave2": [
+    {
+      "name": "cjkFonts 全濑体",
+      "old": "allseto",
+      "new": "cjkfqlt"
+    },
+    {
+      "name": "寒蝉潭黑",
+      "old": "cltan",
+      "new": "hcth"
+    },
+    {
+      "name": "点点像素体-圆形",
+      "old": "dottedsongticircleregular",
+      "new": "ddxstyx"
+    },
+    {
+      "name": "Kaisei Opti",
+      "old": "kaiseiopti",
+      "new": "kaiso"
+    },
+    {
+      "name": "水木黑体",
+      "old": "mizukigothic",
+      "new": "smht"
+    },
+    {
+      "name": "志莽行书",
+      "old": "zhimangxing",
+      "new": "zmxs"
+    }
+  ],
+  "empty": [
+    {
+      "name": "上海摩登体",
+      "old": "shmgt",
+      "new": "shmdt"
+    }
+  ],
+  "mismatch": [
+    {
+      "name": "寒蝉龙藏楷书",
+      "old": "hclck2",
+      "new": "hclcks",
+      "failed": 280,
+      "copied": 113,
+      "skipped": 5
+    },
+    {
+      "name": "胡晓波骚包体",
+      "old": "hxbsb",
+      "new": "hxbsbt",
+      "failed": 1,
+      "copied": 228,
+      "skipped": 97
+    },
+    {
+      "name": "汉字拼音体",
+      "old": "hzpy",
+      "new": "hzpyt",
+      "failed": 25,
+      "copied": 4,
+      "skipped": 252
+    },
+    {
+      "name": "猫啃什锦黑 繁体",
+      "old": "matc",
+      "new": "mksjhtc",
+      "failed": 9,
+      "copied": 2,
+      "skipped": 201
+    },
+    {
+      "name": "沐瑶软笔手写体",
+      "old": "mysxt",
+      "new": "myrbsxt",
+      "failed": 14,
+      "copied": 7,
+      "skipped": 231
+    },
+    {
+      "name": "庞门正道真贵楷体",
+      "old": "pangzhenguipmzd",
+      "new": "pmzdzgkt",
+      "failed": 4,
+      "copied": 459,
+      "skipped": 0
+    },
+    {
+      "name": "香萃自在舒畅黑",
+      "old": "xcws",
+      "new": "xczzsch",
+      "failed": 11,
+      "copied": 0,
+      "skipped": 196
+    }
+  ]
+}

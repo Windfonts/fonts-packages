@@ -1,0 +1,40 @@
+{
+  "ts": "2026-10-07T21:10:00+08:00",
+  "wave1": "done",
+  "hangzhou_deployed": false,
+  "wave2_moved": false,
+  "shop": 707,
+  "shop_norm_eq_short": 701,
+  "shop_norm_open": [
+    "寒蝉潭黑 cltan",
+    "点点像素体-圆形 dottedsongticircleregular",
+    "Kaisei Opti kaiseiopti",
+    "cjkFonts 全濑体 allseto",
+    "志莽行书 zhimangxing",
+    "上海摩登体 shmgt empty-src"
+  ],
+  "vault_published": 732,
+  "vault_oss_path_mismatch": 0,
+  "oss_prefixes": 1462,
+  "oss_mixed": 0,
+  "pointers_issues": { "empty_src": 1 },
+  "css_probe": {
+    "n": 732,
+    "ok_dir_match": 648,
+    "http_fail": 83,
+    "dir_mismatch": 1,
+    "dir_mismatch_note": "wenfeng-clduan alias → hcdht (寒蝉 merge)",
+    "fail_cats": {
+      "license_gate_500": 45,
+      "no_oss_pack": 24,
+      "pack_layout_404": 8,
+      "vault_only_404": 6
+    }
+  },
+  "shop_only_no_vault_row": 72,
+  "shop_only_oss_have": 72,
+  "vault_only_published": 97,
+  "pin11_named_css": "200",
+  "live_hangzhou_stamp": "wf-proto.js?v=20261007slug4",
+  "local_stamp": "wf-proto.js?v=20261007slug6"
+}

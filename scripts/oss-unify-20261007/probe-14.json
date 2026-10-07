@@ -1,0 +1,3009 @@
+{
+  "rows": [
+    {
+      "prefix": "mkcjp",
+      "n": 374,
+      "bytes": 32280691,
+      "weights": {
+        "license": {
+          "n": 2,
+          "bytes": 1126,
+          "css": {}
+        },
+        "mikachan-P": {
+          "n": 92,
+          "bytes": 5128280,
+          "css": {
+            "full": 100708
+          }
+        },
+        "mikachan-PB": {
+          "n": 92,
+          "bytes": 5112920,
+          "css": {
+            "full": 100708
+          }
+        },
+        "mikachan-PS": {
+          "n": 92,
+          "bytes": 5126652,
+          "css": {
+            "full": 100708
+          }
+        },
+        "mikachan": {
+          "n": 91,
+          "bytes": 5046283,
+          "css": {
+            "full": 100495
+          }
+        },
+        "slice": {
+          "n": 1,
+          "bytes": 392672,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 1288,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "mikachan-P",
+          "ver": "full",
+          "size": 100708
+        },
+        {
+          "w": "mikachan-PB",
+          "ver": "full",
+          "size": 100708
+        },
+        {
+          "w": "mikachan-PS",
+          "ver": "full",
+          "size": 100708
+        },
+        {
+          "w": "mikachan",
+          "ver": "full",
+          "size": 100495
+        }
+      ],
+      "other": [
+        {
+          "rel": "LICENSE.txt",
+          "size": 664
+        },
+        {
+          "rel": "UPSTREAM-PAGE.txt",
+          "size": 666
+        },
+        {
+          "rel": "mikachanall.ttc",
+          "size": 11470140
+        }
+      ],
+      "other_n": 3
+    },
+    {
+      "prefix": "mikachan",
+      "n": 374,
+      "bytes": 32280691,
+      "weights": {
+        "license": {
+          "n": 2,
+          "bytes": 1126,
+          "css": {}
+        },
+        "mikachan-P": {
+          "n": 92,
+          "bytes": 5128280,
+          "css": {
+            "full": 100708
+          }
+        },
+        "mikachan-PB": {
+          "n": 92,
+          "bytes": 5112920,
+          "css": {
+            "full": 100708
+          }
+        },
+        "mikachan-PS": {
+          "n": 92,
+          "bytes": 5126652,
+          "css": {
+            "full": 100708
+          }
+        },
+        "mikachan": {
+          "n": 91,
+          "bytes": 5046283,
+          "css": {
+            "full": 100495
+          }
+        },
+        "slice": {
+          "n": 1,
+          "bytes": 392672,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 1288,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "mikachan-P",
+          "ver": "full",
+          "size": 100708
+        },
+        {
+          "w": "mikachan-PB",
+          "ver": "full",
+          "size": 100708
+        },
+        {
+          "w": "mikachan-PS",
+          "ver": "full",
+          "size": 100708
+        },
+        {
+          "w": "mikachan",
+          "ver": "full",
+          "size": 100495
+        }
+      ],
+      "other": [
+        {
+          "rel": "LICENSE.txt",
+          "size": 664
+        },
+        {
+          "rel": "UPSTREAM-PAGE.txt",
+          "size": 666
+        },
+        {
+          "rel": "mikachanall.ttc",
+          "size": 11470140
+        }
+      ],
+      "other_n": 3
+    },
+    {
+      "prefix": "kisjp",
+      "n": 73,
+      "bytes": 7756961,
+      "weights": {
+        "Kaisotai-Next-UP-B": {
+          "n": 66,
+          "bytes": 1428942,
+          "css": {
+            "full": 45006
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 2719,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 655,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Kaisotai-Next-UP-B",
+          "ver": "full",
+          "size": 45006
+        }
+      ],
+      "other": [
+        {
+          "rel": "Kaisotai-Next-UP-B.otf",
+          "size": 1411444
+        },
+        {
+          "rel": "Kaisotai-Next-UP-B.ttf",
+          "size": 4909112
+        },
+        {
+          "rel": "LICENSE.txt",
+          "size": 2262
+        },
+        {
+          "rel": "readme.txt",
+          "size": 1827
+        }
+      ],
+      "other_n": 4
+    },
+    {
+      "prefix": "kaiso",
+      "n": 419,
+      "bytes": 16740066,
+      "weights": {
+        "Bold": {
+          "n": 108,
+          "bytes": 2946402,
+          "css": {
+            "full": 80178
+          }
+        },
+        "Kaisotai-Next-UP-B": {
+          "n": 66,
+          "bytes": 1428942,
+          "css": {
+            "full": 45006
+          }
+        },
+        "Medium": {
+          "n": 105,
+          "bytes": 2908448,
+          "css": {
+            "full": 79392
+          }
+        },
+        "Regular": {
+          "n": 133,
+          "bytes": 3126116,
+          "css": {
+            "full": 81357,
+            "preview-shop": 3567
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 4858,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 655,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Bold",
+          "ver": "full",
+          "size": 80178
+        },
+        {
+          "w": "Kaisotai-Next-UP-B",
+          "ver": "full",
+          "size": 45006
+        },
+        {
+          "w": "Medium",
+          "ver": "full",
+          "size": 79392
+        },
+        {
+          "w": "Regular",
+          "ver": "full",
+          "size": 81357
+        },
+        {
+          "w": "Regular",
+          "ver": "preview-shop",
+          "size": 3567
+        }
+      ],
+      "other": [
+        {
+          "rel": "Kaisotai-Next-UP-B.otf",
+          "size": 1411444
+        },
+        {
+          "rel": "Kaisotai-Next-UP-B.ttf",
+          "size": 4909112
+        },
+        {
+          "rel": "LICENSE.txt",
+          "size": 2262
+        },
+        {
+          "rel": "readme.txt",
+          "size": 1827
+        }
+      ],
+      "other_n": 4
+    },
+    {
+      "prefix": "kaiseiopti",
+      "n": 348,
+      "bytes": 8985824,
+      "weights": {
+        "Bold": {
+          "n": 108,
+          "bytes": 2946402,
+          "css": {
+            "full": 80178
+          }
+        },
+        "Medium": {
+          "n": 105,
+          "bytes": 2908448,
+          "css": {
+            "full": 79392
+          }
+        },
+        "Regular": {
+          "n": 133,
+          "bytes": 3126116,
+          "css": {
+            "full": 81357,
+            "preview-shop": 3567
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 4858,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Bold",
+          "ver": "full",
+          "size": 80178
+        },
+        {
+          "w": "Medium",
+          "ver": "full",
+          "size": 79392
+        },
+        {
+          "w": "Regular",
+          "ver": "full",
+          "size": 81357
+        },
+        {
+          "w": "Regular",
+          "ver": "preview-shop",
+          "size": 3567
+        }
+      ],
+      "other": [],
+      "other_n": 0
+    },
+    {
+      "prefix": "knkkjp",
+      "n": 102,
+      "bytes": 9682368,
+      "weights": {
+        "Normal": {
+          "n": 95,
+          "bytes": 2818250,
+          "css": {
+            "full": 71998
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 2723,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 653,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Normal",
+          "ver": "full",
+          "size": 71998
+        }
+      ],
+      "other": [
+        {
+          "rel": "Kinkakuji-Normal.otf",
+          "size": 2118392
+        },
+        {
+          "rel": "Kinkakuji-Normal.ttf",
+          "size": 4738324
+        },
+        {
+          "rel": "LICENSE.txt",
+          "size": 2262
+        },
+        {
+          "rel": "readme.txt",
+          "size": 1764
+        }
+      ],
+      "other_n": 4
+    },
+    {
+      "prefix": "kinkaku",
+      "n": 102,
+      "bytes": 9682368,
+      "weights": {
+        "Normal": {
+          "n": 95,
+          "bytes": 2818250,
+          "css": {
+            "full": 71998
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 2723,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 653,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Normal",
+          "ver": "full",
+          "size": 71998
+        }
+      ],
+      "other": [
+        {
+          "rel": "Kinkakuji-Normal.otf",
+          "size": 2118392
+        },
+        {
+          "rel": "Kinkakuji-Normal.ttf",
+          "size": 4738324
+        },
+        {
+          "rel": "LICENSE.txt",
+          "size": 2262
+        },
+        {
+          "rel": "readme.txt",
+          "size": 1764
+        }
+      ],
+      "other_n": 4
+    },
+    {
+      "prefix": "smsnjp",
+      "n": 36,
+      "bytes": 940142,
+      "weights": {
+        "Donokun-01": {
+          "n": 7,
+          "bytes": 71607,
+          "css": {
+            "full": 2787
+          }
+        },
+        "Donokun-02": {
+          "n": 9,
+          "bytes": 74514,
+          "css": {
+            "full": 3318
+          }
+        },
+        "Donokun-03": {
+          "n": 9,
+          "bytes": 76418,
+          "css": {
+            "full": 3334
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 2723,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 1756,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Donokun-01",
+          "ver": "full",
+          "size": 2787
+        },
+        {
+          "w": "Donokun-02",
+          "ver": "full",
+          "size": 3318
+        },
+        {
+          "w": "Donokun-03",
+          "ver": "full",
+          "size": 3334
+        }
+      ],
+      "other": [
+        {
+          "rel": "LICENSE.txt",
+          "size": 2262
+        },
+        {
+          "rel": "SamasanDonokun-01.otf",
+          "size": 74752
+        },
+        {
+          "rel": "SamasanDonokun-01.ttf",
+          "size": 163020
+        },
+        {
+          "rel": "SamasanDonokun-02.otf",
+          "size": 74132
+        },
+        {
+          "rel": "SamasanDonokun-02.ttf",
+          "size": 161408
+        },
+        {
+          "rel": "SamasanDonokun-03.otf",
+          "size": 75832
+        },
+        {
+          "rel": "SamasanDonokun-03.ttf",
+          "size": 160016
+        },
+        {
+          "rel": "readme.txt",
+          "size": 1702
+        }
+      ],
+      "other_n": 8
+    },
+    {
+      "prefix": "samasan",
+      "n": 36,
+      "bytes": 940142,
+      "weights": {
+        "Donokun-01": {
+          "n": 7,
+          "bytes": 71607,
+          "css": {
+            "full": 2787
+          }
+        },
+        "Donokun-02": {
+          "n": 9,
+          "bytes": 74514,
+          "css": {
+            "full": 3318
+          }
+        },
+        "Donokun-03": {
+          "n": 9,
+          "bytes": 76418,
+          "css": {
+            "full": 3334
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 2723,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 1756,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Donokun-01",
+          "ver": "full",
+          "size": 2787
+        },
+        {
+          "w": "Donokun-02",
+          "ver": "full",
+          "size": 3318
+        },
+        {
+          "w": "Donokun-03",
+          "ver": "full",
+          "size": 3334
+        }
+      ],
+      "other": [
+        {
+          "rel": "LICENSE.txt",
+          "size": 2262
+        },
+        {
+          "rel": "SamasanDonokun-01.otf",
+          "size": 74752
+        },
+        {
+          "rel": "SamasanDonokun-01.ttf",
+          "size": 163020
+        },
+        {
+          "rel": "SamasanDonokun-02.otf",
+          "size": 74132
+        },
+        {
+          "rel": "SamasanDonokun-02.ttf",
+          "size": 161408
+        },
+        {
+          "rel": "SamasanDonokun-03.otf",
+          "size": 75832
+        },
+        {
+          "rel": "SamasanDonokun-03.ttf",
+          "size": 160016
+        },
+        {
+          "rel": "readme.txt",
+          "size": 1702
+        }
+      ],
+      "other_n": 8
+    },
+    {
+      "prefix": "zhfy",
+      "n": 78,
+      "bytes": 36733342,
+      "weights": {
+        "Regular": {
+          "n": 66,
+          "bytes": 1778276,
+          "css": {
+            "full": 52676
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 5923,
+          "css": {}
+        },
+        "schemes": {
+          "n": 7,
+          "bytes": 34896284,
+          "css": {}
+        },
+        "slice": {
+          "n": 1,
+          "bytes": 47101,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 318,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Regular",
+          "ver": "full",
+          "size": 52676
+        }
+      ],
+      "other": [
+        {
+          "rel": "LICENSE-Huninn.txt",
+          "size": 5440
+        }
+      ],
+      "other_n": 1
+    },
+    {
+      "prefix": "taigihuninn",
+      "n": 78,
+      "bytes": 36733342,
+      "weights": {
+        "Regular": {
+          "n": 66,
+          "bytes": 1778276,
+          "css": {
+            "full": 52676
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 5923,
+          "css": {}
+        },
+        "schemes": {
+          "n": 7,
+          "bytes": 34896284,
+          "css": {}
+        },
+        "slice": {
+          "n": 1,
+          "bytes": 47101,
+          "css": {}
+        },
+        "source": {
+          "n": 1,
+          "bytes": 318,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Regular",
+          "ver": "full",
+          "size": 52676
+        }
+      ],
+      "other": [
+        {
+          "rel": "LICENSE-Huninn.txt",
+          "size": 5440
+        }
+      ],
+      "other_n": 1
+    },
+    {
+      "prefix": "hcgh",
+      "n": 203,
+      "bytes": 7692829,
+      "weights": {
+        "Regular": {
+          "n": 201,
+          "bytes": 7687901,
+          "css": {
+            "full": 157549
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 4928,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Regular",
+          "ver": "full",
+          "size": 157549
+        }
+      ],
+      "other": [],
+      "other_n": 0
+    },
+    {
+      "prefix": "clg",
+      "n": 203,
+      "bytes": 7692829,
+      "weights": {
+        "Regular": {
+          "n": 201,
+          "bytes": 7687901,
+          "css": {
+            "full": 157549
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 4928,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "Regular",
+          "ver": "full",
+          "size": 157549
+        }
+      ],
+      "other": [],
+      "other_n": 0
+    },
+    {
+      "prefix": "mystp3l",
+      "n": 8393,
+      "bytes": 312562626,
+      "weights": {
+        "CN-W1": {
+          "n": 249,
+          "bytes": 10230219,
+          "css": {
+            "full": 200271
+          }
+        },
+        "CN-W10": {
+          "n": 262,
+          "bytes": 10681165,
+          "css": {
+            "full": 204505
+          }
+        },
+        "CN-W12": {
+          "n": 263,
+          "bytes": 10751403,
+          "css": {
+            "full": 204827
+          }
+        },
+        "CN-W15": {
+          "n": 266,
+          "bytes": 10830216,
+          "css": {
+            "full": 205964
+          }
+        },
+        "CN-W18": {
+          "n": 266,
+          "bytes": 10879779,
+          "css": {
+            "full": 205987
+          }
+        },
+        "CN-W22": {
+          "n": 268,
+          "bytes": 10950343,
+          "css": {
+            "full": 206615
+          }
+        },
+        "CN-W24": {
+          "n": 268,
+          "bytes": 11003475,
+          "css": {
+            "full": 206587
+          }
+        },
+        "CN-W27": {
+          "n": 263,
+          "bytes": 10850518,
+          "css": {
+            "full": 204818
+          }
+        },
+        "CN-W4": {
+          "n": 261,
+          "bytes": 10548193,
+          "css": {
+            "full": 204129
+          }
+        },
+        "CN-W7": {
+          "n": 261,
+          "bytes": 10622436,
+          "css": {
+            "full": 204168
+          }
+        },
+        "HK-W1": {
+          "n": 194,
+          "bytes": 7064419,
+          "css": {
+            "full": 178147
+          }
+        },
+        "HK-W10": {
+          "n": 205,
+          "bytes": 7345130,
+          "css": {
+            "full": 181762
+          }
+        },
+        "HK-W12": {
+          "n": 205,
+          "bytes": 7383064,
+          "css": {
+            "full": 181748
+          }
+        },
+        "HK-W15": {
+          "n": 206,
+          "bytes": 7430296,
+          "css": {
+            "full": 182092
+          }
+        },
+        "HK-W18": {
+          "n": 206,
+          "bytes": 7461109,
+          "css": {
+            "full": 182101
+          }
+        },
+        "HK-W22": {
+          "n": 209,
+          "bytes": 7505191,
+          "css": {
+            "full": 183119
+          }
+        },
+        "HK-W24": {
+          "n": 209,
+          "bytes": 7537517,
+          "css": {
+            "full": 183105
+          }
+        },
+        "HK-W27": {
+          "n": 206,
+          "bytes": 7474125,
+          "css": {
+            "full": 182101
+          }
+        },
+        "HK-W4": {
+          "n": 202,
+          "bytes": 7256788,
+          "css": {
+            "full": 180608
+          }
+        },
+        "HK-W7": {
+          "n": 203,
+          "bytes": 7297159,
+          "css": {
+            "full": 180951
+          }
+        },
+        "JP-W1": {
+          "n": 157,
+          "bytes": 5481344,
+          "css": {
+            "full": 144836
+          }
+        },
+        "JP-W10": {
+          "n": 166,
+          "bytes": 5729361,
+          "css": {
+            "full": 147789
+          }
+        },
+        "JP-W12": {
+          "n": 168,
+          "bytes": 5779308,
+          "css": {
+            "full": 148484
+          }
+        },
+        "JP-W15": {
+          "n": 170,
+          "bytes": 5811576,
+          "css": {
+            "full": 149128
+          }
+        },
+        "JP-W18": {
+          "n": 170,
+          "bytes": 5830984,
+          "css": {
+            "full": 149144
+          }
+        },
+        "JP-W22": {
+          "n": 172,
+          "bytes": 5870456,
+          "css": {
+            "full": 149776
+          }
+        },
+        "JP-W24": {
+          "n": 172,
+          "bytes": 5891022,
+          "css": {
+            "full": 149802
+          }
+        },
+        "JP-W27": {
+          "n": 168,
+          "bytes": 5805195,
+          "css": {
+            "full": 148451
+          }
+        },
+        "JP-W4": {
+          "n": 164,
+          "bytes": 5662489,
+          "css": {
+            "full": 147117
+          }
+        },
+        "JP-W7": {
+          "n": 166,
+          "bytes": 5699943,
+          "css": {
+            "full": 147747
+          }
+        },
+        "TW-W1": {
+          "n": 196,
+          "bytes": 7092390,
+          "css": {
+            "full": 178750
+          }
+        },
+        "TW-W10": {
+          "n": 205,
+          "bytes": 7359347,
+          "css": {
+            "full": 181819
+          }
+        },
+        "TW-W12": {
+          "n": 205,
+          "bytes": 7396046,
+          "css": {
+            "full": 181786
+          }
+        },
+        "TW-W15": {
+          "n": 206,
+          "bytes": 7442785,
+          "css": {
+            "full": 182149
+          }
+        },
+        "TW-W18": {
+          "n": 206,
+          "bytes": 7466254,
+          "css": {
+            "full": 182130
+          }
+        },
+        "TW-W22": {
+          "n": 208,
+          "bytes": 7518035,
+          "css": {
+            "full": 182727
+          }
+        },
+        "TW-W24": {
+          "n": 209,
+          "bytes": 7551442,
+          "css": {
+            "full": 183062
+          }
+        },
+        "TW-W27": {
+          "n": 206,
+          "bytes": 7483802,
+          "css": {
+            "full": 182130
+          }
+        },
+        "TW-W4": {
+          "n": 202,
+          "bytes": 7271173,
+          "css": {
+            "full": 180657
+          }
+        },
+        "TW-W7": {
+          "n": 203,
+          "bytes": 7312023,
+          "css": {
+            "full": 180995
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 5106,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "CN-W1",
+          "ver": "full",
+          "size": 200271
+        },
+        {
+          "w": "CN-W10",
+          "ver": "full",
+          "size": 204505
+        },
+        {
+          "w": "CN-W12",
+          "ver": "full",
+          "size": 204827
+        },
+        {
+          "w": "CN-W15",
+          "ver": "full",
+          "size": 205964
+        },
+        {
+          "w": "CN-W18",
+          "ver": "full",
+          "size": 205987
+        },
+        {
+          "w": "CN-W22",
+          "ver": "full",
+          "size": 206615
+        },
+        {
+          "w": "CN-W24",
+          "ver": "full",
+          "size": 206587
+        },
+        {
+          "w": "CN-W27",
+          "ver": "full",
+          "size": 204818
+        },
+        {
+          "w": "CN-W4",
+          "ver": "full",
+          "size": 204129
+        },
+        {
+          "w": "CN-W7",
+          "ver": "full",
+          "size": 204168
+        },
+        {
+          "w": "HK-W1",
+          "ver": "full",
+          "size": 178147
+        },
+        {
+          "w": "HK-W10",
+          "ver": "full",
+          "size": 181762
+        },
+        {
+          "w": "HK-W12",
+          "ver": "full",
+          "size": 181748
+        },
+        {
+          "w": "HK-W15",
+          "ver": "full",
+          "size": 182092
+        },
+        {
+          "w": "HK-W18",
+          "ver": "full",
+          "size": 182101
+        },
+        {
+          "w": "HK-W22",
+          "ver": "full",
+          "size": 183119
+        },
+        {
+          "w": "HK-W24",
+          "ver": "full",
+          "size": 183105
+        },
+        {
+          "w": "HK-W27",
+          "ver": "full",
+          "size": 182101
+        },
+        {
+          "w": "HK-W4",
+          "ver": "full",
+          "size": 180608
+        },
+        {
+          "w": "HK-W7",
+          "ver": "full",
+          "size": 180951
+        },
+        {
+          "w": "JP-W1",
+          "ver": "full",
+          "size": 144836
+        },
+        {
+          "w": "JP-W10",
+          "ver": "full",
+          "size": 147789
+        },
+        {
+          "w": "JP-W12",
+          "ver": "full",
+          "size": 148484
+        },
+        {
+          "w": "JP-W15",
+          "ver": "full",
+          "size": 149128
+        },
+        {
+          "w": "JP-W18",
+          "ver": "full",
+          "size": 149144
+        },
+        {
+          "w": "JP-W22",
+          "ver": "full",
+          "size": 149776
+        },
+        {
+          "w": "JP-W24",
+          "ver": "full",
+          "size": 149802
+        },
+        {
+          "w": "JP-W27",
+          "ver": "full",
+          "size": 148451
+        },
+        {
+          "w": "JP-W4",
+          "ver": "full",
+          "size": 147117
+        },
+        {
+          "w": "JP-W7",
+          "ver": "full",
+          "size": 147747
+        },
+        {
+          "w": "TW-W1",
+          "ver": "full",
+          "size": 178750
+        },
+        {
+          "w": "TW-W10",
+          "ver": "full",
+          "size": 181819
+        },
+        {
+          "w": "TW-W12",
+          "ver": "full",
+          "size": 181786
+        },
+        {
+          "w": "TW-W15",
+          "ver": "full",
+          "size": 182149
+        },
+        {
+          "w": "TW-W18",
+          "ver": "full",
+          "size": 182130
+        },
+        {
+          "w": "TW-W22",
+          "ver": "full",
+          "size": 182727
+        },
+        {
+          "w": "TW-W24",
+          "ver": "full",
+          "size": 183062
+        },
+        {
+          "w": "TW-W27",
+          "ver": "full",
+          "size": 182130
+        },
+        {
+          "w": "TW-W4",
+          "ver": "full",
+          "size": 180657
+        },
+        {
+          "w": "TW-W7",
+          "ver": "full",
+          "size": 180995
+        }
+      ],
+      "other": [],
+      "other_n": 0
+    },
+    {
+      "prefix": "dreamhanserif",
+      "n": 8393,
+      "bytes": 312562626,
+      "weights": {
+        "CN-W1": {
+          "n": 249,
+          "bytes": 10230219,
+          "css": {
+            "full": 200271
+          }
+        },
+        "CN-W10": {
+          "n": 262,
+          "bytes": 10681165,
+          "css": {
+            "full": 204505
+          }
+        },
+        "CN-W12": {
+          "n": 263,
+          "bytes": 10751403,
+          "css": {
+            "full": 204827
+          }
+        },
+        "CN-W15": {
+          "n": 266,
+          "bytes": 10830216,
+          "css": {
+            "full": 205964
+          }
+        },
+        "CN-W18": {
+          "n": 266,
+          "bytes": 10879779,
+          "css": {
+            "full": 205987
+          }
+        },
+        "CN-W22": {
+          "n": 268,
+          "bytes": 10950343,
+          "css": {
+            "full": 206615
+          }
+        },
+        "CN-W24": {
+          "n": 268,
+          "bytes": 11003475,
+          "css": {
+            "full": 206587
+          }
+        },
+        "CN-W27": {
+          "n": 263,
+          "bytes": 10850518,
+          "css": {
+            "full": 204818
+          }
+        },
+        "CN-W4": {
+          "n": 261,
+          "bytes": 10548193,
+          "css": {
+            "full": 204129
+          }
+        },
+        "CN-W7": {
+          "n": 261,
+          "bytes": 10622436,
+          "css": {
+            "full": 204168
+          }
+        },
+        "HK-W1": {
+          "n": 194,
+          "bytes": 7064419,
+          "css": {
+            "full": 178147
+          }
+        },
+        "HK-W10": {
+          "n": 205,
+          "bytes": 7345130,
+          "css": {
+            "full": 181762
+          }
+        },
+        "HK-W12": {
+          "n": 205,
+          "bytes": 7383064,
+          "css": {
+            "full": 181748
+          }
+        },
+        "HK-W15": {
+          "n": 206,
+          "bytes": 7430296,
+          "css": {
+            "full": 182092
+          }
+        },
+        "HK-W18": {
+          "n": 206,
+          "bytes": 7461109,
+          "css": {
+            "full": 182101
+          }
+        },
+        "HK-W22": {
+          "n": 209,
+          "bytes": 7505191,
+          "css": {
+            "full": 183119
+          }
+        },
+        "HK-W24": {
+          "n": 209,
+          "bytes": 7537517,
+          "css": {
+            "full": 183105
+          }
+        },
+        "HK-W27": {
+          "n": 206,
+          "bytes": 7474125,
+          "css": {
+            "full": 182101
+          }
+        },
+        "HK-W4": {
+          "n": 202,
+          "bytes": 7256788,
+          "css": {
+            "full": 180608
+          }
+        },
+        "HK-W7": {
+          "n": 203,
+          "bytes": 7297159,
+          "css": {
+            "full": 180951
+          }
+        },
+        "JP-W1": {
+          "n": 157,
+          "bytes": 5481344,
+          "css": {
+            "full": 144836
+          }
+        },
+        "JP-W10": {
+          "n": 166,
+          "bytes": 5729361,
+          "css": {
+            "full": 147789
+          }
+        },
+        "JP-W12": {
+          "n": 168,
+          "bytes": 5779308,
+          "css": {
+            "full": 148484
+          }
+        },
+        "JP-W15": {
+          "n": 170,
+          "bytes": 5811576,
+          "css": {
+            "full": 149128
+          }
+        },
+        "JP-W18": {
+          "n": 170,
+          "bytes": 5830984,
+          "css": {
+            "full": 149144
+          }
+        },
+        "JP-W22": {
+          "n": 172,
+          "bytes": 5870456,
+          "css": {
+            "full": 149776
+          }
+        },
+        "JP-W24": {
+          "n": 172,
+          "bytes": 5891022,
+          "css": {
+            "full": 149802
+          }
+        },
+        "JP-W27": {
+          "n": 168,
+          "bytes": 5805195,
+          "css": {
+            "full": 148451
+          }
+        },
+        "JP-W4": {
+          "n": 164,
+          "bytes": 5662489,
+          "css": {
+            "full": 147117
+          }
+        },
+        "JP-W7": {
+          "n": 166,
+          "bytes": 5699943,
+          "css": {
+            "full": 147747
+          }
+        },
+        "TW-W1": {
+          "n": 196,
+          "bytes": 7092390,
+          "css": {
+            "full": 178750
+          }
+        },
+        "TW-W10": {
+          "n": 205,
+          "bytes": 7359347,
+          "css": {
+            "full": 181819
+          }
+        },
+        "TW-W12": {
+          "n": 205,
+          "bytes": 7396046,
+          "css": {
+            "full": 181786
+          }
+        },
+        "TW-W15": {
+          "n": 206,
+          "bytes": 7442785,
+          "css": {
+            "full": 182149
+          }
+        },
+        "TW-W18": {
+          "n": 206,
+          "bytes": 7466254,
+          "css": {
+            "full": 182130
+          }
+        },
+        "TW-W22": {
+          "n": 208,
+          "bytes": 7518035,
+          "css": {
+            "full": 182727
+          }
+        },
+        "TW-W24": {
+          "n": 209,
+          "bytes": 7551442,
+          "css": {
+            "full": 183062
+          }
+        },
+        "TW-W27": {
+          "n": 206,
+          "bytes": 7483802,
+          "css": {
+            "full": 182130
+          }
+        },
+        "TW-W4": {
+          "n": 202,
+          "bytes": 7271173,
+          "css": {
+            "full": 180657
+          }
+        },
+        "TW-W7": {
+          "n": 203,
+          "bytes": 7312023,
+          "css": {
+            "full": 180995
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 5106,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "CN-W1",
+          "ver": "full",
+          "size": 200271
+        },
+        {
+          "w": "CN-W10",
+          "ver": "full",
+          "size": 204505
+        },
+        {
+          "w": "CN-W12",
+          "ver": "full",
+          "size": 204827
+        },
+        {
+          "w": "CN-W15",
+          "ver": "full",
+          "size": 205964
+        },
+        {
+          "w": "CN-W18",
+          "ver": "full",
+          "size": 205987
+        },
+        {
+          "w": "CN-W22",
+          "ver": "full",
+          "size": 206615
+        },
+        {
+          "w": "CN-W24",
+          "ver": "full",
+          "size": 206587
+        },
+        {
+          "w": "CN-W27",
+          "ver": "full",
+          "size": 204818
+        },
+        {
+          "w": "CN-W4",
+          "ver": "full",
+          "size": 204129
+        },
+        {
+          "w": "CN-W7",
+          "ver": "full",
+          "size": 204168
+        },
+        {
+          "w": "HK-W1",
+          "ver": "full",
+          "size": 178147
+        },
+        {
+          "w": "HK-W10",
+          "ver": "full",
+          "size": 181762
+        },
+        {
+          "w": "HK-W12",
+          "ver": "full",
+          "size": 181748
+        },
+        {
+          "w": "HK-W15",
+          "ver": "full",
+          "size": 182092
+        },
+        {
+          "w": "HK-W18",
+          "ver": "full",
+          "size": 182101
+        },
+        {
+          "w": "HK-W22",
+          "ver": "full",
+          "size": 183119
+        },
+        {
+          "w": "HK-W24",
+          "ver": "full",
+          "size": 183105
+        },
+        {
+          "w": "HK-W27",
+          "ver": "full",
+          "size": 182101
+        },
+        {
+          "w": "HK-W4",
+          "ver": "full",
+          "size": 180608
+        },
+        {
+          "w": "HK-W7",
+          "ver": "full",
+          "size": 180951
+        },
+        {
+          "w": "JP-W1",
+          "ver": "full",
+          "size": 144836
+        },
+        {
+          "w": "JP-W10",
+          "ver": "full",
+          "size": 147789
+        },
+        {
+          "w": "JP-W12",
+          "ver": "full",
+          "size": 148484
+        },
+        {
+          "w": "JP-W15",
+          "ver": "full",
+          "size": 149128
+        },
+        {
+          "w": "JP-W18",
+          "ver": "full",
+          "size": 149144
+        },
+        {
+          "w": "JP-W22",
+          "ver": "full",
+          "size": 149776
+        },
+        {
+          "w": "JP-W24",
+          "ver": "full",
+          "size": 149802
+        },
+        {
+          "w": "JP-W27",
+          "ver": "full",
+          "size": 148451
+        },
+        {
+          "w": "JP-W4",
+          "ver": "full",
+          "size": 147117
+        },
+        {
+          "w": "JP-W7",
+          "ver": "full",
+          "size": 147747
+        },
+        {
+          "w": "TW-W1",
+          "ver": "full",
+          "size": 178750
+        },
+        {
+          "w": "TW-W10",
+          "ver": "full",
+          "size": 181819
+        },
+        {
+          "w": "TW-W12",
+          "ver": "full",
+          "size": 181786
+        },
+        {
+          "w": "TW-W15",
+          "ver": "full",
+          "size": 182149
+        },
+        {
+          "w": "TW-W18",
+          "ver": "full",
+          "size": 182130
+        },
+        {
+          "w": "TW-W22",
+          "ver": "full",
+          "size": 182727
+        },
+        {
+          "w": "TW-W24",
+          "ver": "full",
+          "size": 183062
+        },
+        {
+          "w": "TW-W27",
+          "ver": "full",
+          "size": 182130
+        },
+        {
+          "w": "TW-W4",
+          "ver": "full",
+          "size": 180657
+        },
+        {
+          "w": "TW-W7",
+          "ver": "full",
+          "size": 180995
+        }
+      ],
+      "other": [],
+      "other_n": 0
+    },
+    {
+      "prefix": "myhtp3l",
+      "n": 6620,
+      "bytes": 227317072,
+      "weights": {
+        "CN-W1": {
+          "n": 196,
+          "bytes": 7537644,
+          "css": {
+            "full": 180696
+          }
+        },
+        "CN-W10": {
+          "n": 207,
+          "bytes": 7823397,
+          "css": {
+            "full": 184189
+          }
+        },
+        "CN-W12": {
+          "n": 207,
+          "bytes": 7858369,
+          "css": {
+            "full": 184177
+          }
+        },
+        "CN-W15": {
+          "n": 209,
+          "bytes": 7890109,
+          "css": {
+            "full": 184813
+          }
+        },
+        "CN-W18": {
+          "n": 209,
+          "bytes": 7908291,
+          "css": {
+            "full": 184823
+          }
+        },
+        "CN-W22": {
+          "n": 211,
+          "bytes": 7953850,
+          "css": {
+            "full": 185394
+          }
+        },
+        "CN-W24": {
+          "n": 211,
+          "bytes": 7973138,
+          "css": {
+            "full": 185426
+          }
+        },
+        "CN-W27": {
+          "n": 209,
+          "bytes": 7909175,
+          "css": {
+            "full": 184855
+          }
+        },
+        "CN-W4": {
+          "n": 205,
+          "bytes": 7741418,
+          "css": {
+            "full": 183510
+          }
+        },
+        "CN-W7": {
+          "n": 205,
+          "bytes": 7779996,
+          "css": {
+            "full": 183524
+          }
+        },
+        "HK-W1": {
+          "n": 154,
+          "bytes": 5174107,
+          "css": {
+            "full": 163431
+          }
+        },
+        "HK-W10": {
+          "n": 161,
+          "bytes": 5348550,
+          "css": {
+            "full": 165726
+          }
+        },
+        "HK-W12": {
+          "n": 162,
+          "bytes": 5373778,
+          "css": {
+            "full": 165998
+          }
+        },
+        "HK-W15": {
+          "n": 162,
+          "bytes": 5387180,
+          "css": {
+            "full": 166036
+          }
+        },
+        "HK-W18": {
+          "n": 162,
+          "bytes": 5404834,
+          "css": {
+            "full": 166022
+          }
+        },
+        "HK-W22": {
+          "n": 163,
+          "bytes": 5436626,
+          "css": {
+            "full": 166190
+          }
+        },
+        "HK-W24": {
+          "n": 163,
+          "bytes": 5458962,
+          "css": {
+            "full": 166274
+          }
+        },
+        "HK-W27": {
+          "n": 162,
+          "bytes": 5418578,
+          "css": {
+            "full": 166022
+          }
+        },
+        "HK-W4": {
+          "n": 159,
+          "bytes": 5293496,
+          "css": {
+            "full": 165052
+          }
+        },
+        "HK-W7": {
+          "n": 160,
+          "bytes": 5317004,
+          "css": {
+            "full": 165360
+          }
+        },
+        "JP-W1": {
+          "n": 128,
+          "bytes": 4027772,
+          "css": {
+            "full": 134068
+          }
+        },
+        "JP-W10": {
+          "n": 134,
+          "bytes": 4156433,
+          "css": {
+            "full": 135925
+          }
+        },
+        "JP-W12": {
+          "n": 134,
+          "bytes": 4175491,
+          "css": {
+            "full": 135931
+          }
+        },
+        "JP-W15": {
+          "n": 134,
+          "bytes": 4184366,
+          "css": {
+            "full": 135958
+          }
+        },
+        "JP-W18": {
+          "n": 135,
+          "bytes": 4201721,
+          "css": {
+            "full": 136237
+          }
+        },
+        "JP-W22": {
+          "n": 135,
+          "bytes": 4214778,
+          "css": {
+            "full": 136238
+          }
+        },
+        "JP-W24": {
+          "n": 135,
+          "bytes": 4220585,
+          "css": {
+            "full": 136265
+          }
+        },
+        "JP-W27": {
+          "n": 134,
+          "bytes": 4174221,
+          "css": {
+            "full": 135945
+          }
+        },
+        "JP-W4": {
+          "n": 132,
+          "bytes": 4109242,
+          "css": {
+            "full": 135290
+          }
+        },
+        "JP-W7": {
+          "n": 133,
+          "bytes": 4132888,
+          "css": {
+            "full": 135596
+          }
+        },
+        "TW-W1": {
+          "n": 153,
+          "bytes": 5173838,
+          "css": {
+            "full": 163102
+          }
+        },
+        "TW-W10": {
+          "n": 161,
+          "bytes": 5357273,
+          "css": {
+            "full": 165689
+          }
+        },
+        "TW-W12": {
+          "n": 162,
+          "bytes": 5384493,
+          "css": {
+            "full": 166009
+          }
+        },
+        "TW-W15": {
+          "n": 162,
+          "bytes": 5396980,
+          "css": {
+            "full": 166032
+          }
+        },
+        "TW-W18": {
+          "n": 162,
+          "bytes": 5417548,
+          "css": {
+            "full": 166028
+          }
+        },
+        "TW-W22": {
+          "n": 163,
+          "bytes": 5451473,
+          "css": {
+            "full": 166213
+          }
+        },
+        "TW-W24": {
+          "n": 163,
+          "bytes": 5477628,
+          "css": {
+            "full": 166260
+          }
+        },
+        "TW-W27": {
+          "n": 162,
+          "bytes": 5434591,
+          "css": {
+            "full": 166019
+          }
+        },
+        "TW-W4": {
+          "n": 159,
+          "bytes": 5303852,
+          "css": {
+            "full": 165036
+          }
+        },
+        "TW-W7": {
+          "n": 160,
+          "bytes": 5328292,
+          "css": {
+            "full": 165336
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 5105,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "CN-W1",
+          "ver": "full",
+          "size": 180696
+        },
+        {
+          "w": "CN-W10",
+          "ver": "full",
+          "size": 184189
+        },
+        {
+          "w": "CN-W12",
+          "ver": "full",
+          "size": 184177
+        },
+        {
+          "w": "CN-W15",
+          "ver": "full",
+          "size": 184813
+        },
+        {
+          "w": "CN-W18",
+          "ver": "full",
+          "size": 184823
+        },
+        {
+          "w": "CN-W22",
+          "ver": "full",
+          "size": 185394
+        },
+        {
+          "w": "CN-W24",
+          "ver": "full",
+          "size": 185426
+        },
+        {
+          "w": "CN-W27",
+          "ver": "full",
+          "size": 184855
+        },
+        {
+          "w": "CN-W4",
+          "ver": "full",
+          "size": 183510
+        },
+        {
+          "w": "CN-W7",
+          "ver": "full",
+          "size": 183524
+        },
+        {
+          "w": "HK-W1",
+          "ver": "full",
+          "size": 163431
+        },
+        {
+          "w": "HK-W10",
+          "ver": "full",
+          "size": 165726
+        },
+        {
+          "w": "HK-W12",
+          "ver": "full",
+          "size": 165998
+        },
+        {
+          "w": "HK-W15",
+          "ver": "full",
+          "size": 166036
+        },
+        {
+          "w": "HK-W18",
+          "ver": "full",
+          "size": 166022
+        },
+        {
+          "w": "HK-W22",
+          "ver": "full",
+          "size": 166190
+        },
+        {
+          "w": "HK-W24",
+          "ver": "full",
+          "size": 166274
+        },
+        {
+          "w": "HK-W27",
+          "ver": "full",
+          "size": 166022
+        },
+        {
+          "w": "HK-W4",
+          "ver": "full",
+          "size": 165052
+        },
+        {
+          "w": "HK-W7",
+          "ver": "full",
+          "size": 165360
+        },
+        {
+          "w": "JP-W1",
+          "ver": "full",
+          "size": 134068
+        },
+        {
+          "w": "JP-W10",
+          "ver": "full",
+          "size": 135925
+        },
+        {
+          "w": "JP-W12",
+          "ver": "full",
+          "size": 135931
+        },
+        {
+          "w": "JP-W15",
+          "ver": "full",
+          "size": 135958
+        },
+        {
+          "w": "JP-W18",
+          "ver": "full",
+          "size": 136237
+        },
+        {
+          "w": "JP-W22",
+          "ver": "full",
+          "size": 136238
+        },
+        {
+          "w": "JP-W24",
+          "ver": "full",
+          "size": 136265
+        },
+        {
+          "w": "JP-W27",
+          "ver": "full",
+          "size": 135945
+        },
+        {
+          "w": "JP-W4",
+          "ver": "full",
+          "size": 135290
+        },
+        {
+          "w": "JP-W7",
+          "ver": "full",
+          "size": 135596
+        },
+        {
+          "w": "TW-W1",
+          "ver": "full",
+          "size": 163102
+        },
+        {
+          "w": "TW-W10",
+          "ver": "full",
+          "size": 165689
+        },
+        {
+          "w": "TW-W12",
+          "ver": "full",
+          "size": 166009
+        },
+        {
+          "w": "TW-W15",
+          "ver": "full",
+          "size": 166032
+        },
+        {
+          "w": "TW-W18",
+          "ver": "full",
+          "size": 166028
+        },
+        {
+          "w": "TW-W22",
+          "ver": "full",
+          "size": 166213
+        },
+        {
+          "w": "TW-W24",
+          "ver": "full",
+          "size": 166260
+        },
+        {
+          "w": "TW-W27",
+          "ver": "full",
+          "size": 166019
+        },
+        {
+          "w": "TW-W4",
+          "ver": "full",
+          "size": 165036
+        },
+        {
+          "w": "TW-W7",
+          "ver": "full",
+          "size": 165336
+        }
+      ],
+      "other": [],
+      "other_n": 0
+    },
+    {
+      "prefix": "dreamhansans",
+      "n": 6620,
+      "bytes": 227317072,
+      "weights": {
+        "CN-W1": {
+          "n": 196,
+          "bytes": 7537644,
+          "css": {
+            "full": 180696
+          }
+        },
+        "CN-W10": {
+          "n": 207,
+          "bytes": 7823397,
+          "css": {
+            "full": 184189
+          }
+        },
+        "CN-W12": {
+          "n": 207,
+          "bytes": 7858369,
+          "css": {
+            "full": 184177
+          }
+        },
+        "CN-W15": {
+          "n": 209,
+          "bytes": 7890109,
+          "css": {
+            "full": 184813
+          }
+        },
+        "CN-W18": {
+          "n": 209,
+          "bytes": 7908291,
+          "css": {
+            "full": 184823
+          }
+        },
+        "CN-W22": {
+          "n": 211,
+          "bytes": 7953850,
+          "css": {
+            "full": 185394
+          }
+        },
+        "CN-W24": {
+          "n": 211,
+          "bytes": 7973138,
+          "css": {
+            "full": 185426
+          }
+        },
+        "CN-W27": {
+          "n": 209,
+          "bytes": 7909175,
+          "css": {
+            "full": 184855
+          }
+        },
+        "CN-W4": {
+          "n": 205,
+          "bytes": 7741418,
+          "css": {
+            "full": 183510
+          }
+        },
+        "CN-W7": {
+          "n": 205,
+          "bytes": 7779996,
+          "css": {
+            "full": 183524
+          }
+        },
+        "HK-W1": {
+          "n": 154,
+          "bytes": 5174107,
+          "css": {
+            "full": 163431
+          }
+        },
+        "HK-W10": {
+          "n": 161,
+          "bytes": 5348550,
+          "css": {
+            "full": 165726
+          }
+        },
+        "HK-W12": {
+          "n": 162,
+          "bytes": 5373778,
+          "css": {
+            "full": 165998
+          }
+        },
+        "HK-W15": {
+          "n": 162,
+          "bytes": 5387180,
+          "css": {
+            "full": 166036
+          }
+        },
+        "HK-W18": {
+          "n": 162,
+          "bytes": 5404834,
+          "css": {
+            "full": 166022
+          }
+        },
+        "HK-W22": {
+          "n": 163,
+          "bytes": 5436626,
+          "css": {
+            "full": 166190
+          }
+        },
+        "HK-W24": {
+          "n": 163,
+          "bytes": 5458962,
+          "css": {
+            "full": 166274
+          }
+        },
+        "HK-W27": {
+          "n": 162,
+          "bytes": 5418578,
+          "css": {
+            "full": 166022
+          }
+        },
+        "HK-W4": {
+          "n": 159,
+          "bytes": 5293496,
+          "css": {
+            "full": 165052
+          }
+        },
+        "HK-W7": {
+          "n": 160,
+          "bytes": 5317004,
+          "css": {
+            "full": 165360
+          }
+        },
+        "JP-W1": {
+          "n": 128,
+          "bytes": 4027772,
+          "css": {
+            "full": 134068
+          }
+        },
+        "JP-W10": {
+          "n": 134,
+          "bytes": 4156433,
+          "css": {
+            "full": 135925
+          }
+        },
+        "JP-W12": {
+          "n": 134,
+          "bytes": 4175491,
+          "css": {
+            "full": 135931
+          }
+        },
+        "JP-W15": {
+          "n": 134,
+          "bytes": 4184366,
+          "css": {
+            "full": 135958
+          }
+        },
+        "JP-W18": {
+          "n": 135,
+          "bytes": 4201721,
+          "css": {
+            "full": 136237
+          }
+        },
+        "JP-W22": {
+          "n": 135,
+          "bytes": 4214778,
+          "css": {
+            "full": 136238
+          }
+        },
+        "JP-W24": {
+          "n": 135,
+          "bytes": 4220585,
+          "css": {
+            "full": 136265
+          }
+        },
+        "JP-W27": {
+          "n": 134,
+          "bytes": 4174221,
+          "css": {
+            "full": 135945
+          }
+        },
+        "JP-W4": {
+          "n": 132,
+          "bytes": 4109242,
+          "css": {
+            "full": 135290
+          }
+        },
+        "JP-W7": {
+          "n": 133,
+          "bytes": 4132888,
+          "css": {
+            "full": 135596
+          }
+        },
+        "TW-W1": {
+          "n": 153,
+          "bytes": 5173838,
+          "css": {
+            "full": 163102
+          }
+        },
+        "TW-W10": {
+          "n": 161,
+          "bytes": 5357273,
+          "css": {
+            "full": 165689
+          }
+        },
+        "TW-W12": {
+          "n": 162,
+          "bytes": 5384493,
+          "css": {
+            "full": 166009
+          }
+        },
+        "TW-W15": {
+          "n": 162,
+          "bytes": 5396980,
+          "css": {
+            "full": 166032
+          }
+        },
+        "TW-W18": {
+          "n": 162,
+          "bytes": 5417548,
+          "css": {
+            "full": 166028
+          }
+        },
+        "TW-W22": {
+          "n": 163,
+          "bytes": 5451473,
+          "css": {
+            "full": 166213
+          }
+        },
+        "TW-W24": {
+          "n": 163,
+          "bytes": 5477628,
+          "css": {
+            "full": 166260
+          }
+        },
+        "TW-W27": {
+          "n": 162,
+          "bytes": 5434591,
+          "css": {
+            "full": 166019
+          }
+        },
+        "TW-W4": {
+          "n": 159,
+          "bytes": 5303852,
+          "css": {
+            "full": 165036
+          }
+        },
+        "TW-W7": {
+          "n": 160,
+          "bytes": 5328292,
+          "css": {
+            "full": 165336
+          }
+        },
+        "license": {
+          "n": 2,
+          "bytes": 5105,
+          "css": {}
+        }
+      },
+      "css": [
+        {
+          "w": "CN-W1",
+          "ver": "full",
+          "size": 180696
+        },
+        {
+          "w": "CN-W10",
+          "ver": "full",
+          "size": 184189
+        },
+        {
+          "w": "CN-W12",
+          "ver": "full",
+          "size": 184177
+        },
+        {
+          "w": "CN-W15",
+          "ver": "full",
+          "size": 184813
+        },
+        {
+          "w": "CN-W18",
+          "ver": "full",
+          "size": 184823
+        },
+        {
+          "w": "CN-W22",
+          "ver": "full",
+          "size": 185394
+        },
+        {
+          "w": "CN-W24",
+          "ver": "full",
+          "size": 185426
+        },
+        {
+          "w": "CN-W27",
+          "ver": "full",
+          "size": 184855
+        },
+        {
+          "w": "CN-W4",
+          "ver": "full",
+          "size": 183510
+        },
+        {
+          "w": "CN-W7",
+          "ver": "full",
+          "size": 183524
+        },
+        {
+          "w": "HK-W1",
+          "ver": "full",
+          "size": 163431
+        },
+        {
+          "w": "HK-W10",
+          "ver": "full",
+          "size": 165726
+        },
+        {
+          "w": "HK-W12",
+          "ver": "full",
+          "size": 165998
+        },
+        {
+          "w": "HK-W15",
+          "ver": "full",
+          "size": 166036
+        },
+        {
+          "w": "HK-W18",
+          "ver": "full",
+          "size": 166022
+        },
+        {
+          "w": "HK-W22",
+          "ver": "full",
+          "size": 166190
+        },
+        {
+          "w": "HK-W24",
+          "ver": "full",
+          "size": 166274
+        },
+        {
+          "w": "HK-W27",
+          "ver": "full",
+          "size": 166022
+        },
+        {
+          "w": "HK-W4",
+          "ver": "full",
+          "size": 165052
+        },
+        {
+          "w": "HK-W7",
+          "ver": "full",
+          "size": 165360
+        },
+        {
+          "w": "JP-W1",
+          "ver": "full",
+          "size": 134068
+        },
+        {
+          "w": "JP-W10",
+          "ver": "full",
+          "size": 135925
+        },
+        {
+          "w": "JP-W12",
+          "ver": "full",
+          "size": 135931
+        },
+        {
+          "w": "JP-W15",
+          "ver": "full",
+          "size": 135958
+        },
+        {
+          "w": "JP-W18",
+          "ver": "full",
+          "size": 136237
+        },
+        {
+          "w": "JP-W22",
+          "ver": "full",
+          "size": 136238
+        },
+        {
+          "w": "JP-W24",
+          "ver": "full",
+          "size": 136265
+        },
+        {
+          "w": "JP-W27",
+          "ver": "full",
+          "size": 135945
+        },
+        {
+          "w": "JP-W4",
+          "ver": "full",
+          "size": 135290
+        },
+        {
+          "w": "JP-W7",
+          "ver": "full",
+          "size": 135596
+        },
+        {
+          "w": "TW-W1",
+          "ver": "full",
+          "size": 163102
+        },
+        {
+          "w": "TW-W10",
+          "ver": "full",
+          "size": 165689
+        },
+        {
+          "w": "TW-W12",
+          "ver": "full",
+          "size": 166009
+        },
+        {
+          "w": "TW-W15",
+          "ver": "full",
+          "size": 166032
+        },
+        {
+          "w": "TW-W18",
+          "ver": "full",
+          "size": 166028
+        },
+        {
+          "w": "TW-W22",
+          "ver": "full",
+          "size": 166213
+        },
+        {
+          "w": "TW-W24",
+          "ver": "full",
+          "size": 166260
+        },
+        {
+          "w": "TW-W27",
+          "ver": "full",
+          "size": 166019
+        },
+        {
+          "w": "TW-W4",
+          "ver": "full",
+          "size": 165036
+        },
+        {
+          "w": "TW-W7",
+          "ver": "full",
+          "size": 165336
+        }
+      ],
+      "other": [],
+      "other_n": 0
+    },
+    {
+      "prefix": "bestten",
+      "n": 5,
+      "bytes": 2440036,
+      "weights": {},
+      "css": [],
+      "other": [
+        {
+          "rel": "BestTen-CRT-10px.bdf",
+          "size": 1207663
+        },
+        {
+          "rel": "BestTen-DOT-10px.bdf",
+          "size": 1231366
+        },
+        {
+          "rel": "LICENSE_E",
+          "size": 375
+        },
+        {
+          "rel": "LICENSE_J",
+          "size": 442
+        },
+        {
+          "rel": "SOURCE.txt",
+          "size": 190
+        }
+      ],
+      "other_n": 5
+    },
+    {
+      "prefix": "lana-pixel",
+      "n": 3,
+      "bytes": 2529521,
+      "weights": {},
+      "css": [],
+      "other": [
+        {
+          "rel": "LanaPixel-11px.bdf",
+          "size": 2524833
+        },
+        {
+          "rel": "OFL.txt",
+          "size": 4495
+        },
+        {
+          "rel": "SOURCE.txt",
+          "size": 193
+        }
+      ],
+      "other_n": 3
+    },
+    {
+      "prefix": "lanapixel",
+      "n": 3,
+      "bytes": 2529521,
+      "weights": {},
+      "css": [],
+      "other": [
+        {
+          "rel": "LanaPixel-11px.bdf",
+          "size": 2524833
+        },
+        {
+          "rel": "OFL.txt",
+          "size": 4495
+        },
+        {
+          "rel": "SOURCE.txt",
+          "size": 193
+        }
+      ],
+      "other_n": 3
+    },
+    {
+      "prefix": "taipei-pixel",
+      "n": 4,
+      "bytes": 5598078,
+      "weights": {},
+      "css": [],
+      "other": [
+        {
+          "rel": "LICENSE-CC-BY-SA-4.0.txt",
+          "size": 20138
+        },
+        {
+          "rel": "SOURCE.txt",
+          "size": 195
+        },
+        {
+          "rel": "Taipei16.bdf",
+          "size": 2141990
+        },
+        {
+          "rel": "Taipei24.bdf",
+          "size": 3435755
+        }
+      ],
+      "other_n": 4
+    },
+    {
+      "prefix": "taipeipixel",
+      "n": 4,
+      "bytes": 5598078,
+      "weights": {},
+      "css": [],
+      "other": [
+        {
+          "rel": "LICENSE-CC-BY-SA-4.0.txt",
+          "size": 20138
+        },
+        {
+          "rel": "SOURCE.txt",
+          "size": 195
+        },
+        {
+          "rel": "Taipei16.bdf",
+          "size": 2141990
+        },
+        {
+          "rel": "Taipei24.bdf",
+          "size": 3435755
+        }
+      ],
+      "other_n": 4
+    },
+    {
+      "prefix": "fonsung",
+      "n": 3,
+      "bytes": 1265266,
+      "weights": {},
+      "css": [],
+      "other": [
+        {
+          "rel": "Fonsung-16px.bdf",
+          "size": 1244938
+        },
+        {
+          "rel": "LICENSE-CC-BY-SA-4.0.txt",
+          "size": 20138
+        },
+        {
+          "rel": "SOURCE.txt",
+          "size": 190
+        }
+      ],
+      "other_n": 3
+    },
+    {
+      "prefix": "lyusung",
+      "n": 3,
+      "bytes": 1873673,
+      "weights": {},
+      "css": [],
+      "other": [
+        {
+          "rel": "LICENSE-CC-BY-SA-4.0.txt",
+          "size": 20138
+        },
+        {
+          "rel": "Lyusung-210618-24px.bdf",
+          "size": 1853345
+        },
+        {
+          "rel": "SOURCE.txt",
+          "size": 190
+        }
+      ],
+      "other_n": 3
+    },
+    {
+      "prefix": "chusung",
+      "n": 3,
+      "bytes": 1268254,
+      "weights": {},
+      "css": [],
+      "other": [
+        {
+          "rel": "Chusung-210529-16px.bdf",
+          "size": 1247926
+        },
+        {
+          "rel": "LICENSE-CC-BY-SA-4.0.txt",
+          "size": 20138
+        },
+        {
+          "rel": "SOURCE.txt",
+          "size": 190
+        }
+      ],
+      "other_n": 3
+    }
+  ],
+  "versions": {
+    "fonts-packages/kaiso/Regular/full/result.css": {
+      "ok": false,
+      "err": "The bucket you access does not belong to you."
+    },
+    "fonts-packages/kaiso/Medium/full/result.css": {
+      "ok": false,
+      "err": "The bucket you access does not belong to you."
+    },
+    "fonts-packages/kaiso/Bold/full/result.css": {
+      "ok": false,
+      "err": "The bucket you access does not belong to you."
+    },
+    "fonts-packages/kisjp/Regular/full/result.css": {
+      "ok": false,
+      "err": "The bucket you access does not belong to you."
+    },
+    "fonts-packages/kisjp/Kaisotai-Next-UP-B/full/result.css": {
+      "ok": false,
+      "err": "The bucket you access does not belong to you."
+    }
+  },
+  "at": "2026-10-07T15:10:16.104Z"
+}

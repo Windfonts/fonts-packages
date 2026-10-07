@@ -1,0 +1,3072 @@
+{
+  "n": 511,
+  "skipped": [],
+  "rows": [
+    {
+      "id": "0126a51e-3a5e-4f6b-84d7-f31535d8580e",
+      "old": "851ChikaraDzuyoku",
+      "new": "851ckrdzyk",
+      "name": "851チカラヅヨク"
+    },
+    {
+      "id": "2a668185-5edf-44d4-a01f-f87980e80060",
+      "old": "851ChikaraYowaku",
+      "new": "851ckrywk",
+      "name": "851チカラヨワク"
+    },
+    {
+      "id": "a214aa12-979c-4511-94bc-af9cb710fc78",
+      "old": "851Gochikakutto",
+      "new": "851gjp",
+      "name": "851ゴチカクット"
+    },
+    {
+      "id": "42d313a4-f688-42b2-9059-534ff36a585c",
+      "old": "851MkPOP",
+      "new": "851mkp",
+      "name": "851マカポップ"
+    },
+    {
+      "id": "4da982df-b64a-4b03-9675-b0e3d3784f81",
+      "old": "851RetroGo",
+      "new": "851-retro-go",
+      "name": "851レトロゴ"
+    },
+    {
+      "id": "bf0ae57e-5560-4ee8-85e4-710b59d70729",
+      "old": "851TegakiKakutto",
+      "new": "851hkt",
+      "name": "851テガキカクット"
+    },
+    {
+      "id": "bf90bc32-df05-49d8-aac2-f982feb0321c",
+      "old": "851TegakiZatsu",
+      "new": "851tgkzt",
+      "name": "851手書き雑フォント"
+    },
+    {
+      "id": "0fdfb7de-e250-41d6-abb1-19da94b05f12",
+      "old": "975MaruSCRegular",
+      "new": "975yt",
+      "name": "975 圆体"
+    },
+    {
+      "id": "373665bb-250a-4a6f-82d8-f6779fe771b4",
+      "old": "AbbrFes",
+      "new": "jysht",
+      "name": "简语生活体"
+    },
+    {
+      "id": "f24beedc-94cf-440c-950e-eabbd949642f",
+      "old": "AcyBold",
+      "new": "acyjp",
+      "name": "Acy"
+    },
+    {
+      "id": "1eccc1f3-74ab-4d09-8344-c602f16defd0",
+      "old": "Albertella",
+      "new": "albjp",
+      "name": "Albertella"
+    },
+    {
+      "id": "7fa37aa4-492b-4471-af1b-b63c582b6846",
+      "old": "AllPun",
+      "new": "xlft",
+      "name": "谐灵附体"
+    },
+    {
+      "id": "dcf31419-f1a8-47d4-9e9e-a3753a5ef8cf",
+      "old": "AoyagiKouzanT",
+      "new": "qlhct",
+      "name": "青柳衡山フォントT"
+    },
+    {
+      "id": "ef61ea8b-b3ea-4f3d-b0c2-c9bfd68338db",
+      "old": "AoyagiReisho",
+      "new": "qllst",
+      "name": "青柳隷書しも"
+    },
+    {
+      "id": "41b4cc9a-5054-4f6b-98d9-b0edc1fea452",
+      "old": "AoyagiSoseki",
+      "new": "qlsstas",
+      "name": "青柳疎石フォント"
+    },
+    {
+      "id": "801d24d1-b4f8-4e14-8038-fcf605c2433e",
+      "old": "Arkp",
+      "new": "fzxs10",
+      "name": "方舟像素"
+    },
+    {
+      "id": "ce7c5584-b594-4470-b295-30d8f255a2d0",
+      "old": "ArkPixel12",
+      "new": "fzxs12",
+      "name": "方舟像素 12"
+    },
+    {
+      "id": "a4c5963d-42bd-4cc8-b47b-f662fc7292d7",
+      "old": "Asatte",
+      "new": "astjp",
+      "name": "あさって"
+    },
+    {
+      "id": "248417bf-8e2a-42d3-a89f-db75edd104dc",
+      "old": "Awroit",
+      "new": "awrjp",
+      "name": "Awroit"
+    },
+    {
+      "id": "8a8e2c91-f8b5-4025-ab4f-ecae780c78ca",
+      "old": "Azbzzwzt",
+      "new": "dshbt",
+      "name": "Droid Sans 后备体"
+    },
+    {
+      "id": "e3935f6f-1023-4e42-823b-6a19bce4e43f",
+      "old": "B2SCLight",
+      "new": "mkwybs",
+      "name": "猫啃网烟波宋"
+    },
+    {
+      "id": "2909eef0-9629-4817-aafe-9b322ff22233",
+      "old": "BaDing16",
+      "new": "bdswt16",
+      "name": "八丁饰尾体 16"
+    },
+    {
+      "id": "12d03f1b-0f9e-4606-9afd-1f55ccc31c69",
+      "old": "Bb7",
+      "new": "jpdzt7x7",
+      "name": "精品点阵体7x7"
+    },
+    {
+      "id": "c16c1587-be57-479f-9290-3ff4be67e830",
+      "old": "Bb9",
+      "new": "jpdzt9x9",
+      "name": "精品点阵体9x9"
+    },
+    {
+      "id": "41229b97-8429-4016-83c9-4eb4fafd2156",
+      "old": "BizinGothic",
+      "new": "bzgjp",
+      "name": "Bizin Gothic"
+    },
+    {
+      "id": "284dd858-8a27-4dad-9151-20e422842ba1",
+      "old": "Bkd",
+      "new": "bkdft",
+      "name": "爆呆"
+    },
+    {
+      "id": "050909ee-6b95-435a-96cc-90d6ba059f5a",
+      "old": "BpmfGenRyuMin",
+      "new": "ylzym",
+      "name": "源流注音明"
+    },
+    {
+      "id": "a0763908-e13a-43af-923d-45ee581abb4e",
+      "old": "BpmfGenSekiGothic",
+      "new": "yszyh",
+      "name": "源石注音黑"
+    },
+    {
+      "id": "55757ed4-58e0-4b42-bb91-e4dc87d3277a",
+      "old": "BpmfGenSenRounded",
+      "new": "yqzyy",
+      "name": "源泉注音圆"
+    },
+    {
+      "id": "23600e68-bc33-48b1-b89f-7835b082de91",
+      "old": "BpmfGenWanMin",
+      "new": "yyzybgm",
+      "name": "源云注音明"
+    },
+    {
+      "id": "b954e0b8-2ff4-4959-a824-5bd69406c9bf",
+      "old": "BpmfGenYoGothic",
+      "new": "yyzyh",
+      "name": "源样注音黑"
+    },
+    {
+      "id": "1f28da2c-1d48-4ab3-b9f0-ba2da6b481b3",
+      "old": "BpmfGenYoMin",
+      "new": "yyzym",
+      "name": "源样注音明"
+    },
+    {
+      "id": "58f8aabd-99cc-4cf0-a35a-4dbb33fcadb0",
+      "old": "BpmfHuninn",
+      "new": "zyfy",
+      "name": "注音粉圆"
+    },
+    {
+      "id": "c5ee1001-c6dd-463f-aca8-0f642fb08c26",
+      "old": "BpmfIansui",
+      "new": "zyys",
+      "name": "注音芫荽"
+    },
+    {
+      "id": "4560d0ca-1c4e-49a5-9dc1-f6afb6996664",
+      "old": "BpmfZihiKaiStd",
+      "new": "zhzybk",
+      "name": "字嗨注音标楷"
+    },
+    {
+      "id": "40a2f2f3-be30-4904-b19d-5fb2dfa629bf",
+      "old": "BpmfZihiSans",
+      "new": "zhzyh",
+      "name": "字嗨注音黑"
+    },
+    {
+      "id": "853deff9-9f38-4757-811b-add31df30fa6",
+      "old": "BpmfZihiSerif",
+      "new": "zhzys",
+      "name": "字嗨注音宋"
+    },
+    {
+      "id": "69845ca7-c4f8-492a-afc7-2fa58ed2a74d",
+      "old": "Bspsc",
+      "new": "htmzt",
+      "name": "黑糖梅子糖"
+    },
+    {
+      "id": "1d7047dc-a663-452a-b220-0c97c01f1641",
+      "old": "CactusClassicalSerif",
+      "new": "xrzmt",
+      "name": "仙人掌明体"
+    },
+    {
+      "id": "c828ee26-21ca-4e50-a93d-8a6dd4513482",
+      "old": "Cbds",
+      "new": "zbds16",
+      "name": "长坂点宋"
+    },
+    {
+      "id": "de52b83c-72f5-462a-9220-717f7201a48d",
+      "old": "CEFFontsCJK",
+      "new": "kqxzy",
+      "name": "快去寫作業-CJK"
+    },
+    {
+      "id": "49d5fbc3-2fdc-474d-8b21-2eb1a4f015c4",
+      "old": "ChangBan12",
+      "new": "zbds12",
+      "name": "长坂点宋 12"
+    },
+    {
+      "id": "6da1efac-9ce0-4a6d-8256-8be51ff2a2f8",
+      "old": "CheckpointFont",
+      "new": "cpfjp",
+      "name": "チェックポイントフォント"
+    },
+    {
+      "id": "12be3b46-481d-430c-a182-66257b6140bd",
+      "old": "CheeseFoamOolongSong",
+      "new": "zsngwls",
+      "name": "芝士奶盖乌龙宋"
+    },
+    {
+      "id": "7ab80ebf-fe78-4d51-a8c5-e2774ae7603e",
+      "old": "ChocolateClassicalSans",
+      "new": "zglht",
+      "name": "朱古力黑体"
+    },
+    {
+      "id": "491a3c41-14a9-4923-bff7-58c5bceaa18c",
+      "old": "ChogokubosoGothic",
+      "new": "cjxtjp",
+      "name": "超極細ゴシック体"
+    },
+    {
+      "id": "14f283ee-ecb7-4fa2-aa4c-8d0761b39ac8",
+      "old": "Chuanqu",
+      "new": "cqcqt",
+      "name": "传趣"
+    },
+    {
+      "id": "c2aafac1-be20-4d06-8ec4-f4612bcf1f8f",
+      "old": "Cinecaption",
+      "new": "cinjp",
+      "name": "しねきゃぷしょん"
+    },
+    {
+      "id": "3efb5b84-658f-4f0c-8647-a6c4b1bb1b48",
+      "old": "Cjkfqlt",
+      "new": "cjksxz",
+      "name": "CJK手写字"
+    },
+    {
+      "id": "9254fc10-768b-4828-bc27-5ce76e9d974e",
+      "old": "Ckbf",
+      "new": "pwdhqt",
+      "name": "偏歪的黑趣体"
+    },
+    {
+      "id": "a9588c46-5493-4825-bae1-3380db4b25fb",
+      "old": "Cldin",
+      "new": "hcdh",
+      "name": "寒蝉德黑"
+    },
+    {
+      "id": "23c746ef-3b93-44de-930c-128462b62323",
+      "old": "Clg",
+      "new": "hcgh",
+      "name": "寒蝉高黑"
+    },
+    {
+      "id": "1da4f318-3d8c-4f92-8dfb-84c743caaa15",
+      "old": "Clhfs",
+      "new": "hchzfs",
+      "name": "寒蝉活字仿宋"
+    },
+    {
+      "id": "184b6e0a-2f85-4f23-a877-2597441a0c52",
+      "old": "Code2003",
+      "new": "c2003",
+      "name": "Code2003"
+    },
+    {
+      "id": "99f4367e-a0c4-4ceb-88bc-0179a04d3fb5",
+      "old": "CorplogoRound3",
+      "new": "clrv3",
+      "name": "コーポレート・ロゴ（ラウンド）ver3"
+    },
+    {
+      "id": "49044e31-d657-4ac8-a07c-358b53df6d93",
+      "old": "CorpMincho",
+      "new": "cormc",
+      "name": "コーポレート明朝 ver3"
+    },
+    {
+      "id": "50c31c12-8c89-4ce1-a224-76558f1a56a1",
+      "old": "CorpYawamin3",
+      "new": "cyv3jp",
+      "name": "コーポレートやわ明 ver3"
+    },
+    {
+      "id": "001dd279-8021-4284-b75c-4751b59026a2",
+      "old": "Cqscbbt",
+      "new": "yfzkzqscbbt",
+      "name": "云峰字库重庆山城棒棒体"
+    },
+    {
+      "id": "ac780be4-e2bb-4511-894e-bf3da7958d06",
+      "old": "Cxmc",
+      "new": "cxmct",
+      "name": "初夏明朝体"
+    },
+    {
+      "id": "03a8e39e-da59-487c-a95e-b1ce23e15550",
+      "old": "Cylyt",
+      "new": "cylytt",
+      "name": "辰宇落雁体 Thin"
+    },
+    {
+      "id": "ce25d554-16f7-49b4-a6d8-c5f95f52c099",
+      "old": "Cyroit",
+      "new": "cyrjp",
+      "name": "Cyroit"
+    },
+    {
+      "id": "8a967b73-e331-4bdd-8bc8-0dc8176d6b28",
+      "old": "Ddxstfx",
+      "new": "dzxsstcgt",
+      "name": "点阵像素宋体 常规体"
+    },
+    {
+      "id": "968d4e76-949b-4c45-bf0a-0afa01de9950",
+      "old": "Ddxstlx",
+      "new": "ddxsstlx",
+      "name": "点点像素宋体菱形"
+    },
+    {
+      "id": "35ffde1f-cf4a-4b0b-a6da-d177e8fa9e0f",
+      "old": "Ddxstyx",
+      "new": "ddxsyt",
+      "name": "点点像素圆体"
+    },
+    {
+      "id": "87aaef81-0a2f-4187-ae11-b0d1eb0b139b",
+      "old": "DejimaMincho",
+      "new": "cdmc",
+      "name": "出岛明朝"
+    },
+    {
+      "id": "25cefb5c-b67d-446d-b1af-e59414a98521",
+      "old": "Dela",
+      "new": "mtht",
+      "name": "馒头黑体"
+    },
+    {
+      "id": "bbe33f0e-9b36-4208-989c-3eae9d0219d7",
+      "old": "DenkiChip",
+      "new": "dcx8y12",
+      "name": "電気チップ / x8y12pxDenkiChip"
+    },
+    {
+      "id": "e1ff4679-12fd-401e-bc26-8a7db566a9ff",
+      "old": "DiningMessage",
+      "new": "dnmjp",
+      "name": "Dining Message"
+    },
+    {
+      "id": "699bb2a4-2005-4fde-8dfa-9d0e93c23650",
+      "old": "Dotgothic",
+      "new": "dg16jp",
+      "name": "DotGothic16"
+    },
+    {
+      "id": "6ec60dce-32d6-4e71-ac0b-5eaea359e16a",
+      "old": "DreamHanSans",
+      "new": "myhtp3l",
+      "name": "梦源黑体（Pal3love）"
+    },
+    {
+      "id": "77a9780c-f2dc-434f-b81e-215a0b5a7799",
+      "old": "DreamHanSerif",
+      "new": "mystp3l",
+      "name": "梦源宋体·Pal3love"
+    },
+    {
+      "id": "fcb69b46-a0b4-4e99-bd94-1a147ef8535b",
+      "old": "Escumasia",
+      "new": "escjp",
+      "name": "ESCUMASIA"
+    },
+    {
+      "id": "8fd988df-c50d-4ed2-9a1f-247fba1fd711",
+      "old": "Explex",
+      "new": "expjp",
+      "name": "Explex"
+    },
+    {
+      "id": "e900c5aa-ebea-4d9e-99a0-a4bd97b8e278",
+      "old": "Fb16",
+      "new": "lxdzt16",
+      "name": "流行点阵体16"
+    },
+    {
+      "id": "9ea5f6af-4020-4abb-8fa7-e5a4f7bbdb2a",
+      "old": "Ffs",
+      "new": "fhst",
+      "name": "飞花宋体"
+    },
+    {
+      "id": "2987c01a-782a-4ac4-b17f-ca7a8694e085",
+      "old": "Firple",
+      "new": "firjp",
+      "name": "Firple"
+    },
+    {
+      "id": "2f94ed24-9395-48cc-80dc-ea50981d519c",
+      "old": "Fkzl",
+      "new": "jzzt",
+      "name": "假珍珠"
+    },
+    {
+      "id": "5d69781a-391d-4bcd-836f-0795bcead52e",
+      "old": "Fmthei",
+      "new": "fmht",
+      "name": "范美黑体"
+    },
+    {
+      "id": "e610ede4-87a8-4963-ab05-54112a1f3425",
+      "old": "Fmtming",
+      "new": "fmmt",
+      "name": "范美明体"
+    },
+    {
+      "id": "0d1fe847-e5d2-4f66-85db-2a4eee74fdb6",
+      "old": "Frexsans",
+      "new": "xhfsa",
+      "name": "械黑"
+    },
+    {
+      "id": "cb21d4ab-6bbd-4d68-ba43-e6e16a3fe73b",
+      "old": "Fupx",
+      "new": "fhxs10",
+      "name": "缝合像素"
+    },
+    {
+      "id": "bc8fa156-d471-4070-8d66-b1e73cb76e44",
+      "old": "FusionBoldPixel",
+      "new": "fusion-bold-pixel",
+      "name": "缝合粗像素"
+    },
+    {
+      "id": "16a1e933-fe0b-4db0-a51c-47e0537969bb",
+      "old": "FusionPixel12",
+      "new": "fhxs12",
+      "name": "缝合像素 12"
+    },
+    {
+      "id": "0e4a6f1a-d579-44f5-bd20-64d035050b1e",
+      "old": "Fzfs",
+      "new": "fzfsjt",
+      "name": "方正仿宋简体"
+    },
+    {
+      "id": "b4dd542d-d378-4357-bc81-9254a41d35fb",
+      "old": "Fzht",
+      "new": "fzhtjt",
+      "name": "方正黑体简体"
+    },
+    {
+      "id": "8d50d2df-5ce4-4faa-af29-edee0a8af133",
+      "old": "FZImokenpi",
+      "new": "fzijp",
+      "name": "FZイモケンピ"
+    },
+    {
+      "id": "80a76c8e-d7e2-428f-a3a4-f6abad4c5168",
+      "old": "Fzkt",
+      "new": "fzktjt",
+      "name": "方正楷体简体"
+    },
+    {
+      "id": "6edd444a-6ad8-4900-aa2a-fe39767a6ede",
+      "old": "Fzss",
+      "new": "fzssjt",
+      "name": "方正书宋简体"
+    },
+    {
+      "id": "9f564a99-a740-49e0-ac41-581d2343b881",
+      "old": "GataSousho",
+      "new": "fcgtss",
+      "name": "方草"
+    },
+    {
+      "id": "208fefc5-4fd0-41de-93dd-0b00b66342ab",
+      "old": "GenKiGothicJP",
+      "new": "yqhtjp",
+      "name": "源起黑体 JP"
+    },
+    {
+      "id": "d98766e2-4df9-41c3-818c-5670784fa487",
+      "old": "GenKiGothicPJP",
+      "new": "yqhtpjp",
+      "name": "源起黑体 PJP"
+    },
+    {
+      "id": "5593355f-bf13-4a29-b62b-e30f6fb91f58",
+      "old": "GenKiGothicTC",
+      "new": "yqhtd",
+      "name": "源起黑体丹"
+    },
+    {
+      "id": "826e5a48-93b9-406f-b86f-6ac02e12693a",
+      "old": "GenKiMinPJP",
+      "new": "yqmcp",
+      "name": "源起明朝P"
+    },
+    {
+      "id": "bc77463a-44f2-40d5-be95-c05bdb98339e",
+      "old": "GenKiMinTC",
+      "new": "yqmtd",
+      "name": "源起明体丹"
+    },
+    {
+      "id": "784d5bcc-0d48-4387-9ca7-18a759eff7d5",
+      "old": "GenRyuMinPJP",
+      "new": "ylmcp",
+      "name": "源流明朝P"
+    },
+    {
+      "id": "2797d573-8c00-4d40-8093-7a9591a335f5",
+      "old": "GenSekiGothicPJP",
+      "new": "gsgpjp",
+      "name": "源石ゴシックP"
+    },
+    {
+      "id": "169587a4-4460-4381-8d5f-e6664bd8441a",
+      "old": "GenSekiGothicTC",
+      "new": "yshtd",
+      "name": "源石黑体丹"
+    },
+    {
+      "id": "1bb8b158-465b-4424-a9f7-00b4b6220800",
+      "old": "GenSenRoundedJP",
+      "new": "gsrjp",
+      "name": "源泉丸ゴシック"
+    },
+    {
+      "id": "d04bb6c1-c39f-4859-b9b4-ae4eec4d6917",
+      "old": "GenSenRoundedPJP",
+      "new": "gsrpjp",
+      "name": "源泉丸ゴシックP"
+    },
+    {
+      "id": "e2c025fb-0dff-4b00-9ce1-34fb49183c42",
+      "old": "GenSenRoundedTC",
+      "new": "yqytd",
+      "name": "源泉圆体丹"
+    },
+    {
+      "id": "35b459bc-0962-4387-9bd9-418705011b00",
+      "old": "GenWanMinPJP",
+      "new": "yymcpgwm",
+      "name": "源雲明朝P"
+    },
+    {
+      "id": "ca28cc46-b7bb-4cab-9493-afed1455f699",
+      "old": "GenYoGothicPJP",
+      "new": "gygpjp",
+      "name": "源様ゴシックP"
+    },
+    {
+      "id": "e9dda540-737a-4a68-a3ad-24bdb14686aa",
+      "old": "GenYoMinPJP",
+      "new": "yymcpgym",
+      "name": "源様明朝P"
+    },
+    {
+      "id": "4c0428f6-1593-4325-a9b3-55a9ba949ab2",
+      "old": "GlAntiquePlus",
+      "new": "glapjp",
+      "name": "GL-アンチックPlus"
+    },
+    {
+      "id": "6d319371-590b-4d7b-9f0b-c8ea8bf1c133",
+      "old": "GlCurulMinamoto",
+      "new": "glcmjp",
+      "name": "GL-CurulMinamoto"
+    },
+    {
+      "id": "eb4b0369-601a-495d-9fe8-8e0b1673f6b8",
+      "old": "GlNovantiquaMinamoto",
+      "new": "glnmjp",
+      "name": "GL-NovantiquaMinamoto"
+    },
+    {
+      "id": "e599649b-037f-4dd8-8422-cf4eddb17783",
+      "old": "GlowSansJP",
+      "new": "wlyhjp",
+      "name": "未来荧黑 JP"
+    },
+    {
+      "id": "14c56610-8372-4af8-abd9-cf695952d47e",
+      "old": "GlowSansTC",
+      "new": "wlyhtc",
+      "name": "未来荧黑 TC"
+    },
+    {
+      "id": "59e74091-499e-409b-9fd0-fdb96a024cde",
+      "old": "GNUUnifontFull",
+      "new": "unijp",
+      "name": "Unifont"
+    },
+    {
+      "id": "713f1df1-a6de-43d5-994d-17ba132b91f4",
+      "old": "GothicNguyen",
+      "new": "xyygn",
+      "name": "𦁣夕源"
+    },
+    {
+      "id": "54420da0-04a5-472c-941e-a3820a7dbeba",
+      "old": "Gskd",
+      "new": "gsdk",
+      "name": "更纱等宽"
+    },
+    {
+      "id": "a7c0d894-3442-44d3-a83e-13a6b9a50cf1",
+      "old": "GuguruSansCode",
+      "new": "gscjp",
+      "name": "Guguru Sans Code"
+    },
+    {
+      "id": "ecd53e7c-eb04-4ade-a45b-30ec0e525f34",
+      "old": "GyateLuminescence",
+      "new": "gytljp",
+      "name": "ぎゃーてーるみねっせんす"
+    },
+    {
+      "id": "b9b00c6f-5f64-459f-be71-56c57af4bd48",
+      "old": "Hachimarupop",
+      "new": "hmpjp",
+      "name": "Hachi Maru Pop"
+    },
+    {
+      "id": "11c57445-29f9-423f-9da1-fb4f005a1f70",
+      "old": "Harmony",
+      "new": "harmsa",
+      "name": "HarmonyOS Sans"
+    },
+    {
+      "id": "279bec04-c83a-4f0a-8d1d-7c33cd748e63",
+      "old": "HaruTegaki",
+      "new": "hartgk",
+      "name": "はる手書きフォント"
+    },
+    {
+      "id": "bbe84e03-bc16-4746-a4f3-9e720df9fcb4",
+      "old": "Hcdin",
+      "new": "hcdingt",
+      "name": "寒蝉 DIN 哥特"
+    },
+    {
+      "id": "174edcee-4b4e-4116-8d53-adf158608403",
+      "old": "Hclck2",
+      "new": "hclcks",
+      "name": "寒蝉龙藏楷书"
+    },
+    {
+      "id": "7f6e82da-7453-429f-950c-c967b102a7f9",
+      "old": "Hcrym",
+      "new": "hcytm",
+      "name": "寒蝉圆体 M"
+    },
+    {
+      "id": "2b7561ea-edc0-4f55-85ec-18303243f156",
+      "old": "Hcth",
+      "new": "hcyjt",
+      "name": "寒蝉有机体"
+    },
+    {
+      "id": "85ff8d4a-e70f-4e60-8264-185e53b143f2",
+      "old": "Hctyt",
+      "new": "hctyts",
+      "name": "寒蝉团圆体 Sans"
+    },
+    {
+      "id": "5fef04ae-027b-475e-8e35-867085897ae5",
+      "old": "Hei975",
+      "new": "975ht",
+      "name": "975 黑体"
+    },
+    {
+      "id": "3dea817b-b2e3-4e12-86c4-a4edc94d63a8",
+      "old": "HexinPixel",
+      "new": "hexin-pixel",
+      "name": "核心像素体"
+    },
+    {
+      "id": "118aa9f4-afc2-4fc6-a2aa-62f7404e7d22",
+      "old": "HonokaAntiqueKaku",
+      "new": "hsakjp",
+      "name": "ほのか新アンティーク角"
+    },
+    {
+      "id": "b1e5e59a-9e9f-4f20-9c6f-266d77695d33",
+      "old": "HonokaAntiqueMaru",
+      "new": "hamjp",
+      "name": "ほのか新アンティーク丸"
+    },
+    {
+      "id": "07637d7e-05f6-46bf-a537-6e88999268f3",
+      "old": "HonokaMaruGothic",
+      "new": "hmgjp",
+      "name": "ほのか丸ゴシック"
+    },
+    {
+      "id": "4c31e658-6b06-4f06-afc6-c8479e1688a9",
+      "old": "Hsmbzt",
+      "new": "hsmb",
+      "name": "衡山毛笔"
+    },
+    {
+      "id": "d78ca7f5-7cbe-4889-8f8b-e6948e72976f",
+      "old": "Hxbsb",
+      "new": "hxbsbt",
+      "name": "胡晓波骚包体"
+    },
+    {
+      "id": "0205db20-330a-4fe1-950c-2cac8ef1f340",
+      "old": "Hxwk",
+      "new": "hcxk",
+      "name": "混菜写楷"
+    },
+    {
+      "id": "cf168beb-bd70-4989-8e21-530a3178c544",
+      "old": "Hyma",
+      "new": "hymca",
+      "name": "花园明朝 A"
+    },
+    {
+      "id": "3277ffd3-ed09-45c1-8df2-e9c189f3f1ef",
+      "old": "Hymb",
+      "new": "hymcb",
+      "name": "花园明朝 B"
+    },
+    {
+      "id": "644be282-c162-4296-8452-fa138c062815",
+      "old": "Hyzi",
+      "new": "hyzt",
+      "name": "滑油字"
+    },
+    {
+      "id": "ab67bcf5-2c52-4e7f-823e-03710771ce49",
+      "old": "Hzpy",
+      "new": "hzpyt",
+      "name": "汉字拼音体"
+    },
+    {
+      "id": "24feb8ac-6921-4e78-89f5-481e48fda330",
+      "old": "IBMPlexSansTC",
+      "new": "ibmpstc",
+      "name": "IBM Plex Sans TC"
+    },
+    {
+      "id": "5cade917-a17c-4f9e-addc-0674daf91c3d",
+      "old": "Idroit",
+      "new": "idrjp",
+      "name": "Idroit"
+    },
+    {
+      "id": "11e5dc5a-def9-4333-8fcd-01db63011525",
+      "old": "IPAexMincho",
+      "new": "ipamjp",
+      "name": "IPAexMincho"
+    },
+    {
+      "id": "ab32f7e0-187c-4e99-9b27-ef84bf7df956",
+      "old": "IrohaMaru",
+      "new": "iromr",
+      "name": "いろはマル"
+    },
+    {
+      "id": "b9377b14-94bb-4c28-8164-83ea08c94801",
+      "old": "IrohaMochi",
+      "new": "iromc",
+      "name": "いろはモチ"
+    },
+    {
+      "id": "0837f84e-cc9e-4820-8a1a-f8c24e108c50",
+      "old": "IsasFangsong",
+      "new": "isas-fangsong",
+      "name": "中科院仿宋体点阵"
+    },
+    {
+      "id": "b7696369-3a8b-4a07-999b-b535433eb4b2",
+      "old": "IsasSong",
+      "new": "isas-song",
+      "name": "中科院宋体点阵"
+    },
+    {
+      "id": "796674a7-da51-586f-80d6-54e305c6a210",
+      "old": "JfDotAyu",
+      "new": "jfdajp",
+      "name": "JFドットAyu"
+    },
+    {
+      "id": "248e131f-595a-57f0-a7bc-c0ebf4269686",
+      "old": "JfDotIzumi",
+      "new": "jfdig",
+      "name": "JFドット出水ゴシック"
+    },
+    {
+      "id": "06ff7493-67e4-5f27-85d1-d66f96828cde",
+      "old": "JfDotJiskan16",
+      "new": "jfdj16",
+      "name": "JFドットjiskan16"
+    },
+    {
+      "id": "fa4d9ee6-e32c-54f7-a454-b2c8c3c9519b",
+      "old": "JfDotJiskan16s",
+      "new": "jfdj16s",
+      "name": "JFドットjiskan16s"
+    },
+    {
+      "id": "068d8c4d-23bd-5fef-9aa7-b20921bea45f",
+      "old": "JfDotJiskan24",
+      "new": "jfdj24",
+      "name": "JFドットjiskan24"
+    },
+    {
+      "id": "0918cc51-b1a7-5023-8d78-0e3b233ee9ef",
+      "old": "JfDotJiskan24h",
+      "new": "jfdj24h",
+      "name": "JFドットjiskan24h"
+    },
+    {
+      "id": "a90f6a4a-183c-5c91-be88-23a640c5ebf6",
+      "old": "JfDotK12",
+      "new": "jfdk12",
+      "name": "JFドットK12"
+    },
+    {
+      "id": "036ee530-7b71-5856-848c-f042a2d50041",
+      "old": "JfDotK12x10",
+      "new": "jfdk12x10",
+      "name": "JFドットk12x10"
+    },
+    {
+      "id": "8cb58e97-a8b5-586b-8db4-142dd6d72525",
+      "old": "JfDotK14",
+      "new": "jfdk14",
+      "name": "JFドットK14"
+    },
+    {
+      "id": "d0c2768a-7bab-5c31-aa91-4b2b0190b975",
+      "old": "JfDotKaname",
+      "new": "jfdkjp",
+      "name": "JFドット要町"
+    },
+    {
+      "id": "03c09175-cf59-567b-8f5d-6f201695656d",
+      "old": "JfDotKappa20",
+      "new": "jfdk20",
+      "name": "JFドットKappa20"
+    },
+    {
+      "id": "fe855dcc-d99c-523e-b3be-472cb422ff31",
+      "old": "JfDotMilkjf16",
+      "new": "jfdm16",
+      "name": "JFドットmilkjf16"
+    },
+    {
+      "id": "b4048cc9-1e7b-5a53-a75f-3151c6eb2ba1",
+      "old": "JfDotMplus",
+      "new": "jfdmjp",
+      "name": "JFドットM+"
+    },
+    {
+      "id": "4bf21dd1-c627-51c4-98df-157541c1dffb",
+      "old": "JfDotShinonome",
+      "new": "jfdsjp",
+      "name": "JFドット東雲"
+    },
+    {
+      "id": "f0da370a-a587-4d7d-bcd3-f81bf9a1fd13",
+      "old": "JfOpenHuninn",
+      "new": "jfofy",
+      "name": "jf open 粉圆"
+    },
+    {
+      "id": "9a773962-c79c-4b70-a208-723df6354afa",
+      "old": "Jgma",
+      "new": "jgmta",
+      "name": "汲古明体A"
+    },
+    {
+      "id": "c5ae4a80-63bf-4dcd-b2e9-1ff1b78e4d04",
+      "old": "Jgmb",
+      "new": "jgmtb",
+      "name": "汲古明体B"
+    },
+    {
+      "id": "075ba134-255f-485a-a53d-5e9438ad9610",
+      "old": "Jgmc",
+      "new": "jgmtc",
+      "name": "汲古明体C"
+    },
+    {
+      "id": "246c2f34-fe9c-4a08-9f3c-deb88ae7b91a",
+      "old": "Jiyucho",
+      "new": "jycjp",
+      "name": "じゆうちょうフォント"
+    },
+    {
+      "id": "95320086-e2be-40fc-9865-3daf27b20bff",
+      "old": "JiyuNoTsubasa",
+      "new": "zyzyjp",
+      "name": "自由の翼フォント"
+    },
+    {
+      "id": "b682e1af-4e60-4b81-9b07-040f259b8b59",
+      "old": "JKGothicL",
+      "new": "jkgljp",
+      "name": "JKゴシックL"
+    },
+    {
+      "id": "ce1a9f33-9458-402f-a8d9-20652694f517",
+      "old": "Jlpx",
+      "new": "gdxs12",
+      "name": "果冻像素"
+    },
+    {
+      "id": "1623f048-6921-42cd-bc01-170fe8aba203",
+      "old": "Jpdz",
+      "new": "jpdzt",
+      "name": "精品点阵体"
+    },
+    {
+      "id": "3d6697db-260c-4dcb-a8d9-c9c74cb8e7c9",
+      "old": "Jxzk",
+      "new": "jxzkt",
+      "name": "江西拙楷体"
+    },
+    {
+      "id": "63559f7e-2ba8-410b-b2b7-93d97d27ada6",
+      "old": "Jzkgemc",
+      "new": "jmct",
+      "name": "瀞明朝"
+    },
+    {
+      "id": "68a951f1-c727-42c7-831c-5e89c950911b",
+      "old": "Kaiso",
+      "new": "kisjp",
+      "name": "カイソウ"
+    },
+    {
+      "id": "2c8e7530-ee1f-4731-9963-243acab4af81",
+      "old": "Kalo",
+      "new": "khtsa",
+      "name": "Kalo 黑体"
+    },
+    {
+      "id": "20643ea5-95f9-4ac9-935a-c19250317ea7",
+      "old": "KanjiStrokeOrders",
+      "new": "ksojp",
+      "name": "KanjiStrokeOrders"
+    },
+    {
+      "id": "8118bd97-8502-40f6-a0e3-32c4174a005a",
+      "old": "Kazesawa",
+      "new": "kzswjp",
+      "name": "かぜさわ"
+    },
+    {
+      "id": "530aa7a9-8c5f-4999-adc0-2380e3306c3a",
+      "old": "KeiFont",
+      "new": "keifjp",
+      "name": "けいふぉんと"
+    },
+    {
+      "id": "c842a58c-6022-4bfd-a6a9-4a5f20b88b7f",
+      "old": "Kiloji",
+      "new": "kljjp",
+      "name": "きろ字"
+    },
+    {
+      "id": "87940150-d2a2-4b0c-8561-5761acf41a4b",
+      "old": "Kinkaku",
+      "new": "knkkjp",
+      "name": "キンカク"
+    },
+    {
+      "id": "c33bff3a-dd1c-4699-859a-b881e50fa98f",
+      "old": "Kiwimaru",
+      "new": "kwmrjp",
+      "name": "Kiwi Maru"
+    },
+    {
+      "id": "712a0d21-9a9d-4e4b-ba3c-0400d3269e14",
+      "old": "Klee",
+      "new": "klojp",
+      "name": "Klee One"
+    },
+    {
+      "id": "8dc66b77-e776-48f6-b94f-e4fa46787044",
+      "old": "Klsyt",
+      "new": "inkslyt",
+      "name": "I.Ngaan刻石录颜体"
+    },
+    {
+      "id": "798dc9ca-1c01-4f13-9eaf-b3afac638248",
+      "old": "KomorebiGothic",
+      "new": "kmrbg",
+      "name": "木漏れ日ゴシック"
+    },
+    {
+      "id": "a59faed3-e796-4736-ae3d-7dd1d39e980c",
+      "old": "Koruri",
+      "new": "krrjp",
+      "name": "コルリ"
+    },
+    {
+      "id": "aaf73f29-5918-4bb1-b008-8828b5d81823",
+      "old": "KosefontJP",
+      "new": "xlztjp",
+      "name": "小濑字体 JP"
+    },
+    {
+      "id": "078a562c-97e5-4ab9-8b31-89f8669bd54a",
+      "old": "Kosugi",
+      "new": "ksgjp",
+      "name": "Kosugi"
+    },
+    {
+      "id": "c7ce9b68-3f03-4c34-96d2-5ee125029368",
+      "old": "Kosugimaru",
+      "new": "ksgmr",
+      "name": "Kosugi Maru"
+    },
+    {
+      "id": "63ab8c36-7027-43fc-be27-b79f6bccc1ac",
+      "old": "KouzanGyousho",
+      "new": "hsmbxs",
+      "name": "衡山毛筆フォント行書"
+    },
+    {
+      "id": "4b15d52a-f127-42ef-a4bf-f9ee0af4269f",
+      "old": "KouzanMouhitu",
+      "new": "hsmbjp",
+      "name": "衡山毛筆フォント"
+    },
+    {
+      "id": "91bd2d54-bc54-4bee-bed4-39e8ea00ea1c",
+      "old": "KouzanSousho",
+      "new": "hsmbcs",
+      "name": "衡山毛筆フォント草書"
+    },
+    {
+      "id": "c873260f-6b45-4256-8c51-0d3e5fdca3e1",
+      "old": "Kslgbht",
+      "new": "gbhb",
+      "name": "钢笔鹤-B"
+    },
+    {
+      "id": "3c19eaab-50dd-4eaf-b9f6-4ebb77f393d9",
+      "old": "Kslyt",
+      "new": "ydmt",
+      "name": "一点明体"
+    },
+    {
+      "id": "573121c7-4d1e-4d95-84ef-59d94ca6b4fe",
+      "old": "KurobaraGothic",
+      "new": "hqwjp",
+      "name": "黒薔薇ゴシック"
+    },
+    {
+      "id": "1f397d73-0b08-432b-aaa5-fabb2393bf70",
+      "old": "Kwgh",
+      "new": "mhkrwg",
+      "name": "暮黑"
+    },
+    {
+      "id": "b7a00000-8b8b-4c78-a250-53e668dfe26b",
+      "old": "Kys",
+      "new": "kyhtsa",
+      "name": "空缘黑体"
+    },
+    {
+      "id": "2c4df848-4bf3-40c6-82d5-88626f707c6d",
+      "old": "Kywa",
+      "new": "klwyt",
+      "name": "苦累蛙圆体"
+    },
+    {
+      "id": "7fc63136-1286-4a40-9df4-090d135db09b",
+      "old": "LanaPixel",
+      "new": "lana-pixel",
+      "name": "LanaPixel"
+    },
+    {
+      "id": "49d19bf6-af45-42e3-a9a6-f39fca300b4d",
+      "old": "Lftsyh",
+      "new": "lft11h",
+      "name": "俐方体11号"
+    },
+    {
+      "id": "b904874a-04aa-4e01-a2ec-6094c333e36c",
+      "old": "Lhls",
+      "new": "lhtt",
+      "name": "临海体"
+    },
+    {
+      "id": "f0289ec6-7714-4953-95d6-00fdb96925d3",
+      "old": "LioraChip10x12",
+      "new": "liora-chip-10x12",
+      "name": "辰芯像素体10x12"
+    },
+    {
+      "id": "fdd53213-6cc4-456c-9a93-af4ec73488f9",
+      "old": "Ljmc",
+      "new": "zqljmc",
+      "name": "钟齐流江毛草"
+    },
+    {
+      "id": "25430e57-734e-4d70-b8f5-dcb5de01e8ff",
+      "old": "Lnsw",
+      "new": "linestw",
+      "name": "LINE Seed TW"
+    },
+    {
+      "id": "41cfbf38-a292-4db2-85cb-87f4a4dc35fc",
+      "old": "Lzti",
+      "new": "lsclzt",
+      "name": "龙珠体"
+    },
+    {
+      "id": "28a062a5-5ece-45fd-8c62-8f8bd5e8f7f2",
+      "old": "Makinas4",
+      "new": "mkn4jp",
+      "name": "マキナス4"
+    },
+    {
+      "id": "85d95a5d-ed5b-4dd4-b5b0-a2b62a689f90",
+      "old": "Mamelon",
+      "new": "mmlnjp",
+      "name": "マメロン"
+    },
+    {
+      "id": "25ae0fe1-1cdd-4ec3-89ad-63ba4174b795",
+      "old": "Manabiya",
+      "new": "mnbyjp",
+      "name": "まなびや"
+    },
+    {
+      "id": "23068a19-d256-4f1d-b70d-57c0c933ee79",
+      "old": "Masa",
+      "new": "zfmb",
+      "name": "正风毛笔"
+    },
+    {
+      "id": "49feea55-1ff6-41fc-839c-3f9986df918c",
+      "old": "Mdmz",
+      "new": "mdmb",
+      "name": "莫大毛笔"
+    },
+    {
+      "id": "2f819f14-38bc-4c2d-8af4-454cdf6e0798",
+      "old": "Memoir",
+      "new": "memjp",
+      "name": "めもわーる"
+    },
+    {
+      "id": "d56708f9-1ec7-4bad-aa6a-e35382746f70",
+      "old": "Meroit",
+      "new": "merjp",
+      "name": "Meroit"
+    },
+    {
+      "id": "553fb614-1a47-417c-87cf-280654f09c7c",
+      "old": "Mikachan",
+      "new": "mkcjp",
+      "name": "みかちゃん"
+    },
+    {
+      "id": "c03c1f10-c35b-4532-9816-8282856a0e67",
+      "old": "MinhNguyen",
+      "new": "myngy",
+      "name": "明源"
+    },
+    {
+      "id": "1b093c0f-1708-4f23-a333-d76bbe1080d9",
+      "old": "MintMono",
+      "new": "minmjp",
+      "name": "Mint Mono"
+    },
+    {
+      "id": "cc5f26f5-de10-4095-83c8-a65428bef281",
+      "old": "Mjdm",
+      "new": "mjdztmc",
+      "name": "美绩点阵体明朝"
+    },
+    {
+      "id": "835a234e-4f4d-40bf-bb79-fc6923145f50",
+      "old": "Mjdz",
+      "new": "mjdzt",
+      "name": "美绩点阵体"
+    },
+    {
+      "id": "aad7a159-43a8-46d5-b940-74786a627933",
+      "old": "Mkgh",
+      "new": "wzht",
+      "name": "丸子黑"
+    },
+    {
+      "id": "131ff876-c341-4d71-8618-69d1fd12dfc1",
+      "old": "Mkkzh",
+      "new": "mkkzzh",
+      "name": "猫啃扛重族黑"
+    },
+    {
+      "id": "de86fcfa-e2d8-48f2-89a3-fa3cad52e6ef",
+      "old": "Mkkzs",
+      "new": "mkkzzs",
+      "name": "猫啃扛重族宋"
+    },
+    {
+      "id": "ba11472c-9500-42c7-9706-1648840f08f4",
+      "old": "Mkwxy",
+      "new": "mkwtyt",
+      "name": "猫啃网糖圆体"
+    },
+    {
+      "id": "a81439c2-008e-46e7-8909-615cda1179b6",
+      "old": "Mkybkjs",
+      "new": "mkybks",
+      "name": "猫啃硬笔楷书"
+    },
+    {
+      "id": "aed558d4-8779-4424-9be5-26655d4914ab",
+      "old": "Mlyu",
+      "new": "mlkyt",
+      "name": "马路口圆体"
+    },
+    {
+      "id": "36648569-683a-419e-b589-334bf12e8c63",
+      "old": "MonaS",
+      "new": "mona-s",
+      "name": "Mona S"
+    },
+    {
+      "id": "be3b4fca-5589-461f-b297-28754832392b",
+      "old": "Motomachi",
+      "new": "ytmtmc",
+      "name": "元町"
+    },
+    {
+      "id": "88c48eb4-ed74-48a9-b28b-1fbcd613464b",
+      "old": "Mp12",
+      "new": "mpg12jp",
+      "name": "M+ gothic 12r"
+    },
+    {
+      "id": "582ac067-1275-4635-8eb5-0abd4be4fd7a",
+      "old": "Mplus1",
+      "new": "mp1jp",
+      "name": "M+ 1"
+    },
+    {
+      "id": "4601e7c0-8ccd-43b5-a174-63e96236f163",
+      "old": "Mplus1c",
+      "new": "m1cjp",
+      "name": "M+ 1c"
+    },
+    {
+      "id": "355355d2-2ed2-4250-9e4f-c81a25107769",
+      "old": "Mplus1Code",
+      "new": "mp1cjp",
+      "name": "M+ 1 Code"
+    },
+    {
+      "id": "8bc9cb21-26a4-49dd-b2f0-9978bea7cae2",
+      "old": "Mplus1m",
+      "new": "mp1mjp",
+      "name": "M+ 1m"
+    },
+    {
+      "id": "9a45b26c-543b-42f0-9bb0-cdcde6536233",
+      "old": "Mplus1mn",
+      "new": "mp1mn",
+      "name": "M+ 1mn"
+    },
+    {
+      "id": "638ddaae-a87e-463b-a15a-920dd69c2906",
+      "old": "Mplus1p",
+      "new": "mp1pjp",
+      "name": "M+ 1p"
+    },
+    {
+      "id": "8ec431a2-ab0a-4cf1-9ce8-98dd43d800ce",
+      "old": "Mplus2",
+      "new": "mp2jp",
+      "name": "M+ 2"
+    },
+    {
+      "id": "560228cb-9dba-4f9f-bd07-de5c0f0393ec",
+      "old": "Mplus2c",
+      "new": "mp2cjp",
+      "name": "M+ 2c"
+    },
+    {
+      "id": "b01159a0-b67c-423d-a667-1891c8e3c856",
+      "old": "Mplus2m",
+      "new": "mp2mjp",
+      "name": "M+ 2m"
+    },
+    {
+      "id": "f9333c87-05e3-4225-9e02-85afdab3a8d7",
+      "old": "Mplus2p",
+      "new": "mp2pjp",
+      "name": "M+ 2p"
+    },
+    {
+      "id": "816e18d0-d1b8-4e1e-9d38-995c48cacfbb",
+      "old": "MplusU",
+      "new": "mpujp",
+      "name": "M+ U"
+    },
+    {
+      "id": "a30c759b-c80e-4e35-a68c-bcd14ed1ad29",
+      "old": "Mshx",
+      "new": "mssxt",
+      "name": "萌神手写体"
+    },
+    {
+      "id": "5fafd9ed-f9dc-4dde-846b-25f20e738cfc",
+      "old": "Mspyt",
+      "new": "myst",
+      "name": "梦源宋体"
+    },
+    {
+      "id": "30d4d764-6182-44d0-90a1-338bd59129d9",
+      "old": "Msz",
+      "new": "mszks",
+      "name": "马善政楷书"
+    },
+    {
+      "id": "c8950fc4-a4ea-4079-a090-31b618290baf",
+      "old": "Mtk1",
+      "new": "fdqkt",
+      "name": "繁多全楷体"
+    },
+    {
+      "id": "d754f4f4-f04d-4640-abf1-f7c9814e3aab",
+      "old": "Mtk2",
+      "new": "fdqkt2",
+      "name": "繁多全楷体2"
+    },
+    {
+      "id": "41d79050-14bc-4c10-8159-7f38b565ed8f",
+      "old": "Mts1",
+      "new": "fdqst",
+      "name": "繁多全宋体"
+    },
+    {
+      "id": "dc5162ea-69d1-42ff-a11b-631aa470c35d",
+      "old": "Mts2",
+      "new": "fdqst2",
+      "name": "繁多全宋体2"
+    },
+    {
+      "id": "9ef6f057-291e-40b1-85b4-90ac16c963d5",
+      "old": "Mushin",
+      "new": "wxmst",
+      "name": "無心"
+    },
+    {
+      "id": "1a59481d-9e27-4e57-93b2-8be1d87186fb",
+      "old": "MuzaiPixel",
+      "new": "muzai-pixel",
+      "name": "目哉像素"
+    },
+    {
+      "id": "a6a848f0-7d03-4d30-9f52-2d8c809fa2b8",
+      "old": "Mxhn",
+      "new": "b2hy",
+      "name": "B2花园"
+    },
+    {
+      "id": "03b5f7cd-e75d-4e31-86d1-28fbd473737c",
+      "old": "Mysxt",
+      "new": "myrbsxt",
+      "name": "沐瑶软笔手写体"
+    },
+    {
+      "id": "35d930c6-c7fd-4a3a-952b-bfe7377f464a",
+      "old": "Nani",
+      "new": "hmsxt",
+      "name": "何某手写体"
+    },
+    {
+      "id": "819d9328-3765-4fbf-9948-cb3f97ad586a",
+      "old": "NanoDyongMwenSong",
+      "new": "nrdws",
+      "name": "纳挼点文宋"
+    },
+    {
+      "id": "c2ac252e-ded6-4737-9a45-4903da2cb34e",
+      "old": "Ngz",
+      "new": "yzfdz",
+      "name": "夜照飞点阵"
+    },
+    {
+      "id": "9ec90f5b-516a-4829-8d85-a5767e0f180d",
+      "old": "NicoKaku",
+      "new": "nckkjp",
+      "name": "ニコ角"
+    },
+    {
+      "id": "5124b309-d2f2-4b7c-a227-bab7a7b194d4",
+      "old": "NishikiTeki",
+      "new": "nsktk",
+      "name": "にしき的フォント"
+    },
+    {
+      "id": "b52f6da4-db67-4839-a70a-ec45bbcfe15c",
+      "old": "Nk",
+      "new": "nkakf",
+      "name": "奈楷"
+    },
+    {
+      "id": "ad8ca28e-d71c-4f0a-acf4-b5beefb4511c",
+      "old": "NOTONOTO",
+      "new": "ntntjp",
+      "name": "NOTONOTO"
+    },
+    {
+      "id": "cc287171-77ce-4dc3-8a7f-4af0dc87cdc0",
+      "old": "NotoSerifHentaigana",
+      "new": "nshjp",
+      "name": "Noto Serif Hentaigana"
+    },
+    {
+      "id": "0439f87c-70f4-4b62-9b4a-0e744b681e05",
+      "old": "Nsfx",
+      "new": "nsfq",
+      "name": "女書鳳栖"
+    },
+    {
+      "id": "d8839fd8-08b1-4e78-b420-1d2559a56d26",
+      "old": "OpendesktopFirefly",
+      "new": "opendesktop-firefly",
+      "name": "萤火飞"
+    },
+    {
+      "id": "28616bd2-0a4c-432f-8255-5f9a637e24cc",
+      "old": "Otsutome",
+      "new": "ottmjp",
+      "name": "おつとめ"
+    },
+    {
+      "id": "6b5fa63f-6f44-41f3-a715-6c7f09295df6",
+      "old": "PangZhenGuiPMZD",
+      "new": "pmzdzgkt",
+      "name": "庞门正道真贵楷体"
+    },
+    {
+      "id": "7686dfb6-2406-4272-99ee-f5e9dafd3ac8",
+      "old": "PendingMono",
+      "new": "pdmnjp",
+      "name": "Pending Mono"
+    },
+    {
+      "id": "df06ddee-aae2-4ca6-84cf-7637ecad953d",
+      "old": "Pengli",
+      "new": "plwkpe",
+      "name": "彭蠡文楷"
+    },
+    {
+      "id": "6bdb5a96-6871-427c-a40d-04866cb7707f",
+      "old": "Pigmo00",
+      "new": "p00jp",
+      "name": "ピグモ00"
+    },
+    {
+      "id": "e073e8d1-5c78-43fe-985e-cf2048c25d5b",
+      "old": "Pigmo01",
+      "new": "p01jp",
+      "name": "ピグモ01"
+    },
+    {
+      "id": "d18458fe-7cc8-4234-877d-6f9d76e9a23f",
+      "old": "PixelMplus",
+      "new": "pixel-mplus",
+      "name": "PixelMplus"
+    },
+    {
+      "id": "2be86d68-1498-49bd-92e6-15e21bba3767",
+      "old": "PleckJP",
+      "new": "plejp",
+      "name": "PleckJP"
+    },
+    {
+      "id": "408685d9-f439-4f19-bc28-0a0d2e77d523",
+      "old": "Plwk",
+      "new": "plwkpl",
+      "name": "鹏翎文楷"
+    },
+    {
+      "id": "528c89d5-af53-4ac7-bca1-b3c23e28a4df",
+      "old": "Pmzdcsd",
+      "new": "pmzdcst",
+      "name": "庞门正道粗书体"
+    },
+    {
+      "id": "fafd8dbe-7035-4ca0-b82c-d4cc28ec6c5b",
+      "old": "Popgh",
+      "new": "lxhtpop",
+      "name": "流行黑"
+    },
+    {
+      "id": "f2a975b4-7e86-4668-be2d-090743e9eac6",
+      "old": "PopRumCute",
+      "new": "prcjp",
+      "name": "ポプらむ☆キュート"
+    },
+    {
+      "id": "701573cb-547c-4b4a-954a-b3cebc62c16a",
+      "old": "PoxiaoPixel",
+      "new": "poxiao-pixel",
+      "name": "破晓像素"
+    },
+    {
+      "id": "bb3d14c5-ec80-47a1-9f19-44f64fd27f14",
+      "old": "PretendardJP",
+      "new": "prejp",
+      "name": "Pretendard JP"
+    },
+    {
+      "id": "dd58064a-0102-4ace-939a-5e08cead9cb7",
+      "old": "Pywk",
+      "new": "astpywk",
+      "name": "澳声通拼音文楷"
+    },
+    {
+      "id": "2c4d462b-e2ba-4b5d-adf9-8243be8030b8",
+      "old": "Qhddl",
+      "new": "qhdlt",
+      "name": "权衡度量体"
+    },
+    {
+      "id": "94ea0702-0c27-44ff-ab86-98a094a72bb5",
+      "old": "Qiji",
+      "new": "qjt",
+      "name": "齐伋体"
+    },
+    {
+      "id": "5f8dacd7-3ea6-4fd2-948a-ddc2cb7e59dc",
+      "old": "Qkhc",
+      "new": "qkhtcl",
+      "name": "秋空黑体 CL"
+    },
+    {
+      "id": "f51bdfd8-98d8-4375-a0d4-57b03236b0a9",
+      "old": "Qkhm",
+      "new": "qkhtm",
+      "name": "秋空黑体 M"
+    },
+    {
+      "id": "d7beec02-fbb2-47fb-8a06-e1ad5d01ecf2",
+      "old": "QRpx",
+      "new": "ewmxs",
+      "name": "二维码像素"
+    },
+    {
+      "id": "6614152e-14c8-4bf2-ae77-f5822820b683",
+      "old": "Qssb",
+      "new": "qsstb",
+      "name": "秋水书体 Bright"
+    },
+    {
+      "id": "bd19635e-d2d4-47c5-b0d9-d31b81c09c4a",
+      "old": "Qssxt",
+      "new": "qssxt2",
+      "name": "清松手写体2"
+    },
+    {
+      "id": "11305942-30c4-45fc-aac6-c8614ef0de76",
+      "old": "QuanPixel",
+      "new": "quan-pixel",
+      "name": "全小素"
+    },
+    {
+      "id": "5cb8fa8c-d837-4b95-abe9-0ce4b7637f8a",
+      "old": "Qzkswjz",
+      "new": "ebaswcxt",
+      "name": "EBAS 无衬线体"
+    },
+    {
+      "id": "a6cd7642-0003-469f-83ce-666955f4b492",
+      "old": "Qzkt",
+      "new": "qzkzkt",
+      "name": "全字库正楷体"
+    },
+    {
+      "id": "090f94e8-b1cc-4c16-aa21-f6693de0c0fc",
+      "old": "Qzss",
+      "new": "qzkzst",
+      "name": "全字库正宋体"
+    },
+    {
+      "id": "f95eaf68-a8fb-4c36-bebb-2982fd721277",
+      "old": "Rampart",
+      "new": "ramojp",
+      "name": "Rampart One"
+    },
+    {
+      "id": "f33b7393-5080-47ad-b168-5ee6cba4967f",
+      "old": "RawMarukoJP",
+      "new": "mlkytjp",
+      "name": "马路口圆体 JP"
+    },
+    {
+      "id": "55a1f5a0-6945-4306-8c3b-80320b08d7f8",
+      "old": "RawMarukoTC",
+      "new": "mlkyttc",
+      "name": "马路口圆体 TC"
+    },
+    {
+      "id": "2d03f841-631f-4c47-9bdd-a04de0de4b1b",
+      "old": "Reggae",
+      "new": "regojp",
+      "name": "Reggae One"
+    },
+    {
+      "id": "8c2ef23b-9c1e-476c-8a65-687d51154fcc",
+      "old": "RenOuFangSong16",
+      "new": "rofs16",
+      "name": "人偶仿宋 16"
+    },
+    {
+      "id": "3cefdc20-af59-4f53-819d-dfbfcd46b608",
+      "old": "RocknRoll",
+      "new": "rrojp",
+      "name": "RocknRoll"
+    },
+    {
+      "id": "303732b8-79bc-4878-935d-d13b126051dc",
+      "old": "RondeBSquare",
+      "new": "rbsjp",
+      "name": "ロンド B スクエア"
+    },
+    {
+      "id": "0b3fde72-9fd0-4b83-a7f6-fa8c0cd3daaa",
+      "old": "RoundedMgenPlus",
+      "new": "rmgpjp",
+      "name": "Rounded Mgen+"
+    },
+    {
+      "id": "64862922-ca77-43a4-9e4d-e6e35efec8be",
+      "old": "Rzzyt",
+      "new": "zygb",
+      "name": "臻妍GB"
+    },
+    {
+      "id": "a100683c-c2c8-4422-95b0-776fddd5328b",
+      "old": "Samasan",
+      "new": "smsnjp",
+      "name": "サマサン"
+    },
+    {
+      "id": "59a4f78a-50cf-4fdc-a07f-90f06fdd2097",
+      "old": "SarasaGothicTC",
+      "new": "gshttc",
+      "name": "更纱黑体 TC"
+    },
+    {
+      "id": "5cb7aefc-3a00-4f85-99a9-f9b0c5bae2cd",
+      "old": "SarasaUiHC",
+      "new": "gsuihk",
+      "name": "更纱 UI HK"
+    },
+    {
+      "id": "9afd5acc-20e8-4bf1-9967-9e82f4af4ddd",
+      "old": "SarasaUiTC",
+      "new": "gsuitc",
+      "name": "更纱 UI TC"
+    },
+    {
+      "id": "6cf91f9e-0750-4325-9398-0e5fa08ba97c",
+      "old": "ScriptwideSansCJK",
+      "new": "sscjk",
+      "name": "Scriptwide Sans CJK"
+    },
+    {
+      "id": "5daa45cc-3348-49e1-ad45-36a7ae6b3aa4",
+      "old": "SenobiGothic",
+      "new": "snbgjp",
+      "name": "せのびゴシック"
+    },
+    {
+      "id": "97451ae3-699b-4f3c-ad9a-e4aefbe11fbd",
+      "old": "Sft",
+      "new": "sftb",
+      "name": "随峰体 Beta"
+    },
+    {
+      "id": "c641c7eb-6df2-4046-89f9-107f375fe6c6",
+      "old": "Shiasatte",
+      "new": "sastjp",
+      "name": "しあさって"
+    },
+    {
+      "id": "d91d5103-054c-47ed-a4f2-c7a933ae9418",
+      "old": "ShinonomeGothic",
+      "new": "shinonome-gothic",
+      "name": "东云黑体"
+    },
+    {
+      "id": "fb661ff0-3a81-4cd5-8fdc-89a9dc9b40c9",
+      "old": "ShinonomeMarumoji",
+      "new": "shinonome-marumoji",
+      "name": "东云圆体"
+    },
+    {
+      "id": "d5bcf6a8-a862-4e09-a5ed-759f17253523",
+      "old": "ShinonomeMincho",
+      "new": "shinonome-mincho",
+      "name": "东云明朝"
+    },
+    {
+      "id": "654ecc84-0cb7-40b7-b932-e60540591995",
+      "old": "Shipporiantique",
+      "new": "spatq",
+      "name": "Shippori Antique"
+    },
+    {
+      "id": "a5440c6b-b62f-4dcf-876f-20e63ed917bb",
+      "old": "Shipporiantiqueb1",
+      "new": "sab1jp",
+      "name": "Shippori Antique B1"
+    },
+    {
+      "id": "8f4e1b67-e015-4cd0-b04d-c4d00956c66c",
+      "old": "Shipporimincho",
+      "new": "shimjp",
+      "name": "Shippori Mincho"
+    },
+    {
+      "id": "f0b8a48e-0301-4dd9-b8d7-ded316861fcf",
+      "old": "Shipporiminchob1",
+      "new": "smb1jp",
+      "name": "Shippori Mincho B1"
+    },
+    {
+      "id": "b7e4d5c2-1a0f-4c8b-9e3d-6f8a2b4c5d70",
+      "old": "Shmgt",
+      "new": "shmdt",
+      "name": "上海摩登体"
+    },
+    {
+      "id": "dd17fb9e-fcac-48d8-9744-a3ccdee9d592",
+      "old": "Shp",
+      "new": "syhtxs",
+      "name": "思源黑体 像素"
+    },
+    {
+      "id": "9b76d77a-d0ea-40c0-a905-947b25d9f980",
+      "old": "SisterFont",
+      "new": "mmsft",
+      "name": "妹フォント / Sister Font"
+    },
+    {
+      "id": "d8c62110-7ae3-4310-8da0-61f9b3fe3c1c",
+      "old": "Slcf",
+      "new": "yscfk",
+      "name": "演示春风楷"
+    },
+    {
+      "id": "18983a5b-b25f-4677-ad87-a17e73887934",
+      "old": "Slfu",
+      "new": "ysfxt",
+      "name": "演示佛系体"
+    },
+    {
+      "id": "7673e90d-c2e9-41de-8458-586cb6c2e546",
+      "old": "Slqh",
+      "new": "ysqhk",
+      "name": "演示秋鸿楷"
+    },
+    {
+      "id": "06cbcdbb-00b3-46c0-acee-5c390b4ff0ab",
+      "old": "Slxx",
+      "new": "ysxxk",
+      "name": "演示夏行楷"
+    },
+    {
+      "id": "70484b9e-8832-4a00-95af-b024ba983978",
+      "old": "Sly1",
+      "new": "ysyrxke",
+      "name": "演示悠然小楷二"
+    },
+    {
+      "id": "04427b58-4554-462f-8cdc-0a4b1837018c",
+      "old": "Slyr",
+      "new": "ysyrxk",
+      "name": "演示悠然小楷"
+    },
+    {
+      "id": "3fc4e06e-5da5-4b85-a3d2-bfae49624940",
+      "old": "Soroit",
+      "new": "sorjp",
+      "name": "Soroit"
+    },
+    {
+      "id": "4c56e973-ca38-4565-97a7-8610351e885d",
+      "old": "Soukou",
+      "new": "zjmc",
+      "name": "装甲明朝"
+    },
+    {
+      "id": "2b4a4851-19cf-48e3-8597-45e49765b03a",
+      "old": "SourceHanMonoHK",
+      "new": "sydkhk",
+      "name": "思源等宽 HK"
+    },
+    {
+      "id": "d095caa9-08ea-44eb-a00c-e56b04819c3b",
+      "old": "SourceHanSansCNRegular",
+      "new": "syhtcn",
+      "name": "思源黑体 CN"
+    },
+    {
+      "id": "7ddc361c-92ba-421b-ac88-6daabed71d77",
+      "old": "SourceHanSansTWRegular",
+      "new": "syhttw",
+      "name": "思源黑體 TW"
+    },
+    {
+      "id": "96ddc949-dd35-42ea-895b-b67eeee2f8fc",
+      "old": "SourceHanSansXTRegular",
+      "new": "syhtxt",
+      "name": "思源黑体斜体"
+    },
+    {
+      "id": "e7a8f58e-c48e-4c60-9b02-818e63a6a520",
+      "old": "SourceHanSerifCNforDisplay",
+      "new": "sypxzscn",
+      "name": "思源屏显臻宋 CN"
+    },
+    {
+      "id": "f501bdcd-b43b-4a2d-9c2f-470599af6ebb",
+      "old": "SourceSa3mSerifCNRegular",
+      "new": "smxst",
+      "name": "叁慕斜宋体"
+    },
+    {
+      "id": "b8d40e14-81de-41b3-9dae-c49f839406d1",
+      "old": "Stfytz",
+      "new": "stfyt",
+      "name": "书体坊颜体"
+    },
+    {
+      "id": "27572d41-59a1-49a4-8587-b02f7397cb13",
+      "old": "Stick",
+      "new": "stijp",
+      "name": "Stick"
+    },
+    {
+      "id": "0c4070bb-e91e-4cc6-96c2-76ed73c9ace2",
+      "old": "SubHei",
+      "new": "szht",
+      "name": "拾字黑体"
+    },
+    {
+      "id": "be46c531-6c6a-4d51-92c4-933bf1539c60",
+      "old": "SubSung",
+      "new": "szst",
+      "name": "拾字宋体"
+    },
+    {
+      "id": "52ee5e59-cd59-4a70-96d8-6bd27d9f971c",
+      "old": "SukimaGothic",
+      "new": "skmgjp",
+      "name": "すきまゴシック"
+    },
+    {
+      "id": "481e009a-64c9-4e44-918d-1ab4336ea999",
+      "old": "Sw3tleg",
+      "new": "swstht",
+      "name": "狮尾三腿黑体"
+    },
+    {
+      "id": "01ab7d2b-dfd4-4208-a19b-1b0cf642c239",
+      "old": "Sw3tsans",
+      "new": "swsjhtsc",
+      "name": "狮尾三角黑体"
+    },
+    {
+      "id": "9eb7f134-756a-439c-baed-98971134c0af",
+      "old": "Swaliasleg",
+      "new": "swjutht",
+      "name": "狮尾锯腿黑体"
+    },
+    {
+      "id": "231ef7e1-d44e-41c0-93ee-ecaee74bef13",
+      "old": "Swaliassans",
+      "new": "swjuchtsc",
+      "name": "狮尾锯齿黑体"
+    },
+    {
+      "id": "3b6eaac1-cdce-4e99-9565-9cd8e5b573f2",
+      "old": "Swaxleg",
+      "new": "swftht",
+      "name": "狮尾斧腿黑体"
+    },
+    {
+      "id": "47c79836-b1e7-4b81-a4e6-713db76869e5",
+      "old": "Swaxsans",
+      "new": "swfthtsc",
+      "name": "狮尾斧头黑体"
+    },
+    {
+      "id": "5635f1e5-79cd-4e95-bb74-5c147f15a47a",
+      "old": "Swb2leg",
+      "new": "swb2tht",
+      "name": "狮尾B2腿黑体"
+    },
+    {
+      "id": "19c700a4-4a80-4f3e-af95-3a85db5e8f98",
+      "old": "Swb2sans",
+      "new": "swb2htsc",
+      "name": "狮尾B2黑体"
+    },
+    {
+      "id": "1a424308-6311-4af1-a40c-353fc0dcac61",
+      "old": "Swb2serif",
+      "new": "swb2st",
+      "name": "狮尾B2宋体"
+    },
+    {
+      "id": "fe7fbe98-5d47-4502-8c14-fcae756ca540",
+      "old": "Swbatsans",
+      "new": "swbfyt",
+      "name": "狮尾蝙蝠圆体"
+    },
+    {
+      "id": "4fd08fb5-d473-4ed2-8484-9ffb2fbd8ce9",
+      "old": "Swbellleg",
+      "new": "swltht",
+      "name": "狮尾喇腿黑体"
+    },
+    {
+      "id": "c14f509d-cfa0-458c-81c1-fea253177602",
+      "old": "Swbellsans",
+      "new": "swlbhtsc",
+      "name": "狮尾喇叭黑体"
+    },
+    {
+      "id": "c5d036f4-4d4f-44e2-b2d9-b5101bd365ac",
+      "old": "Swboneleg",
+      "new": "swgtht",
+      "name": "狮尾骨腿黑体"
+    },
+    {
+      "id": "fd6c17de-8a6b-4759-ba9c-bb1ff48de185",
+      "old": "Swbonesans",
+      "new": "swgthtsc",
+      "name": "狮尾骨头黑体"
+    },
+    {
+      "id": "5ea4d310-7abb-4849-b0f3-83ec9bd32ec8",
+      "old": "Swbowleg",
+      "new": "swntht",
+      "name": "狮尾霓腿黑体"
+    },
+    {
+      "id": "e3965d09-4946-4136-9eb1-18611773eb80",
+      "old": "Swbowsans",
+      "new": "swnhtsc",
+      "name": "狮尾霓黑体"
+    },
+    {
+      "id": "e583db79-9bf4-4810-a76b-4f4971940af6",
+      "old": "Swcurveleg",
+      "new": "swwtht",
+      "name": "狮尾弯腿黑体"
+    },
+    {
+      "id": "a1d6deec-f7a3-44ea-872d-5f8690e63828",
+      "old": "Swcurvesans",
+      "new": "swwhtsc",
+      "name": "狮尾弯黑体"
+    },
+    {
+      "id": "bf2fdd17-5e77-46f2-a92c-20d75ea6404c",
+      "old": "Swdartleg",
+      "new": "swfbtht",
+      "name": "狮尾飞腿黑体"
+    },
+    {
+      "id": "80a0b859-432c-4411-9064-60d02a4ba0f3",
+      "old": "Swdartsans",
+      "new": "swfbhtsc",
+      "name": "狮尾飞镖黑体"
+    },
+    {
+      "id": "9ca9a66c-f354-41e5-a66b-722c9e7551de",
+      "old": "Swdellunaleg",
+      "new": "swdltht",
+      "name": "狮尾D卤腿黑体"
+    },
+    {
+      "id": "98cb414e-b61a-43d6-a9ee-8e39f95765a0",
+      "old": "Swdellunasans",
+      "new": "swdlnhtsc",
+      "name": "狮尾德鲁纳黑体"
+    },
+    {
+      "id": "51e98c22-f0d9-4fa7-8ff4-43c679f826ee",
+      "old": "Swdevilleg",
+      "new": "swetht",
+      "name": "狮尾恶腿黑体"
+    },
+    {
+      "id": "28d88beb-2b90-4091-a065-23bdd2796869",
+      "old": "Swdevilsans",
+      "new": "swemhtsc",
+      "name": "狮尾恶魔黑体"
+    },
+    {
+      "id": "20abeb12-0a5a-4194-91c2-169d535a6612",
+      "old": "Swdlucy",
+      "new": "swdlx",
+      "name": "狮尾D露西"
+    },
+    {
+      "id": "0f75c033-d42d-486c-b953-531494ee0ae3",
+      "old": "SweiB2Sugar",
+      "new": "swb2jtst",
+      "name": "狮尾B2加糖宋体"
+    },
+    {
+      "id": "d853d2a9-a98a-487c-aac6-fb9c421b0029",
+      "old": "SweiSpring",
+      "new": "swsjc",
+      "name": "狮尾四季春"
+    },
+    {
+      "id": "f30ea9e4-b551-46be-8c3f-ca54c7db3326",
+      "old": "Swfanleg",
+      "new": "swfztht",
+      "name": "狮尾繁腿黑体"
+    },
+    {
+      "id": "e4ddb835-084b-489d-92b0-98acaa44ed65",
+      "old": "Swfansans",
+      "new": "swfzhtsc",
+      "name": "狮尾繁中黑体"
+    },
+    {
+      "id": "2235733d-5ec1-45bf-a7dc-64657a42fb67",
+      "old": "Swfanserif",
+      "new": "swfzst",
+      "name": "狮尾繁中宋体"
+    },
+    {
+      "id": "8e6cf2a5-772c-4de3-bfb1-ee85af9b0d4c",
+      "old": "Swfistleg",
+      "new": "swytht",
+      "name": "狮尾咏腿黑体"
+    },
+    {
+      "id": "6b1f9cb9-2d58-4a18-b6c6-cbeff913d38d",
+      "old": "Swfistsans",
+      "new": "swychtsc",
+      "name": "狮尾咏春黑体"
+    },
+    {
+      "id": "409c0d03-b65e-4d53-a83d-a4a273c79744",
+      "old": "Swgospelleg",
+      "new": "swfytht",
+      "name": "狮尾福腿黑体"
+    },
+    {
+      "id": "bd2aa2bb-9937-43da-a3ae-1cd05bfaac70",
+      "old": "Swgospelsans",
+      "new": "swfyhtsc",
+      "name": "狮尾福音黑体"
+    },
+    {
+      "id": "dcae2e90-3ad0-480d-b9ee-0e40206e487c",
+      "old": "Swgothic",
+      "new": "swytsc",
+      "name": "狮尾圆体"
+    },
+    {
+      "id": "deaa4bc2-96c9-49f4-b495-f994dc8708d7",
+      "old": "Swgothicleg",
+      "new": "swtyt",
+      "name": "狮尾腿圆体"
+    },
+    {
+      "id": "f9f7b4a6-f61e-4ff9-98b6-2370e1404980",
+      "old": "Swhalfmoon",
+      "new": "swbyt",
+      "name": "狮尾半月体"
+    },
+    {
+      "id": "ab3beb30-e14a-41c4-b266-5d904d36d49f",
+      "old": "Swjayleg",
+      "new": "swjztht",
+      "name": "狮尾简腿黑体"
+    },
+    {
+      "id": "3a1950d1-2bc3-4f18-972c-649749b40075",
+      "old": "Swjaysans",
+      "new": "swjzhtsc",
+      "name": "狮尾简中黑体"
+    },
+    {
+      "id": "3ac08dc7-a03b-4c6a-a3af-f33242bd713d",
+      "old": "Swjayserif",
+      "new": "swjzst",
+      "name": "狮尾简中宋体"
+    },
+    {
+      "id": "70ae5462-6e2a-44ae-b098-e9ccf358d5ba",
+      "old": "Swmarkerleg",
+      "new": "swmtht",
+      "name": "狮尾麦腿黑体"
+    },
+    {
+      "id": "130eab09-1378-48da-9adb-3afb9a14feb5",
+      "old": "Swmarkersans",
+      "new": "swmkhtsc",
+      "name": "狮尾麦克黑体"
+    },
+    {
+      "id": "4ba5f4db-ec98-4582-9fd2-b7e39daeba44",
+      "old": "Swmatchleg",
+      "new": "swhtht",
+      "name": "狮尾火腿黑体"
+    },
+    {
+      "id": "ff155685-6aa8-4bef-bb81-171d81d64924",
+      "old": "Swmatchsans",
+      "new": "swhchtsc",
+      "name": "狮尾火柴黑体"
+    },
+    {
+      "id": "148aecbd-4d1c-4202-8306-0aba7c242d24",
+      "old": "Swmeatball",
+      "new": "swrwsc",
+      "name": "狮尾肉丸"
+    },
+    {
+      "id": "8dafbb3b-e6ee-4a43-b0ac-b4ead227ec6c",
+      "old": "Swnutleg",
+      "new": "swlmtht",
+      "name": "狮尾螺帽腿黑体"
+    },
+    {
+      "id": "81e03ea1-8df4-4090-8d7d-1ee5fc07f608",
+      "old": "Swnutsans",
+      "new": "swlmhtsc",
+      "name": "狮尾螺帽黑体"
+    },
+    {
+      "id": "b80cc1dc-a957-46af-9233-d36f840ddd10",
+      "old": "Swrainbowleg",
+      "new": "swcht",
+      "name": "狮尾彩虹腿"
+    },
+    {
+      "id": "076548ae-84f5-4be6-8356-b4425ca8c246",
+      "old": "Swrightbottoml",
+      "new": "swyxtht",
+      "name": "狮尾右下腿黑体"
+    },
+    {
+      "id": "217110cd-4bd5-4b20-ba39-e61569792abd",
+      "old": "Swrightbottoms",
+      "new": "swyxyhtsc",
+      "name": "狮尾右下圆黑体"
+    },
+    {
+      "id": "6810aa85-e7c4-41d4-8a7f-7500857f8480",
+      "old": "Swsans",
+      "new": "swhtsc",
+      "name": "狮尾黑体"
+    },
+    {
+      "id": "e0acfa9a-a7b6-4548-818a-4d6407d76832",
+      "old": "Swshearleg",
+      "new": "swktht",
+      "name": "狮尾快腿黑体"
+    },
+    {
+      "id": "35c1152d-fac9-4126-912f-b9f741b38188",
+      "old": "Swshearsans",
+      "new": "swkjhtsc",
+      "name": "狮尾快剪黑体"
+    },
+    {
+      "id": "b66a45f0-60ef-44c8-a153-7bf782560e8b",
+      "old": "Swspikeleg",
+      "new": "swjtht",
+      "name": "狮尾尖腿黑体"
+    },
+    {
+      "id": "99a403a5-66e6-4787-b220-974df64787f7",
+      "old": "Swspikesans",
+      "new": "swjchtsc",
+      "name": "狮尾尖刺黑体"
+    },
+    {
+      "id": "32e187fd-c22b-4d72-87c0-ae4e6e2e832c",
+      "old": "Swsugar",
+      "new": "swjtst",
+      "name": "狮尾加糖宋体"
+    },
+    {
+      "id": "097fe9a7-9944-4849-8321-2cc3c63375ab",
+      "old": "Swtoothpaste",
+      "new": "swygyt",
+      "name": "狮尾牙膏圆体"
+    },
+    {
+      "id": "af9a014e-cdcb-457f-af15-cddb986017a2",
+      "old": "Swxd",
+      "new": "swxdzz",
+      "name": "狮尾XD珍珠"
+    },
+    {
+      "id": "dabfdb8a-7eb3-4102-8087-6b404eac7def",
+      "old": "Syhtcjk",
+      "new": "syhtr",
+      "name": "思源黑体 Regular"
+    },
+    {
+      "id": "8868591a-6679-469b-8574-568df61c5e8d",
+      "old": "Sykd",
+      "new": "sydksc",
+      "name": "思源等宽"
+    },
+    {
+      "id": "0c16b32d-1ea9-44ed-93c5-254f1e6ea406",
+      "old": "Syma",
+      "new": "symca",
+      "name": "上元明朝 A"
+    },
+    {
+      "id": "c88acc0d-0b7f-404f-bc40-6299372aa11d",
+      "old": "Symb",
+      "new": "symcb",
+      "name": "上元明朝 B"
+    },
+    {
+      "id": "f641bdcc-8011-445e-902b-d322ce5edabb",
+      "old": "Symdxft",
+      "new": "stmdxft",
+      "name": "摄图摩登小方体"
+    },
+    {
+      "id": "df9c334a-9152-4f25-801f-22ef87057517",
+      "old": "TaigiHuninn",
+      "new": "zhfy",
+      "name": "字咍粉圆"
+    },
+    {
+      "id": "30ecc980-dbf8-452e-9799-4b3ad65896b6",
+      "old": "TaipeiPixel",
+      "new": "taipei-pixel",
+      "name": "台北字体"
+    },
+    {
+      "id": "05e70706-e7a0-4514-b776-c08aa9fcdf35",
+      "old": "TaipeiSansTC",
+      "new": "tbht",
+      "name": "台北黑體"
+    },
+    {
+      "id": "c852cc77-040f-4613-bb0e-05a55fa9bf69",
+      "old": "Tanugo",
+      "new": "tngjp",
+      "name": "たぬゴ"
+    },
+    {
+      "id": "b8ada530-e4de-499f-a965-f8981c983a6c",
+      "old": "TanukiMagic",
+      "new": "tpmjp",
+      "name": "たぬき油性マジック"
+    },
+    {
+      "id": "db0d1db7-f261-4719-a052-d0888d246f31",
+      "old": "TekitouPoem",
+      "new": "tktpjp",
+      "name": "適当ポエム"
+    },
+    {
+      "id": "2aa0f104-18e7-4361-ab4a-bf9022f361be",
+      "old": "TerrarumSansBitmap",
+      "new": "terrarum-sans-bitmap",
+      "name": "Terrarum Sans Bitmap"
+    },
+    {
+      "id": "56389830-25cf-4d9b-bf9e-27cc5cbab09b",
+      "old": "TimemachineWa",
+      "new": "tmmcwjp",
+      "name": "タイムマシンわ号"
+    },
+    {
+      "id": "7268c902-8d7b-45a7-a3fc-b99491035501",
+      "old": "Togalite",
+      "new": "tgltjp",
+      "name": "トガリテ"
+    },
+    {
+      "id": "c084c625-00a0-4be7-b7ba-0acdae0207a9",
+      "old": "ToneOZQuickSnow",
+      "new": "astkx",
+      "name": "澳声通快雪"
+    },
+    {
+      "id": "6b79cf4f-1446-4fbf-8388-3aa736866423",
+      "old": "Train",
+      "new": "traojp",
+      "name": "Train One"
+    },
+    {
+      "id": "5922b656-f028-4aa6-b893-196ae96fa5c2",
+      "old": "TsangerFeiBaiW01",
+      "new": "cefbw01",
+      "name": "仓耳非白 W01"
+    },
+    {
+      "id": "3f907936-3c3c-4832-9572-6e283f5e0be7",
+      "old": "TsangerFeiBaiW02",
+      "new": "cefbw02",
+      "name": "仓耳非白 W02"
+    },
+    {
+      "id": "f8d64f7b-8ac3-4cae-8904-a140b51acd76",
+      "old": "TsangerFeiBaiW03",
+      "new": "cefbw03",
+      "name": "仓耳非白 W03"
+    },
+    {
+      "id": "9742eef9-8511-4ea5-a76c-21d29ee92aba",
+      "old": "TsangerFeiBaiW04",
+      "new": "cefbw04",
+      "name": "仓耳非白 W04"
+    },
+    {
+      "id": "e58216ad-8b55-4a7b-8440-5e4d4e8c2ed5",
+      "old": "TsangerFeiBaiW05",
+      "new": "cefbw05",
+      "name": "仓耳非白 W05"
+    },
+    {
+      "id": "2974ca58-371a-4529-92a5-6c5910b338f5",
+      "old": "TsangerShuYuanTW01",
+      "new": "cesyt",
+      "name": "仓耳舒圆体"
+    },
+    {
+      "id": "475babd4-ff01-4451-b3dc-d0906953807a",
+      "old": "TsangerShuYuanTW02",
+      "new": "cesytw02",
+      "name": "仓耳舒圆体 W02"
+    },
+    {
+      "id": "31560b0e-c845-4b28-a0b0-8c7d3e8cab0f",
+      "old": "TsangerShuYuanTW03",
+      "new": "cesytw03",
+      "name": "仓耳舒圆体 W03"
+    },
+    {
+      "id": "ceb78de7-a297-4258-b38b-35214173cebf",
+      "old": "TsangerShuYuanTW04",
+      "new": "cesytw04",
+      "name": "仓耳舒圆体 W04"
+    },
+    {
+      "id": "b245f77e-c63e-444b-88ac-d54ea51b0381",
+      "old": "TsangerShuYuanTW05",
+      "new": "cesytw05",
+      "name": "仓耳舒圆体 W05"
+    },
+    {
+      "id": "2f857187-d1c7-450a-a309-648326071a5b",
+      "old": "TsangerYuMoW01",
+      "new": "ceymw01",
+      "name": "仓耳与墨 W01"
+    },
+    {
+      "id": "e09968b8-0a28-4de5-afa7-38d6416886de",
+      "old": "TsangerYuMoW02",
+      "new": "ceymw02",
+      "name": "仓耳与墨 W02"
+    },
+    {
+      "id": "46ae858c-dd84-41ed-b9f5-de6a17506dac",
+      "old": "TsangerYuMoW03",
+      "new": "ceymw03",
+      "name": "仓耳与墨 W03"
+    },
+    {
+      "id": "397d5a62-9b3a-4a78-9035-30c05df754a4",
+      "old": "TsangerYuMoW04",
+      "new": "ceymw04",
+      "name": "仓耳与墨 W04"
+    },
+    {
+      "id": "2a6e445c-4572-4d84-b8e3-ad2626f1cdc5",
+      "old": "TsangerYuMoW05",
+      "new": "ceymw05",
+      "name": "仓耳与墨 W05"
+    },
+    {
+      "id": "fc18c914-d6ff-4459-ba13-280d6c72dce4",
+      "old": "TsangerYuYangTW01",
+      "new": "ceyytw01",
+      "name": "仓耳渔阳体 W01"
+    },
+    {
+      "id": "58bd58cb-3e1a-4f3c-8503-b8ff8d44fefa",
+      "old": "TsangerYuYangTW02",
+      "new": "ceyytw02",
+      "name": "仓耳渔阳体 W02"
+    },
+    {
+      "id": "214cb4fe-a4ee-4d84-99c2-8c30f8b49b59",
+      "old": "TsangerYuYangTW03",
+      "new": "ceyytw03",
+      "name": "仓耳渔阳体 W03"
+    },
+    {
+      "id": "11ac699e-3f0e-4d04-8f33-ed59bd58cbfa",
+      "old": "TsangerYuYangTW04",
+      "new": "ceyytw04",
+      "name": "仓耳渔阳体 W04"
+    },
+    {
+      "id": "867189a5-84ea-46b2-b039-fc2b353c65c6",
+      "old": "TsangerYuYangTW05",
+      "new": "ceyytw05",
+      "name": "仓耳渔阳体 W05"
+    },
+    {
+      "id": "db87f2ab-4475-48c1-a6ae-5088ed3c60df",
+      "old": "Twjybbzjs",
+      "new": "jybbzks",
+      "name": "教育部標準楷書"
+    },
+    {
+      "id": "424f5f22-ccfb-44c3-bc2e-1e568f5bb943",
+      "old": "Twjybbzst",
+      "new": "jybbzstun",
+      "name": "教育部标准宋体UN"
+    },
+    {
+      "id": "3c2e3003-0ef4-4245-8258-c5033e0e5828",
+      "old": "Twjybxxmt",
+      "new": "xxmttw",
+      "name": "新细明体 (台湾版)"
+    },
+    {
+      "id": "8ecb574f-c586-4f2f-b464-b2ae4796b1e7",
+      "old": "Twzl",
+      "new": "twzz",
+      "name": "台湾珍珠"
+    },
+    {
+      "id": "1e2f9059-c10e-42ed-bacd-be8636ce8125",
+      "old": "TypeJam",
+      "new": "clsxt",
+      "name": "草率手写体"
+    },
+    {
+      "id": "9d331e5e-18b8-4fe2-b294-239b0a860840",
+      "old": "Ubroit",
+      "new": "ubrjp",
+      "name": "Ubroit"
+    },
+    {
+      "id": "9254d228-a329-483e-89ed-702f6d8622ba",
+      "old": "Ubss",
+      "new": "wjht",
+      "name": "无界黑"
+    },
+    {
+      "id": "5ba1a6ca-4713-4624-87c7-4a266b568e93",
+      "old": "Umgh",
+      "new": "mhtug",
+      "name": "梅黑体"
+    },
+    {
+      "id": "493bb04f-2944-47ec-a556-6584e926e02b",
+      "old": "Ummc",
+      "new": "mmct",
+      "name": "梅明朝"
+    },
+    {
+      "id": "54303525-660d-4296-8efc-a3b85c5f4df0",
+      "old": "Unfdzh",
+      "new": "gnuuf",
+      "name": "GNU Unifont"
+    },
+    {
+      "id": "28ec6246-c7c4-47ed-b1dc-63e02ad0848c",
+      "old": "UnifontEx",
+      "new": "unifont-ex",
+      "name": "UnifontEX Mono"
+    },
+    {
+      "id": "fab54489-4764-4043-9e34-334dfaecfad0",
+      "old": "UoqMunThenKhung",
+      "new": "ywtq",
+      "name": "宇文天穹"
+    },
+    {
+      "id": "e6d9dff3-95d8-4403-ba40-585a892ce2b6",
+      "old": "Urx",
+      "new": "twxxs",
+      "name": "天王星像素"
+    },
+    {
+      "id": "983c4129-a5fc-4d1d-a0b1-96b8e6e2861f",
+      "old": "WadaLabMaruGothic",
+      "new": "wlmg2004e",
+      "name": "和田研細丸ゴシック2004絵文字"
+    },
+    {
+      "id": "82d26bc8-94ff-48e7-84c4-fc3b19d4dfff",
+      "old": "WDXLLubrifontTC",
+      "new": "hyztc",
+      "name": "滑油字 TC"
+    },
+    {
+      "id": "51f59eac-5b86-4b75-8509-b2be7eaf825a",
+      "old": "WenKaiMono",
+      "new": "xwwkdk",
+      "name": "霞鹜文楷等宽"
+    },
+    {
+      "id": "1d21e6e0-4fb2-4feb-a879-128670e1bc8d",
+      "old": "WenKaiMonoTC",
+      "new": "xwwkdktc",
+      "name": "霞鹜文楷等宽 TC"
+    },
+    {
+      "id": "a695c18e-ded5-4021-a7c1-f6810a2b3b3a",
+      "old": "Wjm2",
+      "new": "wjstp2",
+      "name": "文津宋体 P2"
+    },
+    {
+      "id": "04cb78d9-4b57-4b5c-8c6c-5667e0637c99",
+      "old": "Wjmp",
+      "new": "wjst",
+      "name": "文津宋体"
+    },
+    {
+      "id": "d3c0dc51-2e04-42f5-af55-d349dec4bd64",
+      "old": "Wlhxh",
+      "new": "wlyh",
+      "name": "未来荧黑"
+    },
+    {
+      "id": "bae917ae-fcaa-48ab-bb73-ac8ce62df648",
+      "old": "Wqydkzh",
+      "new": "wqyzhdk",
+      "name": "文泉驿正黑等宽"
+    },
+    {
+      "id": "99dd4638-1d63-48ec-aab4-ed4d80bf2dde",
+      "old": "Wqys",
+      "new": "wqydzst",
+      "name": "文泉驿点阵宋体"
+    },
+    {
+      "id": "07b8d1b0-787b-4103-bb19-b0ca86887e78",
+      "old": "WqyUnibit",
+      "new": "wqy-unibit",
+      "name": "文泉驿Unibit"
+    },
+    {
+      "id": "ca4673b7-7924-4bfa-ba22-23b24673d41e",
+      "old": "Wqyzh",
+      "new": "wqyzht",
+      "name": "文泉驿正黑体"
+    },
+    {
+      "id": "33eeb1d3-b2e1-4532-badb-85f0cf797d2c",
+      "old": "WriteRight",
+      "new": "jsbczb",
+      "name": "就是不错字（吧）"
+    },
+    {
+      "id": "85701037-308a-4b00-bf7d-21cfbb4c53be",
+      "old": "Wyhk",
+      "new": "wyht",
+      "name": "文渊黑体"
+    },
+    {
+      "id": "c43e2385-b520-473b-bccc-eb270a0763d3",
+      "old": "Wysf",
+      "new": "wyst",
+      "name": "文渊宋体"
+    },
+    {
+      "id": "0a0d9faf-117b-447d-a363-a7312180c5b9",
+      "old": "X12y12pxMaruMinya",
+      "new": "x12y12px-maru-minya",
+      "name": "x12y12pxMaruMinya"
+    },
+    {
+      "id": "97b563a5-a7ba-45c0-84fc-2ba732510635",
+      "old": "XanoMincho",
+      "new": "xanomc",
+      "name": "XANO明朝"
+    },
+    {
+      "id": "73d8769d-fd8a-420a-a1d3-e4572021fe58",
+      "old": "Xccx",
+      "new": "xccxs",
+      "name": "香萃潮汐宋"
+    },
+    {
+      "id": "de9fd1b1-f46c-46cb-be89-ca9f20d10201",
+      "old": "Xcdc",
+      "new": "xcdcs",
+      "name": "香萃等粗宋"
+    },
+    {
+      "id": "d80ba053-a883-4729-9b3b-a1f9ba77ce37",
+      "old": "Xcdj",
+      "new": "xcdzjt",
+      "name": "香萃打字机体"
+    },
+    {
+      "id": "39a52c13-4618-4864-89df-d3c6336bc038",
+      "old": "Xcdz",
+      "new": "xcdzj",
+      "name": "香萃打字机"
+    },
+    {
+      "id": "400eb0cc-91f5-4dbb-97d2-98f2c6c76866",
+      "old": "Xcjx",
+      "new": "xcjxs",
+      "name": "香萃汲学宋"
+    },
+    {
+      "id": "26abf312-2441-447a-a66d-e3d3c01188f4",
+      "old": "Xcld",
+      "new": "xcldh",
+      "name": "香萃零度黑"
+    },
+    {
+      "id": "512906dc-e812-48f1-a9f8-ef91f3735815",
+      "old": "XiaolaiMonoSC",
+      "new": "xlztdksc",
+      "name": "小赖字体等宽 SC"
+    },
+    {
+      "id": "760d154d-2bd3-4bcf-bae1-778458a80e66",
+      "old": "XiaolaiSC",
+      "new": "xlztsc",
+      "name": "小赖字体 SC"
+    },
+    {
+      "id": "64a8ff97-f6e4-49fe-a4bb-2b3a5058890b",
+      "old": "XiaoyaPixel",
+      "new": "xiaoya-pixel",
+      "name": "小雅像素"
+    },
+    {
+      "id": "a4fa1da6-2bdb-49ac-bcf6-38367cbccce4",
+      "old": "XinYuGongHeXieSongLLight",
+      "new": "mkwwms",
+      "name": "猫啃网文明宋"
+    },
+    {
+      "id": "652ca59a-f577-4e28-af58-9adfcbab1b14",
+      "old": "Xsong",
+      "new": "xstes",
+      "name": "邪宋"
+    },
+    {
+      "id": "4047ea44-46aa-445a-88f2-1789da18598e",
+      "old": "Xsslv",
+      "new": "xsszt",
+      "name": "像素Silver字体"
+    },
+    {
+      "id": "236c9c51-8993-44c7-8e1e-fd392b236e9e",
+      "old": "Xstq",
+      "new": "xstqj",
+      "name": "晓声通秋茄"
+    },
+    {
+      "id": "3d410dd0-88c8-4908-bede-6b44fadb7475",
+      "old": "Xwbright",
+      "new": "xwwkb",
+      "name": "霞鹜文楷 Bright"
+    },
+    {
+      "id": "dea72ac1-3faf-4933-98d8-6ed5338e4ea7",
+      "old": "Xwbrightcode",
+      "new": "xwwkbc",
+      "name": "霞鹜文楷 Bright Code"
+    },
+    {
+      "id": "6fe351d8-6c07-4135-97cf-2742ff9396bf",
+      "old": "Xwxxhcode",
+      "new": "xwxxhc",
+      "name": "霞鹜新晰黑 Code"
+    },
+    {
+      "id": "efa018b3-969b-4d98-84ba-8e523eaa78bb",
+      "old": "Xwxxhplus",
+      "new": "xwxxhp",
+      "name": "霞鹜新晰黑 Plus"
+    },
+    {
+      "id": "55e0f90a-e2bf-4758-91de-f7c6b130a58b",
+      "old": "Xwxxhscreen",
+      "new": "xwxxhs",
+      "name": "霞鹜新晰黑 Screen"
+    },
+    {
+      "id": "01c89650-d69f-4626-b455-9ec040775471",
+      "old": "Xwxxhscreenfull",
+      "new": "xwxxhsf",
+      "name": "霞鹜新晰黑 Screen Full"
+    },
+    {
+      "id": "74a7d4ae-621c-4f65-b18a-739c608569f6",
+      "old": "Xwxzsplus",
+      "new": "xwxzsp",
+      "name": "霞鹜新致宋 Plus"
+    },
+    {
+      "id": "8c16a22f-71ee-4e55-bca7-d8be3a14fdc1",
+      "old": "Xwxzsscreen",
+      "new": "xwxzss",
+      "name": "霞鹜新致宋 Screen"
+    },
+    {
+      "id": "36502809-affc-4b57-ac90-00f79c0c3e19",
+      "old": "Xwxzsscreenfull",
+      "new": "xwxzssf",
+      "name": "霞鹜新致宋 Screen Full"
+    },
+    {
+      "id": "ae752c1c-1511-4cc4-b806-a4bd8aa02370",
+      "old": "Xwzkgb",
+      "new": "xwzk",
+      "name": "霞鹜臻楷"
+    },
+    {
+      "id": "837c129a-2efd-49dc-adb0-4483f40d2aa5",
+      "old": "Xwzksgb",
+      "new": "xwzks",
+      "name": "霞鹜臻楷 Slab"
+    },
+    {
+      "id": "3493ed7b-38d7-4523-8339-247d63ef6431",
+      "old": "Xxzt",
+      "new": "xzt",
+      "name": "玄宗体"
+    },
+    {
+      "id": "4bfa37fe-e7ed-4285-b87d-0082856b43bb",
+      "old": "Ydwbnnsp",
+      "new": "ydwxjhxt",
+      "name": "YDW 香蕉滑行++体"
+    },
+    {
+      "id": "8a85ea98-a2e2-4ed2-b9cd-8e4ff0f644e0",
+      "old": "Yiny",
+      "new": "yyhtgng",
+      "name": "源音黑体"
+    },
+    {
+      "id": "2081dd92-3875-498a-9f70-d1c6cea8f8ae",
+      "old": "Yjmct",
+      "new": "yjmc",
+      "name": "源界明朝"
+    },
+    {
+      "id": "189de06f-e76b-4f6a-ba33-3402d7633071",
+      "old": "Yjsu",
+      "new": "yzst",
+      "name": "佑字肃"
+    },
+    {
+      "id": "eaa5e51b-0f11-4de3-b8a5-a1d0c4b85041",
+      "old": "Yozai",
+      "new": "yzztyz",
+      "name": "悠哉字体"
+    },
+    {
+      "id": "ca8187f5-c38d-4f38-b6d9-f626c6a0c44c",
+      "old": "Yozf",
+      "new": "yofjp",
+      "name": "YozFont"
+    },
+    {
+      "id": "7d028713-5264-422d-8083-4b85173547f0",
+      "old": "YRDZSTRegular",
+      "new": "yrdzst",
+      "name": "杨任东竹石体"
+    },
+    {
+      "id": "f29cdb45-98e4-4e4a-a206-2963d57237b5",
+      "old": "Ysui",
+      "new": "ysls",
+      "name": "芫荽"
+    },
+    {
+      "id": "caf81e12-8291-4f02-9ef3-2e57e6faff6f",
+      "old": "Ysxh",
+      "new": "ysxhts",
+      "name": "演示斜黑体"
+    },
+    {
+      "id": "dc245f99-6360-4019-9626-f666c5b2089a",
+      "old": "YuFanLixing",
+      "new": "yflxt",
+      "name": "余繁离形体"
+    },
+    {
+      "id": "b5692270-ee4d-4ffc-b12e-c8690c246685",
+      "old": "Yunmt",
+      "new": "yymttw",
+      "name": "源云明体"
+    },
+    {
+      "id": "142d5897-9fbb-4b78-afdd-940f1f7d5d07",
+      "old": "Yuseimagic",
+      "new": "ysmjp",
+      "name": "Yusei Magic"
+    },
+    {
+      "id": "107a8b79-e8b7-4d7b-9fdd-ddcd6cae90ac",
+      "old": "YutaCoco",
+      "new": "yutcc",
+      "name": "ゆたココ"
+    },
+    {
+      "id": "a395f398-d818-44ae-a673-ab62a658567e",
+      "old": "YutaponCoding",
+      "new": "yutcd",
+      "name": "ゆたぽんコーディング"
+    },
+    {
+      "id": "98e1c36d-e139-4b0c-b302-7b1a13329dc4",
+      "old": "Yuzl",
+      "new": "yzzyp",
+      "name": "余珍珠"
+    },
+    {
+      "id": "9905f62f-6607-4c91-a064-0f91f98fee6c",
+      "old": "Yydq",
+      "new": "yfdqs",
+      "name": "余繁丹青宋"
+    },
+    {
+      "id": "fa9d9c2e-1014-42dc-b553-75d06830ab5c",
+      "old": "Yyxl",
+      "new": "yfxl",
+      "name": "余繁细柳"
+    },
+    {
+      "id": "4ba03b48-f4c8-4891-8996-926695950f8b",
+      "old": "Yyxy",
+      "new": "yfxy",
+      "name": "余繁新语"
+    },
+    {
+      "id": "163b895c-2ae3-4253-85cd-cde98cf8b645",
+      "old": "Yyzs",
+      "new": "yfzs",
+      "name": "余繁真素"
+    },
+    {
+      "id": "4da4acce-485c-4224-b3af-1ae439c38628",
+      "old": "Yzklct",
+      "new": "lct",
+      "name": "龙藏体"
+    },
+    {
+      "id": "63cce015-7746-44bf-a9e3-deffc26c1b37",
+      "old": "Zdicqx",
+      "new": "hdqxwzt",
+      "name": "汉典秦系文字体"
+    },
+    {
+      "id": "ddac4009-7f87-4870-b2ea-14c33ff8af6b",
+      "old": "Zenantique",
+      "new": "zenajp",
+      "name": "Zen Antique"
+    },
+    {
+      "id": "97fac648-58d7-4d6e-8cde-ae607010cb06",
+      "old": "Zenantiquesoft",
+      "new": "zasjp",
+      "name": "Zen Antique Soft"
+    },
+    {
+      "id": "d4b634ee-0f89-470b-89c2-6c317d723219",
+      "old": "Zenkakuantique",
+      "new": "zkgajp",
+      "name": "Zen Kaku Gothic Antique"
+    },
+    {
+      "id": "7cbd365c-87bd-4c58-8a25-0cd2403dbdf0",
+      "old": "Zenkakunew",
+      "new": "zkgnjp",
+      "name": "Zen Kaku Gothic New"
+    },
+    {
+      "id": "e2a64d3f-f06e-469a-8b59-17f6ca8b38b8",
+      "old": "Zenkurenaido",
+      "new": "zenkjp",
+      "name": "Zen Kurenaido"
+    },
+    {
+      "id": "756bf2aa-1b34-4b3e-ad5e-7589cc6e7d05",
+      "old": "Zenmaru",
+      "new": "zmgjp",
+      "name": "Zen Maru Gothic"
+    },
+    {
+      "id": "2828e507-6090-4ec9-8cb2-fb5fa39b046f",
+      "old": "Zenoldmincho",
+      "new": "zomjp",
+      "name": "Zen Old Mincho"
+    },
+    {
+      "id": "37179233-5561-4606-9058-124b825b7840",
+      "old": "Zkgdht",
+      "new": "zkgdh",
+      "name": "站酷高端黑"
+    },
+    {
+      "id": "27b6b870-d623-4b75-90e4-7fc2f5b66034",
+      "old": "Zkkht",
+      "new": "zkkh",
+      "name": "站酷酷黑"
+    },
+    {
+      "id": "bcde88f2-88ec-4869-9a08-7a76772e7ab5",
+      "old": "ZlabsDiamondpix16",
+      "new": "zlabs-diamondpix-16px",
+      "name": "Z工坊金刚黑体16px"
+    },
+    {
+      "id": "ab854e07-e257-4bfb-a749-a5d45d1d4621",
+      "old": "Zlhc",
+      "new": "zldzhk",
+      "name": "Z Labs 点阵 港标"
+    },
+    {
+      "id": "687beac0-04d8-4a52-b5fc-b07e7a198645",
+      "old": "Zljp",
+      "new": "zldzjp",
+      "name": "Z Labs 点阵 日标"
+    },
+    {
+      "id": "53c4afc6-b085-4d5f-a8d6-0db15961ba95",
+      "old": "Zlrp12",
+      "new": "zlyxs12",
+      "name": "Z Labs 圆像素 12px"
+    },
+    {
+      "id": "d3619f90-b4f3-4885-9c93-6a698700cb09",
+      "old": "Zlrp16",
+      "new": "zlyxs16",
+      "name": "Z Labs 圆像素 16px"
+    },
+    {
+      "id": "44b47aa3-26d5-48a9-b58b-c90c1a448d9e",
+      "old": "Zlx12",
+      "new": "zlxs12",
+      "name": "Z Labs 像素 12px"
+    },
+    {
+      "id": "7f48fdc1-8032-4d2d-8f94-5f64cce36943",
+      "old": "Zmxs",
+      "new": "zhi-mang-xing",
+      "name": "钟齐志莽行书"
+    },
+    {
+      "id": "5246cd86-282e-41a2-a59d-e1f380bfc6c8",
+      "old": "Zwxszt",
+      "new": "mhzk12",
+      "name": "mplus hzk 12 像素字体"
+    },
+    {
+      "id": "f5d41a64-e342-44b0-908a-1183805c64b2",
+      "old": "Zyss",
+      "new": "zysst",
+      "name": "智勇手书体"
+    },
+    {
+      "id": "3d87e3c5-b9d0-4c96-834d-3cc6f5693dca",
+      "old": "Zzft",
+      "new": "zzjftt",
+      "name": "宅在家粉条甜"
+    },
+    {
+      "id": "82545127-96c6-4063-8419-ec0c7e9f2f46",
+      "old": "Zzmk",
+      "new": "zzjmkb",
+      "name": "宅在家麦克笔"
+    },
+    {
+      "id": "7d5e9267-3888-4904-8f58-c54d19860c42",
+      "old": "Zzzd",
+      "new": "zzjzdb",
+      "name": "宅在家自动笔"
+    }
+  ]
+}

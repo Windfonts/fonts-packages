@@ -181,7 +181,15 @@ function generateRemotePath(localPath, baseDir) {
   const relativePath = path.relative(baseDir, localPath);
   
   // Normalize path separators for OSS (always use forward slash)
-  const normalizedPath = relativePath.split(path.sep).join('/');
+  let normalizedPath = relativePath.split(path.sep).join('/');
+
+  // Pack folder (first segment under fonts-packages/) must be lowercase slug.
+  // Prevents dual trees like Hcszt/ and hcszt/ from mixed Normalized names.
+  if (dirName !== 'metadata' && normalizedPath) {
+    const parts = normalizedPath.split('/');
+    if (parts[0]) parts[0] = parts[0].toLowerCase();
+    normalizedPath = parts.join('/');
+  }
   
   // For metadata, use metadata path; for dist, use fonts path
   if (dirName === 'metadata') {

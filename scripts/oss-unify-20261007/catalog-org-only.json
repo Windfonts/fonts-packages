@@ -1,0 +1,164 @@
+[
+ {
+  "name": "寒蝉端黑",
+  "norm": "Clduan",
+  "family": "wenfeng-clduan",
+  "en": "Chill Duan Hei"
+ },
+ {
+  "name": "Doki Doki Fantasia",
+  "norm": "Dokidoki",
+  "family": "wenfeng-dokidoki",
+  "en": "Doki Doki Fantasia"
+ },
+ {
+  "name": "普通圆黑",
+  "norm": "Futehodo",
+  "family": "wenfeng-futehodo",
+  "en": "Futehodo Maru Gothic"
+ },
+ {
+  "name": "白光明朝",
+  "norm": "Hakkou",
+  "family": "wenfeng-hakkou",
+  "en": "Hakkou Mincho"
+ },
+ {
+  "name": "Hasen G",
+  "norm": "Haseng",
+  "family": "wenfeng-haseng",
+  "en": "Hasen G"
+ },
+ {
+  "name": "日暮黑体",
+  "norm": "Higure",
+  "family": "wenfeng-higure",
+  "en": "Higure Gothic"
+ },
+ {
+  "name": "Keinann Maru POP",
+  "norm": "Keinann",
+  "family": "wenfeng-keinann",
+  "en": "KeinannMaruPOP JP"
+ },
+ {
+  "name": "黑花明朝",
+  "norm": "Kurohana",
+  "family": "wenfeng-kurohana",
+  "en": "Kuro Hana Mincho"
+ },
+ {
+  "name": "乐米律动黑",
+  "norm": "Lmld",
+  "family": "wenfeng-lmld",
+  "en": "Lemi Lvdong"
+ },
+ {
+  "name": "乐米拾光手札体",
+  "norm": "Lmsg",
+  "family": "wenfeng-lmsg",
+  "en": "Lemi Shiguang"
+ },
+ {
+  "name": "乐米野墨体",
+  "norm": "Lmys",
+  "family": "wenfeng-lmys",
+  "en": "Lemi Yemo"
+ },
+ {
+  "name": "幻之渗明朝",
+  "norm": "Maboroshi",
+  "family": "wenfeng-maboroshi",
+  "en": "Maboroshi no Nijimi Mincho"
+ },
+ {
+  "name": "MOBO",
+  "norm": "Mobo",
+  "family": "wenfeng-mobo",
+  "en": "MOBO"
+ },
+ {
+  "name": "Keinan Mugimaru",
+  "norm": "Mugimaru",
+  "family": "wenfeng-mugimaru",
+  "en": "Keinan Mugimaru JP"
+ },
+ {
+  "name": "Nagino",
+  "norm": "Nagino",
+  "family": "wenfeng-nagino",
+  "en": "Nagino"
+ },
+ {
+  "name": "夏蝉圆黑",
+  "norm": "Natsuzemi",
+  "family": "wenfeng-natsuzemi",
+  "en": "Natsuzemi Maru Gothic"
+ },
+ {
+  "name": "新清明朝",
+  "norm": "Newclear",
+  "family": "wenfeng-newclear",
+  "en": "New Clear Mincho"
+ },
+ {
+  "name": "新色圆黑",
+  "norm": "Niiro",
+  "family": "wenfeng-niiro",
+  "en": "Niiro Maru Gothic"
+ },
+ {
+  "name": "ふぉんとうは怖い明朝体",
+  "norm": "Scarymin",
+  "family": "wenfeng-scarymin",
+  "en": "Really Scary Minchotai"
+ },
+ {
+  "name": "新桥黑体",
+  "norm": "Shinbashi",
+  "family": "wenfeng-shinbashi",
+  "en": "Shinbashi Gothic"
+ },
+ {
+  "name": "复古圆黑",
+  "norm": "Shinretro",
+  "family": "wenfeng-shinretro",
+  "en": "Shin Retro Maru Gothic"
+ },
+ {
+  "name": "Shippori Gothic Bold",
+  "norm": "Shipgbold",
+  "family": "wenfeng-shipgbold",
+  "en": "Shippori Gothic Bold"
+ },
+ {
+  "name": "鉄瓶ゴシック",
+  "norm": "Tetsubin",
+  "family": "wenfeng-tetsubin",
+  "en": "Tetsubin Gothic"
+ },
+ {
+  "name": "津汲圆黑",
+  "norm": "Tsugumi",
+  "family": "wenfeng-tsugumi",
+  "en": "Tsugumi Maru Gothic"
+ },
+ {
+  "name": "筑峰正楷明朝",
+  "norm": "Tsukuhou",
+  "family": "wenfeng-tsukuhou",
+  "en": "Tsukuhou Shogo Mincho"
+ },
+ {
+  "name": "棉花糖体",
+  "norm": "Wataame",
+  "family": "wenfeng-wataame",
+  "en": "Wataame"
+ },
+ {
+  "name": "やさしさゴシック Bold V2",
+  "norm": "Yasashisa",
+  "family": "wenfeng-yasashisa",
+  "en": "Yasashisa Gothic Bold V2"
+ }
+]

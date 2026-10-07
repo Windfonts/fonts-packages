@@ -1,0 +1,79 @@
+{
+ "generated": "2026-10-07",
+ "shop": {
+  "count": 713,
+  "case_lower": 157,
+  "shmdt": 1,
+  "bdf_inserted": [
+   "BestTen",
+   "LanaPixel",
+   "台北字体",
+   "粗宋",
+   "坊宋",
+   "柳宋"
+  ],
+  "bak": "fonts.json.bak-catalog-membership-20261007"
+ },
+ "org": {
+  "count": 739,
+  "inserted": 184,
+  "inserted_names_head": [
+   "Albertella",
+   "cjkFonts 全濑体",
+   "青柳衡山フォントT",
+   "青柳隷書しも",
+   "青柳疎石フォント",
+   "方舟像素 12",
+   "あさって",
+   "Awroit",
+   "八丁饰尾体 16",
+   "Bizin Gothic",
+   "长坂点宋 12",
+   "芝士奶盖乌龙宋",
+   "超極細ゴシック体",
+   "コーポレート明朝 ver3",
+   "コーポレートやわ明 ver3",
+   "コーポレート・ロゴ（ラウンド）ver3",
+   "Cyroit",
+   "電気チップ / x8y12pxDenkiChip",
+   "Dining Message",
+   "梦源黑体（Pal3love）"
+  ],
+  "clduan_merged": true,
+  "moves": 175,
+  "bak": "/Users/feibisi-studio/Projects/wenfeng-org/data/_bak-catalog-membership-20261007"
+ },
+ "gap_after": {
+  "shop_only": [],
+  "org_only": [
+   "Doki Doki Fantasia",
+   "Hasen G",
+   "Keinan Mugimaru",
+   "Keinann Maru POP",
+   "MOBO",
+   "Nagino",
+   "Shippori Gothic Bold",
+   "ふぉんとうは怖い明朝体",
+   "やさしさゴシック Bold V2",
+   "乐米律动黑",
+   "乐米拾光手札体",
+   "乐米野墨体",
+   "复古圆黑",
+   "夏蝉圆黑",
+   "幻之渗明朝",
+   "新桥黑体",
+   "新清明朝",
+   "新色圆黑",
+   "日暮黑体",
+   "普通圆黑",
+   "棉花糖体",
+   "津汲圆黑",
+   "白光明朝",
+   "筑峰正楷明朝",
+   "鉄瓶ゴシック",
+   "黑花明朝"
+  ],
+  "shop": 713,
+  "org": 739
+ }
+}

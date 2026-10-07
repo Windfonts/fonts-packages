@@ -1,0 +1,14 @@
+{
+  "note": "Dest short already exists. Overwrite only when vault published still points at the old dir (dest is archived leftover). Do not overwrite when vault published already uses the short (dest is live).",
+  "overwrite_old": [
+    "hclck2",
+    "hxbsb",
+    "hzpy",
+    "mysxt",
+    "pangzhenguipmzd"
+  ],
+  "keep_dest_old": [
+    "matc",
+    "xcws"
+  ]
+}
