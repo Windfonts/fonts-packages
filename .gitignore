@@ -36,3 +36,29 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Local unpack / batch leftovers — do not commit
+_work_*/
+_wave*/
+_inbox_*/
+_upstream-*/
+_zhcommon_*/
+bot/
+logs/
+ossutil_output/
+scripts/_tmp-*
+*.bak*
+/AllSeto/
+/GenKiMinPJP/
+/GenKiMinTC/
+/GenRyuMinPJP/
+/GenSekiGothicPJP/
+/GenSekiGothicTC/
+/GenWanMinPJP/
+/GenYoGothicPJP/
+/GenYoMinPJP/
+/Kazesawa/
+/Koruri/
+/Motomachi/
+/NotoSerifHentaigana/
+/SourceHanMonoHK/
