@@ -1,0 +1,22 @@
+{
+  "note": "OSS yunzhuan-duren ingest · 2026-11-09. 来源 github.com/Lawrence-of-AnKing/yunzhuan-duren @ v1.0.0（YunZhuanDuRen-Unmerged.ttf）。构建 oss-batch1-build.sh yzdr yzdr；vault 登记 fonts-vault scripts/register-yzdr.js。授权 OFL-1.1 原文已核对（仓内 OFL.txt）。短码 yzdr / family wenfeng-yzdr。",
+  "families": [
+    {
+      "normalized": "yzdr",
+      "fontFamily": "wenfeng-yzdr",
+      "chineseName": "云篆度人经",
+      "englishName": "YunZhuan DuRen",
+      "nameTableEn": "YunZhuan DuRen Unmerged",
+      "nameTableZh": "云篆度人经 未合并",
+      "weight": "Regular",
+      "source": "https://github.com/Lawrence-of-AnKing/yunzhuan-duren",
+      "assetUrl": "https://github.com/Lawrence-of-AnKing/yunzhuan-duren/releases/download/v1.0.0/YunZhuanDuRen-Unmerged.ttf",
+      "tag": "v1.0.0",
+      "sha256": "861288b479ebc3818583734573af97ef329f3018d760320bba0fe2894a0c52f2",
+      "license": "OFL-1.1",
+      "author": "执笔之龙（Lawrence-of-AnKing）",
+      "glyphCount": 4618,
+      "nameNote": "发布资产为 Unmerged 全字版；店面英文名去 Unmerged 包装后缀，中文展示名去「未合并」。"
+    }
+  ]
+}
