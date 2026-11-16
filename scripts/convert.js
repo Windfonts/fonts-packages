@@ -33,6 +33,10 @@ class Logger {
 const MAPPING_FILE = path.resolve(__dirname, '../metadata/font-mapping.json');
 
 // 默认配置（不再使用配置文件）
+// 注意：presets 不是版本维度。子集模式下版本（full/en/zh/zh-common）来自
+// fonts-subset 文件名后缀，由 extractVersionFromFileName 解析；
+// preset 只提供 chunkSize，且仅在非子集模式（输入 fonts/ 原始字体）时
+// 用 preset.name 作为兜底输出目录名。当前只有 standard 一个 preset。
 const DEFAULT_CONFIG = {
     input: './fonts',
     output: './dist',
@@ -553,7 +557,7 @@ function generateStatistics(results) {
  */
 async function main() {
     try {
-        Logger.info('========== 字体转换脚本（多版本生成）==========');
+        Logger.info('========== 字体转换脚本（按子集版本分包）==========');
         Logger.info('');
 
         // 加载字体映射文件
@@ -591,9 +595,9 @@ async function main() {
         const preset = enabledPresets[0];
 
         if (useSubset) {
-            Logger.info(`分包配置: ${preset.name} (${preset.chunkSize}KB)`);
+            Logger.info(`分包配置: ${preset.name} (${preset.chunkSize}KB)；版本维度来自子集文件名后缀`);
         } else {
-            Logger.info(`将生成版本: ${preset.name} - ${preset.description}`);
+            Logger.info(`分包配置: ${preset.name} - ${preset.description} (${preset.chunkSize}KB)；无版本后缀时以 preset.name 作输出目录`);
         }
         Logger.info('');
         Logger.info('注意：使用完整字符集，通过分包大小控制输出');
