@@ -159,6 +159,8 @@ async function scanFiles(inputDir) {
   // Filter for relevant file types
   const files = allPaths.filter(file => {
     const ext = path.extname(file).toLowerCase();
+    // dist/urls.json 是 upload.js 自己生成的本地 URL 映射（publish.js 输入），不进桶
+    if (path.basename(file) === 'urls.json') return false;
     return ['.woff2', '.woff', '.css', '.json'].includes(ext);
   });
 

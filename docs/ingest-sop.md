@@ -121,7 +121,7 @@ node scripts/convert.js
 
 ## 5. 只入库部分字体（park 机制）
 
-`fonts/` 里已有上百个家族时，analyze/subset/convert 会扫全部。历史批次的做法（`scripts/oss-batch1-build.sh`）：
+`fonts/` 里已有上百个家族时，analyze/subset/convert 会扫全部。历史批次的做法（`scripts/archive/oss-batch1-build.sh`）：
 
 1. 把不在本批的 `fonts/{Norm}/` 临时 `mv` 到旁边的 park 目录（如 `_oss_batch_park/` 或 `~/Projects/_fonts_park/`）；
 2. 跑 analyze → subset → convert → upload；
@@ -166,7 +166,7 @@ node scripts/upload-preview-shop.js --apply  # 上传 staging/preview-shop-oss �
 
 每个新字体在 `scripts/` 留一份 `{norm}-map.json`，格式见 `scripts/yzdr-map.json`：来源 URL、tag、sha256、license、family/短码、glyphCount、nameNote。**入库后提交这个文件**，它是这批 OSS 包的台账。
 
-历史批次还有 `scripts/oss-*-map.json`、`oss-*-insert-*.js` 等——那些是 2026-09/10 批量入库时连 vault 登记一起做的一次性脚本，**不是常驻流程，不要照抄重跑**。`oss-unify-20261007/` 是统一改名批次的现场，同理。
+历史批次脚本已归档到 `scripts/archive/`（`oss-*`、`lxgw-*`、`oss-unify-20261007/` 批处理，以及 `fix-*`/`offline-*`/`republish-*` vault prod.db 一次性修复）——**不是常驻流程，不要照抄重跑**；`*-map.json` 台账留在 `scripts/` 根。
 
 唯一例外是 `scripts/normalize-pack-case.js`：OSS 上混写目录小写化工具，默认 dry-run，`--go` 执行、`--only={norm}` 单个、`--merge-only` 只合并不删（桶 ACL 可能拒删）。
 
