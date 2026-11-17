@@ -96,7 +96,10 @@ async function scanSubsets(families) {
       const wstate = fam.weights[weight];
       for (const v of await listDirSafe(path.join(SUBSET_DIR, e.name, w.name))) {
         if (!v.isFile() || !FONT_EXT.test(v.name)) continue;
-        const ver = v.name.replace(FONT_EXT, '');
+        // 文件名形如 {Weight}-{ver}.ttf，version 取 weight 前缀之后的部分
+        const stem = v.name.replace(FONT_EXT, '');
+        const prefix = `${weight}-`;
+        const ver = stem.startsWith(prefix) ? stem.slice(prefix.length) : stem;
         if (VERSIONS.includes(ver)) {
           wstate.versions[ver] = wstate.versions[ver] || { subset: false, converted: false, uploaded: false };
           wstate.versions[ver].subset = true;
@@ -137,7 +140,29 @@ async function scanConverted(families) {
   return families;
 }
 
-/** CDN HEAD 检查 uploaded（只对 converted 的版本发请求，并发限流） */
+/**
+ * subset 证据修正：convert.js 成功后会删除整个 fonts-subset/，
+ * 因此 subset 文件只在 subset→convert 之间存在。
+ * 已 converted/uploaded 的版本必然已经走过子集化（或被有意跳过），
+ * 统一标记 subset=true，避免状态台把已完成家族误报为「待子集」。
+ */
+function settleSubsetEvidence(families) {
+  for (const fam of families) {
+    for (const w of Object.values(fam.weights)) {
+      for (const v of Object.values(w.versions || {})) {
+        if (v.converted || v.uploaded) v.subset = true;
+      }
+    }
+  }
+  return families;
+}
+
+/**
+ * CDN HEAD 检查 uploaded。
+ * 对每个家族×字重检查 VERSIONS ∪ 本地已发现版本 的 result.css——
+ * uploaded 的真源是 CDN 本身，不依赖本地 dist 是否还在
+ * （dist 是可再生产物，清理后不应让已发布家族显示未上传）。
+ */
 async function headOk(url, timeoutMs = 8000) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), timeoutMs);
@@ -157,8 +182,8 @@ async function scanUploaded(families, { onlyNorms } = {}) {
   for (const fam of families) {
     if (want && !want.has(fam.norm)) continue;
     for (const [weight, wstate] of Object.entries(fam.weights)) {
-      for (const [ver, vstate] of Object.entries(wstate.versions || {})) {
-        if (!vstate.converted) continue;
+      const vers = new Set([...VERSIONS, ...Object.keys(wstate.versions || {})]);
+      for (const ver of vers) {
         const url = `${CDN_BASE}/fonts-packages/${fam.norm}/${weight}/${ver}/result.css`;
         tasks.push({ fam, weight, ver, url });
       }
@@ -171,7 +196,9 @@ async function scanUploaded(families, { onlyNorms } = {}) {
       const t = tasks[idx++];
       const ok = await headOk(t.url);
       if (ok) {
-        t.fam.weights[t.weight].versions[t.ver].uploaded = true;
+        const wstate = t.fam.weights[t.weight];
+        wstate.versions[t.ver] = wstate.versions[t.ver] || { subset: false, converted: false, uploaded: false };
+        wstate.versions[t.ver].uploaded = true;
       }
       if (++done % 100 === 0) log(`  HEAD ${done}/${tasks.length}`);
     }
@@ -210,6 +237,7 @@ async function scan({ skipHead = false, onlyNorms } = {}) {
   families = await scanSubsets(families);
   families = await scanConverted(families);
   if (!skipHead) await scanUploaded(families, { onlyNorms });
+  settleSubsetEvidence(families);
   await applyMapping(families);
 
   return {
@@ -365,6 +393,7 @@ async function execJob(job, onProgress) {
     const targets = families.length ? fams.filter((f) => families.includes(f.norm)) : fams;
     await progress(`HEAD 检查 ${targets.length} 家族`);
     await scanUploaded(targets, {});
+    settleSubsetEvidence(targets);
     const missing = [];
     let checked = 0;
     for (const f of targets) {
