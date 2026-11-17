@@ -159,6 +159,8 @@ async function scanFiles(inputDir) {
   // Filter for relevant file types
   const files = allPaths.filter(file => {
     const ext = path.extname(file).toLowerCase();
+    // dist/urls.json 是 upload.js 自己生成的本地 URL 映射（publish.js 输入），不进桶
+    if (path.basename(file) === 'urls.json') return false;
     return ['.woff2', '.woff', '.css', '.json'].includes(ext);
   });
 
@@ -168,7 +170,7 @@ async function scanFiles(inputDir) {
 
 // Generate remote path for OSS
 function generateRemotePath(localPath, baseDir) {
-  const basePath = process.env.OSS_BASE_PATH || 'fonts/';
+  const basePath = process.env.OSS_BASE_PATH || 'fonts-packages/';
   
   // Determine which directory this file belongs to
   let dirName = '';
@@ -191,9 +193,9 @@ function generateRemotePath(localPath, baseDir) {
     normalizedPath = parts.join('/');
   }
   
-  // For metadata, use metadata path; for dist, use fonts path
+  // metadata 与字体包同前缀：fonts-packages/metadata/...
   if (dirName === 'metadata') {
-    return path.posix.join(basePath.replace('fonts/', ''), 'metadata', normalizedPath);
+    return path.posix.join(basePath, 'metadata', normalizedPath);
   } else {
     return path.posix.join(basePath, normalizedPath);
   }

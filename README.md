@@ -59,6 +59,8 @@ npm run publish  # 发布到 npm
 npm run clean    # 清理生成文件
 ```
 
+> 完整入库流程（源字体 → OSS 上线、map.json 格式、注意事项）见 [`docs/ingest-sop.md`](docs/ingest-sop.md)。
+
 ### 测试模式
 
 ```bash
