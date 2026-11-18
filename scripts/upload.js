@@ -270,8 +270,9 @@ function convertToCDNUrl(ossUrl) {
   const urlObj = new URL(ossUrl);
   const urlPath = urlObj.pathname;
 
-  // Build CDN URL
-  const cdnUrl = `https://${cdnDomain}${urlPath}`;
+  // Build CDN URL（OSS_CDN_DOMAIN 允许带或不带 scheme）
+  const cdnHost = cdnDomain.replace(/^https?:\/\//, '').replace(/\/+$/, '');
+  const cdnUrl = `https://${cdnHost}${urlPath}`;
   return cdnUrl;
 }
 
