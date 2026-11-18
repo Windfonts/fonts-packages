@@ -9,6 +9,9 @@ npm i @windfonts/chinese-fonts
 
 # 或直接装 CDN 上的 tarball（与 npm 发布同内容，1.0.23 起）：
 npm i https://cn.windfonts.com/fonts-packages/npm/chinese-fonts-1.0.23.tgz
+
+# 或从 GitHub 仓库安装（与上面同内容）：
+npm i github:WenPai-org/chinese-fonts
 ```
 
 ## Usage
