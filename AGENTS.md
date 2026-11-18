@@ -9,6 +9,12 @@
 - 例：霞鹜文楷 Bright 的目录仍是 `xwbright`。2026-10-07 店面 `family` 是 `wenfeng-xwwkb`。不要为了新短码去改名、搬目录或删旧目录。
 - 2026-10-06 起混写目录（`Xwbright`）对公开 URL 是 404。新上传用小写。删混写要 wenpai 的删除权限，不要在本机猜钥匙。
 
+## OSS 读写纪律（零公网出网铁律，集群记忆 #9290/#11584）
+
+- 桶 `wenfeng-fonts` 已私有化：**禁止用 `.env` 里的 OSS AK/SK 直接 `client.get` 批量读对象**——SDK 读照样计 OSS 公网出网，2026-11-18 事故：一次拉 6.66GB 源文件。
+- 读一律走 CDN：`https://cn.windfonts.com/fonts-packages/{norm小写}/source/index.json` 及其列出的文件。补源/回拉用 `node scripts/fetch-sources.mjs <norm>...`（或 `--file 名单`）。
+- AK/SK 只用于上传（ingress 免费）。确需直读桶（灾备/桶间同步）须先报批并限速（教训 #9466：不限速 9GB/106s 触发 IDC 封禁）。
+
 ## 不要做
 
 - 不要把 `AGENTS.md`、`CLAUDE.md`、说明文档上传进桶。
