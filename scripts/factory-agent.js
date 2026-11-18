@@ -207,7 +207,30 @@ async function scanUploaded(families, { onlyNorms } = {}) {
   return families;
 }
 
-/** metadata/font-mapping.json → analyzed + displayName */
+/** 上报给 vault 的元数据白名单（与 vault factory.service FONT_META_* 对齐） */
+const META_KEYS = [
+  'chinese_name', 'english_name', 'designer', 'foundry', 'release_year',
+  'category', 'font_category', 'style', 'copyright', 'license', 'license_type',
+  'version', 'description', 'tags', 'font_tags', 'languages', 'use_cases',
+];
+
+function pickMeta(m) {
+  const out = {};
+  for (const k of META_KEYS) {
+    const v = m[k];
+    if (v === null || v === undefined) continue;
+    if (Array.isArray(v)) {
+      if (v.length) out[k] = v.slice(0, 50).map((x) => String(x).slice(0, 60));
+      continue;
+    }
+    const str = String(v).trim();
+    if (!str || str === 'null' || str === '{}') continue;
+    out[k] = str.slice(0, 2000);
+  }
+  return Object.keys(out).length ? out : undefined;
+}
+
+/** metadata/font-mapping.json → analyzed + displayName + meta */
 async function applyMapping(families) {
   const mapping = await readJsonSafe(path.join(META_DIR, 'font-mapping.json'));
   if (!mapping || typeof mapping !== 'object') return families;
@@ -224,6 +247,7 @@ async function applyMapping(families) {
         (m.english_name && m.english_name !== 'null' ? m.english_name : null) ||
         (m.original_name && String(m.original_name) !== 'null' ? m.original_name : null) ||
         fam.norm;
+      fam.meta = pickMeta(m);
     } else {
       fam.name = fam.norm;
     }
@@ -247,6 +271,7 @@ async function scan({ skipHead = false, onlyNorms } = {}) {
       norm: f.norm,
       name: f.name || f.norm,
       analyzed: !!f.analyzed,
+      ...(f.meta ? { meta: f.meta } : {}),
       weights: f.weights,
     })),
   };
@@ -394,6 +419,7 @@ async function execJob(job, onProgress) {
     await progress(`HEAD 检查 ${targets.length} 家族`);
     await scanUploaded(targets, {});
     settleSubsetEvidence(targets);
+    await applyMapping(targets);
     const missing = [];
     let checked = 0;
     for (const f of targets) {
@@ -410,7 +436,8 @@ async function execJob(job, onProgress) {
       agent: AGENT_NAME,
       generatedAt: new Date().toISOString(),
       families: targets.map((f) => ({
-        norm: f.norm, name: f.name || f.norm, analyzed: !!f.analyzed, weights: f.weights,
+        norm: f.norm, name: f.name || f.norm, analyzed: !!f.analyzed,
+        ...(f.meta ? { meta: f.meta } : {}), weights: f.weights,
       })),
     }).catch(() => {});
     return { ok: true, result: results };
