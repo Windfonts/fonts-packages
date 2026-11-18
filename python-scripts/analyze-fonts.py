@@ -23,6 +23,7 @@
 
 import sys
 import os
+import time
 import json
 import csv
 import re
@@ -1406,6 +1407,10 @@ def main():
                 for font_file, weight_name, result in family_fonts
             }
         }
+        # ANALYZE_DELAY=秒：每个家族调用前 sleep，给 TPM 限流留窗口（免费模型必备）
+        _delay = float(os.getenv('ANALYZE_DELAY', '0') or 0)
+        if _delay > 0:
+            time.sleep(_delay)
         try:
             return family_name, normalizer.normalize_font_family(family_info)
         except Exception as e:
