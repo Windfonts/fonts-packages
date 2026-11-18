@@ -1379,6 +1379,12 @@ def main():
             else:
                 print(f"  ✗ 失败: {result['error']}")
     
+    # ANALYZE_ONLY 同时作用于 AI 阶段：families_to_analyze 是从 font_files_info
+    # 全量重建的，前面对 font_families 的过滤只影响展示
+    if _only:
+        families_to_analyze = {k: v for k, v in families_to_analyze.items() if k in _keep}
+        print(f"ANALYZE_ONLY: AI 阶段剩余 {len(families_to_analyze)} 个家族")
+
     print()
     print("="*60)
     print("开始AI规范化...")
@@ -1625,7 +1631,19 @@ def main():
                     merged_mapping = prev
             except Exception:
                 merged_mapping = {}
-        merged_mapping.update(font_mapping_cleaned)
+        _META_SIG = ['english_name','chinese_name','license','license_type',
+                     'category','font_category','style','tags','font_tags',
+                     'foundry','use_cases','languages','release_year','description']
+        def _rich(e):
+            return sum(1 for f in _META_SIG if e.get(f))
+        for _k, _v in font_mapping_cleaned.items():
+            _old = merged_mapping.get(_k)
+            if isinstance(_old, dict) and _rich(_v) < _rich(_old):
+                # 降级回退（429/超时）不覆盖已有富元数据；weights 字符统计仍更新
+                if isinstance(_v, dict) and _v.get('weights'):
+                    _old['weights'] = _v['weights']
+                continue
+            merged_mapping[_k] = _v
         with open(mapping_file, 'w', encoding='utf-8', newline='') as f:
             json.dump(merged_mapping, f, ensure_ascii=False, indent=2)
         print(f"✓ 字体映射已保存: {mapping_file}（合并后 {len(merged_mapping)} 个家族）")
