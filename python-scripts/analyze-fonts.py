@@ -1303,6 +1303,13 @@ def main():
             
             if family_fonts:
                 font_families[family_name] = family_fonts
+
+    # ANALYZE_ONLY=norm1,norm2 只分析指定家族（重跑补漏用，merge 按 key 覆盖）
+    _only = os.getenv('ANALYZE_ONLY', '').strip()
+    if _only:
+        _keep = {s.strip() for s in _only.split(',') if s.strip()}
+        font_families = {k: v for k, v in font_families.items() if k in _keep}
+        print(f"ANALYZE_ONLY 过滤后剩余 {len(font_families)} 个家族")
     
     if not font_files_info:
         print(f"错误: 在 {input_dir} 中未找到字体文件")

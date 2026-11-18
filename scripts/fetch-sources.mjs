@@ -5,12 +5,13 @@
 // 用法:
 //   node scripts/fetch-sources.mjs <norm> [norm...]
 //   node scripts/fetch-sources.mjs --file /tmp/norms.txt
-const https = require('https');
-const fs = require('fs');
-const path = require('path');
+import https from 'https';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 const CDN = 'https://cn.windfonts.com';
-const ROOT = path.join(__dirname, '..', 'fonts');
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'fonts');
 const CONC = 6;
 
 function get(url) {
@@ -43,33 +44,45 @@ async function fetchOne(norm) {
     if (!fname || fname.includes('..') || fname.includes('/')) continue;
     const dest = path.join(dir, fname);
     if (fs.existsSync(dest) && fs.statSync(dest).size > 0) continue;
-    const buf = await get(`${CDN}/fonts-packages/${norm}/source/${fname}`);
+    // index.json 的 url 字段才是真实位置（可能指向别的 norm 目录或大写目录）；
+    // 没有 url 时才回退 {norm}/source/{file}
+    const url = item.url || `${CDN}/fonts-packages/${norm}/source/${fname}`;
+    if (!url.startsWith(CDN + '/')) continue; // 只允许 CDN 域
+    let buf;
+    try {
+      buf = await get(url);
+    } catch (e) {
+      // index.json 记的大写目录在桶里是小写，目录段小写重试
+      const cut = url.lastIndexOf('/') + 1;
+      const lower = url.slice(0, cut).toLowerCase() + url.slice(cut);
+      if (lower === url) throw e;
+      buf = await get(lower);
+    }
     fs.writeFileSync(dest, buf);
     n++;
   }
   return n;
 }
 
-(async () => {
-  let norms = process.argv.slice(2).filter((a) => !a.startsWith('--'));
-  const fileArg = process.argv.indexOf('--file');
-  if (fileArg >= 0 && process.argv[fileArg + 1]) {
-    norms = fs.readFileSync(process.argv[fileArg + 1], 'utf8')
-      .split(/\s+/).map((s) => s.trim().toLowerCase()).filter(Boolean);
+const argv = process.argv.slice(2);
+let norms = argv.filter((a) => !a.startsWith('--'));
+const fileArg = argv.indexOf('--file');
+if (fileArg >= 0 && argv[fileArg + 1]) {
+  norms = fs.readFileSync(argv[fileArg + 1], 'utf8')
+    .split(/\s+/).map((s) => s.trim().toLowerCase()).filter(Boolean);
+}
+if (!norms.length) {
+  console.error('用法: node scripts/fetch-sources.mjs <norm>... | --file list.txt');
+  process.exit(1);
+}
+let idx = 0, ok = 0, fail = 0;
+async function worker() {
+  while (idx < norms.length) {
+    const n = norms[idx++];
+    try { await fetchOne(n); ok++; }
+    catch (e) { fail++; console.error('FAIL', n, e.message.slice(0, 100)); }
+    if ((ok + fail) % 25 === 0) console.error(`progress ${ok + fail}/${norms.length} ok=${ok} fail=${fail}`);
   }
-  if (!norms.length) {
-    console.error('用法: node scripts/fetch-sources.mjs <norm>... | --file list.txt');
-    process.exit(1);
-  }
-  let idx = 0, ok = 0, fail = 0;
-  async function worker() {
-    while (idx < norms.length) {
-      const n = norms[idx++];
-      try { await fetchOne(n); ok++; }
-      catch (e) { fail++; console.error('FAIL', n, e.message.slice(0, 100)); }
-      if ((ok + fail) % 25 === 0) console.error(`progress ${ok + fail}/${norms.length} ok=${ok} fail=${fail}`);
-    }
-  }
-  await Promise.all(Array.from({ length: CONC }, worker));
-  console.error(`DONE ok=${ok} fail=${fail}`);
-})();
+}
+await Promise.all(Array.from({ length: CONC }, worker));
+console.error(`DONE ok=${ok} fail=${fail}`);
