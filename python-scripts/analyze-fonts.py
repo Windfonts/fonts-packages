@@ -1587,9 +1587,21 @@ def main():
         font_mapping_cleaned = clean_json_value(font_mapping)
         
         mapping_file = output_dir / 'font-mapping.json'
+        # 增量合并：SUBSET_ONLY/部分运行不清空历史映射，
+        # 本次运行的家族覆盖同名 key
+        merged_mapping = {}
+        if mapping_file.exists():
+            try:
+                with open(mapping_file, 'r', encoding='utf-8') as f:
+                    prev = json.load(f)
+                if isinstance(prev, dict):
+                    merged_mapping = prev
+            except Exception:
+                merged_mapping = {}
+        merged_mapping.update(font_mapping_cleaned)
         with open(mapping_file, 'w', encoding='utf-8', newline='') as f:
-            json.dump(font_mapping_cleaned, f, ensure_ascii=False, indent=2)
-        print(f"✓ 字体映射已保存: {mapping_file}")
+            json.dump(merged_mapping, f, ensure_ascii=False, indent=2)
+        print(f"✓ 字体映射已保存: {mapping_file}（合并后 {len(merged_mapping)} 个家族）")
         
         # 显示映射摘要
         print()
