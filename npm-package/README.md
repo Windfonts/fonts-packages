@@ -6,6 +6,9 @@ A collection of Chinese web fonts with CDN links and comprehensive license infor
 
 ```bash
 npm i @windfonts/chinese-fonts
+
+# 或直接装 CDN 上的 tarball（与 npm 发布同内容，1.0.23 起）：
+npm i https://cn.windfonts.com/fonts-packages/npm/chinese-fonts-1.0.23.tgz
 ```
 
 ## Usage

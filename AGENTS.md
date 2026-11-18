@@ -5,8 +5,7 @@
 ## 包放哪
 
 - 桶：`oss://wenfeng-fonts`（广州）。公开地址：`https://cn.windfonts.com/fonts-packages/{目录}/{字重}/{子集}/result.css`。
-- 目录名是店面 `normalized` 的**小写**。不是嵌入 `family` 短码。
-- 例：霞鹜文楷 Bright 的目录仍是 `xwbright`。2026-10-07 店面 `family` 是 `wenfeng-xwwkb`。不要为了新短码去改名、搬目录或删旧目录。
+- 目录名是店面 `normalized` 的**小写**。2026-10-07 起 `normalized` 已迁店面短码，霞鹜文楷 Bright 的目录是 `xwwkb`（不是旧 CamelCase `Xwbright`，也不是嵌入 `family` `wenfeng-xwwkb`）。不要为了 family 短码去改名、搬目录或删旧目录。
 - 2026-10-06 起混写目录（`Xwbright`）对公开 URL 是 404。新上传用小写。删混写要 wenpai 的删除权限，不要在本机猜钥匙。
 
 ## OSS 读写纪律（零公网出网铁律，集群记忆 #9290/#11584）
