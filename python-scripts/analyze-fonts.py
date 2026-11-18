@@ -151,7 +151,7 @@ class AIFontNormalizer:
             self.client = OpenAI(
                 api_key=api_key,
                 base_url=base_url,
-                timeout=60.0
+                timeout=float(os.getenv('OPENAI_TIMEOUT', '60'))
             )
             self.enabled = True
         except Exception as e:
@@ -682,8 +682,8 @@ def clean_text(text):
 
 def extract_font_metadata(font_path: Path, verbose: bool = False) -> Dict:
     try:
-        # 检查是否是 wOFF2 文件
-        is_woff2 = font_path.suffix.lower() in ['.woff2'] or font_path.name.endswith('.ttf')
+        # 检查是否是 wOFF2 文件（按后缀+magic 双判，.ttf 不是 woff2）
+        is_woff2 = font_path.suffix.lower() == '.woff2'
         if is_woff2 and not BROTLI_AVAILABLE:
             if verbose:
                 print(f"  ⚠ 跳过 wOFF2 文件（需要 brotli）: {font_path.name}")
@@ -1379,10 +1379,9 @@ def main():
     print()
     
     font_mapping = {}
-    
-    for family_idx, (family_name, family_fonts) in enumerate(families_to_analyze.items(), 1):
-        print(f"[家族 {family_idx}/{len(families_to_analyze)}] 分析字体家族: {family_name} ({len(family_fonts)} 个字重)")
-        
+
+    # AI 调用并行预取（网络等待为主，8 并发；OPENAI_TIMEOUT 控制单次超时）
+    def _normalize_one(family_name, family_fonts):
         family_info = {
             'family_name': family_name,
             'weights': {
@@ -1394,8 +1393,29 @@ def main():
                 for font_file, weight_name, result in family_fonts
             }
         }
-        
-        normalized = normalizer.normalize_font_family(family_info)
+        try:
+            return family_name, normalizer.normalize_font_family(family_info)
+        except Exception as e:
+            print(f"  ✗ AI 并行任务异常 {family_name}: {e}")
+            return family_name, {}
+
+    normalized_map = {}
+    ai_workers = int(os.getenv('ANALYZE_AI_WORKERS', '8'))
+    _items = list(families_to_analyze.items())
+    _done = 0
+    with ThreadPoolExecutor(max_workers=ai_workers) as _ex:
+        _futs = [_ex.submit(_normalize_one, fn, ff) for fn, ff in _items]
+        for _f in as_completed(_futs):
+            _fn, _res = _f.result()
+            normalized_map[_fn] = _res
+            _done += 1
+            if _done % 25 == 0 or _done == len(_items):
+                print(f"  … AI 进度 {_done}/{len(_items)}")
+
+    for family_idx, (family_name, family_fonts) in enumerate(families_to_analyze.items(), 1):
+        print(f"[家族 {family_idx}/{len(families_to_analyze)}] 分析字体家族: {family_name} ({len(family_fonts)} 个字重)")
+
+        normalized = normalized_map.get(family_name) or {}
         
         print(f"  ✓ AI返回结果:")
         print(f"    normalized_name: {normalized.get('normalized_name', 'N/A')}")
