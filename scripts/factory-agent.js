@@ -231,8 +231,7 @@ function pickMeta(m) {
 }
 
 /** metadata/font-mapping.json → analyzed + displayName + meta */
-async function applyMapping(families) {
-  const mapping = await readJsonSafe(path.join(META_DIR, 'font-mapping.json'));
+async function applyMapping(families, mapping) {
   if (!mapping || typeof mapping !== 'object') return families;
   const byNorm = new Map(families.map((f) => [f.norm, f]));
   // mapping 顶层 key 是目录名（可能大小写混写），统一小写比对
@@ -262,7 +261,27 @@ async function scan({ skipHead = false, onlyNorms } = {}) {
   families = await scanConverted(families);
   if (!skipHead) await scanUploaded(families, { onlyNorms });
   settleSubsetEvidence(families);
-  await applyMapping(families);
+  const mapping = await readJsonSafe(path.join(META_DIR, 'font-mapping.json'));
+  applyMapping(families, mapping);
+
+  // meta-only 家族：font-mapping.json 有元数据但 fonts/ 无源文件
+  // （vault 已发布、包在 CDN、源文件不在本机）——只回传 meta，不占 weights
+  if (mapping && typeof mapping === 'object') {
+    const covered = new Set(families.map((f) => f.norm));
+    for (const [mk, mv] of Object.entries(mapping)) {
+      const norm = String(mk).toLowerCase();
+      if (covered.has(norm) || !mv || typeof mv !== 'object') continue;
+      const meta = pickMeta(mv);
+      families.push({
+        dirName: mk, norm, weights: {},
+        analyzed: true, metaOnly: true,
+        name: (mv.chinese_name && mv.chinese_name !== 'null' ? mv.chinese_name : null)
+          || (mv.english_name && mv.english_name !== 'null' ? mv.english_name : null)
+          || norm,
+        meta,
+      });
+    }
+  }
 
   return {
     agent: AGENT_NAME,
@@ -271,6 +290,7 @@ async function scan({ skipHead = false, onlyNorms } = {}) {
       norm: f.norm,
       name: f.name || f.norm,
       analyzed: !!f.analyzed,
+      ...(f.metaOnly ? { metaOnly: true } : {}),
       ...(f.meta ? { meta: f.meta } : {}),
       weights: f.weights,
     })),
@@ -419,7 +439,8 @@ async function execJob(job, onProgress) {
     await progress(`HEAD 检查 ${targets.length} 家族`);
     await scanUploaded(targets, {});
     settleSubsetEvidence(targets);
-    await applyMapping(targets);
+    const _vmap = await readJsonSafe(path.join(META_DIR, 'font-mapping.json'));
+    applyMapping(targets, _vmap);
     const missing = [];
     let checked = 0;
     for (const f of targets) {
