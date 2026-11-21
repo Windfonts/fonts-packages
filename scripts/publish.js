@@ -498,7 +498,8 @@ ${moduleDecls}
 /**
  * Generate README.md documentation
  */
-function generateReadme(fonts) {
+function generateReadme(fonts, version) {
+  const pkgVersion = version || getCurrentVersion();
   const fontList = Object.keys(fonts);
   const fontCount = fontList.length;
   
@@ -510,6 +511,12 @@ A collection of Chinese web fonts with CDN links and comprehensive license infor
 
 \`\`\`bash
 npm i @windfonts/chinese-fonts
+
+# 或直接装 CDN 上的 tarball（与 npm 发布同内容，1.0.23 起）：
+npm i https://cn.windfonts.com/fonts-packages/npm/chinese-fonts-${pkgVersion}.tgz
+
+# 或从 GitHub 仓库安装（与上面同内容）：
+npm i github:WenPai-org/chinese-fonts
 \`\`\`
 
 ## Usage
@@ -632,7 +639,21 @@ This package includes ${fontCount} fonts:
   });
 
   if (fontCount > 10) {
-    readme += `\n... and ${fontCount - 10} more fonts.\n\n`;
+    readme += `<details>\n<summary>View all ${fontCount} fonts</summary>\n\n`;
+    readme += `| Font Key | Name | Family / Subfamily | Subsets | License | Commercial Use | Default CSS URL |\n`;
+    readme += `| --- | --- | --- | --- | --- | --- | --- |\n`;
+    fontList.forEach(fontKey => {
+      const font = fonts[fontKey];
+      const subsets = font.files.subsets || {};
+      const subsetNames = Object.keys(subsets);
+      const preferred = subsets['zh-common'] ? 'zh-common' : subsetNames[0];
+      const cssUrl = preferred ? subsets[preferred].css : 'Not available';
+      const licType = (font.license?.type || 'Unknown').replace(/\|/g, '\\|');
+      const licCell = font.license?.url ? `[${licType}](${font.license.url})` : licType;
+      const comm = font.license?.usageRights?.commercial ? '✅ Allowed' : '❌ Not allowed';
+      readme += `| \`${fontKey}\` | ${String(font.name).replace(/\|/g, '\\|')} | ${font.family} / ${font.subfamily} | ${subsetNames.join(', ') || 'None'} | ${licCell} | ${comm} | ${cssUrl} |\n`;
+    });
+    readme += `\n</details>\n\n`;
   }
 
   readme += `## TypeScript Support
