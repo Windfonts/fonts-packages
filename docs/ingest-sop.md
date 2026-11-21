@@ -35,6 +35,7 @@ fonts/{FontName}.ttf             # 独立字体（兼容旧模式）
 - `{Norm}` = 未来的 OSS 目录名（`normalized`），**保持现有大小写**，小写化由 upload.js 统一做。
 - `{Weight}` = **文件名 stem 原样**作为字重名（`Regular.ttf` → `Regular`）。字重名不做自动映射转换，想改名就改文件名。
 - 只收 `.ttf`/`.otf` 进子集和转换；analyze 阶段也认 woff/woff2 但后续不处理。
+- **语种准入**：**禁收韩语（KR）字体，保留日文（JP）字体**。入库前剔除 KR 字库，保留 JP 及简繁 CJK/西文字库。
 - `fonts/`、`dist/`、`fonts-subset/`、`metadata/`、`staging/` 全部 gitignore，不入库。
 
 ## 2. 元信息分析 → `metadata/font-mapping.json`
@@ -55,6 +56,7 @@ python3 python-scripts/analyze-fonts.py inspect fonts/Xxx/Regular.ttf  # 单文�
 - `normalized_name` **被强制等于 `fonts/` 目录名**（代码里写死），AI 改不了它。
 - `font_family` 规则：Regular/Normal 字重 → `WF-{Norm}`；其他字重 → `WF-{Norm}-{Weight}`。
 - AI 只补 designer/copyright/category/license 等元数据字段；没配 key 时降级模式仍能出 mapping，只是字段空。
+- **小批量或限流确定性兜底**：**小批量（≤20 款）或 AI 限流尾项，直接用 `TTFont` `name` 表 + 权威档案确定性补齐**，**禁止死等 AI 额度**。
 - 字体名映射查不到时 convert.js 会 warn 并回退用目录名——**上线前检查日志里没有成片 "未找到映射"**。
 
 ### `font-mapping.json` 格式

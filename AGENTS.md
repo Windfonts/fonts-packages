@@ -14,6 +14,11 @@
 - 读一律走 CDN：`https://cn.windfonts.com/fonts-packages/{norm小写}/source/index.json` 及其列出的文件。补源/回拉用 `node scripts/fetch-sources.mjs <norm>...`（或 `--file 名单`）。
 - AK/SK 只用于上传（ingress 免费）。确需直读桶（灾备/桶间同步）须先报批并限速（教训 #9466：不限速 9GB/106s 触发 IDC 封禁）。
 
+## 选品与元数据纪律
+
+- **语种范围**：**禁收韩语（KR）字体，保留日文（JP）字体**。入库前核验语种与字符集，纯韩语或韩语衍生字库不进本仓与 `wenfeng-fonts`。
+- **元数据确定性兜底**：**小批量（≤20 款）或 AI 限流尾项，直接用 `TTFont` `name` 表 + 权威档案确定性补齐**（`metadata/font-mapping.json` 等字段），**禁止死等 AI 额度**空转阻塞流水线。
+
 ## 不要做
 
 - 不要把 `AGENTS.md`、`CLAUDE.md`、说明文档上传进桶。
