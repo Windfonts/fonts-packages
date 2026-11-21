@@ -14,6 +14,7 @@ staging/
 .github
 .kiro
 metadata
+metadata-stage/
 .tools
 
 # Metadata
