@@ -162,6 +162,21 @@ node scripts/upload-preview-shop.js --apply  # 上传 staging/preview-shop-oss �
 
 `config/preview-packs.json` 定义 pack 枚举（shop/card/yong）。
 
+### 7.1 OG 分享图资产（og/）
+
+店面/社媒分享图（og-a/b/d、banner、cover、yong 等 webp + yong svg）产物在
+`fonts-packages/{norm}/og/`。批量生成器与渲染管线在 modiqi 仓
+`tools/wpfonts-preview/og-layouts/gen-batch.mjs`（Satori/ImageResponse，
+消费 `og-coverage.json` 预检结果）；上传用本仓 `scripts/upload-og-assets.js`
+（webp+svg → `{norm}/og/`，默认 dry-run，`--apply` 上传，`--only` 单字体，
+`--src` 指定产物目录）。
+
+**硬约束：渲染源不能是 CFF2 表的字体**（Satori/resvg 报
+`Font doesn't contain TrueType or CFF outlines`）。CFF2 可变字体要先静态化，
+且实例化后表仍是 CFF2——需要换 CFF(1) 静态实例（先例：syhtxs 思源黑体像素
+用 `fonts/syhtcn/SourceHanSansCN-Regular.otf` 替代渲染，2026-11-21）。
+入库前用 `fontTools` 查 `'CFF2' in TTFont(path)` 预检；BDF/位图字体同样不可渲染。
+
 ## 8. 入库记录（必做）
 
 每个新字体在 `scripts/` 留一份 `{norm}-map.json`，格式见 `scripts/yzdr-map.json`：来源 URL、tag、sha256、license、family/短码、glyphCount、nameNote。**入库后提交这个文件**，它是这批 OSS 包的台账。
