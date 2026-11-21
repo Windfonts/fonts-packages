@@ -46,7 +46,8 @@ const CDN_BASE = (process.env.FACTORY_CDN_BASE || 'https://cn.windfonts.com').re
 const FONT_EXT = /\.(ttf|otf|woff2?)$/i;
 const VERSIONS = ['full', 'en', 'zh', 'zh-common'];
 
-const log = (...a) => console.error(`[factory-agent ${new Date().toISOString()}]`, ...a);
+const logOut = process.argv.includes('--print') ? console.error : console.log;
+const log = (...a) => logOut(`[factory-agent ${new Date().toISOString()}]`, ...a);
 const die = (msg, code = 1) => { console.error(msg); process.exit(code); };
 
 // ---------- 小工具 ----------
@@ -614,18 +615,31 @@ async function main() {
     process.on('SIGINT', () => process.exit(0));
     process.on('SIGTERM', () => process.exit(0));
   } catch {
-    // 锁存在：超过 6h 视为僵尸锁，接管
+    // 锁存在：若持锁 PID 已不存在或超过 6h 视为僵尸锁，接管后再建锁
+    let stale = false;
     try {
       const st = fs.statSync(LOCK_FILE);
-      if (Date.now() - st.mtimeMs > 6 * 3600 * 1000) {
-        fs.unlinkSync(LOCK_FILE);
-        log('清理僵尸锁后继续');
-      } else {
-        die(`另一 factory-agent 实例在运行（锁: ${LOCK_FILE}）`);
+      if (Date.now() - st.mtimeMs > 6 * 3600 * 1000) stale = true;
+      if (!stale) {
+        const info = JSON.parse(fs.readFileSync(LOCK_FILE, 'utf8'));
+        if (info?.pid) {
+          try { process.kill(info.pid, 0); } catch (err) { if (err.code === 'ESRCH') stale = true; }
+        }
       }
     } catch {
       die(`另一 factory-agent 实例在运行（锁: ${LOCK_FILE}）`);
     }
+    if (!stale) {
+      die(`另一 factory-agent 实例在运行（锁: ${LOCK_FILE}）`);
+    }
+    try { fs.unlinkSync(LOCK_FILE); } catch {}
+    log('清理僵尸锁后继续');
+    const fd = fs.openSync(LOCK_FILE, 'wx');
+    fs.writeSync(fd, JSON.stringify({ pid: process.pid, at: Date.now() }));
+    fs.closeSync(fd);
+    process.on('exit', () => { try { fs.unlinkSync(LOCK_FILE); } catch {} });
+    process.on('SIGINT', () => process.exit(0));
+    process.on('SIGTERM', () => process.exit(0));
   }
 
   if (cmd === 'scan' || cmd === 'report') {
