@@ -1,6 +1,6 @@
 # fonts-packages
 
-这个仓只做字体包：拆包、子集、上传。不改店面目录，不改 wenfeng.org 条目，不改 `/api/css` 的 `fontFamily`。
+这个仓只做字体包：拆包、子集、上传。禁止修改店面目录、wenfeng.org 条目或 `/api/css` 的 `fontFamily`。
 
 ## 包放哪
 
@@ -10,18 +10,18 @@
 
 ## OSS 读写纪律（零公网出网铁律，集群记忆 #9290/#11584）
 
-- 桶 `wenfeng-fonts` 已私有化：**禁止用 `.env` 里的 OSS AK/SK 直接 `client.get` 批量读对象**——SDK 读照样计 OSS 公网出网，2026-11-18 事故：一次拉 6.66GB 源文件。
+- 桶 `wenfeng-fonts` 已私有化：**禁止用 `.env` 里的 OSS AK/SK 直接 `client.get` 批量读对象**（SDK 读照样计 OSS 公网出网；2026-11-18 事故：一次拉 6.66GB 源文件）。
 - 读一律走 CDN：`https://cn.windfonts.com/fonts-packages/{norm小写}/source/index.json` 及其列出的文件。补源/回拉用 `node scripts/fetch-sources.mjs <norm>...`（或 `--file 名单`）。
 - AK/SK 只用于上传（ingress 免费）。确需直读桶（灾备/桶间同步）须先报批并限速（教训 #9466：不限速 9GB/106s 触发 IDC 封禁）。
 
 ## 选品与元数据纪律
 
 - **语种范围**：**禁收韩语（KR）字体，保留日文（JP）字体**。入库前核验语种与字符集，纯韩语或韩语衍生字库不进本仓与 `wenfeng-fonts`。
-- **元数据确定性兜底**：**小批量（≤20 款）或 AI 限流尾项，直接用 `TTFont` `name` 表 + 权威档案确定性补齐**（`metadata/font-mapping.json` 等字段），**禁止死等 AI 额度**空转阻塞流水线。
+- **元数据确定性回退**：**小批量（≤20 款）或 AI 限流尾项，直接用 `TTFont` `name` 表 + 权威档案确定性补全**（`metadata/font-mapping.json` 等字段），**禁止死等 AI 额度**空转阻塞流水线。
 
 ## 不要做
 
 - 不要把 `AGENTS.md`、`CLAUDE.md`、说明文档上传进桶。
-- 不要用整树覆盖去「对齐」店面 `fonts.json`。包清单和店面目录是两份名单。
+- 不要用整树覆盖去同步店面 `fonts.json`。包清单和店面目录是两份名单。
 - 不要把 app 静态页传到这个桶。app 页面在杭州桶 `wenfeng-web-hz`，由 `fonts-front` 的 `scripts/deploy-web-hz.sh` 发。广州 `wenfeng-web` 不是访客在看的站。
 - 不要改 `result.css` 里的 `font-family: "WF-{Normalized}"`。站点嵌入用的是另一层 `wenfeng-*`，在店面和 vault，不在这个文件里改。
